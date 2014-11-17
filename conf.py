@@ -190,14 +190,14 @@ TIMEZONE = "UTC"
 #
 
 POSTS = (
-#    ("posts/*.md", "posts", "post.tmpl"),
-#    ("posts/*.ipynb", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.md", "", "story.tmpl"),
-    ("stories/*.ipynb", "", "story.tmpl"),
+    ("notebooks/*.ipynb", "notebooks", "story.tmpl"),
     ("stories/*.rst", "", "story.tmpl"),
     ("stories/*.txt", "", "story.tmpl"),
 )
