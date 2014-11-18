@@ -56,3 +56,7 @@ target/
 # ipython notebook checkoints
 
 */.ipynb_checkpoints
+
+cache
+
+.doit.db
