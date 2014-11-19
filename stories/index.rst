@@ -1,4 +1,4 @@
-.. title: Around the world in 80 days
+.. title: An 80 day project
 .. slug: index
 .. date: 2014-11-17 22:44:25 UTC
 .. tags: 
@@ -54,3 +54,12 @@ swfiua@gmail.com or just create an issue here.
 If you are not sure you have the skills but are interested in helping
 and learning, just let me know, another goal here is to teach others
 new skills whilst building cool stuff.
+
+Blog
+====
+
+My plan is to blog as the project progresses.
+
+See the `eighty days project blog`_ if you want to follow the project.
+
+.. _eighty days project blog: http://swfiua.github.io/80days/blog/
