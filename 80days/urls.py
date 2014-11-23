@@ -30,4 +30,9 @@ urlpatterns = patterns('',
 
     # Your stuff: custom urls go here
 
+    # rest framework and swagger
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^docs/', include('rest_framework_swagger.urls')),
+
+
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

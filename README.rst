@@ -4,7 +4,7 @@
 Around the world in 80 days
 
 
-LICENSE: BSD
+LICENSE: GPL v 3
 
 Settings
 ------------

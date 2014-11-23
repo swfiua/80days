@@ -48,6 +48,8 @@ class Common(Configuration):
     LOCAL_APPS = (
         'users',  # custom users app
         # Your stuff: custom apps go here
+        'rest_framework',
+        'rest_framework_swagger',
     )
 
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -111,7 +113,7 @@ class Common(Configuration):
 
     # DATABASE CONFIGURATION
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
-    DATABASES = values.DatabaseURLValue('postgres://localhost/80days')
+    DATABASES = values.DatabaseURLValue('postgres://postgres:snowyg@localhost/80days')
     # END DATABASE CONFIGURATION
 
     # CACHING
@@ -127,7 +129,7 @@ class Common(Configuration):
 
     # GENERAL CONFIGURATION
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#time-zone
-    TIME_ZONE = 'America/Los_Angeles'
+    TIME_ZONE = 'Atlantic/Bermuda'
 
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
     LANGUAGE_CODE = 'en-us'
