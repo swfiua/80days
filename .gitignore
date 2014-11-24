@@ -60,3 +60,5 @@ target/
 cache
 
 .doit.db
+
+*~
