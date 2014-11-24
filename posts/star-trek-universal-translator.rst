@@ -26,7 +26,7 @@ implement the drivers needed to talk to the input device and simply
 pass on the events to applications running on the O/S.
 
 Events tend to be pretty low level things like *button click*,
-*keyboard keypress" etc etc.   If we had more sophisticated input
+*keyboard keypress* etc etc.   If we had more sophisticated input
 devices, or rather a layer listening to existing inputs (for instance
 why not use the webcam too to observe what the user is doing, or the
 mic to listen.  With this information it ought to be easier to guess
