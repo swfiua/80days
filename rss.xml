@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 24 Nov 2014 14:45:09 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Star Trek universal translator</title><link>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This theme from the global &lt;a class="reference external" href="https://koding.com/Hackathon"&gt;hackathon&lt;/a&gt;  really interests me:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Challenges associated with real time communication and translation
+(Star Trek universal translator anyone?)
+&lt;/pre&gt;
+&lt;p&gt;I am finding computer interfaces becoming more and more annoying.  I
+interact with computers through different interfaces: mobile phones,
+tablets, infra-red remotes, workstations etc etc.&lt;/p&gt;
+&lt;p&gt;Each application has its own idea of how it wants me to work with it.
+Some have discoverable interfaces.  Some are close to unusable from a
+mobile phone.&lt;/p&gt;
+&lt;p&gt;What I am thinking is what we need is a layer that sits between input
+devices and applications.   I guess we already have this, it is called
+an operating system.   But currently, all these tend to do is
+implement the drivers needed to talk to the input device and simply
+pass on the events to applications running on the O/S.&lt;/p&gt;
+&lt;p&gt;Events tend to be pretty low level things like &lt;em&gt;button click&lt;/em&gt;,
+&lt;a href="http://swfiua.github.io/80days/posts/star-trek-universal-translator.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;*&lt;/span&gt;&lt;/a&gt;keyboard keypress" etc etc.   If we had more sophisticated input
+devices, or rather a layer listening to existing inputs (for instance
+why not use the webcam too to observe what the user is doing, or the
+mic to listen.  With this information it ought to be easier to guess
+what the user is really trying to do.   Applications could then be
+build that accepted a much richer set of events.&lt;/p&gt;
+&lt;div class="system-message" id="id1"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 20); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/star-trek-universal-translator.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Inline emphasis start-string without end-string.&lt;/div&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;go to next page&lt;/li&gt;
+&lt;li&gt;go back, I just clicked the screen by mistake&lt;/li&gt;
+&lt;li&gt;damn you autocorrect, stop guessing and just enter the word I have
+typed three times already&lt;/li&gt;
+&lt;li&gt;OK, usually when he does this he wants out of netflix and into xbmc,
+so why don't I just offer to take him there?&lt;/li&gt;
+&lt;li&gt;of course, the OS should learn from you as you interact with it&lt;/li&gt;
+&lt;li&gt;and we don't want to end up with &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Office_Assistant"&gt;clippy&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then there is social media, I am signed up to way to many sevices:
+twitter, email, google+, github, facebook, koding.com, irc, blogs etc
+etc.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://ttwick.com/"&gt;ttwick&lt;/a&gt; looks like it might have a solution to the problem of keeping
+track of everything.&lt;/p&gt;
+&lt;p&gt;There are a whole bunch of privacy issues to worry about here.  Any
+interface listening to user inputs is seeing some very personal
+information.  My guess is the way you type on a keyboard is a pretty
+unique identifier, perhaps as distinctive as your DNA.&lt;/p&gt;
+&lt;p&gt;So for apps to really behave well for you they might need to know this
+information that identifies who you are.  But who do you really want
+to share that information with?&lt;/p&gt;
+&lt;p&gt;Now if the OS translated the inputs coming from devices into a
+standard, rich event stream then it might be that it could do it in
+such a way as the event stream was less of a personal marker and so we
+could get a double win of greater privacy and a more unified interface
+to interact with computers.&lt;/p&gt;
+&lt;p&gt;This whole area is really an accessibility thing.  But for too long
+accessibility has been some extra thing you do to support people with
+disabilities.  It isn't built into apps from the ground up.  Further,
+it singles out those with disabilities: poor vision, paralysis, poor
+motor skills, etc etc.   The reality is that everyone needs better
+interfaces.&lt;/p&gt;
+&lt;p&gt;If we out a layer between our input devices and our applications we
+can start working on those better interfaces.  For everybody.&lt;/p&gt;
+&lt;p&gt;I am reminded of &lt;a href="http://swfiua.github.io/80days/posts/star-trek-universal-translator.html#id3"&gt;&lt;span class="problematic" id="id4"&gt;`Tavis Rudd`_&lt;/span&gt;&lt;/a&gt; at PyCon 2014 talking about controlling
+emacs with his voice.&lt;/p&gt;
+&lt;p&gt;So again, all we need here is a layer listening to his voice and
+converting the voice into instructions for emacs.  Now if that layer
+could learn as it was used, we might have something special.&lt;/p&gt;
+&lt;div class="system-messages section"&gt;
+&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
+&lt;div class="system-message" id="id3"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 71); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/star-trek-universal-translator.html#id4"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "tavis rudd".&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</guid><pubDate>Mon, 24 Nov 2014 18:26:18 GMT</pubDate></item><item><title>World's first global hackathon</title><link>http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Over at &lt;a href="http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`koding.com`_&lt;/span&gt;&lt;/a&gt; they are running a global hackathon for the
+weekend of 6/7 December.   It is an exciting project, with people
+participating all over the world.&lt;/p&gt;
+&lt;p&gt;The idea is for teams of up to 5 to work on projects along the
+following 5 themes:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Problems facing our planet, explained using interactive data visualization. (e.g. climate change, earthquakes, food/water waste, etc.)&lt;/li&gt;
+&lt;li&gt;Introducing software development to a beginner (games!)&lt;/li&gt;
+&lt;li&gt;No one reads the fine print (ie TOS, EULA, legal documents) anymore yet every site has them. Devise a creative/interactive solution.&lt;/li&gt;
+&lt;li&gt;HTML5 games that are educational and learning oriented. (multiplayer preferred)&lt;/li&gt;
+&lt;li&gt;Challenges associated with real time communication and translation
+(Star Trek universal translator anyone?)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are some great themes there, many of them relate directly to
+Bermuda.   For example, maybe we could build a simple hurricane model,
+using data from the recent storms to allow people to explore the
+impact of global warming on Bermuda.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I have been working on this 80 days project.  Progress is
+proving difficult due to the amount of wonderful stuff there is out
+there that can be used in the project.&lt;/p&gt;
+&lt;p&gt;I am hoping to be able to use the hackathon to learn a couple more
+tools and to start making real progress on 80 days.&lt;/p&gt;
+&lt;p&gt;It would also be interesting to try and work with hackers on other
+small islands.  One challenge here in Bermuda is, at least for now,
+our numbers are small.  Other small islands have similary issues.&lt;/p&gt;
+&lt;p&gt;It would be good if we could perhaps work with people at the &lt;a class="reference external" href="http://hackerspaces.org/wiki/Cyberhippietotalism"&gt;Lanzarote
+hackbase&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;From a personal point of view, I also have some contacts in Ireland,
+so maybe we could stretch the definition of small a little to include
+Ireland too.&lt;/p&gt;
+&lt;p&gt;Then there are the Azores and the Caribbean.&lt;/p&gt;
+&lt;p&gt;Theme 5 is all about translation.  It would be cool if we could make
+our site multi-lingual:  English, Portuguese, Bermudian slang etc,
+etc.&lt;/p&gt;
+&lt;p&gt;One suggestion is to actually work towards having another hackathon
+event in the near future, a &lt;em&gt;Small Island Hackathon&lt;/em&gt;.   Is there any
+interest in using the global hackathon as an opportunity to build a
+site for a small island event.   Perhaps we could have it coincide
+with &lt;a class="reference external" href="http://www.bermudaraceweekend.com/site/"&gt;Bermuda Race Weekend&lt;/a&gt; January 16-18th 2015.&lt;/p&gt;
+&lt;div class="system-messages section"&gt;
+&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
+&lt;div class="system-message" id="id1"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 1); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "koding.com".&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html</guid><pubDate>Mon, 24 Nov 2014 18:01:28 GMT</pubDate></item><item><title>Nikola, django packages, cookiecutter and other goodness</title><link>http://swfiua.github.io/80days/posts/nikola-django-packages-cookiecutter-and-other-goodness.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been spending some time looking at tools to help with the 80
+days project.&lt;/p&gt;
+&lt;div class="section" id="nikola"&gt;
+&lt;h2&gt;nikola&lt;/h2&gt;
+&lt;p&gt;First up on the list was &lt;a class="reference external" href="http://getnikola.com/"&gt;nikola&lt;/a&gt;.   This is a static site generator.
+I was mostly interested in it because:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;it plays nicely with &lt;a class="reference external" href="https://pages.github.com/"&gt;gh-pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;it allows you to write blog entries with &lt;a class="reference external" href="http://ipython.org/notebook.html"&gt;ipython notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;it is built in python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I ran into one problem with nikola, see this &lt;a class="reference external" href="https://github.com/getnikola/nikola/issues/1496"&gt;nikola_issue&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Happily, within three minutes of reporting the problem the maintainer
+posted a solution, even though the issue I reported was a dupe.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django-packages-and-cookiecutter"&gt;
+&lt;h2&gt;django packages and cookiecutter&lt;/h2&gt;
+&lt;p&gt;Since I am working on a &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; project I took a look at &lt;a class="reference external" href="https://www.djangopackages.com/"&gt;django
+packages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My attention was quickly drawn by &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; in the featured
+grid. Cookie cutter creates projects from templates, so saving a lot
+of tedious work.  It comes with a list of available cookiecutters.&lt;/p&gt;
+&lt;p&gt;I was a bit spoilt for choice, but I decided to give the &lt;a class="reference external" href="https://github.com/pydanny/cookiecutter-djangopackage"&gt;cookiecutter
+djangopackage&lt;/a&gt; a go.&lt;/p&gt;
+&lt;p&gt;So far I am pleased with this choice.  The docs led me through
+creating the django app, adding it to &lt;a class="reference external" href="http://django-eighty-days.readthedocs.org/en/latest/"&gt;readthedocs&lt;/a&gt; and registering
+it with &lt;a class="reference external" href="https://pypi.python.org/pypi?%3Aaction=pkg_edit&amp;amp;name=django-eighty-days"&gt;PyPi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All in all, a very painless way to get lots of goodies up and running
+for the project.&lt;/p&gt;
+&lt;p&gt;Now I just need to write some actual code.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/nikola-django-packages-cookiecutter-and-other-goodness.html</guid><pubDate>Wed, 19 Nov 2014 17:23:46 GMT</pubDate></item><item><title>Calculating 80 days from now</title><link>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="checking-when-80-days-from-the-start-of-the-project-is"&gt;Checking when 80 days from the start of the project is&lt;/h2&gt;
+&lt;p&gt;The first commit to github was done on 15th November 2014.&lt;/p&gt;
+&lt;p&gt;However, I had been working on the project for a couple of days by then, so I will take 13th November 2014 as the start date.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In [1]:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In [3]:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;start&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;isoformat&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+    Out[3]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_pyout"&gt;
+&lt;pre&gt;
+'2014-11-13'
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Now calculate 80 days from the start date&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In [4]:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;end&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Check that the 80 days of coding ends on 1st February 2015&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In [5]:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;isoformat&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+    Out[5]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_pyout"&gt;
+&lt;pre&gt;
+'2015-02-01'
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;What day of the week does the competition start on?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In [14]:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"%A"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+    Out[14]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_pyout"&gt;
+&lt;pre&gt;
+'Sunday'
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><guid>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</guid><pubDate>Mon, 17 Nov 2014 23:09:46 GMT</pubDate></item></channel></rss>
