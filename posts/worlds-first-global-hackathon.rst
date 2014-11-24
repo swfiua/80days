@@ -56,7 +56,7 @@ site for a small island event.   Perhaps we could have it coincide
 with `Bermuda Race Weekend`_ January 16-18th 2015.
 
 
-.. _koding: https//koding.com
+.. _koding.com: https//koding.com
 .. _hackathon: https://koding.com/Hackathon
 
 .. _Lanzarote hackbase: http://hackerspaces.org/wiki/Cyberhippietotalism

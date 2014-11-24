@@ -88,4 +88,4 @@ could learn as it was used, we might have something special.
 
 .. _clippy: http://en.wikipedia.org/wiki/Office_Assistant
 
-.. _Travis Rudd: https://www.youtube.com/watch?v=OWyMA_bT7UI
+.. _Tavis Rudd: https://www.youtube.com/watch?v=OWyMA_bT7UI
