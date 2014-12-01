@@ -6,38 +6,42 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://swfiua.github.io/80days/2014/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/archive.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/posts/django-allauth.html</loc>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/nikola-django-packages-cookiecutter-and-other-goodness.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-12-01</lastmod>
  </url>
 </urlset>
