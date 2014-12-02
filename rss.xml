@@ -1,12 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 01 Dec 2014 17:10:59 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Django allauth</title><link>http://swfiua.github.io/80days/posts/django-allauth.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;For the 80 days project I decided to use the &lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; package
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 01 Dec 2014 21:48:27 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Django allauth</title><link>http://swfiua.github.io/80days/posts/django-allauth.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;For the 80 days project I decided to use the &lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; package
 to handle authentication.&lt;/p&gt;
 &lt;p&gt;When I say I decided, the decision was actually made by the django
 project &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; I used to create the project.&lt;/p&gt;
 &lt;p&gt;This should provide lots of goodness in that it will allow users to
 register and log in to the site using social media OpenID
 authentication.  At least, I think that what it does.&lt;/p&gt;
-&lt;p&gt;Time to read the &lt;a class="reference external" href="http://www.sarahhagstrom.com/2013/09/the-missing-django-allauth-tutorial/"&gt;missing-django-allauth-tutorial&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/django-allauth.html</guid><pubDate>Mon, 01 Dec 2014 21:04:24 GMT</pubDate></item><item><title>Star Trek universal translator</title><link>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This theme from the global &lt;a class="reference external" href="https://koding.com/Hackathon"&gt;hackathon&lt;/a&gt;  really interests me:&lt;/p&gt;
+&lt;p&gt;Time to read the &lt;a class="reference external" href="http://www.sarahhagstrom.com/2013/09/the-missing-django-allauth-tutorial/"&gt;missing-django-allauth-tutorial&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/django-allauth.html</guid><pubDate>Mon, 01 Dec 2014 21:04:24 GMT</pubDate></item><item><title>The imitation game</title><link>http://swfiua.github.io/80days/posts/the-imitation-game.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The other day, Nick Hoskins posted a link to an intriguing puzzle, the
+&lt;a class="reference external" href="https://imitationgame.withgoogle.com/"&gt;Imitation Game Puzzle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I tried very hard not to click on the link.  There was a picture of
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Alan_Turing"&gt;Alan Turing&lt;/a&gt;, a puzzle and a competition.  Oh, and it was all run
+by the &lt;a class="reference external" href="https://google.com"&gt;Chocolate Factory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.imdb.com/title/tt2084970/"&gt;The Imitation Game&lt;/a&gt; film has just been released, hence the timing of
+the puzzle.&lt;/p&gt;
+&lt;p&gt;I clicked on the link.   Pictures of the bombe's that were used to
+break Enigma in the Second World War.  Another picture of Alan Turing
+and a little piece about the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Turing_test"&gt;Turing Test&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In fact, one of the premises of the puzzle was to prove you are not a
+computer, in effect a reverse Turing Test.&lt;/p&gt;
+&lt;p&gt;I clicked on the link to download the pdf with the details of the
+puzzle.  I was delighted to find what looked like a scan of a
+type-written document.  This reminded me of working on puzzles with my
+mum.&lt;/p&gt;
+&lt;p&gt;My mum loved crosswords.  Her favourite was to find a puzzle in &lt;a class="reference external" href="http://www.theguardian.com/uk"&gt;The
+Guardian&lt;/a&gt; compiled by &lt;a class="reference external" href="http://en.wikipedia.org/wiki/John_Galbraith_Graham"&gt;Araucaria&lt;/a&gt;.  I can still recall her telling
+me how araucaria is the Latin name for tne &lt;em&gt;monkey puzzle&lt;/em&gt; tree, with
+a twinkle in her eye.&lt;/p&gt;
+&lt;p&gt;At holiday times Araucaria would often create a special, puzzle.  The
+puzzles could keep you amused for days.   We would both take a look at
+them, get a few clues, then give up in despair.  Mum would usually be
+more persistent than me.   Maybe she would be cooking dinner and I
+would be sat talking to her in the kitchen.  Happiness was solving a
+clue together.&lt;/p&gt;
+&lt;p&gt;One thing I learnt from this is that talking to others about problems
+helps you see them more clearly.  My mind works that way for sure.  It
+doesn't matter if the person you are talking fully understands, so
+long as they are engaged and interested it helps you find out what
+assumptions you are making, it raises questions and you get a second
+perspective on the problem.&lt;/p&gt;
+&lt;p&gt;Mum used to subscribe to special puzzles that Araucaria produced a few
+times a year.   They would arrive in the post, printed on paper and
+looked like they were copies of an original from a type-writer -- just
+like the Imitation Game puzzle.   I was hooked.&lt;/p&gt;
+&lt;p&gt;Earlier this year I visited Bletchley Park with my wife and family.
+The two boys are very interested in history and know way more than
+anyone of their age normally does about the world wars.  Indeed, if a
+Turing Test was done on either of them you might well conclude that
+they are in fact computers since no human being could reasonably be
+expected to know as much as they do.&lt;/p&gt;
+&lt;p&gt;The visit to Bletchley was a bit disappointing, our timing was bad as
+they were just putting the finishing touches to some new exhibits so
+parts of the museum were closed.  However, we did get to see the
+re-constructed bombe working.   These bombe's were basically
+electro-mechanical special purpose parallel computers.  They allowed
+vast numbers of enigma settings to be tried as the initial part of an
+attack on the Enigma ciphers.&lt;/p&gt;
+&lt;p&gt;The competition is still on-going, so I should not spoil the fun.
+Suffice to say, the puzzle came at just the right time for me.&lt;/p&gt;
+&lt;p&gt;I have been going through a very difficult time, so to be able to get
+away from everything for a few hours and immerse myself in the puzzle
+was very therapeutic.&lt;/p&gt;
+&lt;p&gt;My poor wife had to put up with an entire weekend of bizarre questions
+about a whole range of strange subjects.  She was an immense help as I
+worked through the puzzle.  I was reminded of sitting round the
+kitchen table with my mother, happy times indeed.&lt;/p&gt;
+&lt;p&gt;Araucaria would have been proud of this puzzle, many thanks to those
+at Google that created the puzzle and helped me through this very
+difficult time.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/the-imitation-game.html</guid><pubDate>Mon, 01 Dec 2014 14:22:36 GMT</pubDate></item><item><title>Star Trek universal translator</title><link>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This theme from the global &lt;a class="reference external" href="https://koding.com/Hackathon"&gt;hackathon&lt;/a&gt;  really interests me:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 Challenges associated with real time communication and translation
 (Star Trek universal translator anyone?)
