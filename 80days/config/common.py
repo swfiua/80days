@@ -233,7 +233,7 @@ class Common(Configuration):
     SOCIALACCOUNT_QUERY_EMAIL = True
     SOCIALACCOUNT_PROVIDERS = {
         'google': {
-            'SCOPE': ['email', 'publish_stream'],
+            'SCOPE': ['email'],
             #'METHOD': 'oauth2'  # instead of 'oauth2'
         }
     }    
