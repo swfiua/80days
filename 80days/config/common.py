@@ -31,7 +31,7 @@ class Common(Configuration):
         'django.contrib.staticfiles',
 
         # Useful template tags:
-        # 'django.contrib.humanize',
+        'django.contrib.humanize',
 
         # Admin
         'django.contrib.admin',
@@ -41,7 +41,13 @@ class Common(Configuration):
         'avatar',  # for user avatars
         'allauth',  # registration
         'allauth.account',  # registration
-        'allauth.socialaccount',  # registration
+        'allauth.socialaccount',  
+
+        # allauth providers
+        #'allauth.socialaccount.providers.twitter',  
+        'allauth.socialaccount.providers.google',  
+        #'allauth.socialaccount.providers.facebook',  
+        #'allauth.socialaccount.providers.github',  
     )
 
     # Apps specific for this project go here.
@@ -220,8 +226,17 @@ class Common(Configuration):
     # Some really nice defaults
     ACCOUNT_AUTHENTICATION_METHOD = "username"
     ACCOUNT_EMAIL_REQUIRED = True
-    ACCOUNT_EMAIL_VERIFICATION = "mandatory"
+    ACCOUNT_EMAIL_VERIFICATION = "optional"
     # END AUTHENTICATION CONFIGURATION
+
+    # Social account authentication stuff
+    SOCIALACCOUNT_QUERY_EMAIL = True
+    SOCIALACCOUNT_PROVIDERS = {
+        'google': {
+            'SCOPE': ['email', 'publish_stream'],
+            #'METHOD': 'oauth2'  # instead of 'oauth2'
+        }
+    }    
 
     # Custom user app defaults
     # Select the correct user model

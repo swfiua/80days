@@ -32,3 +32,21 @@
   background-color: #f2dede;
   border-color: #eed3d7;
 }
+
+.balloon_background {
+    background: gainsboro url("/static/images/greenwich_balloon.jpg") no-repeat;
+    background-size: 100%;
+    background-color: #887777;
+    background-attachment: "fixed";
+}
+
+.about_links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.world_background {
+    background: gainsboro url("/static/images/Around_the_World_in_Eighty_Days_map.png") no-repeat;
+    background-size: 90%;
+}
+
