@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 01 Dec 2014 21:48:27 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Django allauth</title><link>http://swfiua.github.io/80days/posts/django-allauth.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;For the 80 days project I decided to use the &lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; package
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 05 Dec 2014 20:41:52 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>More on django-allauth</title><link>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Armed with the &lt;a class="reference external" href="http://www.sarahhagstrom.com/2013/09/the-missing-django-allauth-tutorial/"&gt;missing django-allauth tutorial&lt;/a&gt; I have made some
+progress getting auth working with &lt;em&gt;google&lt;/em&gt; doing as the
+authentication provider.&lt;/p&gt;
+&lt;p&gt;Sarah's guide pretty much covered everything I needed to know.  It
+also encouraged me to work towards pushing out a bare-bones &lt;strong&gt;80
+days&lt;/strong&gt; site.&lt;/p&gt;
+&lt;p&gt;This actually makes sense as I don't need the whole site up and
+running just for users to register for the competition.&lt;/p&gt;
+&lt;p&gt;The missing tutorial uses &lt;em&gt;facebook&lt;/em&gt; as the example.  Unfortunately, I
+could not figure out how to register my application and get the
+necessary keys on facebook.&lt;/p&gt;
+&lt;p&gt;Instead, I decided to have a go at using &lt;em&gt;google&lt;/em&gt;.   I quickly found
+this &lt;a class="reference external" href="https://developers.google.com/+/quickstart/python"&gt;google guide&lt;/a&gt; which was enough to get my application registered
+and get the necessary keys.&lt;/p&gt;
+&lt;p&gt;Then it was back to the missing manual.   I actually used the &lt;em&gt;django
+admin&lt;/em&gt; interface to update the django database, rather than run the
+SQL as per the tutorial.  This was just a matter of going to this url:
+&lt;em&gt;http://127.0.0.1:8000/admin/socialaccount/socialapp/&lt;/em&gt; and entering a
+new record.&lt;/p&gt;
+&lt;p&gt;I still had a couple of errors to get by.  First, I copy/pasted the
+configuration information from the missint tutorial and had to remove
+the &lt;em&gt;publish_stream&lt;/em&gt; scope as google does not support that (at least I
+assume that is what the problem is).&lt;/p&gt;
+&lt;p&gt;Next I had to go back to the &lt;a class="reference external" href="https://console.developers.google.com"&gt;Google Developer Console&lt;/a&gt; and register
+the callback url that my application was trying to use.  Bingo,
+everything works.&lt;/p&gt;
+&lt;p&gt;So, with this setup, new users can just sign in with their google
+account and the application will set up a user registration for them
+if one does not already exist.&lt;/p&gt;
+&lt;p&gt;The down side with all this is that there are a plethora of
+authentication providers I should probably support:  facebook,
+twitter, yahoom, linkedIn, github, etc, etc.&lt;/p&gt;
+&lt;p&gt;Really, this whole system is horribly broken.  Every social media site
+has its own identity management implementation and it, naturally,
+wants everyone to use their identity management.   In short, they all
+want to own your identity.&lt;/p&gt;
+&lt;p&gt;What we really need is for users to be able to manage their own
+identity, without need to for a central authority.  The central
+authority is a critical security weakness as if that authority is
+compromised all users using that authority are compromised.&lt;/p&gt;
+&lt;p&gt;A secondary problem is that the current OAuth/OpenID solutions result
+in everybody wanting to be the central authority and hence users are
+faced with either balkanisation of identiy management or having to
+manage multiple identities.&lt;/p&gt;
+&lt;p&gt;Sadly, I do not see an end to this in the short term, not least
+because the current mess suits all the current incumbents.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</guid><pubDate>Fri, 05 Dec 2014 20:34:07 GMT</pubDate></item><item><title>Bootstrap css, allauth and initial site</title><link>http://swfiua.github.io/80days/posts/bootstrap-css-allauth-and-initial-site.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>http://swfiua.github.io/80days/posts/bootstrap-css-allauth-and-initial-site.html</guid><pubDate>Wed, 03 Dec 2014 18:05:42 GMT</pubDate></item><item><title>Django allauth</title><link>http://swfiua.github.io/80days/posts/django-allauth.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;For the 80 days project I decided to use the &lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; package
 to handle authentication.&lt;/p&gt;
 &lt;p&gt;When I say I decided, the decision was actually made by the django
 project &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; I used to create the project.&lt;/p&gt;
