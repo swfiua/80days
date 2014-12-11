@@ -3,16 +3,11 @@
     <head>
     <meta charset="utf-8">
     <meta name="description" content="Blog for an 80 day coding and exercise experiment.">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Around the world in 80 days | Around the world in 80 days</title>
 
     
-            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-            <link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
-        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
-        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
-        <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
@@ -21,9 +16,8 @@
 
 
 
-
     
-        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 
     
 
@@ -36,25 +30,25 @@
 
 <!-- Menubar -->
 
-<div class="navbar navbar-fixed-top" id="navbar">
-    <div class="navbar-inner">
-        <div class="container">
-
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </a>
-
-            <a class="brand" href="http://swfiua.github.io/80days/">
+            </button>
+            <a class="navbar-brand" href="http://swfiua.github.io/80days/">
 
                 <span id="blog-title">Around the world in 80 days</span>
             </a>
-            <!-- Everything you want hidden at 940px or less, place within here -->
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
                 <li>
 <a href="../archive.html">Archives</a>
                 </li>
@@ -64,28 +58,98 @@
 <li>
 <a href="../rss.xml">RSS feed</a>
 
-                    
-                </li>
+                
+            </li>
 </ul>
-                <ul class="nav pull-right">
+
+            <ul class="nav navbar-nav navbar-right">
                 
                 
-                    <li>
+                    
                 
-                </ul>
-            </div>
+            </ul>
         </div>
+<!-- /.navbar-collapse -->
     </div>
-</div>
+<!-- /.container -->
+</nav>
+
 <!-- End of Menubar -->
-<div class="container-fluid" id="content">
-    <!--Body content-->
-    <div class="row-fluid">
-    <div class="span2"></div>
-    <div class="span8">
-    
-    
+
+<div class="container" id="content">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
 <div class="postindex">
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="../posts/using-gnus-for-gmail.html" class="u-url">Using gnus for Gmail</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/using-gnus-for-gmail.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-11T22:17:15+00:00" title="2014-12-11 22:17">2014-12-11 22:17</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/using-gnus-for-gmail.html#disqus_thread" data-disqus-identifier="cache/posts/using-gnus-for-gmail.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>My primary email account is with Gmail.  Overall it works pretty
+well.  In particular, it works well on the phone.</p>
+<p>However, I have been finding email less and less effective as a
+communication medium of late, for a number of reasons.</p>
+<ul>
+<li>
+<p class="first">There is too much clutter there.</p>
+<p>Not really spam, but over the years too many organisations have got
+my email address.  Sometimes this is good: booking flights or hotels
+or whatever, the emails they send are useful, but then they send a
+bundle of spam and special offers.</p>
+</li>
+<li>
+<p class="first">Some key contacts don't really use email.  Not naming names, but
+the younger you are the less likely it is that email will be your
+default way to communicate electronically.</p>
+</li>
+<li>
+<p class="first">The Gmail interface in chrome is a resource hog.  Further it does
+not make good use of the real estate.</p>
+</li>
+<li>
+<p class="first">The editor for writing emails is ok, but rather limited</p>
+</li>
+<li>
+<p class="first">Some simple things are hard/impossible to do.  For example,
+sometimes I am working on a draft and want to share the draft with
+someone else, leaving the draft in the drafts folder.  No can do.</p>
+</li>
+<li>
+<p class="first">I started using the amazing <a class="reference external" href="http://vimium.github.io/">vimium</a> plugin in Chrome.  For Gmail
+to work you have to switch off Vimium, but then you are left with
+tabs where the Vimium shortcuts don't work.  So, I think it is best
+to read email elsewhere.  I tried a browser window just for email,
+but I end up opening new tabs, so that quickly fails.</p>
+</li>
+</ul>
+<p>Many years back I used to use RMAIL in emacs.  It was a powerful
+client and I am left with my favourite editor.</p>
+<p>So, asking google for <em>emacs email client</em> the answer that comes back
+is gnus.</p>
+<p>The <a class="reference external" href="http://www.emacswiki.org/emacs/GnusGmail">quickstart</a> on EmacsWiki was enough to get me as far as seeing
+my gmail in emacs.  I even managed to read a few emails and may have
+replied to one or two.</p>
+<p>I have dabbled in gnus before, but it seems to have taken on a whole
+new life since then.  I suspect a large part of the rest of this week,
+or maybe this month is going to go on figuring out how it all works.</p>
+<p>So far though, I am liking it, so it is a good start.</p>
+</div>
+    </div>
+    </article>
     <article class="h-entry post-text">
     <header>
         <h1 class="p-name entry-title"><a href="../posts/more-on-django-allauth.html" class="u-url">More on django-allauth</a></h1>
@@ -678,20 +742,20 @@ In [14]:
 
 
 
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
+            
+        </footer>
     </div>
-    </div>
-    <!--End of body content-->
-</div>
-<div class="footerbox">
-    Contents © 2014         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
-    
 </div>
 
-            <script src="../assets/js/jquery.min.js"></script>
-            <script src="../assets/js/bootstrap.min.js"></script>
-            <script src="../assets/js/moment-with-locales.min.js"></script>
-            <script src="../assets/js/fancydates.js"></script>
-        <script src="../assets/js/jquery.colorbox-min.js"></script>
+
+            <script src="../assets/js/all-nocdn.js"></script>
     
 <!-- Social buttons -->
 <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
