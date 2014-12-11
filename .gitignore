@@ -62,5 +62,7 @@ cache
 .doit.db
 
 *~
+.\#*
+\#*
 
 output/
