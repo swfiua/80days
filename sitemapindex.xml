@@ -5,11 +5,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/hackathon.xml</loc>
+  <lastmod>2014-12-13</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://swfiua.github.io/80days/rss.xml</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2014-12-13</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/sitemap.xml</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2014-12-13</lastmod>
  </sitemap>
 </sitemapindex>

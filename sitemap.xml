@@ -10,7 +10,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2014/12/index.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2014-12-13</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2014/index.html</loc>
@@ -22,11 +22,15 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2014-12-13</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/categories/hackathon.html</loc>
+  <lastmod>2014-12-13</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/index.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2014-12-13</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
@@ -43,6 +47,10 @@
  <url>
   <loc>http://swfiua.github.io/80days/posts/django-allauth.html</loc>
   <lastmod>2014-12-11</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</loc>
+  <lastmod>2014-12-13</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</loc>
@@ -62,7 +70,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/using-gnus-for-gmail.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2014-12-13</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html</loc>
