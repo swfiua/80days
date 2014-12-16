@@ -85,6 +85,85 @@
 <div class="postindex">
     <article class="h-entry post-text">
     <header>
+        <h1 class="p-name entry-title"><a href="../posts/adventures-in-distro-land.html" class="u-url">Adventures in distro land..</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/adventures-in-distro-land.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-16T00:19:11+00:00" title="2014-12-16 00:19">2014-12-16 00:19</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/adventures-in-distro-land.html#disqus_thread" data-disqus-identifier="cache/posts/adventures-in-distro-land.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>We had a friend over the other evening.  I have a home full of half
+working tech.  Stuff that really could do something, given enough
+time.</p>
+<p>A lot of my techy stuff has been neglected for a few years, so it is
+suffering both bit and hardware rot.  So a good part of last night was
+spent exploring why stuff wasn't working, in between finding a few
+gems.</p>
+<p>So today, I had a few things I wanted to look into:</p>
+<ul class="simple">
+<li>why wasn't the server with the music on responding,</li>
+<li>installing a fedora iso onto a usb and seeing what it is like.</li>
+</ul>
+<p>That server with the music; well that thing won't even boot off a USB
+key; though you can change a bucket load of things in the BIOS.  And
+at one point it did seem like it would boot over the network.</p>
+<p>Next stop, fedora install guide kindly gives the incantation:</p>
+<pre class="literal-block">
+dd if=fedora*.iso of=/dev/sdx  (x in my case was b)
+</pre>
+<p>So I booted up a laptop (the one with the battery that lasts 30
+seconds) off the USB and fedora booted.  I did not have time to have a
+good look around, but it seemed snappier and easier to use than the
+Ubuntu desktop on the machine, more like the <cite>awesome wm</cite> experience.
+I will definitely take a nother look at this.</p>
+<p>Back to the music.  I resurrected an old mythtv box and tried to put
+fedora on it.  I couldn't get it to install on the old myth box.  It
+may have had something to do with some network issues that were going
+on at the time.  Also possible there was some issue with this boxes
+USB, it was an old machine, so might have old firmware.  Or the USB
+isn't an innocent little USB.  But I digress.</p>
+<p>So, I tried arch.  This was like being beamed back to 1997.  It was fun
+for a while, but then I typed the wrong thing and lost the internet
+connection, which was what I needed to get the software to fix the
+internet connection.  I did Ctrl-D out of the <em>chroot</em> and if I'd been
+awake when I booted back into it I might have skipped the second
+install.  I gave up at the bootloader bit.  I know, I was nearly there :(</p>
+<p>I might have to go back to arch one day when I have lots of time on my
+hands.</p>
+<p>So more rabbit holes.  Eventually, led to Debian.  By now the dining
+table is buried under cables.  The IP over powerline is up and running
+again and 2-3 boxes are in the pile marked broken.</p>
+<p>The Debian install was been a joy, apart from the sporadic (or rather
+repeated) interruptions to anything needing internet bandwidth (a
+problem anywhere with expensive or unreliable bandwidth).</p>
+<p>I suspect I am biassed because over the years I have spent more time
+with Debian based systems.  First with debian and then indirectly via
+Ubuntu.</p>
+<p>I liked Ubuntu primarily for its python packaging.  Ubuntu still is a
+fantastic distribution for python.  As an interface for the sort of
+programming I like to do it is becoming less responsive, or at least
+that is my feeling.  Also, I am feeling myself further removed from
+the hardware and the software configuration.</p>
+<p>At the same time, python packaging has come a long way.  With PyPi and
+pip install the linux distro no longer matters so much.</p>
+<p>Debian doesn't seem to have changed much in philosophy.  Most of what
+I learnt back in the day still applies.  It led me through the install
+with just enough information to make an informed decision about the
+questions.  It guided pretty well, hinting which way I should go.</p>
+<p>As of now I am yet to actually get it serving up the music, so this
+will most likely not be the last distro related posting.</p>
+</div>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
         <h1 class="p-name entry-title"><a href="../posts/global-hackathon-team-bermuda.html" class="u-url">Global Hackathon, Team Bermuda</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
@@ -689,206 +768,15 @@ for the project.</p>
 </div>
     </div>
     </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="../posts/calculating-80-days-from-now.html" class="u-url">Calculating 80 days from now</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
-            <p class="dateline"><a href="../posts/calculating-80-days-from-now.html" rel="bookmark"><time class="published dt-published" datetime="2014-11-17T23:09:46+00:00" title="2014-11-17 23:09">2014-11-17 23:09</time></a></p>
-                <p class="commentline">
-        
-    <a href="../posts/calculating-80-days-from-now.html#disqus_thread" data-disqus-identifier="cache/posts/calculating-80-days-from-now.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="e-content entry-content">
-    <div tabindex="-1" id="notebook" class="border-box-sizing">
-    <div class="container" id="notebook-container">
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="checking-when-80-days-from-the-start-of-the-project-is">Checking when 80 days from the start of the project is</h2>
-<p>The first commit to github was done on 15th November 2014.</p>
-<p>However, I had been working on the project for a couple of days by then, so I will take 13th November 2014 as the start date.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In [1]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">datetime</span>
-</pre></div>
-
-</div>
-</div>
 </div>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In [3]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2014</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
-
-<span class="n">start</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">
-    Out[3]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-'2014-11-13'
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now calculate 80 days from the start date</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In [4]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">end</span> <span class="o">=</span> <span class="n">start</span> <span class="o">+</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">80</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Check that the 80 days of coding ends on 1st February 2015</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In [5]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">end</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">
-    Out[5]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-'2015-02-01'
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>What day of the week does the competition start on?</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In [14]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">end</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"%A"</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">
-    Out[14]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-'Sunday'
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    </div>
-  </div>
-
-    </div>
-    </article>
-</div>
-
+        <nav class="postindexpager">
+        <ul class="pager">
+            <li class="next">
+                <a href="index-1.html" rel="next">Older posts</a>
+            </li>
+        </ul>
+        </nav>
 
 
         

@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 13 Dec 2014 20:52:31 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Global Hackathon, Team Bermuda</title><link>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last weekend I took part in the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html"&gt;global hackathon&lt;/a&gt; run by
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 15 Dec 2014 20:52:34 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Adventures in distro land..</title><link>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;We had a friend over the other evening.  I have a home full of half
+working tech.  Stuff that really could do something, given enough
+time.&lt;/p&gt;
+&lt;p&gt;A lot of my techy stuff has been neglected for a few years, so it is
+suffering both bit and hardware rot.  So a good part of last night was
+spent exploring why stuff wasn't working, in between finding a few
+gems.&lt;/p&gt;
+&lt;p&gt;So today, I had a few things I wanted to look into:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;why wasn't the server with the music on responding,&lt;/li&gt;
+&lt;li&gt;installing a fedora iso onto a usb and seeing what it is like.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That server with the music; well that thing won't even boot off a USB
+key; though you can change a bucket load of things in the BIOS.  And
+at one point it did seem like it would boot over the network.&lt;/p&gt;
+&lt;p&gt;Next stop, fedora install guide kindly gives the incantation:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+dd if=fedora*.iso of=/dev/sdx  (x in my case was b)
+&lt;/pre&gt;
+&lt;p&gt;So I booted up a laptop (the one with the battery that lasts 30
+seconds) off the USB and fedora booted.  I did not have time to have a
+good look around, but it seemed snappier and easier to use than the
+Ubuntu desktop on the machine, more like the &lt;cite&gt;awesome wm&lt;/cite&gt; experience.
+I will definitely take a nother look at this.&lt;/p&gt;
+&lt;p&gt;Back to the music.  I resurrected an old mythtv box and tried to put
+fedora on it.  I couldn't get it to install on the old myth box.  It
+may have had something to do with some network issues that were going
+on at the time.  Also possible there was some issue with this boxes
+USB, it was an old machine, so might have old firmware.  Or the USB
+isn't an innocent little USB.  But I digress.&lt;/p&gt;
+&lt;p&gt;So, I tried arch.  This was like being beamed back to 1997.  It was fun
+for a while, but then I typed the wrong thing and lost the internet
+connection, which was what I needed to get the software to fix the
+internet connection.  I did Ctrl-D out of the &lt;em&gt;chroot&lt;/em&gt; and if I'd been
+awake when I booted back into it I might have skipped the second
+install.  I gave up at the bootloader bit.  I know, I was nearly there :(&lt;/p&gt;
+&lt;p&gt;I might have to go back to arch one day when I have lots of time on my
+hands.&lt;/p&gt;
+&lt;p&gt;So more rabbit holes.  Eventually, led to Debian.  By now the dining
+table is buried under cables.  The IP over powerline is up and running
+again and 2-3 boxes are in the pile marked broken.&lt;/p&gt;
+&lt;p&gt;The Debian install was been a joy, apart from the sporadic (or rather
+repeated) interruptions to anything needing internet bandwidth (a
+problem anywhere with expensive or unreliable bandwidth).&lt;/p&gt;
+&lt;p&gt;I suspect I am biassed because over the years I have spent more time
+with Debian based systems.  First with debian and then indirectly via
+Ubuntu.&lt;/p&gt;
+&lt;p&gt;I liked Ubuntu primarily for its python packaging.  Ubuntu still is a
+fantastic distribution for python.  As an interface for the sort of
+programming I like to do it is becoming less responsive, or at least
+that is my feeling.  Also, I am feeling myself further removed from
+the hardware and the software configuration.&lt;/p&gt;
+&lt;p&gt;At the same time, python packaging has come a long way.  With PyPi and
+pip install the linux distro no longer matters so much.&lt;/p&gt;
+&lt;p&gt;Debian doesn't seem to have changed much in philosophy.  Most of what
+I learnt back in the day still applies.  It led me through the install
+with just enough information to make an informed decision about the
+questions.  It guided pretty well, hinting which way I should go.&lt;/p&gt;
+&lt;p&gt;As of now I am yet to actually get it serving up the music, so this
+will most likely not be the last distro related posting.&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</guid><pubDate>Tue, 16 Dec 2014 00:19:11 GMT</pubDate></item><item><title>Global Hackathon, Team Bermuda</title><link>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last weekend I took part in the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html"&gt;global hackathon&lt;/a&gt; run by
 &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; as part of Team Bermuda aka &lt;em&gt;Three&lt;/em&gt; &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=aceboy"&gt;ace-boys&lt;/a&gt; &lt;em&gt;and an&lt;/em&gt;
 &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The other members of the team were:&lt;/p&gt;
@@ -414,181 +473,4 @@ it with &lt;a class="reference external" href="https://pypi.python.org/pypi?%3Aa
 &lt;p&gt;All in all, a very painless way to get lots of goodies up and running
 for the project.&lt;/p&gt;
 &lt;p&gt;Now I just need to write some actual code.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/nikola-django-packages-cookiecutter-and-other-goodness.html</guid><pubDate>Wed, 19 Nov 2014 17:23:46 GMT</pubDate></item><item><title>Calculating 80 days from now</title><link>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="checking-when-80-days-from-the-start-of-the-project-is"&gt;Checking when 80 days from the start of the project is&lt;/h2&gt;
-&lt;p&gt;The first commit to github was done on 15th November 2014.&lt;/p&gt;
-&lt;p&gt;However, I had been working on the project for a couple of days by then, so I will take 13th November 2014 as the start date.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;
-In [1]:
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;
-In [3]:
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="n"&gt;start&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;isoformat&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-
-
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
-    Out[3]:&lt;/div&gt;
-
-
-&lt;div class="output_text output_subarea output_pyout"&gt;
-&lt;pre&gt;
-'2014-11-13'
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Now calculate 80 days from the start date&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;
-In [4]:
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;end&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Check that the 80 days of coding ends on 1st February 2015&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;
-In [5]:
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;isoformat&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-
-
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
-    Out[5]:&lt;/div&gt;
-
-
-&lt;div class="output_text output_subarea output_pyout"&gt;
-&lt;pre&gt;
-'2015-02-01'
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;What day of the week does the competition start on?&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;
-In [14]:
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"%A"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-
-
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
-    Out[14]:&lt;/div&gt;
-
-
-&lt;div class="output_text output_subarea output_pyout"&gt;
-&lt;pre&gt;
-'Sunday'
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><guid>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</guid><pubDate>Mon, 17 Nov 2014 23:09:46 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/nikola-django-packages-cookiecutter-and-other-goodness.html</guid><pubDate>Wed, 19 Nov 2014 17:23:46 GMT</pubDate></item></channel></rss>

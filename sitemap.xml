@@ -10,7 +10,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2014/12/index.html</loc>
-  <lastmod>2014-12-13</lastmod>
+  <lastmod>2014-12-15</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2014/index.html</loc>
@@ -21,20 +21,32 @@
   <lastmod>2014-12-11</lastmod>
  </url>
  <url>
+  <loc>http://swfiua.github.io/80days/blog/index-1.html</loc>
+  <lastmod>2014-12-15</lastmod>
+ </url>
+ <url>
   <loc>http://swfiua.github.io/80days/blog/index.html</loc>
-  <lastmod>2014-12-13</lastmod>
+  <lastmod>2014-12-15</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/hackathon.html</loc>
-  <lastmod>2014-12-13</lastmod>
+  <lastmod>2014-12-15</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/index.html</loc>
-  <lastmod>2014-12-13</lastmod>
+  <lastmod>2014-12-15</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/categories/linux.html</loc>
+  <lastmod>2014-12-15</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
   <lastmod>2014-12-11</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</loc>
+  <lastmod>2014-12-15</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/bootstrap-css-allauth-and-initial-site.html</loc>
@@ -50,7 +62,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</loc>
-  <lastmod>2014-12-13</lastmod>
+  <lastmod>2014-12-15</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</loc>
