@@ -85,6 +85,58 @@
 <div class="postindex">
     <article class="h-entry post-text">
     <header>
+        <h1 class="p-name entry-title"><a href="../posts/nikola-django-packages-cookiecutter-and-other-goodness.html" class="u-url">Nikola, django packages, cookiecutter and other goodness</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/nikola-django-packages-cookiecutter-and-other-goodness.html" rel="bookmark"><time class="published dt-published" datetime="2014-11-19T17:23:46+00:00" title="2014-11-19 17:23">2014-11-19 17:23</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/nikola-django-packages-cookiecutter-and-other-goodness.html#disqus_thread" data-disqus-identifier="cache/posts/nikola-django-packages-cookiecutter-and-other-goodness.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>I have been spending some time looking at tools to help with the 80
+days project.</p>
+<div class="section" id="nikola">
+<h2>nikola</h2>
+<p>First up on the list was <a class="reference external" href="http://getnikola.com/">nikola</a>.   This is a static site generator.
+I was mostly interested in it because:</p>
+<ul class="simple">
+<li>it plays nicely with <a class="reference external" href="https://pages.github.com/">gh-pages</a>
+</li>
+<li>it allows you to write blog entries with <a class="reference external" href="http://ipython.org/notebook.html">ipython notebooks</a>
+</li>
+<li>it is built in python.</li>
+</ul>
+<p>I ran into one problem with nikola, see this <a class="reference external" href="https://github.com/getnikola/nikola/issues/1496">nikola_issue</a></p>
+<p>Happily, within three minutes of reporting the problem the maintainer
+posted a solution, even though the issue I reported was a dupe.</p>
+</div>
+<div class="section" id="django-packages-and-cookiecutter">
+<h2>django packages and cookiecutter</h2>
+<p>Since I am working on a <a class="reference external" href="https://www.djangoproject.com/">django</a> project I took a look at <a class="reference external" href="https://www.djangopackages.com/">django
+packages</a>.</p>
+<p>My attention was quickly drawn by <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> in the featured
+grid. Cookie cutter creates projects from templates, so saving a lot
+of tedious work.  It comes with a list of available cookiecutters.</p>
+<p>I was a bit spoilt for choice, but I decided to give the <a class="reference external" href="https://github.com/pydanny/cookiecutter-djangopackage">cookiecutter
+djangopackage</a> a go.</p>
+<p>So far I am pleased with this choice.  The docs led me through
+creating the django app, adding it to <a class="reference external" href="http://django-eighty-days.readthedocs.org/en/latest/">readthedocs</a> and registering
+it with <a class="reference external" href="https://pypi.python.org/pypi?%3Aaction=pkg_edit&amp;name=django-eighty-days">PyPi</a></p>
+<p>All in all, a very painless way to get lots of goodies up and running
+for the project.</p>
+<p>Now I just need to write some actual code.</p>
+</div>
+</div>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
         <h1 class="p-name entry-title"><a href="../posts/calculating-80-days-from-now.html" class="u-url">Calculating 80 days from now</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
@@ -115,7 +167,7 @@
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [1]:
+In [2]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -244,7 +296,7 @@ In [5]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [14]:
+In [6]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -261,7 +313,7 @@ In [14]:
 
 <div class="output_area">
 <div class="prompt output_prompt">
-    Out[14]:</div>
+    Out[6]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -276,9 +328,72 @@ In [14]:
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>How many days are we into the project?</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In [11]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+
+<span class="n">day</span> <span class="o">=</span> <span class="p">(</span><span class="n">today</span><span class="o">-</span><span class="n">start</span><span class="p">)</span><span class="o">.</span><span class="n">days</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Today is day </span><span class="si">%(day)d</span><span class="s">.  </span><span class="si">%(togo)d</span><span class="s"> days to go."</span> <span class="o">%</span> <span class="nb">dict</span><span class="p">(</span><span class="n">day</span><span class="o">=</span><span class="n">day</span><span class="p">,</span> <span class="n">togo</span><span class="o">=</span><span class="p">(</span><span class="mi">80</span><span class="o">-</span><span class="n">day</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Today is day 33.  47 days to go.
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
     </div>
   </div>
 
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="../posts/references.html" class="u-url">links</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/references.html" rel="bookmark"><time class="published dt-published" datetime="2014-11-13T14:08:31+00:00" title="2014-11-13 14:08">2014-11-13 14:08</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/references.html#disqus_thread" data-disqus-identifier="cache/posts/references.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <span></span>
     </div>
     </article>
 </div>

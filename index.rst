@@ -17,6 +17,20 @@ The aim is to create a web site where people can enter the competition
 and log their activities through the 80 day competition. Different
 activities will generate different numbers of miles.
 
+Blog
+====
+
+My plan is to blog as the project progresses.
+
+See the `eighty days project blog`_ if you want to follow the project.
+
+I have a habit of changing blog platform from time to time.  A couple
+of my previous blogs are `jackanory`_ and `bytes and bikes`_.
+
+I might go back to Jackanory at some point, but for now I am on an 80
+day schedule.
+
+
 80 days of coding
 =================
 
@@ -55,11 +69,7 @@ If you are not sure you have the skills but are interested in helping
 and learning, just let me know, another goal here is to teach others
 new skills whilst building cool stuff.
 
-Blog
-====
-
-My plan is to blog as the project progresses.
-
-See the `eighty days project blog`_ if you want to follow the project.
 
 .. _eighty days project blog: http://swfiua.github.io/80days/blog/
+.. _jackanory: http://johnnygill.github.io/jackanory/blogs/blog/html/
+.. _bytes and bikes: http://bytesnbikes.blogspot.com/

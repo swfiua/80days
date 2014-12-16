@@ -85,6 +85,107 @@
 <div class="postindex">
     <article class="h-entry post-text">
     <header>
+        <h1 class="p-name entry-title"><a href="../posts/progress-report-on-80days.html" class="u-url">Progress report on 80days</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/progress-report-on-80days.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-16T14:08:31+00:00" title="2014-12-16 14:08">2014-12-16 14:08</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/progress-report-on-80days.html#disqus_thread" data-disqus-identifier="cache/posts/progress-report-on-80days.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>I am now 33 days into the project and anyone reading this blog ought
+to be wondering how it is actually going.</p>
+<p>One thing I am enjoying about this project is there is no project
+manager.  Well I guess, technically, that is my job.</p>
+<p>I have been writing code long enough to see more than my share of
+magic bullets that will make everything go smoothly.  Sometimes these
+were formal approaches to coding and project management.  Other times
+the bullets are coming from the open source community: ways of working
+that people have developed for themselves.</p>
+<p>In general, the open source stuff speaks for itself.  Nobody is
+mandating that the projects work the way they do (actually, in most
+cases the BDFL is probably mandating the standards).  But the point is
+that the standards are being driven by those that know the job best.</p>
+<p>Around the time Extreme Programming became popular I encountered the
+following:</p>
+<pre class="literal-block">
+Time, resources, scope and quality:  pick any three
+</pre>
+<p>Fix three of these and then you have to let those doing the work tell
+you what the fourth will likely be.  I find this to be a very useful
+tool.  Letting others set all four is a recipe for failure.</p>
+<p>In the 80 days project I am fortunate.  Time is set to 80 days, but I
+pretty much have control over the other three.</p>
+<p>Actually, that is not quite true.  As far as <em>scope</em> is concerned I
+will need to deliver something by February 1st and actually need
+somewhere people can register for the competition by January 1st (give
+or take a few days).  But overall, the scope will be whatever gets
+done in the time available.</p>
+<p>Resources are to some extent under my control.  Right now there is
+only me working on the project.  Actually, that is not really true.
+There is a whole army of open source heroes working on this project,
+they just don't know they are working on it.</p>
+<p>So far I really have not written much code.  However, I do have a site
+that has a pretty landing page, and about page and you can register
+either by setting up <em>yet another user id and password</em> or by using
+your google ID and open auth.</p>
+<p>I didn't have to write any code bar a tiny bit of html and a fair bit
+of configuration of django.  Mostly it has just been a matter of
+finding packages, reading how they work, follow the instructions.</p>
+<p>To some extent, this whole project is turning into an exercise in how
+little code I actually have to write.  Code re-use is working well for
+now.</p>
+<div class="section" id="hosting">
+<h2>Hosting</h2>
+<p>The site is not available in the big bad world as yet, mostly due to
+the fact I have not decided where to host it as yet.</p>
+<p>Since I had a good experience with <a class="reference external" href="../posts/https//koding.com">koding.com</a> during the recent
+hackathon, that is probably what I will end up using.  The good news
+is that I know all the stuff I am using will only take about 30
+minutes to get up and running on that platform.</p>
+</div>
+<div class="section" id="what-is-left-to-do">
+<h2>What is left to do</h2>
+<p>Pretty much all the details of the site, but this is most of the fun
+stuff.</p>
+<p>I am planning to create a couple of new django apps.  <em>django teams</em>
+will be a simple app to manage teams.  A team is just a set of
+competitors, but will have some other attributes such as team size.</p>
+<p>I might include <em>competitions</em> in this app, since teams will be busy
+entering competitions.</p>
+<p>Another app I am thinking about is <em>django routes</em>.   This is a key
+part of the 80 days project: we need a route that we are going to take
+around the world.  A route is really just an ordered set of places.</p>
+<p>However, the same app ought to be useful for the <em>around Bermuda Bus
+in 80 days</em> idea I keep thinking about.  Buses follow routes.</p>
+<p>There is the <a class="reference external" href="https://github.com/tomwalker/django_quiz/">django quiz</a> project that I am hoping to use to add
+quizzes to the competition.  The idea is that each time a team arrives
+in a city along the route there will be a little quiz.  Get the
+questions right and you will get some free miles en route to the next
+city.</p>
+<p>I am betting there is already something out there to help with <em>django
+routes</em>, perhaps I can make use of something written to work with the
+transport data format <a class="reference external" href="https://developers.google.com/transit/gtfs/">GTFS</a>.</p>
+<p>All in all, I think the project is on target.</p>
+<!-- title: links -->
+<!-- slug: references -->
+<!-- date: 2014-11-13 14:08:31 UTC -->
+<!-- tags: -->
+<!-- link: -->
+<!-- description: links to include in all posts -->
+<!-- type: text -->
+</div>
+</div>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
         <h1 class="p-name entry-title"><a href="../posts/adventures-in-distro-land.html" class="u-url">Adventures in distro land..</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
@@ -713,58 +814,6 @@ event in the near future, a <em>Small Island Hackathon</em>.   Is there any
 interest in using the global hackathon as an opportunity to build a
 site for a small island event.   Perhaps we could have it coincide
 with <a class="reference external" href="http://www.bermudaraceweekend.com/site/">Bermuda Race Weekend</a> January 16-18th 2015.</p>
-</div>
-    </div>
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="../posts/nikola-django-packages-cookiecutter-and-other-goodness.html" class="u-url">Nikola, django packages, cookiecutter and other goodness</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
-            <p class="dateline"><a href="../posts/nikola-django-packages-cookiecutter-and-other-goodness.html" rel="bookmark"><time class="published dt-published" datetime="2014-11-19T17:23:46+00:00" title="2014-11-19 17:23">2014-11-19 17:23</time></a></p>
-                <p class="commentline">
-        
-    <a href="../posts/nikola-django-packages-cookiecutter-and-other-goodness.html#disqus_thread" data-disqus-identifier="cache/posts/nikola-django-packages-cookiecutter-and-other-goodness.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="e-content entry-content">
-    <div>
-<p>I have been spending some time looking at tools to help with the 80
-days project.</p>
-<div class="section" id="nikola">
-<h2>nikola</h2>
-<p>First up on the list was <a class="reference external" href="http://getnikola.com/">nikola</a>.   This is a static site generator.
-I was mostly interested in it because:</p>
-<ul class="simple">
-<li>it plays nicely with <a class="reference external" href="https://pages.github.com/">gh-pages</a>
-</li>
-<li>it allows you to write blog entries with <a class="reference external" href="http://ipython.org/notebook.html">ipython notebooks</a>
-</li>
-<li>it is built in python.</li>
-</ul>
-<p>I ran into one problem with nikola, see this <a class="reference external" href="https://github.com/getnikola/nikola/issues/1496">nikola_issue</a></p>
-<p>Happily, within three minutes of reporting the problem the maintainer
-posted a solution, even though the issue I reported was a dupe.</p>
-</div>
-<div class="section" id="django-packages-and-cookiecutter">
-<h2>django packages and cookiecutter</h2>
-<p>Since I am working on a <a class="reference external" href="https://www.djangoproject.com/">django</a> project I took a look at <a class="reference external" href="https://www.djangopackages.com/">django
-packages</a>.</p>
-<p>My attention was quickly drawn by <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> in the featured
-grid. Cookie cutter creates projects from templates, so saving a lot
-of tedious work.  It comes with a list of available cookiecutters.</p>
-<p>I was a bit spoilt for choice, but I decided to give the <a class="reference external" href="https://github.com/pydanny/cookiecutter-djangopackage">cookiecutter
-djangopackage</a> a go.</p>
-<p>So far I am pleased with this choice.  The docs led me through
-creating the django app, adding it to <a class="reference external" href="http://django-eighty-days.readthedocs.org/en/latest/">readthedocs</a> and registering
-it with <a class="reference external" href="https://pypi.python.org/pypi?%3Aaction=pkg_edit&amp;name=django-eighty-days">PyPi</a></p>
-<p>All in all, a very painless way to get lots of goodies up and running
-for the project.</p>
-<p>Now I just need to write some actual code.</p>
-</div>
 </div>
     </div>
     </article>

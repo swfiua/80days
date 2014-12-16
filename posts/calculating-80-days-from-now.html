@@ -24,6 +24,7 @@
     
 
     <meta name="author" content="Johnny Gill">
+        <link rel="prev" href="references.html" title="links" type="text/html">
         <link rel="next" href="nikola-django-packages-cookiecutter-and-other-goodness.html" title="Nikola, django packages, cookiecutter and other goodness" type="text/html">
     
     <meta property="og:site_name" content="Around the world in 80 days">
@@ -144,7 +145,7 @@ However, I had been working on the project for a couple of days by then, so I wi
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [1]:
+In [2]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -273,7 +274,7 @@ In [5]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [14]:
+In [6]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -290,7 +291,7 @@ In [14]:
 
 <div class="output_area">
 <div class="prompt output_prompt">
-    Out[14]:</div>
+    Out[6]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -299,6 +300,51 @@ In [14]:
 </pre>
 </div>
 
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>How many days are we into the project?</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In [11]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+
+<span class="n">day</span> <span class="o">=</span> <span class="p">(</span><span class="n">today</span><span class="o">-</span><span class="n">start</span><span class="p">)</span><span class="o">.</span><span class="n">days</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Today is day </span><span class="si">%(day)d</span><span class="s">.  </span><span class="si">%(togo)d</span><span class="s"> days to go."</span> <span class="o">%</span> <span class="nb">dict</span><span class="p">(</span><span class="n">day</span><span class="o">=</span><span class="n">day</span><span class="p">,</span> <span class="n">togo</span><span class="o">=</span><span class="p">(</span><span class="mi">80</span><span class="o">-</span><span class="n">day</span><span class="p">)))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Today is day 33.  47 days to go.
+
+</pre>
+</div>
 </div>
 
 </div>
@@ -315,6 +361,9 @@ In [14]:
 
     
         <ul class="pager">
+            <li class="previous">
+                <a href="references.html" rel="prev" title="links">Previous post</a>
+            </li>
             <li class="next">
                 <a href="nikola-django-packages-cookiecutter-and-other-goodness.html" rel="next" title="Nikola, django packages, cookiecutter and other goodness">Next post</a>
             </li>
