@@ -103,5 +103,5 @@ transport data format `GTFS`_.
 
 All in all, I think the project is on target.
 
-.. include:: references.rst
+.. include:: posts/references.rst
 

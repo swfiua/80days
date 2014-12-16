@@ -1,3 +1,12 @@
+.. title: links
+.. slug: references
+.. date: 2014-11-13 14:08:31 UTC
+.. tags: 
+.. link: 
+.. description: links to include in all posts
+.. type: text
+
+
 .. _Alan Turing: http://en.wikipedia.org/wiki/Alan_Turing
 .. _Araucaria: http://en.wikipedia.org/wiki/John_Galbraith_Graham
 .. _Bermuda Race Weekend: http://www.bermudaraceweekend.com/site/
