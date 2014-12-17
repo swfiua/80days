@@ -6,22 +6,26 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/80days.xml</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2014-12-17</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/football-sufc-blades.xml</loc>
+  <lastmod>2014-12-17</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/hackathon.xml</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2014-12-17</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/linux.xml</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2014-12-17</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/rss.xml</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2014-12-17</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/sitemap.xml</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2014-12-17</lastmod>
  </sitemap>
 </sitemapindex>
