@@ -48,7 +48,7 @@ standards that were introduced 30 years ago and which nobody can
 remember why they were introduced is lame.
 
 It might get you off the hook with your boss: we are just doing what
-everyone else does, nobody got fire for choosing IBM, etc, etc.  But
+everyone else does, nobody got fired for choosing IBM, etc, etc.  But
 the fact is that your security is really dependent on the fact that
 there are more attractive targets, such as companies that actually
 call themselves `Target`_ ;)
@@ -76,7 +76,7 @@ security.
 
 However, with the technologies that most companies are dependent on,
 the difficulty (or indeed near impossibility) of introducing genuine
-security without making it impossible for everyone to do their jobs I
+security without making it impossible for everyone to do their jobs, I
 think we are in for many more breaches in the coming years.
 
 Indeed, I would wager that there have been lots more very significant
