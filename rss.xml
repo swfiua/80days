@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 18 Dec 2014 12:02:51 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>SWFIUA explained</title><link>http://swfiua.github.io/80days/posts/swfiua-explained.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I grew up in Sheffield in the UK.  There are two football teams in
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 18 Dec 2014 14:53:55 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Rant about computer (in)security</title><link>http://swfiua.github.io/80days/posts/rant-about-computer-insecurity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;It seems that the more important something is to computer security the
+more byzantine and patchy the documentation will be at explaining how
+to make sure your computers actually are secure.&lt;/p&gt;
+&lt;p&gt;The problem is security is difficult. You only have to mess up once
+and all bets are off.&lt;/p&gt;
+&lt;p&gt;Invarialby, getting stuff up and running involves a lot of hacking
+around.  Eventually, you get the thing working, but by then it is
+probably too late, even if you go back and plug all the holes
+Write your post here.  And that assumes you can remember what you did
+along the way.&lt;/p&gt;
+&lt;p&gt;In the open source world products are generally configured in a
+&lt;em&gt;secure&lt;/em&gt; way out of the box.  You have to explicitly switch off things
+that are there for your protection.&lt;/p&gt;
+&lt;p&gt;That is all well and good, but without excellent documentation
+non-expert users (which in fact is every user a project will have: we
+are all novices when we start using a new product) are going to have
+problems getting the thing working.&lt;/p&gt;
+&lt;p&gt;The result is insecurity everywhere.  And that is before we get into
+all the backdoors that various organisations have been more than happy
+to leave in products for their own purposes.&lt;/p&gt;
+&lt;p&gt;I don't have a good solution to this problem, the subject is complex.
+What is clear is that the current situation just is not working.&lt;/p&gt;
+&lt;div class="section" id="following-industry-standards"&gt;
+&lt;h2&gt;Following industry standards&lt;/h2&gt;
+&lt;p&gt;To all those company's who are &lt;em&gt;following industry standards&lt;/em&gt; you are
+a huge part of the problem.  Those industry standards are horribly
+broken, possibly by design.&lt;/p&gt;
+&lt;p&gt;There is no substitute for hiring someone that actually understands
+the subject and listening to their recommendations.  Blindly following
+standards that were introduced 30 years ago and which nobody can
+remember why they were introduced is lame.&lt;/p&gt;
+&lt;p&gt;It might get you off the hook with your boss: we are just doing what
+everyone else does, nobody got fire for choosing IBM, etc, etc.  But
+the fact is that your security is really dependent on the fact that
+there are more attractive targets, such as companies that actually
+call themselves &lt;a class="reference external" href="http://www.target.com/"&gt;Target&lt;/a&gt; ;)&lt;/p&gt;
+&lt;img alt="http://dailyangst.files.wordpress.com/2012/02/birthmark.jpg" src="http://dailyangst.files.wordpress.com/2012/02/birthmark.jpg"&gt;
+&lt;p&gt;As an example, every place I have ever worked has a &lt;em&gt;you must change
+your password every 90 days&lt;/em&gt; rule.  Really?  This rule was introduced
+based on the time it would take a good sized computer to crack a
+password given the hashed value that gets stored in password
+files... in the 1980's.&lt;/p&gt;
+&lt;p&gt;The idea being that if you change every 90 days it will be unlikely
+the crackers will crack your password before you change it.&lt;/p&gt;
+&lt;p&gt;NEWSFLASH: to all CIO's out there, computers have got faster
+since 1980.  If you really want to protect against crackers that have
+your hashed passwords then you probably need all your employees to
+change their passwords about every five minutes.&lt;/p&gt;
+&lt;p&gt;Perhaps the one good thing that will come out of all the high profile
+breaches we are hearing about at the moment is that some of this
+archaic nonesense will be replaced by measures that genuinely increase
+security.&lt;/p&gt;
+&lt;p&gt;However, with the technologies that most companies are dependent on,
+the difficulty (or indeed near impossibility) of introducing genuine
+security without making it impossible for everyone to do their jobs I
+think we are in for many more breaches in the coming years.&lt;/p&gt;
+&lt;p&gt;Indeed, I would wager that there have been lots more very significant
+security breaches, we just have not heard about them (yet).&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/rant-about-computer-insecurity.html</guid><pubDate>Thu, 18 Dec 2014 18:03:17 GMT</pubDate></item><item><title>SWFIUA explained</title><link>http://swfiua.github.io/80days/posts/swfiua-explained.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I grew up in Sheffield in the UK.  There are two football teams in
 Sheffield:  Sheffield United and Sheffield United reserves.  They play
 in red and white stripes and are known as the &lt;em&gt;Mighty Blades&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;There is also another team that goes by the name of Sheffield
@@ -516,67 +574,4 @@ worked through the puzzle.  I was reminded of sitting round the
 kitchen table with my mother, happy times indeed.&lt;/p&gt;
 &lt;p&gt;Araucaria would have been proud of this puzzle, many thanks to those
 at Google that created the puzzle and helped me through this very
-difficult time.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/the-imitation-game.html</guid><pubDate>Mon, 01 Dec 2014 14:22:36 GMT</pubDate></item><item><title>Star Trek universal translator</title><link>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This theme from the global &lt;a class="reference external" href="https://koding.com/Hackathon"&gt;hackathon&lt;/a&gt;  really interests me:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-Challenges associated with real time communication and translation
-(Star Trek universal translator anyone?)
-&lt;/pre&gt;
-&lt;p&gt;I am finding computer interfaces becoming more and more annoying.  I
-interact with computers through different interfaces: mobile phones,
-tablets, infra-red remotes, workstations etc etc.&lt;/p&gt;
-&lt;p&gt;Each application has its own idea of how it wants me to work with it.
-Some have discoverable interfaces.  Some are close to unusable from a
-mobile phone.&lt;/p&gt;
-&lt;p&gt;What I am thinking is what we need is a layer that sits between input
-devices and applications.   I guess we already have this, it is called
-an operating system.   But currently, all these tend to do is
-implement the drivers needed to talk to the input device and simply
-pass on the events to applications running on the O/S.&lt;/p&gt;
-&lt;p&gt;Events tend to be pretty low level things like &lt;em&gt;button click&lt;/em&gt;,
-&lt;em&gt;keyboard keypress&lt;/em&gt; etc etc.   If we had more sophisticated input
-devices, or rather a layer listening to existing inputs (for instance
-why not use the webcam too to observe what the user is doing, or the
-mic to listen.  With this information it ought to be easier to guess
-what the user is really trying to do.   Applications could then be
-build that accepted a much richer set of events.&lt;/p&gt;
-&lt;p&gt;For example:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;go to next page&lt;/li&gt;
-&lt;li&gt;go back, I just clicked the screen by mistake&lt;/li&gt;
-&lt;li&gt;damn you autocorrect, stop guessing and just enter the word I have
-typed three times already&lt;/li&gt;
-&lt;li&gt;OK, usually when he does this he wants out of netflix and into xbmc,
-so why don't I just offer to take him there?&lt;/li&gt;
-&lt;li&gt;of course, the OS should learn from you as you interact with it&lt;/li&gt;
-&lt;li&gt;and we don't want to end up with &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Office_Assistant"&gt;clippy&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then there is social media, I am signed up to way to many sevices:
-twitter, email, google+, github, facebook, koding.com, irc, blogs etc
-etc.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://ttwick.com/"&gt;ttwick&lt;/a&gt; looks like it might have a solution to the problem of keeping
-track of everything.&lt;/p&gt;
-&lt;p&gt;There are a whole bunch of privacy issues to worry about here.  Any
-interface listening to user inputs is seeing some very personal
-information.  My guess is the way you type on a keyboard is a pretty
-unique identifier, perhaps as distinctive as your DNA.&lt;/p&gt;
-&lt;p&gt;So for apps to really behave well for you they might need to know this
-information that identifies who you are.  But who do you really want
-to share that information with?&lt;/p&gt;
-&lt;p&gt;Now if the OS translated the inputs coming from devices into a
-standard, rich event stream then it might be that it could do it in
-such a way as the event stream was less of a personal marker and so we
-could get a double win of greater privacy and a more unified interface
-to interact with computers.&lt;/p&gt;
-&lt;p&gt;This whole area is really an accessibility thing.  But for too long
-accessibility has been some extra thing you do to support people with
-disabilities.  It isn't built into apps from the ground up.  Further,
-it singles out those with disabilities: poor vision, paralysis, poor
-motor skills, etc etc.   The reality is that everyone needs better
-interfaces.&lt;/p&gt;
-&lt;p&gt;If we out a layer between our input devices and our applications we
-can start working on those better interfaces.  For everybody.&lt;/p&gt;
-&lt;p&gt;I am reminded of &lt;a class="reference external" href="https://www.youtube.com/watch?v=OWyMA_bT7UI"&gt;Tavis Rudd&lt;/a&gt; at PyCon 2014 talking about controlling
-emacs with his voice.&lt;/p&gt;
-&lt;p&gt;So again, all we need here is a layer listening to his voice and
-converting the voice into instructions for emacs.  Now if that layer
-could learn as it was used, we might have something special.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</guid><pubDate>Mon, 24 Nov 2014 18:26:18 GMT</pubDate></item></channel></rss>
+difficult time.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/the-imitation-game.html</guid><pubDate>Mon, 01 Dec 2014 14:22:36 GMT</pubDate></item></channel></rss>
