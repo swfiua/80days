@@ -29,6 +29,7 @@
 .. _ace-girl: http://www.urbandictionary.com/define.php?term=Acegirl
 .. _angular.js: https://angularjs.org/
 .. _clippy: http://en.wikipedia.org/wiki/Office_Assistant
+.. _cookiecutter django: https://github.com/pydanny/cookiecutter-django
 .. _cookiecutter djangopackage: https://github.com/pydanny/cookiecutter-djangopackage
 .. _cookiecutter: https://cookiecutter.readthedocs.org/en/latest/
 .. _cross-site request forgery: http://en.wikipedia.org/wiki/Cross-site_request_forgery
@@ -58,3 +59,5 @@
 .. _vimium: http://vimium.github.io/
 .. _GTFS: https://developers.google.com/transit/gtfs/
 .. _nginx: http://nginx.org/
+.. _django configurations: http://django-configurations.readthedocs.org/
+.. _twelve factor: http://12factor.net/
