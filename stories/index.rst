@@ -6,16 +6,23 @@
 .. description: 
 .. type: text
 
-
-This project started with an idea from Yves at the ToneZone gym in Bermuda.
-
-He wanted to create an 80 day challenge whereby teams of 5 people
+The idea is to create an 80 day challenge whereby teams of 5 people
 collect miles as they do exercises and see how far round the world
 they can get in 80 days.
 
 The aim is to create a web site where people can enter the competition
 and log their activities through the 80 day competition. Different
 activities will generate different numbers of miles.
+
+But the 80 day concept goes beyond this.  It turns out 80 days is a
+good timeframe to think about when working on a project.  Technology
+is changing so fast nowadays that it is hard to look beyond that.
+
+So, the idea is come up with your goals for the next 80 days.  During
+those 80 days make it up as you go along, pretty much as `Phileas
+Fogg`_ had to on his journet.
+
+And at the end of 80 days, just rinse and repeat.
 
 Blog
 ====
@@ -47,7 +54,7 @@ Other competitions
 The idea is to build open source libraries that
 will enable 80 day sites to be built.
 
-Hopefully, other organisations will be interested in running
+Hopefully, many organisations will be interested in running
 competitions. Currently, the project is focussed on competitions local
 to Bermuda.
 
@@ -57,7 +64,9 @@ sites around the 80 day theme.
 Some ideas include:
 
 * Around Bermuda Bus in 80 days: how many miles can you clock up on Bermuda bus and ferry in 80 days?
-* Bermuda football: is there any interest from the Bermuda football and cricket clubs in running a competition?
+* Bermuda football: is there any interest from the Bermuda football
+  and cricket clubs in running a competition?
+* Something related to the upcoming America's Cup
 
 Help and mentoring
 ==================
@@ -73,3 +82,5 @@ new skills whilst building cool stuff.
 .. _eighty days project blog: http://swfiua.github.io/80days/blog/
 .. _jackanory: http://johnnygill.github.io/jackanory/blogs/blog/html/
 .. _bytes and bikes: http://bytesnbikes.blogspot.com/
+
+.. _Phileas Fogg: http://en.wikipedia.org/wiki/Phileas_Fogg

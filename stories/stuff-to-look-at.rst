@@ -13,5 +13,11 @@ sorted for the next 2.5 cycles.
 
 http://code441.com/ this is the best.  
 
+Fernando Perez tweet about natural language modelling
+
+freecodecamp.com @ossia
+
+
+
 
 
