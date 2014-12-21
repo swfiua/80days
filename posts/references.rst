@@ -66,3 +66,4 @@
 .. _wearebermuda: http://wearebermuda.com/
 
 .. _Bermuda is another world: https://www.youtube.com/watch?v=vbVyE6hZjCU
+.. _git: http://git-scm.com/
