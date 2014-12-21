@@ -45,7 +45,8 @@ by the Supremes.  Another special song for me.
 Then there was `One Love`_, `Electric Slide`_, complete with line
 dancing.  Bermudian line dancing has to be seen to be appreciated.
 Last night was typical.  A mixture of regulars to the place and those
-just there for the party.  Everyone having a good time together.
+just there for the party.  Everyone having a good time
+together. There were a lot of `Happy`_ people.
 
 My music tastes are a bit weird.  I pretty much follow the crowd.  And
 my guitar music.  I have been (very slowly) learning to play over the
