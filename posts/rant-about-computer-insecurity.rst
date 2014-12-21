@@ -15,9 +15,8 @@ and all bets are off.
 
 Invarialby, getting stuff up and running involves a lot of hacking
 around.  Eventually, you get the thing working, but by then it is
-probably too late, even if you go back and plug all the holes 
-Write your post here.  And that assumes you can remember what you did
-along the way.
+probably too late, even if you go back and plug all the holes And that
+assumes you can remember what you did along the way.
 
 In the open source world products are generally configured in a
 *secure* way out of the box.  You have to explicitly switch off things
