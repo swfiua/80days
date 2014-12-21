@@ -61,3 +61,8 @@
 .. _nginx: http://nginx.org/
 .. _django configurations: http://django-configurations.readthedocs.org/
 .. _twelve factor: http://12factor.net/
+
+.. _code441: http://code441.com
+.. _wearebermuda: http://wearebermuda.com/
+
+.. _Bermuda is another world: https://www.youtube.com/watch?v=vbVyE6hZjCU
