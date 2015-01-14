@@ -62,7 +62,7 @@ suitable urls.py, serializers.py and api.py to the cookiecutter
 template.  I'll add that to the list of things to do, if only to delay
 the learning of `angular.js`_ ;)
 
-.. _include: posts/references.rst
+.. include:: posts/references.rst
 
 .. _posting: https://twitter.com/swfiua/status/554742651082539010
 

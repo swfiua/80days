@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (django python)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link rel="self" href="http://swfiua.github.io/80days/categories/django-python.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 14 Jan 2015 18:02:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Django Rest API code generation with cog</title><link>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;After a good break for the holidays, a couple of weeks in the
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (django python)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/categories/django-python.xml"></atom:link><language>en</language><lastBuildDate>Wed, 14 Jan 2015 18:06:02 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Django Rest API code generation with cog</title><link>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;After a good break for the holidays, a couple of weeks in the
 frozen wastes of Canada complete with arriving home with a stinking
 cold I am now at the, &lt;em&gt;"this code won't write itself"&lt;/em&gt; part of the 80 days
 project.&lt;/p&gt;
 &lt;p&gt;There is quite a bit to do, but I am still finding distractions to
 spend time on.&lt;/p&gt;
-&lt;p&gt;I have been using &lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`django rest framework`_&lt;/span&gt;&lt;/a&gt; to create a REST api for
+&lt;p&gt;I have been using &lt;a class="reference external" href="http://www.django-rest-framework.org/"&gt;django rest framework&lt;/a&gt; to create a REST api for
 the project.&lt;/p&gt;
 &lt;p&gt;Creating serializers, api classes and url specs for these frameworks
 is largely a matter of generating standard boiler plate code.  This is
@@ -17,8 +17,8 @@ need to do more autogeneration.  I had the inescapable feeling that my
 code generator was probably more trouble than it was worth.  At the
 same time, writing code like this by hand is deeply unsatisfying.&lt;/p&gt;
 &lt;p&gt;So, just when it was looking like I would have to start learning
-&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id3"&gt;&lt;span class="problematic" id="id4"&gt;`angular.js`_&lt;/span&gt;&lt;/a&gt; and build the front end, Ned Batchelder came to the
-rescue on Twitter by &lt;a class="reference external" href="https://twitter.com/swfiua/status/554742651082539010"&gt;posting&lt;/a&gt; a link to a new release of &lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id5"&gt;&lt;span class="problematic" id="id6"&gt;`cog`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; and build the front end, Ned Batchelder came to the
+rescue on Twitter by &lt;a class="reference external" href="https://twitter.com/swfiua/status/554742651082539010"&gt;posting&lt;/a&gt; a link to a new release of &lt;a class="reference external" href="http://nedbatchelder.com/code/cog/"&gt;cog&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ned described it as "a small tool that does a small job well".&lt;/p&gt;
 &lt;p&gt;Sure enough, it does.  It lets you embed python code (disguised as
 comments) within your code to do the code generation.&lt;/p&gt;
@@ -36,29 +36,18 @@ checksums have not changed.&lt;/li&gt;
 &lt;p&gt;Armed with cog, I came up with &lt;a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py"&gt;codegen.py&lt;/a&gt; to generate the boring
 bits of &lt;a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py"&gt;api.py&lt;/a&gt; as well as &lt;em&gt;urls.py&lt;/em&gt; and &lt;em&gt;serializers.py&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;I am quite happy with the results.  Doug Hellmann had suggested maybe
-&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id7"&gt;&lt;span class="problematic" id="id8"&gt;`cookiecutter`_&lt;/span&gt;&lt;/a&gt; might be a better solution to this problem.  In my
+&lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; might be a better solution to this problem.  In my
 case, I am using cookiecutter to get the base files for my django
 application, but this code generation cannot take place until you add
 some models, hence the need for cog.&lt;/p&gt;
 &lt;p&gt;Better still would be to combine the two and add codegen.py and
 suitable urls.py, serializers.py and api.py to the cookiecutter
 template.  I'll add that to the list of things to do, if only to delay
-the learning of &lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id9"&gt;&lt;span class="problematic" id="id10"&gt;`angular.js`_&lt;/span&gt;&lt;/a&gt; ;)&lt;/p&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 9); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "django rest framework".&lt;/div&gt;
-&lt;div class="system-message" id="id3"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 23); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id4"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "angular.js".&lt;/div&gt;
-&lt;div class="system-message" id="id5"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 23); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id6"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "cog".&lt;/div&gt;
-&lt;div class="system-message" id="id7"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 46); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id8"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "cookiecutter".&lt;/div&gt;
-&lt;div class="system-message" id="id9"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 52); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html#id10"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "angular.js".&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>django python</category><guid>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</guid><pubDate>Wed, 14 Jan 2015 21:12:36 GMT</pubDate></item></channel></rss>
+the learning of &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; ;)&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>django python</category><guid>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</guid><pubDate>Wed, 14 Jan 2015 21:12:36 GMT</pubDate></item></channel></rss>
