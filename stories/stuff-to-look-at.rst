@@ -17,7 +17,18 @@ Fernando Perez tweet about natural language modelling
 
 freecodecamp.com @ossia
 
+http://mormonprophecy.blogspot.com/2008/10/saturn-symbolism-in-salt-lake-temple.html
+catastrophic change in the heavens cf asteroid belt.
 
+http://np.reddit.com/r/worldnews/comments/2puo8h/bittorrent_offers_distribute_sonys_the_interview/cn0ksh7
+Did North Korea do it and related issues?
 
+https://opensource.com/life/14/11/growstuff-open-source-food  open
+source food
 
+https://opensource.com/life/14/11/growstuff-open-source-food TED talk
+to listen to.
 
+http://www.tuqix.org/wordpress/?p=279 XBMC and samba What is the thing
+to use for a file system these days?
+    

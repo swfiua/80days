@@ -35,6 +35,7 @@
 .. _cross-site request forgery: http://en.wikipedia.org/wiki/Cross-site_request_forgery
 .. _django cors: https://github.com/ottoyiu/django-cors-headers
 .. _django eulasees: https://github.com/swfiua/django_eulasees
+.. _django eighty days: https://github.com/swfiua/django_eighty_days
 .. _django packages: https://www.djangopackages.com/
 .. _django quiz: https://github.com/tomwalker/django_quiz/
 .. _django rest framework: http://www.django-rest-framework.org/
@@ -67,3 +68,5 @@
 
 .. _Bermuda is another world: https://www.youtube.com/watch?v=vbVyE6hZjCU
 .. _git: http://git-scm.com/
+
+.. _cog: http://nedbatchelder.com/code/cog/
