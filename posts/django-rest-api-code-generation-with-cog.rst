@@ -8,7 +8,7 @@
 
 After a good break for the holidays, a couple of weeks in the
 frozen wastes of Canada complete with arriving home with a stinking
-cold I am now at the, *"this code won't write itself" part of the 80 days
+cold I am now at the, *"this code won't write itself"* part of the 80 days
 project.  
 
 There is quite a bit to do, but I am still finding distractions to
@@ -62,10 +62,10 @@ suitable urls.py, serializers.py and api.py to the cookiecutter
 template.  I'll add that to the list of things to do, if only to delay
 the learning of `angular.js`_ ;)
 
-.. include:: posts/references.rst
+.. _include: posts/references.rst
 
-.. posting:: https://twitter.com/swfiua/status/554742651082539010
+.. _posting: https://twitter.com/swfiua/status/554742651082539010
 
-.. codegen.py:: https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py
+.. _codegen.py: https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py
 
-.. api.py:: https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py
+.. _api.py: https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py

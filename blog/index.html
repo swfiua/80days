@@ -101,14 +101,11 @@
     <div>
 <p>After a good break for the holidays, a couple of weeks in the
 frozen wastes of Canada complete with arriving home with a stinking
-cold I am now at the, <a href="../posts/django-rest-api-code-generation-with-cog.html#id1"><span class="problematic" id="id2">*</span></a>"this code won't write itself" part of the 80 days
+cold I am now at the, <em>"this code won't write itself"</em> part of the 80 days
 project.</p>
-<div class="system-message" id="id1">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 1); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id2">backlink</a></em></p>
-Inline emphasis start-string without end-string.</div>
 <p>There is quite a bit to do, but I am still finding distractions to
 spend time on.</p>
-<p>I have been using <a class="reference external" href="http://www.django-rest-framework.org/">django rest framework</a> to create a REST api for
+<p>I have been using <a href="../posts/django-rest-api-code-generation-with-cog.html#id1"><span class="problematic" id="id2">`django rest framework`_</span></a> to create a REST api for
 the project.</p>
 <p>Creating serializers, api classes and url specs for these frameworks
 is largely a matter of generating standard boiler plate code.  This is
@@ -120,8 +117,8 @@ need to do more autogeneration.  I had the inescapable feeling that my
 code generator was probably more trouble than it was worth.  At the
 same time, writing code like this by hand is deeply unsatisfying.</p>
 <p>So, just when it was looking like I would have to start learning
-<a class="reference external" href="https://angularjs.org/">angular.js</a> and build the front end, Ned Batchelder came to the
-rescue on Twitter by <a href="../posts/django-rest-api-code-generation-with-cog.html#id3"><span class="problematic" id="id4">`posting`_</span></a> a link to a new release of <a class="reference external" href="http://nedbatchelder.com/code/cog/">cog</a>.</p>
+<a href="../posts/django-rest-api-code-generation-with-cog.html#id3"><span class="problematic" id="id4">`angular.js`_</span></a> and build the front end, Ned Batchelder came to the
+rescue on Twitter by <a class="reference external" href="https://twitter.com/swfiua/status/554742651082539010">posting</a> a link to a new release of <a href="../posts/django-rest-api-code-generation-with-cog.html#id5"><span class="problematic" id="id6">`cog`_</span></a>.</p>
 <p>Ned described it as "a small tool that does a small job well".</p>
 <p>Sure enough, it does.  It lets you embed python code (disguised as
 comments) within your code to do the code generation.</p>
@@ -136,58 +133,34 @@ re-generate that code.</li>
 <li>you can re-run and it will update the existing code, assuming the
 checksums have not changed.</li>
 </ul>
-<p>Armed with cog, I came up with <a href="../posts/django-rest-api-code-generation-with-cog.html#id5"><span class="problematic" id="id6">`codegen.py`_</span></a> to generate the boring
-bits of <a href="../posts/django-rest-api-code-generation-with-cog.html#id7"><span class="problematic" id="id8">`api.py`_</span></a> as well as <em>urls.py</em> and <em>serializers.py</em>.</p>
+<p>Armed with cog, I came up with <a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py">codegen.py</a> to generate the boring
+bits of <a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py">api.py</a> as well as <em>urls.py</em> and <em>serializers.py</em>.</p>
 <p>I am quite happy with the results.  Doug Hellmann had suggested maybe
-<a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> might be a better solution to this problem.  In my
+<a href="../posts/django-rest-api-code-generation-with-cog.html#id7"><span class="problematic" id="id8">`cookiecutter`_</span></a> might be a better solution to this problem.  In my
 case, I am using cookiecutter to get the base files for my django
 application, but this code generation cannot take place until you add
 some models, hence the need for cog.</p>
 <p>Better still would be to combine the two and add codegen.py and
 suitable urls.py, serializers.py and api.py to the cookiecutter
 template.  I'll add that to the list of things to do, if only to delay
-the learning of <a class="reference external" href="https://angularjs.org/">angular.js</a> ;)</p>
-<!-- title: links -->
-<!-- slug: references -->
-<!-- date: 2014-11-13 14:08:31 UTC -->
-<!-- tags: -->
-<!-- link: -->
-<!-- description: links to include in all posts -->
-<!-- type: text -->
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 59)</p>
-<p>Unknown directive type "posting".</p>
-<pre class="literal-block">
-.. posting:: https://twitter.com/swfiua/status/554742651082539010
-
-</pre>
-</div>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 61)</p>
-<p>Unknown directive type "codegen.py".</p>
-<pre class="literal-block">
-.. codegen.py:: https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py
-
-</pre>
-</div>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 63)</p>
-<p>Unknown directive type "api.py".</p>
-<pre class="literal-block">
-.. api.py:: https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py
-</pre>
-</div>
+the learning of <a href="../posts/django-rest-api-code-generation-with-cog.html#id9"><span class="problematic" id="id10">`angular.js`_</span></a> ;)</p>
 <div class="system-messages section">
 <h2>Docutils System Messages</h2>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 9); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id2">backlink</a></em></p>
+Unknown target name: "django rest framework".</div>
 <div class="system-message" id="id3">
 <p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 23); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id4">backlink</a></em></p>
-Unknown target name: "posting".</div>
+Unknown target name: "angular.js".</div>
 <div class="system-message" id="id5">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 43); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id6">backlink</a></em></p>
-Unknown target name: "codegen.py".</div>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 23); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id6">backlink</a></em></p>
+Unknown target name: "cog".</div>
 <div class="system-message" id="id7">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 43); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id8">backlink</a></em></p>
-Unknown target name: "api.py".</div>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 46); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id8">backlink</a></em></p>
+Unknown target name: "cookiecutter".</div>
+<div class="system-message" id="id9">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 52); <em><a href="../posts/django-rest-api-code-generation-with-cog.html#id10">backlink</a></em></p>
+Unknown target name: "angular.js".</div>
 </div>
 </div>
     </div>
