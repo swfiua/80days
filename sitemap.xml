@@ -6,126 +6,142 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://swfiua.github.io/80days/2014/11/index.html</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2014/12/index.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2014/index.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/2015/01/index.html</loc>
+  <lastmod>2015-01-14</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/2015/index.html</loc>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/archive.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index-1.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/80days.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/bermuda-music-awesome.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/categories/django-python.html</loc>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/football-sufc-blades.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/hackathon.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/index.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/linux.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/bootstrap-css-allauth-and-initial-site.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</loc>
-  <lastmod>2014-12-16</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/django-allauth.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</loc>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</loc>
-  <lastmod>2014-12-15</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/nikola-django-packages-cookiecutter-and-other-goodness.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/progress-report-on-80days.html</loc>
-  <lastmod>2014-12-17</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/rant-about-computer-insecurity.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/references.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/swfiua-explained.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/the-imitation-game.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/the-music-from-uncle.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/using-gnus-for-gmail.html</loc>
-  <lastmod>2014-12-13</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html</loc>
-  <lastmod>2014-12-11</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/stuff-to-look-at.html</loc>
-  <lastmod>2014-12-21</lastmod>
+  <lastmod>2015-01-14</lastmod>
  </url>
 </urlset>
