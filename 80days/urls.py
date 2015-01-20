@@ -29,6 +29,7 @@ urlpatterns = patterns('',
     url(r'^avatar/', include('avatar.urls')),
 
     # Your stuff: custom urls go here
+    url(r'^eighty/', include('django_eighty_days.urls')),
 
     # rest framework and swagger
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
