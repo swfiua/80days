@@ -6,19 +6,20 @@
 .. description: Kindling projects
 .. type: text
 
-So ten to go until this project is supposed to be up and running.
+So ten days to go until this project is supposed to be up and running.
 Now, this is a software project, just something I have been doing
-mostly for my own amusement.
+mostly for my own amusement, but it has a deadline and I am starting
+to hear that whooshing sound that deadlines make as the come by.
 
 I am 70 days in, so what do I have?
 
 I have a simple `CRUD`_ api built in `django`_.  It comes with data
 migrations and code generators that mean adding new models should
 require very little coding.  I have the api documented using
-`django_rest_swagger`_.  And I can manipulate tables using the
+`django rest swagger`_.  And I can manipulate tables using the
 standard django admin interface.  
 
-I have also taken a look at `django_quiz`_ and it looks like it will
+I have also taken a look at `django quiz`_ and it looks like it will
 do a good job for me.
 
 However, so far no proper front end.  As far as the front end is
@@ -66,7 +67,7 @@ the small hand axe.
 So, time to light the blue touch paper and stand well back.
 
 
-include:: posts/references.rst
+.. include:: posts/references.rst
 
 .. _kindling: http://nedbatchelder.com//blog/201501/kindling_projects_page.html
 .. _CRUD: http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
