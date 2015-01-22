@@ -31,4 +31,10 @@ to listen to.
 
 http://www.tuqix.org/wordpress/?p=279 XBMC and samba What is the thing
 to use for a file system these days?
-    
+
+http://rightrelevance.com/?q=tab_type=2&&searchType=feeds&start=0&rows=30&location=&isPerson=&articleId%3Dba35702042f677169519f7e7e16ac6b3228aa2c5%26value%3Dopen%20source%20software%26taccount%3Dfreeopensourrce%26topic%3Dopen%20source%20software
+100 TB sort in 23 minutes.
+
+https://www.youtube.com/watch?v=8cpQpGYtjR0 ambient light magic with
+raspberry pi.
+
