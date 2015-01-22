@@ -62,7 +62,9 @@ Now I could do this very quickly with django templates given the code
 I already have.  But, I want to try `angular.js`_.  That way I will
 have a new tool I can play with.  If it isn't working for me, then
 maybe it will end up like the bow-saw that I find less fun to use than
-the small hand axe.
+the small hand axe, still useful, but not the tool I like to use most
+of the time.  Or maybe, it will turn out to be a new and better hand
+axe. 
 
 So, time to light the blue touch paper and stand well back.
 
