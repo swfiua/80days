@@ -6,9 +6,10 @@
 .. description: Kindling projects
 .. type: text
 
-So ten to go until this project is supposed to be up and running.
+So ten days to go until this project is supposed to be up and running.
 Now, this is a software project, just something I have been doing
-mostly for my own amusement.
+mostly for my own amusement, but it has a deadline and I am starting
+to hear that whooshing sound that deadlines make as the come by.
 
 I am 70 days in, so what do I have?
 
