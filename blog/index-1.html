@@ -85,6 +85,71 @@
 <div class="postindex">
     <article class="h-entry post-text">
     <header>
+        <h1 class="p-name entry-title"><a href="../posts/more-on-django-allauth.html" class="u-url">More on django-allauth</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/more-on-django-allauth.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-05T20:34:07+00:00" title="2014-12-05 20:34">2014-12-05 20:34</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/more-on-django-allauth.html#disqus_thread" data-disqus-identifier="cache/posts/more-on-django-allauth.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>Armed with the <a class="reference external" href="http://www.sarahhagstrom.com/2013/09/the-missing-django-allauth-tutorial/">missing django-allauth tutorial</a> I have made some
+progress getting auth working with <em>google</em> doing as the
+authentication provider.</p>
+<p>Sarah's guide pretty much covered everything I needed to know.  It
+also encouraged me to work towards pushing out a bare-bones <strong>80
+days</strong> site.</p>
+<p>This actually makes sense as I don't need the whole site up and
+running just for users to register for the competition.</p>
+<p>The missing tutorial uses <em>facebook</em> as the example.  Unfortunately, I
+could not figure out how to register my application and get the
+necessary keys on facebook.</p>
+<p>Instead, I decided to have a go at using <em>google</em>.   I quickly found
+this <a class="reference external" href="https://developers.google.com/+/quickstart/python">google guide</a> which was enough to get my application registered
+and get the necessary keys.</p>
+<p>Then it was back to the missing manual.   I actually used the <em>django
+admin</em> interface to update the django database, rather than run the
+SQL as per the tutorial.  This was just a matter of going to this url:
+<em>http://127.0.0.1:8000/admin/socialaccount/socialapp/</em> and entering a
+new record.</p>
+<p>I still had a couple of errors to get by.  First, I copy/pasted the
+configuration information from the missint tutorial and had to remove
+the <em>publish_stream</em> scope as google does not support that (at least I
+assume that is what the problem is).</p>
+<p>Next I had to go back to the <a class="reference external" href="https://console.developers.google.com">Google Developer Console</a> and register
+the callback url that my application was trying to use.  Bingo,
+everything works.</p>
+<p>So, with this setup, new users can just sign in with their google
+account and the application will set up a user registration for them
+if one does not already exist.</p>
+<p>The down side with all this is that there are a plethora of
+authentication providers I should probably support:  facebook,
+twitter, yahoom, linkedIn, github, etc, etc.</p>
+<p>Really, this whole system is horribly broken.  Every social media site
+has its own identity management implementation and it, naturally,
+wants everyone to use their identity management.   In short, they all
+want to own your identity.</p>
+<p>What we really need is for users to be able to manage their own
+identity, without need to for a central authority.  The central
+authority is a critical security weakness as if that authority is
+compromised all users using that authority are compromised.</p>
+<p>A secondary problem is that the current OAuth/OpenID solutions result
+in everybody wanting to be the central authority and hence users are
+faced with either balkanisation of identiy management or having to
+manage multiple identities.</p>
+<p>Sadly, I do not see an end to this in the short term, not least
+because the current mess suits all the current incumbents.</p>
+</div>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
         <h1 class="p-name entry-title"><a href="../posts/bootstrap-css-allauth-and-initial-site.html" class="u-url">Bootstrap css, allauth and initial site</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
@@ -433,7 +498,7 @@ for the project.</p>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [2]:
+In [1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -448,7 +513,7 @@ In [2]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [3]:
+In [2]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -467,7 +532,7 @@ In [3]:
 
 <div class="output_area">
 <div class="prompt output_prompt">
-    Out[3]:</div>
+    Out[2]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -494,7 +559,7 @@ In [3]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [4]:
+In [3]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -518,7 +583,7 @@ In [4]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [5]:
+In [4]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -535,7 +600,7 @@ In [5]:
 
 <div class="output_area">
 <div class="prompt output_prompt">
-    Out[5]:</div>
+    Out[4]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -562,7 +627,7 @@ In [5]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [6]:
+In [5]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -579,7 +644,7 @@ In [6]:
 
 <div class="output_area">
 <div class="prompt output_prompt">
-    Out[6]:</div>
+    Out[5]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -606,7 +671,7 @@ In [6]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [11]:
+In [6]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -629,7 +694,7 @@ In [11]:
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-Today is day 33.  47 days to go.
+Today is day 70.  10 days to go.
 
 </pre>
 </div>

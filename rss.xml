@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 14 Jan 2015 18:06:02 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Django Rest API code generation with cog</title><link>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;After a good break for the holidays, a couple of weeks in the
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 22 Jan 2015 14:00:08 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Dancing in the dark</title><link>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So ten to go until this project is supposed to be up and running.
+Now, this is a software project, just something I have been doing
+mostly for my own amusement.&lt;/p&gt;
+&lt;p&gt;I am 70 days in, so what do I have?&lt;/p&gt;
+&lt;p&gt;I have a simple &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; api built in &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt;.  It comes with data
+migrations and code generators that mean adding new models should
+require very little coding.  I have the api documented using
+&lt;a class="reference external" href="https://github.com/marcgibbons/django-rest-swagger"&gt;django rest swagger&lt;/a&gt;.  And I can manipulate tables using the
+standard django admin interface.&lt;/p&gt;
+&lt;p&gt;I have also taken a look at &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; and it looks like it will
+do a good job for me.&lt;/p&gt;
+&lt;p&gt;However, so far no proper front end.  As far as the front end is
+concerned I am &lt;a class="reference external" href="https://www.youtube.com/watch?v=UoPwqDW5750"&gt;Dancing in the Dark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We had two hurricanes here in Bermuda back in October.  It is winter
+now.  Actually, a beautiful day today, 21C, sunny, few clouds and
+beautiful blue oceans.  I just rode out of town on the bus.  Must be
+one of the best bus rides in the world.&lt;/p&gt;
+&lt;p&gt;But, come evening, the sun disappears and a chill descends as the
+dampness comes out of the walls.&lt;/p&gt;
+&lt;p&gt;There is a lot of wood around the island, branches broken by the
+storms, whole trees knocked over.  In many cases, all the branches
+have been cut off trees and the stumps set back up, green shoots of
+recovery are starting to sprout from these stumps.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I have been gathering wood for fires most nights.  It
+reminds me of happy days on scout camps way back when.  Summer camps
+with the scouts were the best.  We would cook all week on an open
+fire.  Between us, and guided by &lt;em&gt;Skip&lt;/em&gt;, we would figure out how to
+light fires, how to get a good fire going and then let it die down a
+little for cooking.&lt;/p&gt;
+&lt;p&gt;One thing you learn right from the start is, &lt;em&gt;you can't start a fire
+without a spark&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;And that is where &lt;a class="reference external" href="http://nedbatchelder.com//blog/201501/kindling_projects_page.html"&gt;kindling&lt;/a&gt; comes in. As I trim the bigger branches
+to get logs for the fires the smaller twigs drop to the floor.  Once I
+have logs you can gather up a bundle of smaller twigs.  This is the
+kindling.  This is what lights the fire.  The tiny pieces.&lt;/p&gt;
+&lt;p&gt;So, today I am setting out on a little kindling project.  I want to
+add a little box to the &lt;em&gt;Around the world in 80 days&lt;/em&gt; site with
+today's date and a couple of other labels showing 80 days from now and
+80 days before today.&lt;/p&gt;
+&lt;p&gt;Now I could do this very quickly with django templates given the code
+I already have.  But, I want to try &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt;.  That way I will
+have a new tool I can play with.  If it isn't working for me, then
+maybe it will end up like the bow-saw that I find less fun to use than
+the small hand axe.&lt;/p&gt;
+&lt;p&gt;So, time to light the blue touch paper and stand well back.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>kindling python github</category><guid>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</guid><pubDate>Thu, 22 Jan 2015 17:25:29 GMT</pubDate></item><item><title>Django Rest API code generation with cog</title><link>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;After a good break for the holidays, a couple of weeks in the
 frozen wastes of Canada complete with arriving home with a stinking
 cold I am now at the, &lt;em&gt;"this code won't write itself"&lt;/em&gt; part of the 80 days
 project.&lt;/p&gt;
@@ -672,49 +723,4 @@ replied to one or two.&lt;/p&gt;
 &lt;p&gt;I have dabbled in gnus before, but it seems to have taken on a whole
 new life since then.  I suspect a large part of the rest of this week,
 or maybe this month is going to go on figuring out how it all works.&lt;/p&gt;
-&lt;p&gt;So far though, I am liking it, so it is a good start.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/using-gnus-for-gmail.html</guid><pubDate>Thu, 11 Dec 2014 22:17:15 GMT</pubDate></item><item><title>More on django-allauth</title><link>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Armed with the &lt;a class="reference external" href="http://www.sarahhagstrom.com/2013/09/the-missing-django-allauth-tutorial/"&gt;missing django-allauth tutorial&lt;/a&gt; I have made some
-progress getting auth working with &lt;em&gt;google&lt;/em&gt; doing as the
-authentication provider.&lt;/p&gt;
-&lt;p&gt;Sarah's guide pretty much covered everything I needed to know.  It
-also encouraged me to work towards pushing out a bare-bones &lt;strong&gt;80
-days&lt;/strong&gt; site.&lt;/p&gt;
-&lt;p&gt;This actually makes sense as I don't need the whole site up and
-running just for users to register for the competition.&lt;/p&gt;
-&lt;p&gt;The missing tutorial uses &lt;em&gt;facebook&lt;/em&gt; as the example.  Unfortunately, I
-could not figure out how to register my application and get the
-necessary keys on facebook.&lt;/p&gt;
-&lt;p&gt;Instead, I decided to have a go at using &lt;em&gt;google&lt;/em&gt;.   I quickly found
-this &lt;a class="reference external" href="https://developers.google.com/+/quickstart/python"&gt;google guide&lt;/a&gt; which was enough to get my application registered
-and get the necessary keys.&lt;/p&gt;
-&lt;p&gt;Then it was back to the missing manual.   I actually used the &lt;em&gt;django
-admin&lt;/em&gt; interface to update the django database, rather than run the
-SQL as per the tutorial.  This was just a matter of going to this url:
-&lt;em&gt;http://127.0.0.1:8000/admin/socialaccount/socialapp/&lt;/em&gt; and entering a
-new record.&lt;/p&gt;
-&lt;p&gt;I still had a couple of errors to get by.  First, I copy/pasted the
-configuration information from the missint tutorial and had to remove
-the &lt;em&gt;publish_stream&lt;/em&gt; scope as google does not support that (at least I
-assume that is what the problem is).&lt;/p&gt;
-&lt;p&gt;Next I had to go back to the &lt;a class="reference external" href="https://console.developers.google.com"&gt;Google Developer Console&lt;/a&gt; and register
-the callback url that my application was trying to use.  Bingo,
-everything works.&lt;/p&gt;
-&lt;p&gt;So, with this setup, new users can just sign in with their google
-account and the application will set up a user registration for them
-if one does not already exist.&lt;/p&gt;
-&lt;p&gt;The down side with all this is that there are a plethora of
-authentication providers I should probably support:  facebook,
-twitter, yahoom, linkedIn, github, etc, etc.&lt;/p&gt;
-&lt;p&gt;Really, this whole system is horribly broken.  Every social media site
-has its own identity management implementation and it, naturally,
-wants everyone to use their identity management.   In short, they all
-want to own your identity.&lt;/p&gt;
-&lt;p&gt;What we really need is for users to be able to manage their own
-identity, without need to for a central authority.  The central
-authority is a critical security weakness as if that authority is
-compromised all users using that authority are compromised.&lt;/p&gt;
-&lt;p&gt;A secondary problem is that the current OAuth/OpenID solutions result
-in everybody wanting to be the central authority and hence users are
-faced with either balkanisation of identiy management or having to
-manage multiple identities.&lt;/p&gt;
-&lt;p&gt;Sadly, I do not see an end to this in the short term, not least
-because the current mess suits all the current incumbents.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</guid><pubDate>Fri, 05 Dec 2014 20:34:07 GMT</pubDate></item></channel></rss>
+&lt;p&gt;So far though, I am liking it, so it is a good start.&lt;/p&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/using-gnus-for-gmail.html</guid><pubDate>Thu, 11 Dec 2014 22:17:15 GMT</pubDate></item></channel></rss>

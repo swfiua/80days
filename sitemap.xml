@@ -18,7 +18,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2015/01/index.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2015/index.html</loc>
@@ -30,39 +30,43 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index-1.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/80days.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/bermuda-music-awesome.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/django-python.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/football-sufc-blades.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/hackathon.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/index.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/categories/kindling-python-github.html</loc>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/linux.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
@@ -78,7 +82,11 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/calculating-80-days-from-now.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</loc>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/django-allauth.html</loc>
@@ -86,7 +94,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</loc>
@@ -142,6 +150,6 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/stuff-to-look-at.html</loc>
-  <lastmod>2015-01-14</lastmod>
+  <lastmod>2015-01-22</lastmod>
  </url>
 </urlset>

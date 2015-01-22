@@ -2,8 +2,9 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
     <head>
     <meta charset="utf-8">
+    <meta name="description" content="Kindling projects">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Django Rest API code generation with cog | Around the world in 80 days</title>
+    <title>Dancing in the dark | Around the world in 80 days</title>
 
     
             <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -11,7 +12,7 @@
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html">
+      <link rel="canonical" href="http://swfiua.github.io/80days/posts/dancing-in-the-dark.html">
 
 
 
@@ -23,19 +24,17 @@
 
     
 
+    <meta name="description" itemprop="description" content="Kindling projects">
     <meta name="author" content="Johnny Gill">
-        <link rel="prev" href="the-music-from-uncle.html" title="The Music from UNCLE" type="text/html">
-        <link rel="next" href="dancing-in-the-dark.html" title="Dancing in the dark" type="text/html">
+        <link rel="prev" href="django-rest-api-code-generation-with-cog.html" title="Django Rest API code generation with cog" type="text/html">
     
     <meta property="og:site_name" content="Around the world in 80 days">
-    <meta property="og:title" content="Django Rest API code generation with cog">
-    <meta property="og:url" content="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html">
-    <meta property="og:description" content="After a good break for the holidays, a couple of weeks in the
-frozen wastes of Canada complete with arriving home with a stinking
-cold I am now at the, &quot;this code won't write itself&quot; part of the 80 da">
+    <meta property="og:title" content="Dancing in the dark">
+    <meta property="og:url" content="http://swfiua.github.io/80days/posts/dancing-in-the-dark.html">
+    <meta property="og:description" content="Kindling projects">
     <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2015-01-14T21:12:36+00:00">
-           <meta property="article:tag" content="django python">
+    <meta property="article:published_time" content="2015-01-22T17:25:29+00:00">
+           <meta property="article:tag" content="kindling python github">
 
     
 
@@ -86,7 +85,7 @@ cold I am now at the, &quot;this code won't write itself&quot; part of the 80 da
                 
                     
     <li>
-    <a href="django-rest-api-code-generation-with-cog.rst" id="sourcelink">Source</a>
+    <a href="dancing-in-the-dark.rst" id="sourcelink">Source</a>
     </li>
 
                 
@@ -109,20 +108,21 @@ cold I am now at the, &quot;this code won't write itself&quot; part of the 80 da
     
     <header>
         
-    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Django Rest API code generation with cog</a></h1>
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Dancing in the dark</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
-            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-01-14T21:12:36+00:00" itemprop="datePublished" title="2015-01-14 21:12">2015-01-14 21:12</time></a></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-01-22T17:25:29+00:00" itemprop="datePublished" title="2015-01-22 17:25">2015-01-22 17:25</time></a></p>
                 <p class="commentline">
         
-    <a href="django-rest-api-code-generation-with-cog.html#disqus_thread" data-disqus-identifier="cache/posts/django-rest-api-code-generation-with-cog.html">Comments</a>
+    <a href="dancing-in-the-dark.html#disqus_thread" data-disqus-identifier="cache/posts/dancing-in-the-dark.html">Comments</a>
 
 
             
         </p>
-<p class="sourceline"><a href="django-rest-api-code-generation-with-cog.rst" id="sourcelink">Source</a></p>
+<p class="sourceline"><a href="dancing-in-the-dark.rst" id="sourcelink">Source</a></p>
 
+                <meta name="description" itemprop="description" content="Kindling projects">
         </div>
         
 
@@ -130,51 +130,51 @@ cold I am now at the, &quot;this code won't write itself&quot; part of the 80 da
 
     <div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>After a good break for the holidays, a couple of weeks in the
-frozen wastes of Canada complete with arriving home with a stinking
-cold I am now at the, <em>"this code won't write itself"</em> part of the 80 days
-project.</p>
-<p>There is quite a bit to do, but I am still finding distractions to
-spend time on.</p>
-<p>I have been using <a class="reference external" href="http://www.django-rest-framework.org/">django rest framework</a> to create a REST api for
-the project.</p>
-<p>Creating serializers, api classes and url specs for these frameworks
-is largely a matter of generating standard boiler plate code.  This is
-the sort of stuff I hate doing: tedious and error prone.</p>
-<p>I originally wrote my own noddy code generator to help with some of
-this, but was less than satisfied with the result: it was fine for my
-immediate needs, but as I add more models to the application I would
-need to do more autogeneration.  I had the inescapable feeling that my
-code generator was probably more trouble than it was worth.  At the
-same time, writing code like this by hand is deeply unsatisfying.</p>
-<p>So, just when it was looking like I would have to start learning
-<a class="reference external" href="https://angularjs.org/">angular.js</a> and build the front end, Ned Batchelder came to the
-rescue on Twitter by <a class="reference external" href="https://twitter.com/swfiua/status/554742651082539010">posting</a> a link to a new release of <a class="reference external" href="http://nedbatchelder.com/code/cog/">cog</a>.</p>
-<p>Ned described it as "a small tool that does a small job well".</p>
-<p>Sure enough, it does.  It lets you embed python code (disguised as
-comments) within your code to do the code generation.</p>
-<p>There are a few features in <em>cog</em> that appealed to me:</p>
-<ul class="simple">
-<li>the code generator can be run in a way that over-writes the input
-file with the newly generated code</li>
-<li>it calculates checksums for the generated code and embeds them in
-the output.  This is useful as it allows it to spot if you have
-edited the code since it was generated and hence refuse to
-re-generate that code.</li>
-<li>you can re-run and it will update the existing code, assuming the
-checksums have not changed.</li>
-</ul>
-<p>Armed with cog, I came up with <a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py">codegen.py</a> to generate the boring
-bits of <a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py">api.py</a> as well as <em>urls.py</em> and <em>serializers.py</em>.</p>
-<p>I am quite happy with the results.  Doug Hellmann had suggested maybe
-<a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> might be a better solution to this problem.  In my
-case, I am using cookiecutter to get the base files for my django
-application, but this code generation cannot take place until you add
-some models, hence the need for cog.</p>
-<p>Better still would be to combine the two and add codegen.py and
-suitable urls.py, serializers.py and api.py to the cookiecutter
-template.  I'll add that to the list of things to do, if only to delay
-the learning of <a class="reference external" href="https://angularjs.org/">angular.js</a> ;)</p>
+<p>So ten to go until this project is supposed to be up and running.
+Now, this is a software project, just something I have been doing
+mostly for my own amusement.</p>
+<p>I am 70 days in, so what do I have?</p>
+<p>I have a simple <a class="reference external" href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> api built in <a class="reference external" href="https://www.djangoproject.com/">django</a>.  It comes with data
+migrations and code generators that mean adding new models should
+require very little coding.  I have the api documented using
+<a class="reference external" href="https://github.com/marcgibbons/django-rest-swagger">django rest swagger</a>.  And I can manipulate tables using the
+standard django admin interface.</p>
+<p>I have also taken a look at <a class="reference external" href="https://github.com/tomwalker/django_quiz/">django quiz</a> and it looks like it will
+do a good job for me.</p>
+<p>However, so far no proper front end.  As far as the front end is
+concerned I am <a class="reference external" href="https://www.youtube.com/watch?v=UoPwqDW5750">Dancing in the Dark</a></p>
+<p>We had two hurricanes here in Bermuda back in October.  It is winter
+now.  Actually, a beautiful day today, 21C, sunny, few clouds and
+beautiful blue oceans.  I just rode out of town on the bus.  Must be
+one of the best bus rides in the world.</p>
+<p>But, come evening, the sun disappears and a chill descends as the
+dampness comes out of the walls.</p>
+<p>There is a lot of wood around the island, branches broken by the
+storms, whole trees knocked over.  In many cases, all the branches
+have been cut off trees and the stumps set back up, green shoots of
+recovery are starting to sprout from these stumps.</p>
+<p>Meanwhile, I have been gathering wood for fires most nights.  It
+reminds me of happy days on scout camps way back when.  Summer camps
+with the scouts were the best.  We would cook all week on an open
+fire.  Between us, and guided by <em>Skip</em>, we would figure out how to
+light fires, how to get a good fire going and then let it die down a
+little for cooking.</p>
+<p>One thing you learn right from the start is, <em>you can't start a fire
+without a spark</em>.</p>
+<p>And that is where <a class="reference external" href="http://nedbatchelder.com//blog/201501/kindling_projects_page.html">kindling</a> comes in. As I trim the bigger branches
+to get logs for the fires the smaller twigs drop to the floor.  Once I
+have logs you can gather up a bundle of smaller twigs.  This is the
+kindling.  This is what lights the fire.  The tiny pieces.</p>
+<p>So, today I am setting out on a little kindling project.  I want to
+add a little box to the <em>Around the world in 80 days</em> site with
+today's date and a couple of other labels showing 80 days from now and
+80 days before today.</p>
+<p>Now I could do this very quickly with django templates given the code
+I already have.  But, I want to try <a class="reference external" href="https://angularjs.org/">angular.js</a>.  That way I will
+have a new tool I can play with.  If it isn't working for me, then
+maybe it will end up like the bow-saw that I find less fun to use than
+the small hand axe.</p>
+<p>So, time to light the blue touch paper and stand well back.</p>
 <!-- title: links -->
 <!-- slug: references -->
 <!-- date: 2014-11-13 14:08:31 UTC -->
@@ -188,16 +188,13 @@ the learning of <a class="reference external" href="https://angularjs.org/">angu
     <nav>
     
         <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="../categories/django-python.html" rel="tag">django python</a></li>
+           <li><a class="tag p-category" href="../categories/kindling-python-github.html" rel="tag">kindling python github</a></li>
         </ul>
 
     
         <ul class="pager">
             <li class="previous">
-                <a href="the-music-from-uncle.html" rel="prev" title="The Music from UNCLE">Previous post</a>
-            </li>
-            <li class="next">
-                <a href="dancing-in-the-dark.html" rel="next" title="Dancing in the dark">Next post</a>
+                <a href="django-rest-api-code-generation-with-cog.html" rel="prev" title="Django Rest API code generation with cog">Previous post</a>
             </li>
         </ul>
 
@@ -210,9 +207,9 @@ the learning of <a class="reference external" href="https://angularjs.org/">angu
         <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="eightydays",
-            disqus_url="http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html",
-        disqus_title="Django Rest API code generation with cog",
-        disqus_identifier="cache/posts/django-rest-api-code-generation-with-cog.html",
+            disqus_url="http://swfiua.github.io/80days/posts/dancing-in-the-dark.html",
+        disqus_title="Dancing in the dark",
+        disqus_identifier="cache/posts/dancing-in-the-dark.html",
         disqus_config = function () {
             this.language = "en";
         };

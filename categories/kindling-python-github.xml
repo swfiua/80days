@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (kindling python github)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/kindling-python-github.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 22 Jan 2015 14:00:08 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Dancing in the dark</title><link>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So ten to go until this project is supposed to be up and running.
+Now, this is a software project, just something I have been doing
+mostly for my own amusement.&lt;/p&gt;
+&lt;p&gt;I am 70 days in, so what do I have?&lt;/p&gt;
+&lt;p&gt;I have a simple &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; api built in &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt;.  It comes with data
+migrations and code generators that mean adding new models should
+require very little coding.  I have the api documented using
+&lt;a class="reference external" href="https://github.com/marcgibbons/django-rest-swagger"&gt;django rest swagger&lt;/a&gt;.  And I can manipulate tables using the
+standard django admin interface.&lt;/p&gt;
+&lt;p&gt;I have also taken a look at &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; and it looks like it will
+do a good job for me.&lt;/p&gt;
+&lt;p&gt;However, so far no proper front end.  As far as the front end is
+concerned I am &lt;a class="reference external" href="https://www.youtube.com/watch?v=UoPwqDW5750"&gt;Dancing in the Dark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We had two hurricanes here in Bermuda back in October.  It is winter
+now.  Actually, a beautiful day today, 21C, sunny, few clouds and
+beautiful blue oceans.  I just rode out of town on the bus.  Must be
+one of the best bus rides in the world.&lt;/p&gt;
+&lt;p&gt;But, come evening, the sun disappears and a chill descends as the
+dampness comes out of the walls.&lt;/p&gt;
+&lt;p&gt;There is a lot of wood around the island, branches broken by the
+storms, whole trees knocked over.  In many cases, all the branches
+have been cut off trees and the stumps set back up, green shoots of
+recovery are starting to sprout from these stumps.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I have been gathering wood for fires most nights.  It
+reminds me of happy days on scout camps way back when.  Summer camps
+with the scouts were the best.  We would cook all week on an open
+fire.  Between us, and guided by &lt;em&gt;Skip&lt;/em&gt;, we would figure out how to
+light fires, how to get a good fire going and then let it die down a
+little for cooking.&lt;/p&gt;
+&lt;p&gt;One thing you learn right from the start is, &lt;em&gt;you can't start a fire
+without a spark&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;And that is where &lt;a class="reference external" href="http://nedbatchelder.com//blog/201501/kindling_projects_page.html"&gt;kindling&lt;/a&gt; comes in. As I trim the bigger branches
+to get logs for the fires the smaller twigs drop to the floor.  Once I
+have logs you can gather up a bundle of smaller twigs.  This is the
+kindling.  This is what lights the fire.  The tiny pieces.&lt;/p&gt;
+&lt;p&gt;So, today I am setting out on a little kindling project.  I want to
+add a little box to the &lt;em&gt;Around the world in 80 days&lt;/em&gt; site with
+today's date and a couple of other labels showing 80 days from now and
+80 days before today.&lt;/p&gt;
+&lt;p&gt;Now I could do this very quickly with django templates given the code
+I already have.  But, I want to try &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt;.  That way I will
+have a new tool I can play with.  If it isn't working for me, then
+maybe it will end up like the bow-saw that I find less fun to use than
+the small hand axe.&lt;/p&gt;
+&lt;p&gt;So, time to light the blue touch paper and stand well back.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>kindling python github</category><guid>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</guid><pubDate>Thu, 22 Jan 2015 17:25:29 GMT</pubDate></item></channel></rss>
