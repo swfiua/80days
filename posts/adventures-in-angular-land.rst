@@ -39,3 +39,4 @@ too.  So, I think I am 80% of the way to finishing my kindling.
 
 .. _Angular seed: https://github.com/angular/angular-seed
 .. _grunt: http://gruntjs.com/
+.. include:: posts/references.rst
