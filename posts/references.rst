@@ -70,3 +70,5 @@
 .. _git: http://git-scm.com/
 
 .. _cog: http://nedbatchelder.com/code/cog/
+
+.. _github: https://github.com/swfiua/
