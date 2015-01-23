@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Thu, 22 Jan 2015 21:49:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Adventures in angular land</title><link>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Since this blog is the nearest thing I have of a record of what I am
-doing, well I guess &lt;a href="http://swfiua.github.io/80days/posts/adventures-in-angular-land.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`github`_&lt;/span&gt;&lt;/a&gt; might have parts of the story, but in
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 22 Jan 2015 21:53:45 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Adventures in angular land</title><link>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Since this blog is the nearest thing I have of a record of what I am
+doing, well I guess &lt;a class="reference external" href="https://github.com/swfiua/"&gt;github&lt;/a&gt; might have parts of the story, but in
 general, if I want to recall what I did, here is where I come.&lt;/p&gt;
 &lt;!-- So, today was an adventure.  So lots of tutorials are videos --&gt;
 &lt;!-- nowadays.  Lots of them.  Some are good --&gt;
@@ -18,19 +18,17 @@ bit more pain to find a better solution might be worth the trouble.&lt;/p&gt;
 Nick was using a few weeks back at the global hackathon.&lt;/p&gt;
 &lt;p&gt;So after a bit more fun of installing &lt;em&gt;npm&lt;/em&gt; a few different ways and
 something called &lt;em&gt;bower&lt;/em&gt; which seems to be package manager for
-&lt;a href="http://swfiua.github.io/80days/posts/adventures-in-angular-land.html#id3"&gt;&lt;span class="problematic" id="id4"&gt;`angular.js`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;But the best bit is that all this stuff actually did work.  And I
 moved the app into my tree of code and that works under &lt;em&gt;npm&lt;/em&gt; there
 too.  So, I think I am 80% of the way to finishing my kindling.&lt;/p&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 1); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/adventures-in-angular-land.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "github".&lt;/div&gt;
-&lt;div class="system-message" id="id3"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 23); &lt;em&gt;&lt;a href="http://swfiua.github.io/80days/posts/adventures-in-angular-land.html#id4"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: "angular.js".&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</guid><pubDate>Thu, 22 Jan 2015 19:58:44 GMT</pubDate></item><item><title>Dancing in the dark</title><link>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So ten days to go until this project is supposed to be up and running.
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</guid><pubDate>Thu, 22 Jan 2015 19:58:44 GMT</pubDate></item><item><title>Dancing in the dark</title><link>http://swfiua.github.io/80days/posts/dancing-in-the-dark.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So ten days to go until this project is supposed to be up and running.
 Now, this is a software project, just something I have been doing
 mostly for my own amusement, but it has a deadline and I am starting
 to hear that whooshing sound that deadlines make as the come by.&lt;/p&gt;
