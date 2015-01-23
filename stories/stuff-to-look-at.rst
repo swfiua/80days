@@ -38,3 +38,10 @@ http://rightrelevance.com/?q=tab_type=2&&searchType=feeds&start=0&rows=30&locati
 https://www.youtube.com/watch?v=8cpQpGYtjR0 ambient light magic with
 raspberry pi.
 
+http://programminghistorian.org/ teaching historians about digital
+stuff.
+
+
+
+https://thinkster.io/brewer/angular-django-tutorial/ yet another
+django angular tutorial.
