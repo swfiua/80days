@@ -56,6 +56,7 @@ class Common(Configuration):
         # Your stuff: custom apps go here
         'rest_framework',
         'rest_framework_swagger',
+        'django_eighty_days',
     )
 
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -119,7 +120,7 @@ class Common(Configuration):
 
     # DATABASE CONFIGURATION
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
-    DATABASES = values.DatabaseURLValue('postgres://postgres:snowyg@localhost/80days')
+    DATABASES = values.DatabaseURLValue('postgres://80days:snowyg@localhost/80days')
     # END DATABASE CONFIGURATION
 
     # CACHING
