@@ -1,0 +1,15 @@
+{
+  "name": "80days",
+  "description": "An 80 day adventure",
+  "version": "0.1.0",
+  "homepage": "https://github.com/swfiua/80days",
+  "license": "GPL",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0"
+  }
+}
