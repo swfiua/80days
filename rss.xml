@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 22 Jan 2015 21:53:45 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Adventures in angular land</title><link>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Since this blog is the nearest thing I have of a record of what I am
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Sun, 25 Jan 2015 19:53:32 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>I met Bill's Gates and got the t-shirt</title><link>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
+top ten list of people I would like to meet.&lt;/p&gt;
+&lt;p&gt;I've been an free and open software enthusiast for longer than I care
+to remember.  Let's just say that over the years Bill hasn't exactly
+been a friend of open source.  To be fair, it pretty much threatened
+to destroy his rather lucrative business model.&lt;/p&gt;
+&lt;p&gt;To some extent it has.  Bill has moved on, so has Steve "linux is a
+cancer" Balmer.  Microsoft is making more and more code available as
+open source.  I would guess they have realised that if you want to be
+relevant in today's software world you need your stuff to run on
+linux, or at least play nicely with that platform.&lt;/p&gt;
+&lt;p&gt;There is a lot going on in the tech world, it isn't clear how it is
+all going to pan out.  But free and open source is stronger than
+ever.&lt;/p&gt;
+&lt;p&gt;Last night, my &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; and I wandered down the hill to the local
+hostelry.&lt;/p&gt;
+&lt;p&gt;As I &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/the-music-from-uncle.html"&gt;blogged&lt;/a&gt; a few weeks back, Saturday there is a DJ at this place
+and it is often a fun night.  We were planning to meet another friend
+who had just got back to the island.&lt;/p&gt;
+&lt;p&gt;We arrived and things were still quiet.  They were showing some
+highlights from the FA Cup on the TV.  I love the FA Cup, always have
+done.  It is when the lower league teams get a chance to show what
+they can do against higher clubs.  Yesterday was a great day for the
+underdogs.  Bradford City, also known as the &lt;em&gt;Bantams&lt;/em&gt; (curiously,
+google in their soccer info used the name &lt;em&gt;Bantams&lt;/em&gt; rather than
+Bradford City.  It was odd, because every other club was listed by
+their more formal name.  It was Sheffield United, not the Blades
+playing a Preston.&lt;/p&gt;
+&lt;p&gt;There were quite a few people having dinner at the place and 2-3 were
+celebrating birthdays.  DJ Uncle was doing his round of the room,
+figuring out his audience.&lt;/p&gt;
+&lt;p&gt;Around this time a guy walked by wearing a t-shirt and a silver tie,
+all sparkles and glitter, obviously top quality as it was ready-tied
+and held around his neck by a piece of elastic.   I saw the words,
+"Bill's Gates" on his t-shirt.   My curiousity was peaked and we got
+talking.&lt;/p&gt;
+&lt;p&gt;It soon became clear it was the guy's birthday.  He introduced himself
+as Bill Gates (or it might have been Bill's Gates).  There may have
+been some alcohol involved, so details are a little blurry.  But the
+gist was he was founder member of "BFBC".  The F is along the same
+lines as the f in swfiua.  So it was "Bill's F* Boat Club".&lt;/p&gt;
+&lt;p&gt;Clearly, this was my chance to be photographed with the man himself:&lt;/p&gt;
+&lt;img alt="../galleries/Gates/Me%20with%20Bill's%20Gates.jpg" src="http://swfiua.github.io/80days/galleries/Gates/Me%20with%20Bill's%20Gates.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;I can report that Bill was a fine upstanding character and was even
+kind enough to give me one of his t-shirts:&lt;/p&gt;
+&lt;img alt="../galleries/Gates/i_got_the_t_shirt.jpg" src="http://swfiua.github.io/80days/galleries/Gates/i_got_the_t_shirt.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;Now in case you haven't heard Bermuda has been chosen as the venue for
+the 2017 &lt;a class="reference external" href="http://www.americascup.com/en/news/131_Bermuda-is-the-home-of-the-2017-America-s-Cup.html"&gt;America's Cup&lt;/a&gt;.  There is quite a bit of excitement about
+the island due to this.  Maybe BFBC will enter the race :)&lt;/p&gt;
+&lt;p&gt;Of course, Uncle played &lt;a class="reference external" href="https://www.youtube.com/watch?v=inS9gAgSENE"&gt;Happy Birthday&lt;/a&gt; for Bill and the others with
+birthdays.&lt;/p&gt;
+&lt;p&gt;I have been on a bit of a Springsteen kick that last week or so,
+something to do with starting to learn some tunes from my "Bruce
+Springsteen easy guitar":&lt;/p&gt;
+&lt;img alt="../galleries/Springsteen/Springsteen.jpg" src="http://swfiua.github.io/80days/galleries/Springsteen/Springsteen.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;Ace girl asked Uncle if he would play some.  And in light of the giant
+killings in the FA Cup and with the hope of more to come from the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Red
+and White Wizards&lt;/a&gt; it was appropriate that he should choose &lt;a class="reference external" href="https://www.youtube.com/watch?v=6vQpW9XRiyM"&gt;Glory Days&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks Bill and everyone who helped make last night a fun time.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item><item><title>Adventures in angular land</title><link>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Since this blog is the nearest thing I have of a record of what I am
 doing, well I guess &lt;a class="reference external" href="https://github.com/swfiua/"&gt;github&lt;/a&gt; might have parts of the story, but in
 general, if I want to recall what I did, here is where I come.&lt;/p&gt;
 &lt;!-- So, today was an adventure.  So lots of tutorials are videos --&gt;
@@ -583,135 +648,4 @@ I learnt back in the day still applies.  It led me through the install
 with just enough information to make an informed decision about the
 questions.  It guided pretty well, hinting which way I should go.&lt;/p&gt;
 &lt;p&gt;As of now I am yet to actually get it serving up the music, so this
-will most likely not be the last distro related posting.&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</guid><pubDate>Tue, 16 Dec 2014 00:19:11 GMT</pubDate></item><item><title>Global Hackathon, Team Bermuda</title><link>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last weekend I took part in the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html"&gt;global hackathon&lt;/a&gt; run by
-&lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; as part of Team Bermuda aka &lt;em&gt;Three&lt;/em&gt; &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=aceboy"&gt;ace-boys&lt;/a&gt; &lt;em&gt;and an&lt;/em&gt;
-&lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The other members of the team were:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Nick Hoskins, the one who told us all about it&lt;/li&gt;
-&lt;li&gt;Beckett Simmons, residing &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; expert&lt;/li&gt;
-&lt;li&gt;Veronica Windus, working remotely from the frozen wastes of Canada&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The idea was to create a web based application in 48 hours.  There
-were five themes to choose from, we chose:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-No one reads the fine print (ie TOS, EULA, legal documents) anymore
-yet every site has them. Devise a creative/interactive solution.
-&lt;/pre&gt;
-&lt;p&gt;So, before we could start we needed a name.&lt;/p&gt;
-&lt;p&gt;Since the average EULA is about as easy to read as the classic, James
-Joyce' &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ulysses_%28novel%29"&gt;Ulysees&lt;/a&gt; we took the liberty of borrowing the name, and then
-abusing it and came up with, &lt;em&gt;Eulasees&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;There is a tenuous link with Bermuda in that many songs of &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Thomas_Moore"&gt;Thomas
-Moore&lt;/a&gt; who lived in Bermuda for a while, are cited in the works of
-James Joyce.&lt;/p&gt;
-&lt;p&gt;So, back to the hackathon.  This nominally started at 4am Bermuda time
-on Saturday 6th December.  Team Bermuda hence decided to start work at
-10am, gathering at the Watford Sports Club.&lt;/p&gt;
-&lt;p&gt;In fact, things got off to a slow start due to several factors:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;lack of coffee.&lt;/p&gt;
-&lt;p&gt;Actually, there was coffee, but we only had a tiny bodum to make it
-in.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;A fellow &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Blade&lt;/a&gt; turned up at the sports club.&lt;/p&gt;
-&lt;p&gt;These days, blades are rare as hen's teeth, so progress came to a
-complete standstill whilst yours truly reminisced about the good old
-days when the Mighty Blades were in the heady heights of the first
-division (technically, they are still in the first division, it is
-just that now first really means third, English footy uses a weird
-number system).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;At least one of us working on a laptop that was missing lots of the
-standard development packages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;Flaky wifi.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;No real idea what we were going to do.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This was very much a &lt;em&gt;make it up as you go along&lt;/em&gt; event.   We talked
-about a few ideas, delegated lots of stuff to our ace-girl, who was
-presumably still digging out from under a snow storm.&lt;/p&gt;
-&lt;p&gt;The rough plan was a to create a restful API with &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; and build
-an &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; front end.&lt;/p&gt;
-&lt;p&gt;The idea was to load EULA's into the system, allow users to highlight
-areas of text and apply &lt;em&gt;tags&lt;/em&gt; to these areas.&lt;/p&gt;
-&lt;p&gt;These &lt;em&gt;tags&lt;/em&gt; would have a short name indicating what the contract
-clause really meant and a longer text body explaining what it was all
-about really.&lt;/p&gt;
-&lt;p&gt;Once we had this and some data in the system the plan was to create
-some views allowing users to see which EULA's had which clauses and
-other such fun stuff.  One idea was to add a quiz, getting people to
-guess whose EULA had which clause, possibly using &lt;cite&gt;django quiz&lt;/cite&gt;.&lt;/p&gt;
-&lt;p&gt;For most of Saturday we pretty much ignored the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; virtual
-machine, we were having enough other problems.&lt;/p&gt;
-&lt;p&gt;Actually, the &lt;em&gt;angular&lt;/em&gt; stuff was going quite well.&lt;/p&gt;
-&lt;p&gt;The django side was going a bit slower.  We were using &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt;
-to create all the base files for our django apps and project.  This
-works really well, but does come with a lot of extra goodness that we
-probably did not need at this point.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;pip install&lt;/em&gt; kept failing on obscure compile errors due to missing
-&lt;em&gt;-dev&lt;/em&gt; packages.  I love pip, but with a big requirements list and a
-dodgy wifi connection the downloads were taking way too long and I
-couldn't get it to cache things reliably.  More on this later.&lt;/p&gt;
-&lt;p&gt;Having said that, being able to do:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-python setup.py register
-&lt;/pre&gt;
-&lt;p&gt;Followed by:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-python setup.py publish
-&lt;/pre&gt;
-&lt;p&gt;To make the django app available on PyPi (and hence &lt;em&gt;pip install&lt;/em&gt;
-magic just works), was very cool.&lt;/p&gt;
-&lt;p&gt;Things went well on the Saturday.   Mid-evening we stopped for food
-and more coffee (by now Nick had brought a decent sized bodum down
-from his house, so the coffee shortage was averted).&lt;/p&gt;
-&lt;p&gt;We decided to work until we were too tired, then get some sleep ready
-to code until 4am on Monday morning.&lt;/p&gt;
-&lt;p&gt;It is all a bit of a blur now, but at some point we decided we should
-see if any of our stuff actually works on &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I am sure the koding.com IDE is a joy to use, but now was not the time
-to learn it.  Fortunately, Beckett had given us the number one pro-tip
-for using koding.com:&lt;/p&gt;
-&lt;blockquote&gt;
-Getting ssh to koding working is well worth the effort&lt;/blockquote&gt;
-&lt;p&gt;Further, it didn't involve anything more than adding an ssh key to the
-&lt;em&gt;~/.ssh/.authorized_keys&lt;/em&gt; file.&lt;/p&gt;
-&lt;p&gt;Suddenly &lt;em&gt;pip install&lt;/em&gt; was flying along.  Clearly, we should have been
-doing everything on the koding machine.&lt;/p&gt;
-&lt;p&gt;Having noted how well the koding VM was working, of course, we
-continued to work locally.&lt;/p&gt;
-&lt;p&gt;We were, in fact, so effective at this that it was midnight on Sunday
-before we decided it would be a good idea if the angular front end
-could talk to the django rest API.&lt;/p&gt;
-&lt;p&gt;No prizes for guessing the answer to this: hell no.&lt;/p&gt;
-&lt;p&gt;Angular was either failing completely to connect to the django API
-giving obscure messages about &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Cross-site_request_forgery"&gt;cross-site request forgery&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At this point we probably should have left the angular front end as an
-example of where we were heading and just fed it some toy data.&lt;/p&gt;
-&lt;p&gt;Instead we learnt way more about csrf's than we ever wanted to know,
-in between cursing django for its attentiveness to security.&lt;/p&gt;
-&lt;p&gt;After much thrashing around &lt;a class="reference external" href="https://github.com/ottoyiu/django-cors-headers"&gt;django cors&lt;/a&gt; came to the rescue.  By
-now, however, it was past 3am and Nick was having to use a new
-function to make the restful API calls.&lt;/p&gt;
-&lt;p&gt;We got the two pieces talking, but ran out of time to fix up enough of
-the angular code to get a viable front end.&lt;/p&gt;
-&lt;p&gt;The project code is on github, as &lt;a class="reference external" href="https://github.com/swfiua/eulasees"&gt;eulasees&lt;/a&gt;, with the the &lt;a class="reference external" href="https://github.com/swfiua/django_eulasees"&gt;django
-eulasees&lt;/a&gt; app in a separate repository.&lt;/p&gt;
-&lt;p&gt;You can also view the docs for the &lt;a class="reference external" href="http://swfiua.koding.io:8000/docs/"&gt;eulasees API&lt;/a&gt; that was created.
-These are created with the amazing &lt;a class="reference external" href="https://github.com/marcgibbons/django-rest-swagger"&gt;django rest swagger&lt;/a&gt; and allow
-you to try out the API.&lt;/p&gt;
-&lt;p&gt;We did manage to load some data into the system, with the django admin
-system coming to the rescue as the user interface of last resort.&lt;/p&gt;
-&lt;p&gt;We should probably apologise to google, since their &lt;a class="reference external" href="http://www.google.com/intl/en/policies/terms/"&gt;terms of
-service&lt;/a&gt; was the toy example we decided to use.  You can actually get
-all the data that we entered with this &lt;a class="reference external" href="http://swfiua.koding.io:8000/eulasees/everythingforeula/4/"&gt;one API call&lt;/a&gt;.  So, if there
-are any google lawyers reading: we love you really, we know you are
-not &lt;em&gt;evil&lt;/em&gt;.  Just one question: what is with the paragraphs IN ALL
-CAPS?  ARE WE BACK IN THE 90's ON A SHOUTY FORUM?&lt;/p&gt;
-&lt;p&gt;Remarkably, we got an email yesterday informing us we made it through
-to the next round of the competition.  We can only assume that pretty
-much everyone that got any sort of site up got through the first
-round.  You can even &lt;a class="reference external" href="http://hackathon.koding.com/entries/team-bermuda"&gt;VOTE FOR US&lt;/a&gt; :)&lt;/p&gt;&lt;/div&gt;</description><category>hackathon</category><guid>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</guid><pubDate>Sat, 13 Dec 2014 22:37:29 GMT</pubDate></item></channel></rss>
+will most likely not be the last distro related posting.&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</guid><pubDate>Tue, 16 Dec 2014 00:19:11 GMT</pubDate></item></channel></rss>

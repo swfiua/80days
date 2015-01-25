@@ -18,7 +18,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2015/01/index.html</loc>
-  <lastmod>2015-01-22</lastmod>
+  <lastmod>2015-01-25</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/2015/index.html</loc>
@@ -30,11 +30,15 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index-1.html</loc>
-  <lastmod>2015-01-22</lastmod>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/blog/index-2.html</loc>
+  <lastmod>2015-01-25</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index.html</loc>
-  <lastmod>2015-01-22</lastmod>
+  <lastmod>2015-01-25</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/categories/80days.html</loc>
@@ -69,12 +73,36 @@
   <lastmod>2015-01-22</lastmod>
  </url>
  <url>
+  <loc>http://swfiua.github.io/80days/galleries/Bermuda/index.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/galleries/Blades/index.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/galleries/Gates/index.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/galleries/Snowy/index.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/galleries/Springsteen/index.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
+  <loc>http://swfiua.github.io/80days/galleries/index.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
   <lastmod>2015-01-22</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</loc>
-  <lastmod>2015-01-22</lastmod>
+  <lastmod>2015-01-25</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</loc>
@@ -105,6 +133,10 @@
   <lastmod>2015-01-22</lastmod>
  </url>
  <url>
+  <loc>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</loc>
+  <lastmod>2015-01-25</lastmod>
+ </url>
+ <url>
   <loc>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</loc>
   <lastmod>2015-01-22</lastmod>
  </url>
@@ -126,7 +158,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/references.html</loc>
-  <lastmod>2015-01-22</lastmod>
+  <lastmod>2015-01-25</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</loc>
