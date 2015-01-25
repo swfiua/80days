@@ -11,6 +11,7 @@
 .. _Araucaria: http://en.wikipedia.org/wiki/John_Galbraith_Graham
 .. _Bermuda Race Weekend: http://www.bermudaraceweekend.com/site/
 .. _Blade: http://en.wikipedia.org/wiki/Sheffield_United_F.C.
+.. _Red and White Wizards: http://en.wikipedia.org/wiki/Sheffield_United_F.C.
 .. _Bletchley Park: http://www.bletchleypark.org.uk/
 .. _Chocolate Factory: https://google.com
 .. _Google Developer Console: https://console.developers.google.com
