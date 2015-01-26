@@ -97,13 +97,11 @@ And finally, thanks to Snowy, who helped with the coding:
     :width: 300
 
 
-.. _django template languate:
-https://docs.djangoproject.com/en/1.7/topics/templates/
+.. _django template languate: https://docs.djangoproject.com/en/1.7/topics/templates/
 
 .. _diff a single file with magit: http://stackoverflow.com/questions/17798109/how-can-i-diff-a-single-file-with-magit
 
-.. _lovely-jubbly:
-http://www.urbandictionary.com/define.php?term=lovely+jubbly
+.. _lovely-jubbly: http://www.urbandictionary.com/define.php?term=lovely+jubbly
 
 .. _shaping up with angular: http://campus.codeschool.com/courses/shaping-up-with-angular-js
 
