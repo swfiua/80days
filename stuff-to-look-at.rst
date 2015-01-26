@@ -45,3 +45,6 @@ stuff.
 
 https://thinkster.io/brewer/angular-django-tutorial/ yet another
 django angular tutorial.
+
+http://www.reddit.com/r/linux/comments/1p7mek/how_to_convert_word_doc_files_into_odt_files_from/
+converting from odt to doc commando style.

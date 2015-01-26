@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Sun, 25 Jan 2015 19:53:32 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>I met Bill's Gates and got the t-shirt</title><link>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 26 Jan 2015 14:56:34 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular Momentum</title><link>http://swfiua.github.io/80days/posts/angular-momentum.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;On Friday I got to the point that the angular seed app is now checked
+into my 80days repository.&lt;/p&gt;
+&lt;p&gt;Today's mission is to start turning that into the app I really want.&lt;/p&gt;
+&lt;p&gt;One of the first things I want to do is fix up angular so that it uses
+different markers for its template substitution.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; uses '{{' and '}}' to mark blocks that the template engine
+needs to pay attention to and do substitutions.  Actually, the &lt;cite&gt;django
+template languate&lt;/cite&gt; has two escape patterns:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;{{ and }} are used to mark variables to be expanded&lt;/li&gt;
+&lt;li&gt;{% and %} are used to mark django template tags.  These get used for
+things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
+mark stuff for expansion.&lt;/p&gt;
+&lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
+&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="p"&gt;}]).&lt;/span&gt;
+
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="section" id="thanks"&gt;
+&lt;h2&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks to @ergoemacs on twitter who posted a link to their excellent
+mini tutorial on &lt;a class="reference external" href="http://ergoemacs.org/emacs/emacs_magit-mode_tutorial.html"&gt;magit-mode&lt;/a&gt;: git mode for emacs.  I had this
+installed already, but never quite plucked up the courage to try it.
+Wow: git in emacs: lovely jubbly!&lt;/p&gt;
+&lt;p&gt;And finally, thanks to Snowy, who helped with the coding:&lt;/p&gt;
+&lt;img alt="../galleries/Snowy/coding.jpg" src="http://swfiua.github.io/80days/galleries/Snowy/coding.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>javascript angular django</category><guid>http://swfiua.github.io/80days/posts/angular-momentum.html</guid><pubDate>Mon, 26 Jan 2015 16:44:11 GMT</pubDate></item><item><title>I met Bill's Gates and got the t-shirt</title><link>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
 top ten list of people I would like to meet.&lt;/p&gt;
 &lt;p&gt;I've been an free and open software enthusiast for longer than I care
 to remember.  Let's just say that over the years Bill hasn't exactly
@@ -589,63 +647,4 @@ transport data format &lt;a class="reference external" href="https://developers.
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
 &lt;!-- type: text --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>80days</category><guid>http://swfiua.github.io/80days/posts/progress-report-on-80days.html</guid><pubDate>Tue, 16 Dec 2014 14:08:31 GMT</pubDate></item><item><title>Adventures in distro land..</title><link>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;We had a friend over the other evening.  I have a home full of half
-working tech.  Stuff that really could do something, given enough
-time.&lt;/p&gt;
-&lt;p&gt;A lot of my techy stuff has been neglected for a few years, so it is
-suffering both bit and hardware rot.  So a good part of last night was
-spent exploring why stuff wasn't working, in between finding a few
-gems.&lt;/p&gt;
-&lt;p&gt;So today, I had a few things I wanted to look into:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;why wasn't the server with the music on responding,&lt;/li&gt;
-&lt;li&gt;installing a fedora iso onto a usb and seeing what it is like.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That server with the music; well that thing won't even boot off a USB
-key; though you can change a bucket load of things in the BIOS.  And
-at one point it did seem like it would boot over the network.&lt;/p&gt;
-&lt;p&gt;Next stop, fedora install guide kindly gives the incantation:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-dd if=fedora*.iso of=/dev/sdx  (x in my case was b)
-&lt;/pre&gt;
-&lt;p&gt;So I booted up a laptop (the one with the battery that lasts 30
-seconds) off the USB and fedora booted.  I did not have time to have a
-good look around, but it seemed snappier and easier to use than the
-Ubuntu desktop on the machine, more like the &lt;cite&gt;awesome wm&lt;/cite&gt; experience.
-I will definitely take a nother look at this.&lt;/p&gt;
-&lt;p&gt;Back to the music.  I resurrected an old mythtv box and tried to put
-fedora on it.  I couldn't get it to install on the old myth box.  It
-may have had something to do with some network issues that were going
-on at the time.  Also possible there was some issue with this boxes
-USB, it was an old machine, so might have old firmware.  Or the USB
-isn't an innocent little USB.  But I digress.&lt;/p&gt;
-&lt;p&gt;So, I tried arch.  This was like being beamed back to 1997.  It was fun
-for a while, but then I typed the wrong thing and lost the internet
-connection, which was what I needed to get the software to fix the
-internet connection.  I did Ctrl-D out of the &lt;em&gt;chroot&lt;/em&gt; and if I'd been
-awake when I booted back into it I might have skipped the second
-install.  I gave up at the bootloader bit.  I know, I was nearly there :(&lt;/p&gt;
-&lt;p&gt;I might have to go back to arch one day when I have lots of time on my
-hands.&lt;/p&gt;
-&lt;p&gt;So more rabbit holes.  Eventually, led to Debian.  By now the dining
-table is buried under cables.  The IP over powerline is up and running
-again and 2-3 boxes are in the pile marked broken.&lt;/p&gt;
-&lt;p&gt;The Debian install was been a joy, apart from the sporadic (or rather
-repeated) interruptions to anything needing internet bandwidth (a
-problem anywhere with expensive or unreliable bandwidth).&lt;/p&gt;
-&lt;p&gt;I suspect I am biassed because over the years I have spent more time
-with Debian based systems.  First with debian and then indirectly via
-Ubuntu.&lt;/p&gt;
-&lt;p&gt;I liked Ubuntu primarily for its python packaging.  Ubuntu still is a
-fantastic distribution for python.  As an interface for the sort of
-programming I like to do it is becoming less responsive, or at least
-that is my feeling.  Also, I am feeling myself further removed from
-the hardware and the software configuration.&lt;/p&gt;
-&lt;p&gt;At the same time, python packaging has come a long way.  With PyPi and
-pip install the linux distro no longer matters so much.&lt;/p&gt;
-&lt;p&gt;Debian doesn't seem to have changed much in philosophy.  Most of what
-I learnt back in the day still applies.  It led me through the install
-with just enough information to make an informed decision about the
-questions.  It guided pretty well, hinting which way I should go.&lt;/p&gt;
-&lt;p&gt;As of now I am yet to actually get it serving up the music, so this
-will most likely not be the last distro related posting.&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://swfiua.github.io/80days/posts/adventures-in-distro-land.html</guid><pubDate>Tue, 16 Dec 2014 00:19:11 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>80days</category><guid>http://swfiua.github.io/80days/posts/progress-report-on-80days.html</guid><pubDate>Tue, 16 Dec 2014 14:08:31 GMT</pubDate></item></channel></rss>

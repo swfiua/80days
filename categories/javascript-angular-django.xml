@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (javascript angular django)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link rel="self" href="http://swfiua.github.io/80days/categories/javascript-angular-django.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 26 Jan 2015 14:56:34 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular Momentum</title><link>http://swfiua.github.io/80days/posts/angular-momentum.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;On Friday I got to the point that the angular seed app is now checked
+into my 80days repository.&lt;/p&gt;
+&lt;p&gt;Today's mission is to start turning that into the app I really want.&lt;/p&gt;
+&lt;p&gt;One of the first things I want to do is fix up angular so that it uses
+different markers for its template substitution.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; uses '{{' and '}}' to mark blocks that the template engine
+needs to pay attention to and do substitutions.  Actually, the &lt;cite&gt;django
+template languate&lt;/cite&gt; has two escape patterns:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;{{ and }} are used to mark variables to be expanded&lt;/li&gt;
+&lt;li&gt;{% and %} are used to mark django template tags.  These get used for
+things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
+mark stuff for expansion.&lt;/p&gt;
+&lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
+&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="p"&gt;}]).&lt;/span&gt;
+
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="section" id="thanks"&gt;
+&lt;h2&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks to @ergoemacs on twitter who posted a link to their excellent
+mini tutorial on &lt;a class="reference external" href="http://ergoemacs.org/emacs/emacs_magit-mode_tutorial.html"&gt;magit-mode&lt;/a&gt;: git mode for emacs.  I had this
+installed already, but never quite plucked up the courage to try it.
+Wow: git in emacs: lovely jubbly!&lt;/p&gt;
+&lt;p&gt;And finally, thanks to Snowy, who helped with the coding:&lt;/p&gt;
+&lt;img alt="../galleries/Snowy/coding.jpg" src="http://swfiua.github.io/80days/galleries/Snowy/coding.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>javascript angular django</category><guid>http://swfiua.github.io/80days/posts/angular-momentum.html</guid><pubDate>Mon, 26 Jan 2015 16:44:11 GMT</pubDate></item></channel></rss>
