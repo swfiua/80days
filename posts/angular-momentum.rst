@@ -78,6 +78,15 @@ bored with the video.
 Once in the challenges, the "check my work" button is genius and
 extraordinarily helpful.
 
+Angular date filter
+===================
+
+I just fell in love with the angular date filter.  Feed it a unix
+datetime and it does the right thing.  Eg Unix time began 1969/12/31 @
+8:00PM in Bermuda, note the four our offset from UTC.
+
+See this `github commit`_ for some code.
+
 Thanks
 ======
 
@@ -104,5 +113,7 @@ And finally, thanks to Snowy, who helped with the coding:
 .. _lovely-jubbly: http://www.urbandictionary.com/define.php?term=lovely+jubbly
 
 .. _shaping up with angular: http://campus.codeschool.com/courses/shaping-up-with-angular-js
+
+.. _github commit: https://github.com/swfiua/80days/commit/04a9b8a64f9cb402c434ad1f6b6224757ca09182
 
 .. include:: posts/references.rst
