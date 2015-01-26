@@ -2,6 +2,6 @@
 
 <div ng-controller="View1Ctrl as view">
 <p>
-  foo {$ view.today $}  more foo
+  {$ view.today|date: 'yyyy/MM/dd @ h:mma' $}  
 </p>
 </div>

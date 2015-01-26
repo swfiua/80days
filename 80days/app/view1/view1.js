@@ -10,5 +10,5 @@ angular.module('myApp.view1', ['ngRoute'])
 }])
 
 .controller('View1Ctrl', [function($scope) {
-    this.today = '2015/01/26';
+    this.today = 0;
 }]);
