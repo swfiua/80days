@@ -73,3 +73,5 @@
 .. _cog: http://nedbatchelder.com/code/cog/
 
 .. _github: https://github.com/swfiua/
+.. _magit-mode: http://ergoemacs.org/emacs/emacs_magit-mode_tutorial.html
+
