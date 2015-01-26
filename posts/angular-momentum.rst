@@ -58,6 +58,26 @@ extra config code, so my *app.js* now looks like this:
       $interpolateProvider.endSymbol('$}');
   });
 
+
+So, making some progress, but I still can't figure out this controller
+thing and how to tie it all together.  Time to go back to
+`codeschool`_.
+
+In particular, their `shaping up with angular`_ introduction.  I had
+to register with codeschool.  Thankfully, that was painless bar having
+to create yet-another-password. 
+
+But it has been worth it.  You can watch the videos at 1.5x or 2.0x or
+slow them down.  It would be great if they took the mythtv trick and
+shifted the frequency of voices down so that the presenters don't
+sound like chipmunks on speed when you speed things up.
+
+The good bit is you can click on "Start Challenges" as soon as you are
+bored with the video.  
+
+Once in the challenges, the "check my work" button is genius and
+extraordinarily helpful.
+
 Thanks
 ======
 
@@ -65,6 +85,10 @@ Thanks to @ergoemacs on twitter who posted a link to their excellent
 mini tutorial on `magit-mode`_: git mode for emacs.  I had this
 installed already, but never quite plucked up the courage to try it.
 Wow: git in emacs: lovely jubbly!
+
+And thanks to stack exchange for this tip on how to `diff a single
+file with magit`_,  Answer: just hit tab in the magit status buffer on
+the line for the file you want to diff.  More `lovely-jubbly`_.
 
 And finally, thanks to Snowy, who helped with the coding:
 
@@ -74,5 +98,11 @@ And finally, thanks to Snowy, who helped with the coding:
 
 
 .. _django template languate: https://docs.djangoproject.com/en/1.7/topics/templates/
+
+.. _diff a single file with magit: http://stackoverflow.com/questions/17798109/how-can-i-diff-a-single-file-with-magit
+
+.. _lovely-jubbly: http://www.urbandictionary.com/define.php?term=lovely+jubbly
+
+.. _shaping up with angular: http://campus.codeschool.com/courses/shaping-up-with-angular-js
 
 .. include:: posts/references.rst
