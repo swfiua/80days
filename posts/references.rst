@@ -79,3 +79,4 @@
 .. _codeschool: http://campus.codeschool.com
 
 
+.. _America's Cup: http://www.americascup.com/

@@ -71,7 +71,7 @@ kind enough to give me one of his t-shirts:
     :width: 300
 
 Now in case you haven't heard Bermuda has been chosen as the venue for
-the 2017 `America's Cup`_.  There is quite a bit of excitement about
+the `2017 America's Cup`_.  There is quite a bit of excitement about
 the island due to this.  Maybe BFBC will enter the race :)
 
 Of course, Uncle played `Happy Birthday`_ for Bill and the others with
@@ -98,6 +98,6 @@ Thanks Bill and everyone who helped make last night a fun time.
 
 .. _Glory Days: https://www.youtube.com/watch?v=6vQpW9XRiyM
 
-.. _America's Cup: http://www.americascup.com/en/news/131_Bermuda-is-the-home-of-the-2017-America-s-Cup.html
+.. _2017 America's Cup: http://www.americascup.com/en/news/131_Bermuda-is-the-home-of-the-2017-America-s-Cup.html
 
 .. include:: posts/references.rst
