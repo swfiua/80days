@@ -10,5 +10,5 @@ angular.module('myApp.view1', ['ngRoute'])
 }])
 
 .controller('View1Ctrl', [function($scope) {
-    this.today = 0;
+    this.today = 1422633165.465848 * 1000;
 }]);

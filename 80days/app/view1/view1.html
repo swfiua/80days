@@ -2,6 +2,14 @@
 
 <div ng-controller="View1Ctrl as view">
 <p>
-  {$ view.today|date: 'yyyy/MM/dd @ h:mma' $}  
+<ul>
+  <li> {$ view.today|date: 'yyyy/MM/dd @ h:mma' $}  </li>
+  <li> {$ (view.today + (24 * 3600 * 80 * 1000)) |date: 'yyyy/MM/dd @ h:mma' $}  80 days time</li>
+  <li> {$ view.today - (24 * 3600 * 80 * 1000) |date: 'yyyy/MM/dd @ h:mma' $} 80 days ago </li>
+  <li> {$ view.today $}</li>
+  <li> {$ view.today - (24 * 3600 * 80 * 1000) $}</li>
+  <li> {$ view.today + (24 * 3600 * 80 * 1000) $}</li>
+  <li> {$ 1422633165.465848 * 1000 | date: 'yyyy/MM/dd @ h:mma' $}
+</ul>
 </p>
 </div>
