@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+var app = angular.module('myApp', [
   'ngRoute',
   'myApp.view1',
   'myApp.view2',
@@ -14,4 +14,16 @@ config(['$routeProvider', function($routeProvider) {
 config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('{$');
     $interpolateProvider.endSymbol('$}');
+});
+
+app.controller("TabController", function(){
+    this.tab = 1;
+
+    this.selectTab = function(setTab){
+	this.tab = setTab;
+    };
+
+    this.isSelected = function(checkTab) {
+	return this.tab === checkTab;
+    };
 });
