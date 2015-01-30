@@ -51,4 +51,4 @@ and of course deal with the form stuff too.
 
 .. _angular dates in milliseconds: https://github.com/swfiua/80days/commit/8fcad7e1e31c37da38e2f80c27fe67ab7b4474ce
 
-.. include:: posts/references.txt
+.. include:: posts/references.rst
