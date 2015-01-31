@@ -27,3 +27,8 @@ app.controller("TabController", function(){
 	return this.tab === checkTab;
     };
 });
+
+
+app.config(function($httpProvider) {
+    $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+});
