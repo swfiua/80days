@@ -57,6 +57,18 @@ services.  Before I do that I think it is time to re-organise the code
 so that it can all be served by the django server.  I suspect this
 might get tricky.
 
+Tomorrow I should be in town in the morning, so I decided this would
+be a good time to see if I can get this thing running on Gonzalo,
+otherwise known as the `laptop without an escape key`.  This thing
+also has a battery with a life of about 5 minutes.  But I like it in a
+weird sort of way.  It needs more memory too, but that should be an
+easy fix.  I think it might turn into that broom with 20 new heads and
+five new handles.  
+
+Will be a good test of whether I can run everything on another machine
+without too much pain.  With the screensaver doing the, "all work and
+no play", I think it is time to take a break.
+
 .. _angular dates in milliseconds: https://github.com/swfiua/80days/commit/8fcad7e1e31c37da38e2f80c27fe67ab7b4474ce
 
 .. include:: posts/references.rst

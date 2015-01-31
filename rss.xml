@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 30 Jan 2015 20:20:21 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Got the ingredients, lets cook this thing</title><link>http://swfiua.github.io/80days/posts/got-the-ingredients-lets-cook-this-thing.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This post is likely going to be a bit of a mixture.  It started out as
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 30 Jan 2015 23:20:05 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Got the ingredients, lets cook this thing</title><link>http://swfiua.github.io/80days/posts/got-the-ingredients-lets-cook-this-thing.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This post is likely going to be a bit of a mixture.  It started out as
 an account of what I am doing today, but I think it might turn into an
 account of why a 3 day project can take 80 days and why that isn't
 always a bad thing.&lt;/p&gt;
@@ -41,6 +41,16 @@ this angular stuff hangs together.&lt;/p&gt;
 services.  Before I do that I think it is time to re-organise the code
 so that it can all be served by the django server.  I suspect this
 might get tricky.&lt;/p&gt;
+&lt;p&gt;Tomorrow I should be in town in the morning, so I decided this would
+be a good time to see if I can get this thing running on Gonzalo,
+otherwise known as the &lt;cite&gt;laptop without an escape key&lt;/cite&gt;.  This thing
+also has a battery with a life of about 5 minutes.  But I like it in a
+weird sort of way.  It needs more memory too, but that should be an
+easy fix.  I think it might turn into that broom with 20 new heads and
+five new handles.&lt;/p&gt;
+&lt;p&gt;Will be a good test of whether I can run everything on another machine
+without too much pain.  With the screensaver doing the, "all work and
+no play", I think it is time to take a break.&lt;/p&gt;
 &lt;!-- title: links --&gt;
 &lt;!-- slug: references --&gt;
 &lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
@@ -200,34 +210,30 @@ things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
 &lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
 mark stuff for expansion.&lt;/p&gt;
 &lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
-&lt;pre class="code javascript literal-block"&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-1"&gt;&lt;/a&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-3"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-4"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
 extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
-&lt;pre class="code javascript literal-block"&gt;
-&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
-&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
-&lt;span class="p"&gt;]).&lt;/span&gt;
-&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;span class="p"&gt;}]).&lt;/span&gt;
-
-&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;So, making some progress, but I still can't figure out this controller
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-1"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-2"&gt;&lt;/a&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-3"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// Declare app level module which depends on views, and components&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-4"&gt;&lt;/a&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-5"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-6"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-7"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-8"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-9"&gt;&lt;/a&gt;&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-10"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-11"&gt;&lt;/a&gt;  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-12"&gt;&lt;/a&gt;&lt;span class="p"&gt;}]).&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-13"&gt;&lt;/a&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-14"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-15"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-16"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-17"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
 &lt;a class="reference external" href="http://campus.codeschool.com"&gt;codeschool&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In particular, their &lt;a class="reference external" href="http://campus.codeschool.com/courses/shaping-up-with-angular-js"&gt;shaping up with angular&lt;/a&gt; introduction.  I had
@@ -561,21 +567,17 @@ Secret value 'SECRET_KEY' is not set
 advice on how to go about keeping it secret.&lt;/p&gt;
 &lt;p&gt;So looking at what the wonderful &lt;a class="reference external" href="https://github.com/pydanny/cookiecutter-django"&gt;cookiecutter django&lt;/a&gt; created I see
 the following incantation in &lt;em&gt;config/production.py&lt;/em&gt;:&lt;/p&gt;
-&lt;pre class="code python literal-block"&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;configurations&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;
-
-&lt;span class="c"&gt;# SECRET KEY&lt;/span&gt;
-&lt;span class="n"&gt;SECRET_KEY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SecretValue&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="c"&gt;# END SECRET KEY&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;So what is this &lt;em&gt;configuration.values&lt;/em&gt; thing?   Turns out it is coming
+&lt;pre class="code python"&gt;&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;configurations&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;
+&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-2"&gt;&lt;/a&gt;
+&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-3"&gt;&lt;/a&gt;&lt;span class="c"&gt;# SECRET KEY&lt;/span&gt;
+&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-4"&gt;&lt;/a&gt;&lt;span class="n"&gt;SECRET_KEY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SecretValue&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-5"&gt;&lt;/a&gt;&lt;span class="c"&gt;# END SECRET KEY&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;So what is this &lt;em&gt;configuration.values&lt;/em&gt; thing?   Turns out it is coming
 from the &lt;a class="reference external" href="http://django-configurations.readthedocs.org/"&gt;django configurations&lt;/a&gt; application that the &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt;
 was kind enough to include.&lt;/p&gt;
 &lt;p&gt;OK, so it helps you not have to do&lt;/p&gt;
-&lt;pre class="code python literal-block"&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;foo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;Now, that has to be a good thing :)&lt;/p&gt;
+&lt;pre class="code python"&gt;&lt;a name="rest_code_eb9cc122546d40d281f0b61d34f5ec4b-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;foo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;Now, that has to be a good thing :)&lt;/p&gt;
 &lt;p&gt;So reading the docs I come to:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 django-configurations allows you to optionally reduce the amount

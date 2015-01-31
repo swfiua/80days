@@ -85,7 +85,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -148,7 +148,7 @@
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>jQuery("a.image-reference,!.islink").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");
@@ -158,7 +158,7 @@
     
 <script src="../../assets/js/flowr.plugin.js"></script>
 <script>
-jsonContent = [{"title": "Springsteen", "url": "Springsteen.jpg", "size": {"w": 101, "h": 180}, "url_thumb": "Springsteen.thumbnail.jpg"}];
+jsonContent = [{"url_thumb": "Springsteen.thumbnail.jpg", "size": {"h": 180, "w": 101}, "title": "Springsteen", "url": "Springsteen.jpg"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,
