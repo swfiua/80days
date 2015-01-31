@@ -9,6 +9,11 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function($scope) {
+.controller('View1Ctrl', ['$html', function($html) {
+    var view = this;
+
+    $html.get('/today.json').success(function(data){
+	view.today = data['today'];
+    });
     this.today = 1422633165.465848 * 1000;
 }]);
