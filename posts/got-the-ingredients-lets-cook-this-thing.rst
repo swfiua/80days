@@ -49,6 +49,14 @@ Next stop is to get a form to register a team.  There is quite a bit
 to learn here.  I will need to figure out how angular calls REST api's
 and of course deal with the form stuff too.  
 
+OK, so thanks to `codeschool`_ I now have a good idea of how most of
+this angular stuff hangs together.
+
+The next task is to see if I can get data from the django rest
+services.  Before I do that I think it is time to re-organise the code
+so that it can all be served by the django server.  I suspect this
+might get tricky.
+
 .. _angular dates in milliseconds: https://github.com/swfiua/80days/commit/8fcad7e1e31c37da38e2f80c27fe67ab7b4474ce
 
 .. include:: posts/references.rst
