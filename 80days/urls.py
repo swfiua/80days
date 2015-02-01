@@ -12,7 +12,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$',  # noqa
-        TemplateView.as_view(template_name='pages/home2.html'),
+        TemplateView.as_view(template_name='pages/home.html'),
         name="home"),
     url(r'^about/$',
         TemplateView.as_view(template_name='pages/about.html'),
