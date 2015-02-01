@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
-{% load static %}
+{% load staticfiles i18n %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +26,17 @@
 <body class="balloon_background">
   <!-- application tabs -->
   <app-tabs></app-tabs>
+  
+  <ul>
+          {% if request.user.is_authenticated %}
+            <li><a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %}</a></li>
+            <li><a href="{% url 'account_logout' %}">{% trans "Logout" %}</a></li>
+          {% else %}
+            <li><a href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a></li>
+            <li><a href="{% url 'account_login' %}">{% trans "Log In" %}</a></li>
+          {% endif %}
 
+  </ul>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
