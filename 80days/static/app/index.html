@@ -25,13 +25,13 @@
   <section ng-init="tab.tab = 1" ng-controller="TabController as tab">
   <ul class="menu">
     <li ng-class="{ active: tab.isSelected(1) }">
-      <a href ng-click="tab.selectTab(1)">view1</a></li>
+      <a href ng-click="tab.selectTab(1)">Home</a></li>
 
     <li ng-class="{ active: tab.isSelected(2) }">
-      <a href ng-click="tab.selectTab(2)">view2</a></li>
+      <a href ng-click="tab.selectTab(2)">Competitions</a></li>
 
     <li ng-class="{ active: tab.isSelected(3) }">
-      <a href ng-click="tab.selectTab(3)">view3</a></li>
+      <a href ng-click="tab.selectTab(3)">Teams</a></li>
   </ul>
 
   <!--[if lt IE 7]>
