@@ -1,15 +1,15 @@
 'use strict';
 
-var app = angular.module('myApp.view1', ['ngRoute'])
+var app = angular.module('myApp.home', ['ngRoute'])
 
     .config(['$routeProvider', function($routeProvider) {
-	$routeProvider.when('/view1', {
-	    templateUrl: 'view1/view1.html',
-	    controller: 'View1Ctrl'
+	$routeProvider.when('/home', {
+	    templateUrl: 'home/home.html',
+	    controller: 'HomeCtrl'
 	});
     }]);
 
-app.controller('View1Ctrl', [ '$http', function($http) {
+app.controller('HomeCtrl', [ '$http', function($http) {
     var view = this;
 
 //    $http.get('/today.json').success(function(data){
