@@ -1,15 +1,9 @@
-<p>This is the partial for home.</p>
 
-<div ng-controller="HomeCtrl as view">
-<p>
-<ul>
-  <li> {$ view.today|date: 'yyyy/MM/dd @ h:mma' $}  </li>
-  <li> {$ (view.today + (24 * 3600 * 80 * 1000)) |date: 'yyyy/MM/dd @ h:mma' $}  80 days time</li>
-  <li> {$ view.today - (24 * 3600 * 80 * 1000) |date: 'yyyy/MM/dd @ h:mma' $} 80 days ago </li>
-  <li> {$ view.today $}</li>
-  <li> {$ view.today - (24 * 3600 * 80 * 1000) $}</li>
-  <li> {$ view.today + (24 * 3600 * 80 * 1000) $}</li>
-  <li> {$ 1422633165.465848 * 1000 | date: 'yyyy/MM/dd @ h:mma' $}
-</ul>
-</p>
+<div ng-controller="HomeCtrl as view" align="center">
+<h2> Coming soon... </h2>
+
+<h3>{$ view.today|date $} is today's date  </h3>
+<h3>{$ (view.today + (24 * 3600 * 80 * 1000)) |date $} is 80 days from today </h3>
+<h3>{$ (view.today - (24 * 3600 * 80 * 1000)) |date $} was 80 days from ago </h3>
+
 </div>
