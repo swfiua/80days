@@ -12,8 +12,8 @@ var app = angular.module('myApp.home', ['ngRoute'])
 app.controller('HomeCtrl', [ '$http', function($http) {
     var view = this;
 
-//    $http.get('/today.json').success(function(data){
-//	view.today = data['today'];
-//    });
-    this.today = 1422633165.465848 * 1000;
+    $http.get('../../eighty/datetime_as_timestamp').success(function(data){
+	view.today = data['now'];
+    });
+    //this.today = 1422633165.465848 * 1000;
 }]);
