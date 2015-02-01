@@ -48,3 +48,12 @@ django angular tutorial.
 
 http://www.reddit.com/r/linux/comments/1p7mek/how_to_convert_word_doc_files_into_odt_files_from/
 converting from odt to doc commando style.
+
+http://www.fastcolabs.com/3039055/the-open-source-mission-to-make-end-to-end-encryption-as-common-as-air
+end to end encryption for all
+
+http://www.linux.com/learn/tutorials/805031-how-to-install-seafile-server-private-cloud
+dropbox@home
+
+
+
