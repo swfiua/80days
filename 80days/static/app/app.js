@@ -33,3 +33,24 @@ app.controller("TabController", function(){
 app.config(function($httpProvider) {
     $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 });
+
+app.directive("appTabs", function() {
+    return {
+	restrict: 'E',
+	templateUrl: 'components/tabs/tabs.html',
+	controller: function() {
+	    this.tab = 1;
+	
+	    this.selectTab = function(setTab){
+		this.tab = setTab;
+	    };
+
+	    this.isSelected = function(checkTab) {
+		return this.tab === checkTab;
+	    };
+	},
+
+	controllerAs: "tab"
+    };
+});
+
