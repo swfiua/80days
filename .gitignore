@@ -33,3 +33,6 @@ node_modules/
 
 # bower components
 bower_components/
+
+# staticfiles from "python 80days/manage.py collectstatic"
+staticfiles/
