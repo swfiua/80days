@@ -36,7 +36,25 @@ urlpatterns = patterns('',
 
     url(r'^app/$',
         TemplateView.as_view(template_name='app/index.html'),
-        name="app"),
+        name="app"))
+
+for partial_url, exts in PARTIAL_DATA:
+    for ext in exts:
+
+        api_name = partial_url.replace('/', '_')
+        if ext:
+            api_name += '_' + ext.strip('.')
+
+        template_name = partial_url + ext
+        url_pattern = '^' + template_name  + '$'
+        
+        urlpatterns +=  patterns('',        
+            url(url_pattern,
+                TemplateView.as_view(template_name=template_name),
+                name=api_name))
+
+
+urlpatterns +=  patterns('',        
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
