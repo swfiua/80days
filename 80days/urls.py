@@ -10,6 +10,14 @@ from django.views.generic import TemplateView
 from django.contrib import admin
 admin.autodiscover()
 
+# FIXME -- this PARTIAL stuff needs tests
+# stuff to create views for partial views
+# (partial_url, [exts]) pairs
+PARTIAL_DATA = [
+    ['home/home', ['.html']],
+    ['competitions/competitions', ['.html']],
+    ]
+
 urlpatterns = patterns('',
     url(r'^$',  # noqa
         TemplateView.as_view(template_name='pages/home.html'),
