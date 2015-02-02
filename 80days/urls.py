@@ -16,6 +16,7 @@ admin.autodiscover()
 PARTIAL_DATA = [
     ['home/home', ['.html']],
     ['competitions/competitions', ['.html']],
+    ['teams/teams', ['.html']],
     ]
 
 urlpatterns = patterns('',
