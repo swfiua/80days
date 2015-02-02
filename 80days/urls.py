@@ -14,10 +14,19 @@ admin.autodiscover()
 # stuff to create views for partial views
 # (partial_url, [exts]) pairs
 PARTIAL_DATA = [
-    ['home/home', ['.html']],
-    ['competitions/competitions', ['.html']],
-    ['teams/teams', ['.html']],
+    ['home/home',                 ['.html', '.js']],
+    ['competitions/competitions', ['.html', '.js']],
+    ['teams/teams',               ['.html', '.js']],
+    ['app',                       ['.css',  '.js']],
+    ['components/version/version',['.js']],
+    ['components/version/version-directive',['.js']],
+    ['components/version/interpolate-filter',['.js']],
     ]
+
+CONTENT_TYPES=dict(
+    js='application/javascript',
+    csss='text/css',
+    )
 
 urlpatterns = patterns('',
     url(r'^$',  # noqa
@@ -42,16 +51,20 @@ urlpatterns = patterns('',
 for partial_url, exts in PARTIAL_DATA:
     for ext in exts:
 
+        fix_ext = ext.strip('.')
         api_name = partial_url.replace('/', '_')
         if ext:
-            api_name += '_' + ext.strip('.')
+            api_name += '_' + fix_ext
 
         template_name = partial_url + ext
         url_pattern = '^' + template_name  + '$'
+
+        content_type = CONTENT_TYPES.get(fix_ext, 'text/html')
         
         urlpatterns +=  patterns('',        
             url(url_pattern,
-                TemplateView.as_view(template_name=template_name),
+                TemplateView.as_view(template_name=template_name,
+                                     content_type=content_type),
                 name=api_name))
 
 

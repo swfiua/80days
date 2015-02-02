@@ -10,9 +10,9 @@
   <title>Around the world in 80 days</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href={% static "app/bower_components/html5-boilerplate/css/normalize.css"%}>
-  <link rel="stylesheet" href={% static "app/bower_components/html5-boilerplate/css/main.css"%}>
-  <link rel="stylesheet" href={% static "app/app.css"%}>
+  <link rel="stylesheet" href={% static "bower_components/html5-boilerplate/css/normalize.css"%}>
+  <link rel="stylesheet" href={% static "bower_components/html5-boilerplate/css/main.css"%}>
+  <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href={% static "css/project.css"%}>
 
   <!-- Latest compiled and minified CSS -->
@@ -21,7 +21,7 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
-  <script src={% static "app/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"%}></script>
+  <script src={% static "bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"%}></script>
 </head>
 <body class="balloon_background">
   <!-- application tabs -->
@@ -41,15 +41,16 @@
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
-  <script src={% static "app/bower_components/angular/angular.js"%}></script>
-  <script src={% static "app/bower_components/angular-route/angular-route.js"%}></script>
-  <script src={% static "app/bower_components/angular-cookies/angular-cookies.js"%}></script>
-  <script src={% static "app/app.js"%}></script>
-  <script src={% static "app/home/home.js"%}></script>
-  <script src={% static "app/teams/teams.js"%}></script>
-  <script src={% static "app/competitions/competitions.js"%}></script>
-  <script src={% static "app/components/version/version.js"%}></script>
-  <script src={% static "app/components/version/version-directive.js"%}></script>
-  <script src={% static "app/components/version/interpolate-filter.js"%}></script>
+  <script src={% static "bower_components/angular/angular.js"%}></script>
+  <script src={% static "bower_components/angular-route/angular-route.js"%}></script>
+  <script src={% static "bower_components/angular-cookies/angular-cookies.js"%}></script>
+
+  <script src="app.js"></script>
+  <script src="home/home.js"></script>
+  <script src="teams/teams.js"></script>
+  <script src="competitions/competitions.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
 </body>
 </html>

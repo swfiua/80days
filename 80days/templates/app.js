@@ -37,7 +37,7 @@ app.config(function($httpProvider) {
 app.directive("appTabs", function() {
     return {
 	restrict: 'E',
-	templateUrl: '/static/app/components/tabs/tabs.html',
+	templateUrl: 'components/tabs/tabs.html',
 	controller: function() {
 	    this.tab = 1;
 	
