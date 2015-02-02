@@ -18,7 +18,9 @@ PARTIAL_DATA = [
     ['competitions/competitions', ['.html', '.js']],
     ['teams/teams',               ['.html', '.js']],
     ['app',                       ['.css',  '.js']],
+    ['components/tabs/tabs',      ['.html']],
     ['components/version/version',['.js']],
+
     ['components/version/version-directive',['.js']],
     ['components/version/interpolate-filter',['.js']],
     ]
@@ -34,10 +36,6 @@ urlpatterns = patterns('',
         name="home"),
     url(r'^home2$',  # noqa
         TemplateView.as_view(template_name='pages/home2.html'),
-        name="home"),
-
-    url(r'^components/tabs/tabs.html$',  # noqa
-        TemplateView.as_view(template_name='pages/tabs.html'),
         name="home"),
 
     url(r'^about/$',
