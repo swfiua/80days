@@ -86,7 +86,7 @@ urlpatterns +=  patterns('',
     url(r'^docs/', include('rest_framework_swagger.urls')),
 
     # django-quiz
-    url(r'^quiz/', include('quiz.urls')),
+    #url(r'^quiz/', include('quiz.urls')),
 
 
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

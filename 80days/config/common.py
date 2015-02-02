@@ -57,10 +57,10 @@ class Common(Configuration):
         'rest_framework',
         'rest_framework_swagger',
         'django_eighty_days',
-        'quiz',
-        'multichoice',
-        'true_false',
-        'essay',
+        #'quiz',
+        #'multichoice',
+        #'true_false',
+        #'essay',
     )
 
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
