@@ -15,30 +15,29 @@ admin.autodiscover()
 # (partial_url, [exts]) pairs
 PARTIAL_DATA = [
     ['home/home',                 ['.html', '.js']],
+    ['competition/competition',   ['.html']],
     ['competitions/competitions', ['.html', '.js']],
     ['teams/teams',               ['.html', '.js']],
     ['app',                       ['.css',  '.js']],
+    ['components/tabs/tabs',      ['.html']],
     ['components/version/version',['.js']],
+
     ['components/version/version-directive',['.js']],
     ['components/version/interpolate-filter',['.js']],
     ]
 
 CONTENT_TYPES=dict(
     js='application/javascript',
-    csss='text/css',
+    css='text/css',
     )
 
 urlpatterns = patterns('',
     url(r'^$',  # noqa
-        TemplateView.as_view(template_name='pages/home.html'),
-        name="home"),
-    url(r'^home2$',  # noqa
         TemplateView.as_view(template_name='pages/home2.html'),
         name="home"),
-
-    url(r'^components/tabs/tabs.html$',  # noqa
-        TemplateView.as_view(template_name='pages/tabs.html'),
-        name="home"),
+    #url(r'^home2/$',  # noqa
+    #    TemplateView.as_view(template_name='pages/home2.html'),
+    #    name="home"),
 
     url(r'^about/$',
         TemplateView.as_view(template_name='pages/about.html'),
@@ -86,6 +85,9 @@ urlpatterns +=  patterns('',
     # rest framework and swagger
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^docs/', include('rest_framework_swagger.urls')),
+
+    # django-quiz
+    url(r'^quiz/', include('quiz.urls')),
 
 
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -2,7 +2,7 @@ Collectfast==0.2.1
 Django==1.7.1
 Jinja2==2.7.3
 MarkupSafe==0.23
-Pillow==2.6.0
+Pillow==2.5.0
 PyYAML==3.11
 Pygments==2.0.2
 Sphinx==1.2.3
@@ -21,10 +21,11 @@ django-cache-url==0.8.0
 django-configurations==0.8
 django-crispy-forms==1.4.0
 django-debug-toolbar==1.2.1
--e git+git@github.com:swfiua/django_eighty_days.git@3c5b5012b331cb3f16e2e61eb65691d45521cdf8#egg=django_eighty_days-origin/master
+-e git+git@github.com:swfiua/django_eighty_days.git@3c5b5012b331cb3f16e2e61eb65691d45521cdf8#egg=django_eighty_days-origin/HEAD
 django-floppyforms==1.2.0
-django-model-utils==2.2
+django-model-utils==2.0.3
 django-nose==1.3
+django-quiz-app==0.5.0
 django-rest-swagger==0.2.8
 django-secure==1.0
 django-storages==1.1.8
