@@ -2,10 +2,13 @@
 <html lang="en" ng-app>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>{% block title %}80days{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -26,7 +29,20 @@
     {% endblock %}
 
     {% block angular %}
-      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+      
+      <!-- stuff for my app -->
+      <script src={% static "bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js" %}></script>
+
+      <script src={% static "bower_components/angular/angular.js" %}></script>
+      <script src={% static "bower_components/angular-route/angular-route.js" %}></script>
+      <script src={% static "bower_components/angular-cookies/angular-cookies.js" %}></script>
+      <script src={% static "app.js" %}></script>
+      <script src={% static "home/home.js" %}></script>
+      <script src={% static "teams/teams.js" %}></script>
+      <script src={% static "competitions/competitions.js" %}></script>
+      <script src={% static "components/version/version.js" %}></script>
+      <script src={% static "components/version/version-directive.js" %}></script>
+      <script src={% static "components/version/interpolate-filter.js" %}></script>
     {% endblock %}
 
   </head>

@@ -10,17 +10,65 @@ from django.views.generic import TemplateView
 from django.contrib import admin
 admin.autodiscover()
 
+# FIXME -- this PARTIAL stuff needs tests
+# stuff to create views for partial views
+# (partial_url, [exts]) pairs
+PARTIAL_DATA = [
+    ['home/home',                 ['.html', '.js']],
+    ['competitions/competitions', ['.html', '.js']],
+    ['teams/teams',               ['.html', '.js']],
+    ['app',                       ['.css',  '.js']],
+    ['components/version/version',['.js']],
+    ['components/version/version-directive',['.js']],
+    ['components/version/interpolate-filter',['.js']],
+    ]
+
+CONTENT_TYPES=dict(
+    js='application/javascript',
+    csss='text/css',
+    )
+
 urlpatterns = patterns('',
     url(r'^$',  # noqa
         TemplateView.as_view(template_name='pages/home.html'),
         name="home"),
+    url(r'^home2$',  # noqa
+        TemplateView.as_view(template_name='pages/home2.html'),
+        name="home"),
+
+    url(r'^components/tabs/tabs.html$',  # noqa
+        TemplateView.as_view(template_name='pages/tabs.html'),
+        name="home"),
+
     url(r'^about/$',
         TemplateView.as_view(template_name='pages/about.html'),
         name="about"),
 
     url(r'^app/$',
         TemplateView.as_view(template_name='app/index.html'),
-        name="app"),
+        name="app"))
+
+for partial_url, exts in PARTIAL_DATA:
+    for ext in exts:
+
+        fix_ext = ext.strip('.')
+        api_name = partial_url.replace('/', '_')
+        if ext:
+            api_name += '_' + fix_ext
+
+        template_name = partial_url + ext
+        url_pattern = '^' + template_name  + '$'
+
+        content_type = CONTENT_TYPES.get(fix_ext, 'text/html')
+        
+        urlpatterns +=  patterns('',        
+            url(url_pattern,
+                TemplateView.as_view(template_name=template_name,
+                                     content_type=content_type),
+                name=api_name))
+
+
+urlpatterns +=  patterns('',        
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),

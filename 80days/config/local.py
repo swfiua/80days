@@ -13,7 +13,9 @@ from .common import Common
 class Local(Common):
 
     # DEBUG
-    DEBUG = values.BooleanValue(True)
+    DEBUG = values.BooleanValue(False)
+    ALLOWED_HOSTS = ["*"]
+
     TEMPLATE_DEBUG = DEBUG
     # END DEBUG
 
