@@ -9,6 +9,11 @@ angular.module('myApp.competitions', ['ngRoute'])
   });
 }])
 
-.controller('CompetitionsCtrl', [function() {
+.controller('CompetitionsCtrl', [ '$http', function($http) {
+    var view = this;
 
+    $http.get('../../eighty/competitions').success(function(data){
+	view.competitions = data;
+    });
+    
 }]);
