@@ -15,6 +15,7 @@ admin.autodiscover()
 # (partial_url, [exts]) pairs
 PARTIAL_DATA = [
     ['home/home',                 ['.html', '.js']],
+    ['competition/competition',   ['.html']],
     ['competitions/competitions', ['.html', '.js']],
     ['teams/teams',               ['.html', '.js']],
     ['app',                       ['.css',  '.js']],
@@ -27,7 +28,7 @@ PARTIAL_DATA = [
 
 CONTENT_TYPES=dict(
     js='application/javascript',
-    csss='text/css',
+    css='text/css',
     )
 
 urlpatterns = patterns('',

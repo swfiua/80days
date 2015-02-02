@@ -6,9 +6,7 @@
   <div ng-controller="CompetitionsCtrl as comps">
     <ul>
       <div ng-repeat="competition in comps.competitions">
-	<li> Name: {$ competition.name $} </li>
-	<li> Description: {$ competition.description $} </li>
-	<li> Start: {$ competition.start $} </li>
+	<competition-info></competition-info>
       </div>
     </ul>
   </div>
