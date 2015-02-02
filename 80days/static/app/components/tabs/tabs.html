@@ -1,0 +1,29 @@
+<section ng-init="tab.tab = 1" ng-controller="TabController as tab">
+<ul class="menu">
+  <li ng-class="{ active: tab.isSelected(1) }">
+    <a href ng-click="tab.selectTab(1)">Home</a></li>
+
+  <li ng-class="{ active: tab.isSelected(2) }">
+    <a href ng-click="tab.selectTab(2)">Competitions</a></li>
+
+  <li ng-class="{ active: tab.isSelected(3) }">
+    <a href ng-click="tab.selectTab(3)">Teams</a></li>
+</ul>
+
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!--  Home Tab's Content  -->
+<div ng-show="tab.isSelected(1)" ng-include="'home/home.html'"> </div>
+
+<!--  Competitions Tab's Content  -->
+<div ng-show="tab.isSelected(2)" ng-include="'competitions/competitions.html'"> </div>
+
+<!--  Teams Tab's Content  -->
+<div ng-show="tab.isSelected(3)" ng-include="teams/teams.html'"> </div>
+
+
+<div>Angular seed app: v<span app-version></span></div>
+<div>tab is: {$ tab.tab $}</div>
+</section>
