@@ -55,5 +55,11 @@ end to end encryption for all
 http://www.linux.com/learn/tutorials/805031-how-to-install-seafile-server-private-cloud
 dropbox@home
 
+http://askubuntu.com/questions/109174/how-to-get-one-song-to-repeat-in-rhythmbox/579514?noredirect=1#comment802372_579514
+askubuntu being awkward on stackexchange.
 
 
+
+
+https://xpressubuntu.wordpress.com/2014/05/12/the-best-python-api-docs-for-gtk-rhythmbox-webkit-and-many-more/
+askubuntu blog is here.
