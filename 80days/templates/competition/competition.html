@@ -2,5 +2,10 @@
 <div>
   <li> Name: {$ competition.name $} </li>
   <li> Description: {$ competition.description $} </li>
-  <li> Start: {$ competition.start $} </li>
+  <li> Start: {$ comps.startDate(competition) | date $} </li>
+  <li> End: {$ comps.endDate(competition) | date $} </li>
+  <li> Days: {$ competition.days $} </li>
+  <li> Started: {$ comps.started(competition) $} </li>
+  <li> Finished: {$ comps.finished(competition) $} </li>
+
 </div>

@@ -1,13 +1,37 @@
-<p>This is the partial for Competitions.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {$ 'Current version is v%VERSION%.' | interpolate $}
+<h2>Competitions</h2>
 
-  <div ng-controller="CompetitionsCtrl as comps">
-    <ul>
-      <div ng-repeat="competition in comps.competitions">
-	<competition-info></competition-info>
-      </div>
-    </ul>
-  </div>
+<h3>Competitions in progress</h3>
+  
+<div ng-controller="CompetitionsCtrl as comps">
+  <ul>
+    <div ng-repeat="competition in comps.competitions">
+	<competition-info  ng-show="comps.inProgress(competition)">></competition-info>
+	<br>
+    </div>
+  </ul>
+</div>
+
+<h3>Up-coming competitions</h3>
+  
+<div ng-controller="CompetitionsCtrl as comps">
+  <ul>
+    <div ng-repeat="competition in comps.competitions">
+	<competition-info  ng-show="!comps.started(competition)">></competition-info>
+	<competition-enter><competiton-enter>
+	<br>
+    </div>
+  </ul>
+</div>
+
+<h3>Completed competitions</h3>
+  
+<div ng-controller="CompetitionsCtrl as comps">
+  <ul>
+    <div ng-repeat="competition in comps.competitions">
+	<competition-info  ng-show="comps.finished(competition)">></competition-info>
+	<br>
+    </div>
+  </ul>
+</div>
+
 </p>

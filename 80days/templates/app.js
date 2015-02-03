@@ -54,14 +54,3 @@ app.directive("appTabs", function() {
     };
 });
 
-app.directive("competitionInfo", function() {
-    return {
-	restrict: 'E',
-	templateUrl: 'competition/competition.html',
-	controller: function() {
-	},
-
-	controllerAs: "comp"
-    };
-});
-
