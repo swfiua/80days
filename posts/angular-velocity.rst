@@ -24,6 +24,12 @@ Previous post on nginx useful for setting up postgres and nginx.
 
 Also found post on nikola bug handy + cool to see that is fixed.
 
+pip install django-quiz from github.
+
+write about django-quiz and auth.User
+
+.. _merge here: https://github.com/tomwalker/django_quiz/commit/2f2544bfd02566058a3f71a5021b7c5f9adfe409
+
 .. _Installing npm on Ubuntu: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions
 
 .. _csrf fix: https://github.com/swfiua/80days/commit/678ae25e432b8633230bf67f8168a8f8188717b1
