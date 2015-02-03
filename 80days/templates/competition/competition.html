@@ -1,18 +1,18 @@
 
 <!-- controller for competitions is coms -- need a better word -->
 <div>
-  <li> Name: {$ competition.name $} </li>
-  <li> Description: {$ competition.description $} </li>
-  <li> Start: {$ comps.startDate(competition) | date $} </li>
-  <li> End: {$ comps.endDate(competition) | date $} </li>
-  <li> Days: {$ competition.days $} </li>
-  <li> Started: {$ comps.started(competition) $} </li>
-  <li> Finished: {$ comps.finished(competition) $} </li>
+  <h3> {$ competition.name $} </h3>
+  <p> {$ competition.description $} <p>
+  
+  <p> Start: <em>{$ comps.startDate(competition) | date $}</em> <p>
+  <p> End: <em>{$ comps.endDate(competition) | date $}</em> </li>
+  <p> Days: <em>{$ competition.days $}</em> <p>
+  <p> Team: size: <em>{$ competition.team_size(competition) $}</em> </li>
 
   <competition-enter 
-     <!-- ng-show="(!coms.started(competition)) "> -->
-    ng-show="(!enrol.isEntered(competition))">
-    <!-- ng-show="(!coms.started(competition)) && (!enrol.isEntered(competition))"> -->
-    </competiton-enter>
+    ng-show="(!comps.finished(competition)) &&  
+    	     (!enrol.isEntered(competition))">
+
+  </competiton-enter>
 
 </div>

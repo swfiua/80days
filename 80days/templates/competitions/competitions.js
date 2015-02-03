@@ -19,7 +19,7 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 
     this.startDate = function(competition) {
 	return new Date(competition.start);
-    }
+    };
 
     this.endDate = function(competition) {
 	var start = this.startDate(competition);
@@ -29,7 +29,7 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	end.setTime(start.getTime() + (competition.days * 3600 * 24 * 1000));
 		
 	return end;
-    }
+    };
 	    
     this.started = function(competition) {
 	// check if competition has started
@@ -37,7 +37,7 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	var start = this.startDate(competition);
 
 	return start < today;
-    }
+    };
 
     this.finished = function(competition) {
 	// check if competition has started
@@ -45,12 +45,12 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	var end = this.endDate(competition);
 	    
 	return end < today;
-    }
+    };
 		
     this.inProgress = function(competition) {
 	
 	return this.started(competition) && !this.finished(competition);
-    }
+    };
 }]);
 
 
@@ -73,12 +73,13 @@ app.directive("competitionEnter", function() {
 	templateUrl: 'competition/enter.html',
 	controller: function() {
 	    
-	    this.isEntered = function() {
+	    this.isEntered = function(competition) {
 		// now need to get at the competitor objects
-		return false;
+		// FIXME: need this to do something
+		return false;;
 	    };
-	    this.notEntered = function() {
-
+	    this.notEntered = function(competition) {
+		
 		return !this.isEntered();
 	    };
 	},
