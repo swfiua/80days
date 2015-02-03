@@ -16,6 +16,13 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	view.competitions = data;
     });
 
+    $http.get('/eighty/competitors').success(function(data){
+	view.competitors = data;
+    });
+
+    $http.get('/eighty/everything_for_user').success(function(data){
+	view.user_info = data;
+    });
 
     this.startDate = function(competition) {
 	return new Date(competition.start);
@@ -82,8 +89,14 @@ app.directive("competitionEnter", function() {
 		
 		return !this.isEntered();
 	    };
+
+	    this.enrol = function(competition) {
+		// code to enrol in a competition
+		
+	    };
 	},
 	controllerAs: "enrol"
     };
 });
+
 

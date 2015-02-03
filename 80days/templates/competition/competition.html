@@ -4,10 +4,10 @@
   <h3> {$ competition.name $} </h3>
   <p> {$ competition.description $} <p>
   
-  <p> Start: <em>{$ comps.startDate(competition) | date $}</em> <p>
-  <p> End: <em>{$ comps.endDate(competition) | date $}</em> </li>
-  <p> Days: <em>{$ competition.days $}</em> <p>
-  <p> Team: size: <em>{$ competition.team_size(competition) $}</em> </li>
+  <p> Start: <strong>{$ comps.startDate(competition) | date $}</strong> <p>
+  <p> End: <strong>{$ comps.endDate(competition) | date $}</strong> </li>
+  <p> Days: <strong>{$ competition.days $}</strong> <p>
+  <p> Team: size: <strong>{$ competition.team_size $}</strong> </li>
 
   <competition-enter 
     ng-show="(!comps.finished(competition)) &&  
