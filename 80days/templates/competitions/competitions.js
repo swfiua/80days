@@ -67,3 +67,22 @@ app.directive("competitionInfo", function() {
     };
 });
 
+app.directive("competitionEnter", function() {
+    return {
+	restrict: 'E',
+	templateUrl: 'competition/enter.html',
+	controller: function() {
+	    
+	    this.isEntered = function() {
+		// now need to get at the competitor objects
+		return false;
+	    };
+	    this.notEntered = function() {
+
+		return !this.isEntered();
+	    };
+	},
+	controllerAs: "enrol"
+    };
+});
+

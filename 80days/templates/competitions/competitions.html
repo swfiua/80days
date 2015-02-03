@@ -2,36 +2,35 @@
 
 <h3>Competitions in progress</h3>
   
-<div ng-controller="CompetitionsCtrl as comps">
+<section ng-controller="CompetitionsCtrl as comps">
   <ul>
     <div ng-repeat="competition in comps.competitions">
-	<competition-info  ng-show="comps.inProgress(competition)">></competition-info>
+	<competition-info  ng-show="comps.inProgress(competition)"></competition-info>
 	<br>
     </div>
   </ul>
-</div>
+</section>
 
 <h3>Up-coming competitions</h3>
   
-<div ng-controller="CompetitionsCtrl as comps">
+<section ng-controller="CompetitionsCtrl as comps">
   <ul>
     <div ng-repeat="competition in comps.competitions">
-	<competition-info  ng-show="!comps.started(competition)">></competition-info>
-	<competition-enter><competiton-enter>
+	<competition-info  ng-show="!comps.started(competition)"></competition-info>
 	<br>
     </div>
   </ul>
-</div>
+</section>
 
 <h3>Completed competitions</h3>
   
-<div ng-controller="CompetitionsCtrl as comps">
+<section ng-controller="CompetitionsCtrl as comps">
   <ul>
     <div ng-repeat="competition in comps.competitions">
-	<competition-info  ng-show="comps.finished(competition)">></competition-info>
+	<competition-info  ng-show="comps.finished(competition)"></competition-info>
 	<br>
     </div>
   </ul>
-</div>
+</section>
 
 </p>

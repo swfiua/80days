@@ -15,6 +15,7 @@ admin.autodiscover()
 # (partial_url, [exts]) pairs
 PARTIAL_DATA = [
     ['home/home',                 ['.html', '.js']],
+    ['competition/enter',         ['.html']],
     ['competition/competition',   ['.html']],
     ['competitions/competitions', ['.html', '.js']],
     ['teams/teams',               ['.html', '.js']],

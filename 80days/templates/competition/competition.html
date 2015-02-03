@@ -1,4 +1,5 @@
 
+<!-- controller for competitions is coms -- need a better word -->
 <div>
   <li> Name: {$ competition.name $} </li>
   <li> Description: {$ competition.description $} </li>
@@ -7,5 +8,11 @@
   <li> Days: {$ competition.days $} </li>
   <li> Started: {$ comps.started(competition) $} </li>
   <li> Finished: {$ comps.finished(competition) $} </li>
+
+  <competition-enter 
+     <!-- ng-show="(!coms.started(competition)) "> -->
+    ng-show="(!enrol.isEntered(competition))">
+    <!-- ng-show="(!coms.started(competition)) && (!enrol.isEntered(competition))"> -->
+    </competiton-enter>
 
 </div>
