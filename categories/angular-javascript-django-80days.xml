@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (angular javascript django 80days)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/categories/angular-javascript-django-80days.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 06 Feb 2015 16:44:01 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular velocity</title><link>http://swfiua.github.io/80days/posts/angular-velocity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So it has been a while since I blogged about the 80 day project.&lt;/p&gt;
+&lt;p&gt;This is largely due to most of my free time has been spent working on
+the code.&lt;/p&gt;
+&lt;p&gt;Just to recap, 77 days into the project I still had quite a bit to
+do.  Most of the work up to that point had been on getting pieces
+together, decide what tools to use, learning those tools.&lt;/p&gt;
+&lt;p&gt;The next job was to move the angular code around a bit and try and get
+django serving it all.  In particular, I had decided it was probably
+worthwhile to have the &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; partial html pieces go through
+the &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; template engine.&lt;/p&gt;
+&lt;p&gt;Getting npm up and running, with a recent enough version can be
+tricky, but there was an excellent guide on &lt;a class="reference external" href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions"&gt;Installing npm on Ubuntu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With moving all the files around, &lt;strong&gt;.bowerrc&lt;/strong&gt; needed editing a few
+times to point it at where the bower_components were now made to be
+installed.&lt;/p&gt;
+&lt;p&gt;Ever since the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html"&gt;Global Hackathon, Team Bermuda&lt;/a&gt; I have had mild
+paranoia that cross-site-request-forgery is going to bite me at some
+point.  I am hoping that by serving everything under django I will
+avoid that nightmare.  In the meanwhile, I did at this &lt;a class="reference external" href="https://github.com/swfiua/80days/commit/678ae25e432b8633230bf67f8168a8f8188717b1"&gt;csrf fix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A previous post, &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html"&gt;Nginx on koding.com&lt;/a&gt; came in useful for setting
+up postgres on koding.com as I decided it was more than time to get
+this thing running on a cloud based machine.&lt;/p&gt;
+&lt;p&gt;I have not found myself using &lt;em&gt;django-angular&lt;/em&gt;, but the &lt;a class="reference external" href="http://django-angular.readthedocs.org/en/latest/integration.html"&gt;django
+angular integration&lt;/a&gt; docs have been an enormous help in highlighting
+issues in integrating django and angular.&lt;/p&gt;
+&lt;p&gt;In amongst all this I decided it was time to add &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; to
+the mix.&lt;/p&gt;
+&lt;p&gt;This was mostly painless, following the django-quiz docs, but when I
+fired up the server it failed.  The problem was down to me using
+&lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; which effectively removes &lt;em&gt;auth.User&lt;/em&gt;. The fix is to
+use &lt;em&gt;settings.AUTH_USER_MODEL&lt;/em&gt; if you want to reference the &lt;em&gt;User&lt;/em&gt;
+model in your own models.&lt;/p&gt;
+&lt;p&gt;I made the &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/commit/9416c05cd447e3aa40a2351684f2105dafa95e13"&gt;user model fix&lt;/a&gt; and made a pull request.  Happily, the
+project maintainer actioned the request within the hour (many thanks
+Tom!) and I was able to update to the new version with:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pip install git+https://github.com/tomwalker/django_quiz.git
+&lt;/pre&gt;
+&lt;p&gt;By February 1st I was starting to get comfortable with angular and the
+pieces were coming together.  I have some simple partials, I have
+angular calling the django rest API and I have the beginnings of some
+views.&lt;/p&gt;
+&lt;p&gt;The next task is to display competitions a user can enter and provide
+an enter button.   At this point I did a bit more thinking and
+reading.  Deciding what logic to put in angular and what to put in
+django views and api calls needs a little thought.&lt;/p&gt;
+&lt;p&gt;From here the plan is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;get the competion list and competion entry features working&lt;/li&gt;
+&lt;li&gt;get team creation and team membership features implemented&lt;/li&gt;
+&lt;li&gt;get the site up and running in the cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have a simple test server on koding.com, but want to run the actual
+site on a different instance.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>angular javascript django 80days</category><guid>http://swfiua.github.io/80days/posts/angular-velocity.html</guid><pubDate>Fri, 06 Feb 2015 14:36:22 GMT</pubDate></item></channel></rss>

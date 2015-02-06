@@ -48,3 +48,18 @@ django angular tutorial.
 
 http://www.reddit.com/r/linux/comments/1p7mek/how_to_convert_word_doc_files_into_odt_files_from/
 converting from odt to doc commando style.
+
+http://www.fastcolabs.com/3039055/the-open-source-mission-to-make-end-to-end-encryption-as-common-as-air
+end to end encryption for all
+
+http://www.linux.com/learn/tutorials/805031-how-to-install-seafile-server-private-cloud
+dropbox@home
+
+http://askubuntu.com/questions/109174/how-to-get-one-song-to-repeat-in-rhythmbox/579514?noredirect=1#comment802372_579514
+askubuntu being awkward on stackexchange.
+
+
+
+
+https://xpressubuntu.wordpress.com/2014/05/12/the-best-python-api-docs-for-gtk-rhythmbox-webkit-and-many-more/
+askubuntu blog is here.

@@ -85,7 +85,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content" role="main">
+<div class="container" id="content">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -156,7 +156,7 @@
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference,!.islink").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");
@@ -166,7 +166,7 @@
     
 <script src="../../assets/js/flowr.plugin.js"></script>
 <script>
-jsonContent = [{"url_thumb": "Me with Bill's Gates.thumbnail.jpg", "size": {"h": 180, "w": 101}, "title": "Me with bill's gates", "url": "Me with Bill's Gates.jpg"}, {"url_thumb": "i_got_the_t_shirt.thumbnail.jpg", "size": {"h": 180, "w": 101}, "title": "I got the t shirt", "url": "i_got_the_t_shirt.jpg"}, {"url_thumb": "BFBC.thumbnail.jpg", "size": {"h": 180, "w": 101}, "title": "Bfbc", "url": "BFBC.jpg"}];
+jsonContent = [{"url_thumb": "Me with Bill's Gates.thumbnail.jpg", "url": "Me with Bill's Gates.jpg", "size": {"h": 180, "w": 101}, "title": "Me with bill's gates"}, {"url_thumb": "i_got_the_t_shirt.thumbnail.jpg", "url": "i_got_the_t_shirt.jpg", "size": {"h": 180, "w": 101}, "title": "I got the t shirt"}, {"url_thumb": "BFBC.thumbnail.jpg", "url": "BFBC.jpg", "size": {"h": 180, "w": 101}, "title": "Bfbc"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,

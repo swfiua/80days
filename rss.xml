@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 30 Jan 2015 23:20:05 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Got the ingredients, lets cook this thing</title><link>http://swfiua.github.io/80days/posts/got-the-ingredients-lets-cook-this-thing.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This post is likely going to be a bit of a mixture.  It started out as
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 06 Feb 2015 16:44:01 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular velocity</title><link>http://swfiua.github.io/80days/posts/angular-velocity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So it has been a while since I blogged about the 80 day project.&lt;/p&gt;
+&lt;p&gt;This is largely due to most of my free time has been spent working on
+the code.&lt;/p&gt;
+&lt;p&gt;Just to recap, 77 days into the project I still had quite a bit to
+do.  Most of the work up to that point had been on getting pieces
+together, decide what tools to use, learning those tools.&lt;/p&gt;
+&lt;p&gt;The next job was to move the angular code around a bit and try and get
+django serving it all.  In particular, I had decided it was probably
+worthwhile to have the &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; partial html pieces go through
+the &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; template engine.&lt;/p&gt;
+&lt;p&gt;Getting npm up and running, with a recent enough version can be
+tricky, but there was an excellent guide on &lt;a class="reference external" href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions"&gt;Installing npm on Ubuntu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With moving all the files around, &lt;strong&gt;.bowerrc&lt;/strong&gt; needed editing a few
+times to point it at where the bower_components were now made to be
+installed.&lt;/p&gt;
+&lt;p&gt;Ever since the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html"&gt;Global Hackathon, Team Bermuda&lt;/a&gt; I have had mild
+paranoia that cross-site-request-forgery is going to bite me at some
+point.  I am hoping that by serving everything under django I will
+avoid that nightmare.  In the meanwhile, I did at this &lt;a class="reference external" href="https://github.com/swfiua/80days/commit/678ae25e432b8633230bf67f8168a8f8188717b1"&gt;csrf fix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A previous post, &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html"&gt;Nginx on koding.com&lt;/a&gt; came in useful for setting
+up postgres on koding.com as I decided it was more than time to get
+this thing running on a cloud based machine.&lt;/p&gt;
+&lt;p&gt;I have not found myself using &lt;em&gt;django-angular&lt;/em&gt;, but the &lt;a class="reference external" href="http://django-angular.readthedocs.org/en/latest/integration.html"&gt;django
+angular integration&lt;/a&gt; docs have been an enormous help in highlighting
+issues in integrating django and angular.&lt;/p&gt;
+&lt;p&gt;In amongst all this I decided it was time to add &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; to
+the mix.&lt;/p&gt;
+&lt;p&gt;This was mostly painless, following the django-quiz docs, but when I
+fired up the server it failed.  The problem was down to me using
+&lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; which effectively removes &lt;em&gt;auth.User&lt;/em&gt;. The fix is to
+use &lt;em&gt;settings.AUTH_USER_MODEL&lt;/em&gt; if you want to reference the &lt;em&gt;User&lt;/em&gt;
+model in your own models.&lt;/p&gt;
+&lt;p&gt;I made the &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/commit/9416c05cd447e3aa40a2351684f2105dafa95e13"&gt;user model fix&lt;/a&gt; and made a pull request.  Happily, the
+project maintainer actioned the request within the hour (many thanks
+Tom!) and I was able to update to the new version with:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pip install git+https://github.com/tomwalker/django_quiz.git
+&lt;/pre&gt;
+&lt;p&gt;By February 1st I was starting to get comfortable with angular and the
+pieces were coming together.  I have some simple partials, I have
+angular calling the django rest API and I have the beginnings of some
+views.&lt;/p&gt;
+&lt;p&gt;The next task is to display competitions a user can enter and provide
+an enter button.   At this point I did a bit more thinking and
+reading.  Deciding what logic to put in angular and what to put in
+django views and api calls needs a little thought.&lt;/p&gt;
+&lt;p&gt;From here the plan is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;get the competion list and competion entry features working&lt;/li&gt;
+&lt;li&gt;get team creation and team membership features implemented&lt;/li&gt;
+&lt;li&gt;get the site up and running in the cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have a simple test server on koding.com, but want to run the actual
+site on a different instance.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>angular javascript django 80days</category><guid>http://swfiua.github.io/80days/posts/angular-velocity.html</guid><pubDate>Fri, 06 Feb 2015 14:36:22 GMT</pubDate></item><item><title>Got the ingredients, lets cook this thing</title><link>http://swfiua.github.io/80days/posts/got-the-ingredients-lets-cook-this-thing.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This post is likely going to be a bit of a mixture.  It started out as
 an account of what I am doing today, but I think it might turn into an
 account of why a 3 day project can take 80 days and why that isn't
 always a bad thing.&lt;/p&gt;
@@ -210,30 +270,34 @@ things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
 &lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
 mark stuff for expansion.&lt;/p&gt;
 &lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-1"&gt;&lt;/a&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-3"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-4"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
 extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-1"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-3"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// Declare app level module which depends on views, and components&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-4"&gt;&lt;/a&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-5"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-6"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-7"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-8"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-9"&gt;&lt;/a&gt;&lt;span class="p"&gt;]).&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-10"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-11"&gt;&lt;/a&gt;  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-12"&gt;&lt;/a&gt;&lt;span class="p"&gt;}]).&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-13"&gt;&lt;/a&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-14"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-15"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-16"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-17"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;So, making some progress, but I still can't figure out this controller
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
+&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="p"&gt;}]).&lt;/span&gt;
+
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
 &lt;a class="reference external" href="http://campus.codeschool.com"&gt;codeschool&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In particular, their &lt;a class="reference external" href="http://campus.codeschool.com/courses/shaping-up-with-angular-js"&gt;shaping up with angular&lt;/a&gt; introduction.  I had
@@ -567,17 +631,21 @@ Secret value 'SECRET_KEY' is not set
 advice on how to go about keeping it secret.&lt;/p&gt;
 &lt;p&gt;So looking at what the wonderful &lt;a class="reference external" href="https://github.com/pydanny/cookiecutter-django"&gt;cookiecutter django&lt;/a&gt; created I see
 the following incantation in &lt;em&gt;config/production.py&lt;/em&gt;:&lt;/p&gt;
-&lt;pre class="code python"&gt;&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;configurations&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;
-&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-3"&gt;&lt;/a&gt;&lt;span class="c"&gt;# SECRET KEY&lt;/span&gt;
-&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-4"&gt;&lt;/a&gt;&lt;span class="n"&gt;SECRET_KEY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SecretValue&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-5"&gt;&lt;/a&gt;&lt;span class="c"&gt;# END SECRET KEY&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;So what is this &lt;em&gt;configuration.values&lt;/em&gt; thing?   Turns out it is coming
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;configurations&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;
+
+&lt;span class="c"&gt;# SECRET KEY&lt;/span&gt;
+&lt;span class="n"&gt;SECRET_KEY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SecretValue&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="c"&gt;# END SECRET KEY&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;So what is this &lt;em&gt;configuration.values&lt;/em&gt; thing?   Turns out it is coming
 from the &lt;a class="reference external" href="http://django-configurations.readthedocs.org/"&gt;django configurations&lt;/a&gt; application that the &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt;
 was kind enough to include.&lt;/p&gt;
 &lt;p&gt;OK, so it helps you not have to do&lt;/p&gt;
-&lt;pre class="code python"&gt;&lt;a name="rest_code_eb9cc122546d40d281f0b61d34f5ec4b-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;foo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;Now, that has to be a good thing :)&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;foo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Now, that has to be a good thing :)&lt;/p&gt;
 &lt;p&gt;So reading the docs I come to:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 django-configurations allows you to optionally reduce the amount
@@ -627,61 +695,4 @@ However, firefox and even chrome from another machine are just fine.&lt;/p&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
 &lt;!-- type: text --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html</guid><pubDate>Thu, 18 Dec 2014 19:58:05 GMT</pubDate></item><item><title>Rant about computer (in)security</title><link>http://swfiua.github.io/80days/posts/rant-about-computer-insecurity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;It seems that the more important something is to computer security the
-more byzantine and patchy the documentation will be at explaining how
-to make sure your computers actually are secure.&lt;/p&gt;
-&lt;p&gt;The problem is security is difficult. You only have to mess up once
-and all bets are off.&lt;/p&gt;
-&lt;p&gt;Invarialby, getting stuff up and running involves a lot of hacking
-around.  Eventually, you get the thing working, but by then it is
-probably too late, even if you go back and plug all the holes And that
-assumes you can remember what you did along the way.&lt;/p&gt;
-&lt;p&gt;In the open source world products are generally configured in a
-&lt;em&gt;secure&lt;/em&gt; way out of the box.  You have to explicitly switch off things
-that are there for your protection.&lt;/p&gt;
-&lt;p&gt;That is all well and good, but without excellent documentation
-non-expert users (which in fact is every user a project will have: we
-are all novices when we start using a new product) are going to have
-problems getting the thing working.&lt;/p&gt;
-&lt;p&gt;The result is insecurity everywhere.  And that is before we get into
-all the backdoors that various organisations have been more than happy
-to leave in products for their own purposes.&lt;/p&gt;
-&lt;p&gt;I don't have a good solution to this problem, the subject is complex.
-What is clear is that the current situation just is not working.&lt;/p&gt;
-&lt;div class="section" id="following-industry-standards"&gt;
-&lt;h2&gt;Following industry standards&lt;/h2&gt;
-&lt;p&gt;To all those company's who are &lt;em&gt;following industry standards&lt;/em&gt; you are
-a huge part of the problem.  Those industry standards are horribly
-broken, possibly by design.&lt;/p&gt;
-&lt;p&gt;There is no substitute for hiring someone that actually understands
-the subject and listening to their recommendations.  Blindly following
-standards that were introduced 30 years ago and which nobody can
-remember why they were introduced is lame.&lt;/p&gt;
-&lt;p&gt;It might get you off the hook with your boss: we are just doing what
-everyone else does, nobody got fired for choosing IBM, etc, etc.  But
-the fact is that your security is really dependent on the fact that
-there are more attractive targets, such as companies that actually
-call themselves &lt;a class="reference external" href="http://www.target.com/"&gt;Target&lt;/a&gt; ;)&lt;/p&gt;
-&lt;img alt="http://dailyangst.files.wordpress.com/2012/02/birthmark.jpg" src="http://dailyangst.files.wordpress.com/2012/02/birthmark.jpg"&gt;
-&lt;p&gt;As an example, every place I have ever worked has a &lt;em&gt;you must change
-your password every 90 days&lt;/em&gt; rule.  Really?  This rule was introduced
-based on the time it would take a good sized computer to crack a
-password given the hashed value that gets stored in password
-files... in the 1980's.&lt;/p&gt;
-&lt;p&gt;The idea being that if you change every 90 days it will be unlikely
-the crackers will crack your password before you change it.&lt;/p&gt;
-&lt;p&gt;NEWSFLASH: to all CIO's out there, computers have got faster
-since 1980.  If you really want to protect against crackers that have
-your hashed passwords then you probably need all your employees to
-change their passwords about every five minutes.&lt;/p&gt;
-&lt;p&gt;Perhaps the one good thing that will come out of all the high profile
-breaches we are hearing about at the moment is that some of this
-archaic nonesense will be replaced by measures that genuinely increase
-security.&lt;/p&gt;
-&lt;p&gt;However, with the technologies that most companies are dependent on,
-the difficulty (or indeed near impossibility) of introducing genuine
-security without making it impossible for everyone to do their jobs, I
-think we are in for many more breaches in the coming years.&lt;/p&gt;
-&lt;p&gt;Indeed, I would wager that there have been lots more very significant
-security breaches, we just have not heard about them (yet).&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/rant-about-computer-insecurity.html</guid><pubDate>Thu, 18 Dec 2014 18:03:17 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html</guid><pubDate>Thu, 18 Dec 2014 19:58:05 GMT</pubDate></item></channel></rss>

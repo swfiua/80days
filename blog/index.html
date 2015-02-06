@@ -76,13 +76,93 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content" role="main">
+<div class="container" id="content">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
             
             
 <div class="postindex">
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="../posts/angular-velocity.html" class="u-url">Angular velocity</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/angular-velocity.html" rel="bookmark"><time class="published dt-published" datetime="2015-02-06T14:36:22+00:00" title="2015-02-06 14:36">2015-02-06 14:36</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/angular-velocity.html#disqus_thread" data-disqus-identifier="cache/posts/angular-velocity.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>So it has been a while since I blogged about the 80 day project.</p>
+<p>This is largely due to most of my free time has been spent working on
+the code.</p>
+<p>Just to recap, 77 days into the project I still had quite a bit to
+do.  Most of the work up to that point had been on getting pieces
+together, decide what tools to use, learning those tools.</p>
+<p>The next job was to move the angular code around a bit and try and get
+django serving it all.  In particular, I had decided it was probably
+worthwhile to have the <a class="reference external" href="https://angularjs.org/">angular.js</a> partial html pieces go through
+the <a class="reference external" href="https://www.djangoproject.com/">django</a> template engine.</p>
+<p>Getting npm up and running, with a recent enough version can be
+tricky, but there was an excellent guide on <a class="reference external" href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions">Installing npm on Ubuntu</a></p>
+<p>With moving all the files around, <strong>.bowerrc</strong> needed editing a few
+times to point it at where the bower_components were now made to be
+installed.</p>
+<p>Ever since the <a class="reference external" href="../posts/global-hackathon-team-bermuda.html">Global Hackathon, Team Bermuda</a> I have had mild
+paranoia that cross-site-request-forgery is going to bite me at some
+point.  I am hoping that by serving everything under django I will
+avoid that nightmare.  In the meanwhile, I did at this <a class="reference external" href="https://github.com/swfiua/80days/commit/678ae25e432b8633230bf67f8168a8f8188717b1">csrf fix</a></p>
+<p>A previous post, <a class="reference external" href="../posts/nginx-on-kodingcom.html">Nginx on koding.com</a> came in useful for setting
+up postgres on koding.com as I decided it was more than time to get
+this thing running on a cloud based machine.</p>
+<p>I have not found myself using <em>django-angular</em>, but the <a class="reference external" href="http://django-angular.readthedocs.org/en/latest/integration.html">django
+angular integration</a> docs have been an enormous help in highlighting
+issues in integrating django and angular.</p>
+<p>In amongst all this I decided it was time to add <a class="reference external" href="https://github.com/tomwalker/django_quiz/">django quiz</a> to
+the mix.</p>
+<p>This was mostly painless, following the django-quiz docs, but when I
+fired up the server it failed.  The problem was down to me using
+<a class="reference external" href="http://django-allauth.readthedocs.org/">django-allauth</a> which effectively removes <em>auth.User</em>. The fix is to
+use <em>settings.AUTH_USER_MODEL</em> if you want to reference the <em>User</em>
+model in your own models.</p>
+<p>I made the <a class="reference external" href="https://github.com/tomwalker/django_quiz/commit/9416c05cd447e3aa40a2351684f2105dafa95e13">user model fix</a> and made a pull request.  Happily, the
+project maintainer actioned the request within the hour (many thanks
+Tom!) and I was able to update to the new version with:</p>
+<pre class="literal-block">
+pip install git+https://github.com/tomwalker/django_quiz.git
+</pre>
+<p>By February 1st I was starting to get comfortable with angular and the
+pieces were coming together.  I have some simple partials, I have
+angular calling the django rest API and I have the beginnings of some
+views.</p>
+<p>The next task is to display competitions a user can enter and provide
+an enter button.   At this point I did a bit more thinking and
+reading.  Deciding what logic to put in angular and what to put in
+django views and api calls needs a little thought.</p>
+<p>From here the plan is:</p>
+<ul class="simple">
+<li>get the competion list and competion entry features working</li>
+<li>get team creation and team membership features implemented</li>
+<li>get the site up and running in the cloud</li>
+</ul>
+<p>I have a simple test server on koding.com, but want to run the actual
+site on a different instance.</p>
+<!-- title: links -->
+<!-- slug: references -->
+<!-- date: 2014-11-13 14:08:31 UTC -->
+<!-- tags: -->
+<!-- link: -->
+<!-- description: links to include in all posts -->
+<!-- type: text -->
+</div>
+    </div>
+    </article>
     <article class="h-entry post-text">
     <header>
         <h1 class="p-name entry-title"><a href="../posts/got-the-ingredients-lets-cook-this-thing.html" class="u-url">Got the ingredients, lets cook this thing</a></h1>
@@ -351,30 +431,32 @@ things like marking <em>for</em> loops and the like</li>
 <p>Now by an unhappy coincidence, <a class="reference external" href="https://angularjs.org/">angular.js</a> also uses {{ and }} to
 mark stuff for expansion.</p>
 <p>Happily, angular allows you to over-ride these markers, as follows:</p>
-<pre class="code javascript"><a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_0d6b88d7c96c41da83d4995ffbcb88f8-4"></a><span class="p">});</span>
+<pre class="code javascript literal-block">
+<span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<span class="p">});</span>
 </pre>
 <p>In fact, since I already had some code in my <em>app.js</em> I just added the
 extra config code, so my <em>app.js</em> now looks like this:</p>
-<pre class="code javascript"><a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-2"></a>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-8"></a>  <span class="s1">'myApp.version'</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-9"></a><span class="p">]).</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-12"></a><span class="p">}]).</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-13"></a>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_8e8e44e3b6a440f5ab65c5078b6e2290-17"></a><span class="p">});</span>
+<pre class="code javascript literal-block">
+<span class="s1">'use strict'</span><span class="p">;</span>
+
+<span class="c1">// Declare app level module which depends on views, and components
+</span><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
+  <span class="s1">'ngRoute'</span><span class="p">,</span>
+  <span class="s1">'myApp.view1'</span><span class="p">,</span>
+  <span class="s1">'myApp.view2'</span><span class="p">,</span>
+  <span class="s1">'myApp.version'</span>
+<span class="p">]).</span>
+<span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
+<span class="p">}]).</span>
+
+<span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<span class="p">});</span>
 </pre>
 <p>So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
@@ -830,17 +912,19 @@ Secret value 'SECRET_KEY' is not set
 advice on how to go about keeping it secret.</p>
 <p>So looking at what the wonderful <a class="reference external" href="https://github.com/pydanny/cookiecutter-django">cookiecutter django</a> created I see
 the following incantation in <em>config/production.py</em>:</p>
-<pre class="code python"><a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
-<a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-2"></a>
-<a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-3"></a><span class="c"># SECRET KEY</span>
-<a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
-<a name="rest_code_f2d95913ac01461599fab21ac1d3e01f-5"></a><span class="c"># END SECRET KEY</span>
+<pre class="code python literal-block">
+<span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
+
+<span class="c"># SECRET KEY</span>
+<span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
+<span class="c"># END SECRET KEY</span>
 </pre>
 <p>So what is this <em>configuration.values</em> thing?   Turns out it is coming
 from the <a class="reference external" href="http://django-configurations.readthedocs.org/">django configurations</a> application that the <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a>
 was kind enough to include.</p>
 <p>OK, so it helps you not have to do</p>
-<pre class="code python"><a name="rest_code_eb9cc122546d40d281f0b61d34f5ec4b-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
+<pre class="code python literal-block">
+<span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
 </pre>
 <p>Now, that has to be a good thing :)</p>
 <p>So reading the docs I come to:</p>
@@ -892,83 +976,6 @@ However, firefox and even chrome from another machine are just fine.</p>
 <!-- link: -->
 <!-- description: links to include in all posts -->
 <!-- type: text -->
-</div>
-</div>
-    </div>
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="../posts/rant-about-computer-insecurity.html" class="u-url">Rant about computer (in)security</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
-            <p class="dateline"><a href="../posts/rant-about-computer-insecurity.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-18T18:03:17+00:00" title="2014-12-18 18:03">2014-12-18 18:03</time></a></p>
-                <p class="commentline">
-        
-    <a href="../posts/rant-about-computer-insecurity.html#disqus_thread" data-disqus-identifier="cache/posts/rant-about-computer-insecurity.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="e-content entry-content">
-    <div>
-<p>It seems that the more important something is to computer security the
-more byzantine and patchy the documentation will be at explaining how
-to make sure your computers actually are secure.</p>
-<p>The problem is security is difficult. You only have to mess up once
-and all bets are off.</p>
-<p>Invarialby, getting stuff up and running involves a lot of hacking
-around.  Eventually, you get the thing working, but by then it is
-probably too late, even if you go back and plug all the holes And that
-assumes you can remember what you did along the way.</p>
-<p>In the open source world products are generally configured in a
-<em>secure</em> way out of the box.  You have to explicitly switch off things
-that are there for your protection.</p>
-<p>That is all well and good, but without excellent documentation
-non-expert users (which in fact is every user a project will have: we
-are all novices when we start using a new product) are going to have
-problems getting the thing working.</p>
-<p>The result is insecurity everywhere.  And that is before we get into
-all the backdoors that various organisations have been more than happy
-to leave in products for their own purposes.</p>
-<p>I don't have a good solution to this problem, the subject is complex.
-What is clear is that the current situation just is not working.</p>
-<div class="section" id="following-industry-standards">
-<h2>Following industry standards</h2>
-<p>To all those company's who are <em>following industry standards</em> you are
-a huge part of the problem.  Those industry standards are horribly
-broken, possibly by design.</p>
-<p>There is no substitute for hiring someone that actually understands
-the subject and listening to their recommendations.  Blindly following
-standards that were introduced 30 years ago and which nobody can
-remember why they were introduced is lame.</p>
-<p>It might get you off the hook with your boss: we are just doing what
-everyone else does, nobody got fired for choosing IBM, etc, etc.  But
-the fact is that your security is really dependent on the fact that
-there are more attractive targets, such as companies that actually
-call themselves <a class="reference external" href="http://www.target.com/">Target</a> ;)</p>
-<img alt="http://dailyangst.files.wordpress.com/2012/02/birthmark.jpg" src="http://dailyangst.files.wordpress.com/2012/02/birthmark.jpg">
-<p>As an example, every place I have ever worked has a <em>you must change
-your password every 90 days</em> rule.  Really?  This rule was introduced
-based on the time it would take a good sized computer to crack a
-password given the hashed value that gets stored in password
-files... in the 1980's.</p>
-<p>The idea being that if you change every 90 days it will be unlikely
-the crackers will crack your password before you change it.</p>
-<p>NEWSFLASH: to all CIO's out there, computers have got faster
-since 1980.  If you really want to protect against crackers that have
-your hashed passwords then you probably need all your employees to
-change their passwords about every five minutes.</p>
-<p>Perhaps the one good thing that will come out of all the high profile
-breaches we are hearing about at the moment is that some of this
-archaic nonesense will be replaced by measures that genuinely increase
-security.</p>
-<p>However, with the technologies that most companies are dependent on,
-the difficulty (or indeed near impossibility) of introducing genuine
-security without making it impossible for everyone to do their jobs, I
-think we are in for many more breaches in the coming years.</p>
-<p>Indeed, I would wager that there have been lots more very significant
-security breaches, we just have not heard about them (yet).</p>
 </div>
 </div>
     </div>
@@ -1028,7 +1035,7 @@ security breaches, we just have not heard about them (yet).</p>
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference,!.islink").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");
