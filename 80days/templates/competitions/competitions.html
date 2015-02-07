@@ -1,6 +1,9 @@
 
 <section ng-controller="CompetitionsCtrl as comps">
-  {$ comps.user_info $}
+  <p>Competitors: {$ comps.user_info.competitors $}</p>
+  <p>Competitions {$ comps.user_info.competitions $}</p>
+  <p>Teams: {$ comps.user_info.teams $}</p>
+  <p>Captains: {$ comps.user_info.captains $}</p>
 
   <h2>Competitions in progress</h2>
   
