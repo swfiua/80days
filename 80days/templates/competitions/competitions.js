@@ -74,11 +74,34 @@ app.directive("competitionInfo", function() {
     };
 });
 
-app.directive("competitionEnter", function() {
+app.directive("competitorList", function() {
+    return {
+	restrict: 'E',
+	templateUrl: 'competitors/competitors.html',
+	controller: function() {
+	},
+	controllerAs: "competitors",
+    };
+});
+
+app.directive("competitorInfo", function() {
+    return {
+	restrict: 'E',
+	templateUrl: 'competitors/competitor.html',
+	controller: function() {
+	},
+	controllerAs: "competitor",
+    };
+});
+
+app.directive("competitionEnter", [ '$http', function($http) {
     return {
 	restrict: 'E',
 	templateUrl: 'competition/enter.html',
 	controller: function() {
+	    this.competitor = {};
+
+	    // $http.get('/detail_competition', {pk: 
 	    
 	    this.isEntered = function(competition) {
 		// now need to get at the competitor objects
@@ -92,11 +115,14 @@ app.directive("competitionEnter", function() {
 
 	    this.enrol = function(competition) {
 		// code to enrol in a competition
+
+		// need to create a new competitor object
+		// save it and add it to the competion
 		
 	    };
 	},
 	controllerAs: "enrol"
     };
-});
+}]);
 
 

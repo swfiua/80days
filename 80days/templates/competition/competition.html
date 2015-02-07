@@ -8,11 +8,13 @@
   <p> End: <strong>{$ comps.endDate(competition) | date $}</strong> </li>
   <p> Days: <strong>{$ competition.days $}</strong> <p>
   <p> Team: size: <strong>{$ competition.team_size $}</strong> </li>
-
-  <competition-enter 
-    ng-show="(!comps.finished(competition)) &&  
-    	     (!enrol.isEntered(competition))">
-
-  </competiton-enter>
-
 </div>
+
+<competitor-list ng-show="competition.competitors.length"></competitor-list>
+
+<competition-enter 
+   ng-show="(!comps.finished(competition)) &&  
+    	    (!enrol.isEntered(competition))">
+
+</competiton-enter>
+
