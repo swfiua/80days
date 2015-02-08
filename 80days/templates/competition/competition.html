@@ -12,9 +12,11 @@
 
 <competitor-list ng-show="competition.competitors.length"></competitor-list>
 
+Am i not entered?: {$ comps.notEntered(competition) $}
+
 <competition-enter 
    ng-show="(!comps.finished(competition)) &&  
-    	    (!enrol.isEntered(competition))">
+    	    (comps.notEntered(competition))">
 
 </competiton-enter>
 

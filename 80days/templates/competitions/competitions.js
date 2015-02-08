@@ -11,6 +11,9 @@ var app = angular.module('myApp.competitions', ['ngRoute'])
 
 app.controller('CompetitionsCtrl', [ '$http', function($http) {
     var view = this;
+    view.competions = [];
+    view.competitors = [];
+    view.user_info = {competitions: [], competitors: [], teams: []};
 
     $http.get('/eighty/competitions').success(function(data){
 	view.competitions = data;
@@ -58,6 +61,22 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	
 	return this.started(competition) && !this.finished(competition);
     };
+
+    this.isEntered = function(competition) {
+	// now need to get at the competitor objects
+	// FIXME: need this to do something
+	return competition in this.myCompetitions();
+    };
+
+    this.myCompetitions = function() {
+	return this.user_info.competitions;
+    };
+    
+    this.notEntered = function(competition) {
+	
+	return !this.isEntered();
+    };
+
 }]);
 
 
@@ -95,6 +114,7 @@ app.directive("competitorInfo", function() {
 });
 
 app.directive("competitionEnter", [ '$http', function($http) {
+
     return {
 	restrict: 'E',
 	templateUrl: 'competition/enter.html',
@@ -103,26 +123,21 @@ app.directive("competitionEnter", [ '$http', function($http) {
 
 	    // $http.get('/detail_competition', {pk: 
 	    
-	    this.isEntered = function(competition) {
-		// now need to get at the competitor objects
-		// FIXME: need this to do something
-		return false;;
-	    };
-	    this.notEntered = function(competition) {
-		
-		return !this.isEntered();
-	    };
-
-	    this.enrol = function(competition) {
+	    this.enrol = function(competition, user) {
 		// code to enrol in a competition
-
-		// need to create a new competitor object
-		// save it and add it to the competion
 		
+		// save it and add it to the competion
+		//competition.competitors.push(this.competitor)
+
+		$http.post('/eighty/create_competitor/', this.competitor).success(function() {
+		    alert("Competitor Created");
+		}).error(function() {
+		    alert("wtf just happened?");
+		});
+		
+		this.competitor = {};
 	    };
 	},
 	controllerAs: "enrol"
     };
 }]);
-
-

@@ -1,8 +1,10 @@
 
 <div>
-  <form name="enterForm" action="enrol.enrol(competition)" >
-    Nick-name: <input type="text" ng-model="enrol.competitor.nickname">
-    <input type="submit" value="Enter Competion" />
+  <form name="enterForm" 
+	ng-submit="enterForm.$valid && enrol.enrol(competition)" novalidate>
+    Nick-name: <input type="text" ng-model="enrol.competitor.nickname"
+                      placeholder="Phileas Fogg" required>
+    <input type="submit" value="Enter Competion"/>
   </form>
   <!-- <button ng-click="enrol.enter(competition)">Enter</button> -->
 </div>
