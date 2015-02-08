@@ -3,6 +3,7 @@
 // Declare app level module which depends on views, and components
 var app = angular.module('myApp', [
   'ngRoute',
+  'ngCookies',
   'myApp.home',
   'myApp.competitions',
   'myApp.teams',
@@ -15,6 +16,10 @@ config(['$routeProvider', function($routeProvider) {
 config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('{$');
     $interpolateProvider.endSymbol('$}');
+}).
+
+run(function($http, $cookies) {
+    $http.defaults.headers.post['X-CSRFToken'] = $cookies.csrftoken;
 });
 
 app.config(function($httpProvider) {
