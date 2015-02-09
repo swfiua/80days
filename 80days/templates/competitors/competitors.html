@@ -1,7 +1,16 @@
-<h3> Entries <h3>
-
-<div ng-repeat="entry in competition.competitors">
-  <!-- {$ entry $} -->
-  <!-- <p>id: {$ competitor.id $} -->
-  <competitor-info></competitor-info>
+<h3> Entries: </h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nick-name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody ng-repeat="entry in competition.competitors">
+    <tr>
+      <td> {$ entry.nickname $}</td>
+      <td> {$ entry.user.email $} </td>
+    </tr>
+  </tbody>
+</table>
 </div>
