@@ -13,12 +13,14 @@
   <competition-info  ng-show="comps.finished(competition)" ng-repeat="competition in comps.competitions"></competition-info>
 
 
-  <p>Competitors: {$ comps.user_info.competitors $}</p>
-  <p>Competitions {$ comps.user_info.competitions $}</p>
-  <p>Teams: {$ comps.user_info.teams $}</p>
-  <p>Captains: {$ comps.user_info.captains $}</p>
+  <h2>My stats</h2>
 
-  <p>My comps: {$ comps.myCompetitions() $}
+  <p>Competitors: {$ comps.user_info.competitors.length $}</p>
+  <p>Competitions {$ comps.user_info.competitions.length $}</p>
+  <p>Teams: {$ comps.user_info.teams.length $}</p>
+  <p>Captains: {$ comps.user_info.captains.length $}</p>
+
+  <p>My comps: {$ comps.myCompetitions().length $}
 
 </section>
 
