@@ -1,6 +1,6 @@
 .. title: Mercurial Adjustment
 .. slug: mercurial-adjustment
-.. date: 2015-02-06 19:47:43 UTC
+.. date: 2015-02-10 19:47:43 UTC
 .. tags: draft
 .. link: 
 .. description: 
