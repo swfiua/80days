@@ -36,3 +36,10 @@ bower_components/
 
 # staticfiles from "python 80days/manage.py collectstatic"
 staticfiles/
+
+# emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.\#*

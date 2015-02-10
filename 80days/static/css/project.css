@@ -36,7 +36,13 @@
 .balloon_background {
     background: gainsboro url("/static/images/greenwich_balloon.jpg") no-repeat;
     background-size: 100%;
-    background-color: #887777;
+    background-color: #dddddd;
+    background-attachment: "fixed";
+}
+
+.plain_background {
+    background-size: 100%;
+    background-color: #dddddd;
     background-attachment: "fixed";
 }
 

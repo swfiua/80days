@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href={% static "css/project.css"%}>
 
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
@@ -23,8 +24,11 @@
 
   <script src={% static "bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"%}></script>
 </head>
-<body class="balloon_background">
+<body class="plain_background">
   <!-- application tabs -->
+  
+  <p> User is: {{ user }}
+  
   <app-tabs></app-tabs>
   
   <ul>
@@ -41,6 +45,7 @@
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
+
   <script src={% static "bower_components/angular/angular.js"%}></script>
   <script src={% static "bower_components/angular-route/angular-route.js"%}></script>
   <script src={% static "bower_components/angular-cookies/angular-cookies.js"%}></script>

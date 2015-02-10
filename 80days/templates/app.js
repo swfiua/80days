@@ -3,6 +3,7 @@
 // Declare app level module which depends on views, and components
 var app = angular.module('myApp', [
   'ngRoute',
+  'ngCookies',
   'myApp.home',
   'myApp.competitions',
   'myApp.teams',
@@ -15,20 +16,11 @@ config(['$routeProvider', function($routeProvider) {
 config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('{$');
     $interpolateProvider.endSymbol('$}');
+}).
+
+run(function($http, $cookies) {
+    $http.defaults.headers.post['X-CSRFToken'] = $cookies.csrftoken;
 });
-
-app.controller("TabController", function(){
-    this.tab = 1;
-
-    this.selectTab = function(setTab){
-	this.tab = setTab;
-    };
-
-    this.isSelected = function(checkTab) {
-	return this.tab === checkTab;
-    };
-});
-
 
 app.config(function($httpProvider) {
     $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
@@ -39,7 +31,7 @@ app.directive("appTabs", function() {
 	restrict: 'E',
 	templateUrl: 'components/tabs/tabs.html',
 	controller: function() {
-	    this.tab = 1;
+	    this.tab = 2;
 	
 	    this.selectTab = function(setTab){
 		this.tab = setTab;
@@ -51,17 +43,6 @@ app.directive("appTabs", function() {
 	},
 
 	controllerAs: "tab"
-    };
-});
-
-app.directive("competitionInfo", function() {
-    return {
-	restrict: 'E',
-	templateUrl: 'competition/competition.html',
-	controller: function() {
-	},
-
-	controllerAs: "comp"
     };
 });
 

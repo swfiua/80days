@@ -21,7 +21,7 @@ django-cache-url==0.8.0
 django-configurations==0.8
 django-crispy-forms==1.4.0
 django-debug-toolbar==1.2.1
--e git+git@github.com:swfiua/django_eighty_days.git@3c5b5012b331cb3f16e2e61eb65691d45521cdf8#egg=django_eighty_days-origin/HEAD
+-e git+git@github.com:swfiua/django_eighty_days.git@fdeb0f6e444986385285663d2db38f0b4ab7c18f#egg=django_eighty_days-master
 django-floppyforms==1.2.0
 django-model-utils==2.0.3
 django-nose==1.3
