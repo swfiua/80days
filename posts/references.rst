@@ -80,3 +80,7 @@
 
 
 .. _America's Cup: http://www.americascup.com/
+
+.. _django migrations: https://docs.djangoproject.com/en/1.7/topics/migrations/
+
+.. _jupyter notebook: https://github.com/jupyter
