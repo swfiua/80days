@@ -79,7 +79,7 @@ and learning, just let me know, another goal here is to teach others
 new skills whilst building cool stuff.
 
 
-.. _eighty days project blog: http://swfiua.github.io/80days/blog/
+.. _eighty days project blog: blog/
 .. _jackanory: http://johnnygill.github.io/jackanory/blogs/blog/html/
 .. _bytes and bikes: http://bytesnbikes.blogspot.com/
 
