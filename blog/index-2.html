@@ -85,6 +85,119 @@
 <div class="postindex">
     <article class="h-entry post-text">
     <header>
+        <h1 class="p-name entry-title"><a href="../posts/nginx-on-kodingcom.html" class="u-url">Nginx on koding.com</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/nginx-on-kodingcom.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-18T19:58:05+00:00" title="2014-12-18 19:58">2014-12-18 19:58</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/nginx-on-kodingcom.html#disqus_thread" data-disqus-identifier="cache/posts/nginx-on-kodingcom.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>It is more than time that I get the project up and running on a host
+somewhere.</p>
+<p>I could just check the code out on <a class="reference external" href="../posts/https//koding.com">koding.com</a> and run the project
+with django's build in server, but I feel I should run it under
+<em>nginx</em>.</p>
+<p>I could have chosen <em>apache</em>, but I keep hearing people mention
+<em>nginx</em> so I want to see what it is all about.</p>
+<p>Gooling <em>nginx django koding</em> threw up a guide to deploying django
+with <a class="reference external" href="http://agiliq.com/blog/2013/08/minimal-nginx-and-gunicorn-configuration-for-djang/">nginx and gunicorn</a>, so let's try that.</p>
+<p>So all went well until I got to the bit about running the application
+with <em>gunicorn</em>.</p>
+<p>My project layout is a little different to the one in the guide.  In
+particular, the <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> I used to create the project lays out
+the <em>django config</em> stuff a bit differently.</p>
+<p>So, I did the following:</p>
+<pre class="literal-block">
+export DJANGO_SETTINGS_MODULE="80days.config.production"
+gunicorn 80days.wsgi:application
+</pre>
+<p>This got me as far as being told:</p>
+<pre class="literal-block">
+ValueError: Couldn't setup configuration '80days.config.production.Production':
+Secret value 'SECRET_KEY' is not set
+</pre>
+<p>Time to disappear down the SECRET_KEY rabbit hole.</p>
+<p>So a little googling tells me a little about the secret key, but no
+advice on how to go about keeping it secret.</p>
+<p>So looking at what the wonderful <a class="reference external" href="https://github.com/pydanny/cookiecutter-django">cookiecutter django</a> created I see
+the following incantation in <em>config/production.py</em>:</p>
+<pre class="code python literal-block">
+<span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
+
+<span class="c"># SECRET KEY</span>
+<span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
+<span class="c"># END SECRET KEY</span>
+</pre>
+<p>So what is this <em>configuration.values</em> thing?   Turns out it is coming
+from the <a class="reference external" href="http://django-configurations.readthedocs.org/">django configurations</a> application that the <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a>
+was kind enough to include.</p>
+<p>OK, so it helps you not have to do</p>
+<pre class="code python literal-block">
+<span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
+</pre>
+<p>Now, that has to be a good thing :)</p>
+<p>So reading the docs I come to:</p>
+<pre class="literal-block">
+django-configurations allows you to optionally reduce the amount
+of validation and setup code in your settings.py by using Value
+classes. They have the ability to handle values from the process
+environment of your software (os.environ) and work well in
+projects that follow the Twelve-Factor methodology.
+</pre>
+<p>I will leave this <a class="reference external" href="http://12factor.net/">twelve factor</a> thing for another day, but a quick
+glance suggests there are some good guidelines there.</p>
+<p>So, digging into the docs for django configurations (which, by the way
+are quite excellent).  I come to <a class="reference external" href="http://django-configurations.readthedocs.org/en/latest/values/">this little gem</a>.  In short, this
+magic <em>values.SecretValue()</em> is there to discourage me from actually
+putting my secret key in the config file.</p>
+<p>This is good, because I am pretty sure I have committed this sin in
+pretty much every django project I have done up to now.  Thank you
+<a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a> :)</p>
+<p>Having said that, I feel this another case where good intentions are
+likely to result in bad security, for more see my <a class="reference external" href="../posts/rant-about-computer-insecurity.html">rant about computer
+(in)security</a></p>
+<p>With a tight deadline, how many developers would just slap a value in
+the config file <em>just to get things working</em> and be done with it?</p>
+<div class="section" id="now-what-was-i-doing">
+<h2>Now what was I doing?</h2>
+<p>OK, back to getting my site up and running.</p>
+<p>So armed with this new information I am back to trying to run
+gunicorn.</p>
+<p>Lots of errors from the production config, so I comment out a couple
+of sections.  At this point I am not planning on using Amazon's AWS,
+so that can all be commented out.</p>
+<p>Also, I am sure I will need this <em>sendgrid</em> thing just yet, so that is
+getting commented out too.</p>
+<p>Nearly there (I think), but gunicorn is still failing due <em>s3boto.py</em>
+being unable to import <em>StringIO</em>.  Now this looks like a python3
+problem, since in python 3, StringIO got moved to io.StringIO :(</p>
+<p>OK, so boto is an interface to AWS. I am not using that, so this one
+is easy to fix.</p>
+<p>And finally, <em>gunicorn</em> is running.</p>
+<p>Chrome is doing something weird, it is switching to https and then
+hanging with a mysterious <em>establishing secure connection</em> message.
+However, firefox and even chrome from another machine are just fine.</p>
+<p>So that's all for today, will finish this off tomorrow.</p>
+<!-- title: links -->
+<!-- slug: references -->
+<!-- date: 2014-11-13 14:08:31 UTC -->
+<!-- tags: -->
+<!-- link: -->
+<!-- description: links to include in all posts -->
+<!-- type: text -->
+</div>
+</div>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
         <h1 class="p-name entry-title"><a href="../posts/rant-about-computer-insecurity.html" class="u-url">Rant about computer (in)security</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>

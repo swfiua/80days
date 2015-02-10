@@ -6,43 +6,47 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/80days.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/angular-django-python-80days.xml</loc>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/angular-javascript-django-80days.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/bermuda-bus-ottawa-sufc.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/bermuda-music-awesome.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/django-python.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/football-sufc-blades.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/hackathon.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/javascript-angular-django.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/kindling-python-github.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/linux.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Bermuda/rss.xml</loc>
@@ -70,10 +74,10 @@
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/rss.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/sitemap.xml</loc>
-  <lastmod>2015-02-06</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </sitemap>
 </sitemapindex>

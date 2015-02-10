@@ -63,3 +63,6 @@ askubuntu being awkward on stackexchange.
 
 https://xpressubuntu.wordpress.com/2014/05/12/the-best-python-api-docs-for-gtk-rhythmbox-webkit-and-many-more/
 askubuntu blog is here.
+
+https://github.com/angular/angular.js/issues/1459 annoying angular
+table bug that is really browsers trying to be helpful

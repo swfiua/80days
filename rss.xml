@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 06 Feb 2015 16:44:01 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular velocity</title><link>http://swfiua.github.io/80days/posts/angular-velocity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So it has been a while since I blogged about the 80 day project.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 10 Feb 2015 11:46:54 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Are we nearly there yet?</title><link>http://swfiua.github.io/80days/posts/are-we-nearly-there-yet.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As of last night I have competition entry all working.&lt;/p&gt;
+&lt;p&gt;You can see all the competions being run.  If a competition has not
+started yet or is still in progress you can enter.&lt;/p&gt;
+&lt;p&gt;To enter, just give the nickname you want to use for the competion.&lt;/p&gt;
+&lt;p&gt;Next job is to add code to allow competitors to create and join teams.&lt;/p&gt;
+&lt;p&gt;This shouldn't take too long given what I now have.&lt;/p&gt;&lt;/div&gt;</description><category>angular django python 80days</category><guid>http://swfiua.github.io/80days/posts/are-we-nearly-there-yet.html</guid><pubDate>Tue, 10 Feb 2015 15:43:05 GMT</pubDate></item><item><title>Angular velocity</title><link>http://swfiua.github.io/80days/posts/angular-velocity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So it has been a while since I blogged about the 80 day project.&lt;/p&gt;
 &lt;p&gt;This is largely due to most of my free time has been spent working on
 the code.&lt;/p&gt;
 &lt;p&gt;Just to recap, 77 days into the project I still had quite a bit to
@@ -602,97 +607,4 @@ than the new stuff.&lt;/p&gt;
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda music awesome</category><guid>http://swfiua.github.io/80days/posts/the-music-from-uncle.html</guid><pubDate>Sun, 21 Dec 2014 20:01:33 GMT</pubDate></item><item><title>Nginx on koding.com</title><link>http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;It is more than time that I get the project up and running on a host
-somewhere.&lt;/p&gt;
-&lt;p&gt;I could just check the code out on &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; and run the project
-with django's build in server, but I feel I should run it under
-&lt;em&gt;nginx&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;I could have chosen &lt;em&gt;apache&lt;/em&gt;, but I keep hearing people mention
-&lt;em&gt;nginx&lt;/em&gt; so I want to see what it is all about.&lt;/p&gt;
-&lt;p&gt;Gooling &lt;em&gt;nginx django koding&lt;/em&gt; threw up a guide to deploying django
-with &lt;a class="reference external" href="http://agiliq.com/blog/2013/08/minimal-nginx-and-gunicorn-configuration-for-djang/"&gt;nginx and gunicorn&lt;/a&gt;, so let's try that.&lt;/p&gt;
-&lt;p&gt;So all went well until I got to the bit about running the application
-with &lt;em&gt;gunicorn&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;My project layout is a little different to the one in the guide.  In
-particular, the &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; I used to create the project lays out
-the &lt;em&gt;django config&lt;/em&gt; stuff a bit differently.&lt;/p&gt;
-&lt;p&gt;So, I did the following:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-export DJANGO_SETTINGS_MODULE="80days.config.production"
-gunicorn 80days.wsgi:application
-&lt;/pre&gt;
-&lt;p&gt;This got me as far as being told:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-ValueError: Couldn't setup configuration '80days.config.production.Production':
-Secret value 'SECRET_KEY' is not set
-&lt;/pre&gt;
-&lt;p&gt;Time to disappear down the SECRET_KEY rabbit hole.&lt;/p&gt;
-&lt;p&gt;So a little googling tells me a little about the secret key, but no
-advice on how to go about keeping it secret.&lt;/p&gt;
-&lt;p&gt;So looking at what the wonderful &lt;a class="reference external" href="https://github.com/pydanny/cookiecutter-django"&gt;cookiecutter django&lt;/a&gt; created I see
-the following incantation in &lt;em&gt;config/production.py&lt;/em&gt;:&lt;/p&gt;
-&lt;pre class="code python literal-block"&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;configurations&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;
-
-&lt;span class="c"&gt;# SECRET KEY&lt;/span&gt;
-&lt;span class="n"&gt;SECRET_KEY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SecretValue&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="c"&gt;# END SECRET KEY&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;So what is this &lt;em&gt;configuration.values&lt;/em&gt; thing?   Turns out it is coming
-from the &lt;a class="reference external" href="http://django-configurations.readthedocs.org/"&gt;django configurations&lt;/a&gt; application that the &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt;
-was kind enough to include.&lt;/p&gt;
-&lt;p&gt;OK, so it helps you not have to do&lt;/p&gt;
-&lt;pre class="code python literal-block"&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;foo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;Now, that has to be a good thing :)&lt;/p&gt;
-&lt;p&gt;So reading the docs I come to:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-django-configurations allows you to optionally reduce the amount
-of validation and setup code in your settings.py by using Value
-classes. They have the ability to handle values from the process
-environment of your software (os.environ) and work well in
-projects that follow the Twelve-Factor methodology.
-&lt;/pre&gt;
-&lt;p&gt;I will leave this &lt;a class="reference external" href="http://12factor.net/"&gt;twelve factor&lt;/a&gt; thing for another day, but a quick
-glance suggests there are some good guidelines there.&lt;/p&gt;
-&lt;p&gt;So, digging into the docs for django configurations (which, by the way
-are quite excellent).  I come to &lt;a class="reference external" href="http://django-configurations.readthedocs.org/en/latest/values/"&gt;this little gem&lt;/a&gt;.  In short, this
-magic &lt;em&gt;values.SecretValue()&lt;/em&gt; is there to discourage me from actually
-putting my secret key in the config file.&lt;/p&gt;
-&lt;p&gt;This is good, because I am pretty sure I have committed this sin in
-pretty much every django project I have done up to now.  Thank you
-&lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; :)&lt;/p&gt;
-&lt;p&gt;Having said that, I feel this another case where good intentions are
-likely to result in bad security, for more see my &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/rant-about-computer-insecurity.html"&gt;rant about computer
-(in)security&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;With a tight deadline, how many developers would just slap a value in
-the config file &lt;em&gt;just to get things working&lt;/em&gt; and be done with it?&lt;/p&gt;
-&lt;div class="section" id="now-what-was-i-doing"&gt;
-&lt;h2&gt;Now what was I doing?&lt;/h2&gt;
-&lt;p&gt;OK, back to getting my site up and running.&lt;/p&gt;
-&lt;p&gt;So armed with this new information I am back to trying to run
-gunicorn.&lt;/p&gt;
-&lt;p&gt;Lots of errors from the production config, so I comment out a couple
-of sections.  At this point I am not planning on using Amazon's AWS,
-so that can all be commented out.&lt;/p&gt;
-&lt;p&gt;Also, I am sure I will need this &lt;em&gt;sendgrid&lt;/em&gt; thing just yet, so that is
-getting commented out too.&lt;/p&gt;
-&lt;p&gt;Nearly there (I think), but gunicorn is still failing due &lt;em&gt;s3boto.py&lt;/em&gt;
-being unable to import &lt;em&gt;StringIO&lt;/em&gt;.  Now this looks like a python3
-problem, since in python 3, StringIO got moved to io.StringIO :(&lt;/p&gt;
-&lt;p&gt;OK, so boto is an interface to AWS. I am not using that, so this one
-is easy to fix.&lt;/p&gt;
-&lt;p&gt;And finally, &lt;em&gt;gunicorn&lt;/em&gt; is running.&lt;/p&gt;
-&lt;p&gt;Chrome is doing something weird, it is switching to https and then
-hanging with a mysterious &lt;em&gt;establishing secure connection&lt;/em&gt; message.
-However, firefox and even chrome from another machine are just fine.&lt;/p&gt;
-&lt;p&gt;So that's all for today, will finish this off tomorrow.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html</guid><pubDate>Thu, 18 Dec 2014 19:58:05 GMT</pubDate></item></channel></rss>
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda music awesome</category><guid>http://swfiua.github.io/80days/posts/the-music-from-uncle.html</guid><pubDate>Sun, 21 Dec 2014 20:01:33 GMT</pubDate></item></channel></rss>
