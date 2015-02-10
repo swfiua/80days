@@ -1,18 +1,17 @@
 
-<!-- controller for competitions is coms -- need a better word -->
+<!-- controller for competitions is comps -- need a better word -->
 <div>
   <h3> {$ competition.name $} </h3>
   <p> {$ competition.description $} <p>
   
   <p> Start: <strong>{$ comps.startDate(competition) | date $}</strong> <p>
-  <p> End: <strong>{$ comps.endDate(competition) | date $}</strong> </li>
+  <p> End: <strong>{$ comps.endDate(competition) | date $}</strong> </p>
   <p> Days: <strong>{$ competition.days $}</strong> <p>
-  <p> Team: size: <strong>{$ competition.team_size $}</strong> </li>
+  <p> Team: size: <strong>{$ competition.team_size $}</strong> </p>
+  <p> Number of competitors:  <strong>{$ competition.competitors.length $}</strong> </p>
 </div>
 
 <competitor-list ng-show="competition.competitors.length"></competitor-list>
-
-Am i not entered?: {$ comps.notEntered(competition) $}
 
 <competition-enter 
    ng-show="(!comps.finished(competition)) &&  
