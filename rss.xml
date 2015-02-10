@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 10 Feb 2015 11:46:54 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Are we nearly there yet?</title><link>http://swfiua.github.io/80days/posts/are-we-nearly-there-yet.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As of last night I have competition entry all working.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Tue, 10 Feb 2015 18:19:06 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Mercurial Adjustment</title><link>http://swfiua.github.io/80days/posts/mercurial-adjustment.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So careful observers will note the project is running a little late.&lt;/p&gt;
+&lt;p&gt;The aim was to launch the site on February 1st.  I am not quite ready
+to go live yet.   I want a few more features implemented first.&lt;/p&gt;
+&lt;p&gt;I am also aware that there is a lot still to do.  But it was always
+the plan to build features through the 80 day running of the
+competition.&lt;/p&gt;
+&lt;p&gt;This project has been a very interesting experience for me.  At the
+start, I had a task that I knew I could get done in a few days.  With
+stuff I had used in the past.  But, I wanted to learn some knew
+stuff.  &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; was one thing.&lt;/p&gt;
+&lt;p&gt;I really like python and have enjoyed working with &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; over the
+years.  It has been a struggle at times.  I've always loved what the
+project is doing, it has been a constantly evolving project.  Often,
+knew releases would break old sites.  This was actually a good thing,
+a bit of reading and you could find the solution.  And if you
+implemented it, your code was generally better.&lt;/p&gt;
+&lt;p&gt;I have loved &lt;a class="reference external" href="https://docs.djangoproject.com/en/1.7/topics/migrations/"&gt;django migrations&lt;/a&gt;.  I like to develop sites as they
+are being run.  Now one tricky bit is knowing when you can (or should)
+let others loose on the site.  They might put work into it that would
+be lost by changes you want to make.&lt;/p&gt;
+&lt;p&gt;This is where these migrations come in very handy.  Over the course of
+what I have been doing I have been running:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+python 80days/manage.py makemigrations
+&lt;/pre&gt;
+&lt;p&gt;and/or:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+python 80days/manage.py migrate
+&lt;/pre&gt;
+&lt;p&gt;more or less at random (as I got to know what the errors really mean,
+so less random as time went on.  And what has been cool is that pretty
+much every time they have lead me through the process and done exactly
+what I wanted with pretty minimal fuss.&lt;/p&gt;
+&lt;p&gt;Murphy's law dictates that I will now encounter a nightmare with
+migrations, at some, inconvenient point.  The good news is I have good
+confidence in these migrations.  In particular, I love the way you get
+the code for the migration.  So, if I am doing something scary, or if
+it all breaks, then I can take a look at it.&lt;/p&gt;
+&lt;div class="section" id="angular"&gt;
+&lt;h2&gt;Angular&lt;/h2&gt;
+&lt;p&gt;This has been a rocky ride at times.  On the face of it, it is doing
+something elegant and simple.   But it is doing what it does inside
+the DOM model as implemented by various browsers.  These browsers are
+trying to be helpful.  So I spent an afternoon wrestling with &lt;a class="reference external" href="https://github.com/angular/angular.js/issues/1459"&gt;angular
+directives for table rows&lt;/a&gt;.  I just wanted to write a partial piece
+of html for each row.  Now it seems this is really tricky to do in
+angular because of the way browsers try to be helpful with broken
+table code.&lt;/p&gt;
+&lt;p&gt;Overall, I am happy with where things are.  There are a lot of areas
+I would like to learn more about.  I need to spend an afternoon with
+the node/angular testing setup.  I really do need to start writing
+those tests.&lt;/p&gt;
+&lt;p&gt;In short, there are a lot of things I know can be done better, but
+most are good enough for now and I can work on the pain points as they
+become more aparent,&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The good news is that after all the research and experimenting I have
+found a lot of the gotchas.  In short, I have the tools and have
+figured enough about how they work that I should be quite productive
+from here on in.&lt;/p&gt;
+&lt;p&gt;Was cookiecutter a good idea?  Very much so.  It introduced me to lots
+of things that I would not of explored at this point otherwise.  Some
+bits I have pretty much forgotten about, but I think most of the stuff
+I have explored is mentioned in this blog somewhere, or in &lt;a class="reference external" href="https://github.com/swfiua/"&gt;github&lt;/a&gt;.
+So, if nothing else, it is there if I need to refer to it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="and-finally"&gt;
+&lt;h2&gt;And finally..&lt;/h2&gt;
+&lt;p&gt;So the mercurial adjustment works like this.  Every software project
+runs late.  They run late for lots of reasons.  Most of them good.&lt;/p&gt;
+&lt;p&gt;Now the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Mercury_%28planet%29"&gt;planet mercury&lt;/a&gt; orbits the sun in just under 88 days.  But
+here on planet earth, in that time the earth moves, so that it is
+actually nearly 116 days before the earth, mercury and sun are in a
+similar alignment.  This probably needs to be done in a &lt;a class="reference external" href="https://github.com/jupyter"&gt;jupyter
+notebook&lt;/a&gt;, so for now, the deal is that depending on your frame of
+reference and definition of a day, 80 days could arguably be deemed to
+be a shade over 105 days as most of us here on earth know them.&lt;/p&gt;
+&lt;p&gt;So next time your n day software project is running late, come into
+work dressed as Mercury ;)&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/mercurial-adjustment.html</guid><pubDate>Tue, 10 Feb 2015 19:47:43 GMT</pubDate></item><item><title>Are we nearly there yet?</title><link>http://swfiua.github.io/80days/posts/are-we-nearly-there-yet.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As of last night I have competition entry all working.&lt;/p&gt;
 &lt;p&gt;You can see all the competions being run.  If a competition has not
 started yet or is still in progress you can enter.&lt;/p&gt;
 &lt;p&gt;To enter, just give the nickname you want to use for the competion.&lt;/p&gt;
@@ -540,71 +628,4 @@ the learning of &lt;a class="reference external" href="https://angularjs.org/"&g
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>django python</category><guid>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</guid><pubDate>Wed, 14 Jan 2015 21:12:36 GMT</pubDate></item><item><title>The Music from UNCLE</title><link>http://swfiua.github.io/80days/posts/the-music-from-uncle.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am lucky enough to live in a wonderful part of the world.  &lt;a class="reference external" href="https://www.youtube.com/watch?v=vbVyE6hZjCU"&gt;Bermuda
-is another world&lt;/a&gt;.  It really is.&lt;/p&gt;
-&lt;p&gt;A tiny island of just 60,000 people, a place with a complex history.
-There are a lot of wonderful people here.  There are also some cool
-things starting to happen here such as &lt;a class="reference external" href="http://code441.com"&gt;code441&lt;/a&gt; and &lt;a class="reference external" href="http://wearebermuda.com/"&gt;wearebermuda&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It is Christmas time.  The last Saturday before Christmas and there
-are parties everywhere.  Many of them are company parties.  You know
-the thing, you sort of have to go along.  With luck you'll get to sit
-with some of the people at work you actually like.  As the night goes
-on, if you are lucky, you will find some like-minded people to spend
-time with.&lt;/p&gt;
-&lt;p&gt;This year, no office party for me.  So, we went to a local bar.  There
-is a DJ every Saturday night at this place.  The dance floor is always
-packed, for a simple reason: he knows his crowd.  And he always walks
-around before he starts, plans his work and works his plan.&lt;/p&gt;
-&lt;p&gt;Last night there must have been 60 cars parked in the area.  The place
-was packed.  Everyone was having a good time.&lt;/p&gt;
-&lt;p&gt;Now only in Bermuda could a DJ start the evening with &lt;a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30"&gt;My God is
-Awesome&lt;/a&gt;, follow it up with &lt;a class="reference external" href="https://www.youtube.com/watch?v=9T4WB2zfmps"&gt;Silent Night&lt;/a&gt; and already have his
-audience tapping their feet and getting into the mood.&lt;/p&gt;
-&lt;p&gt;I'd never heard &lt;a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30"&gt;My God is Awesome&lt;/a&gt; before.  Actually, I am sure I
-must of heard it, just hadn't really listend.  And I only really
-listened this time because it reminded me of the &lt;a class="reference external" href="http://awesome.naquadah.org/"&gt;Awesome window
-manager&lt;/a&gt;  I've been using awesome the last few weeks and it has had a
-huge impact on the way I use my computer.   And I am only scratching
-the surface of what it can do.&lt;/p&gt;
-&lt;p&gt;So this was followed up with &lt;a class="reference external" href="https://www.youtube.com/watch?v=xlVxEAUqWU0"&gt;You can't hurry love&lt;/a&gt;, an old version
-by the Supremes.  Another special song for me.&lt;/p&gt;
-&lt;p&gt;Then there was &lt;a class="reference external" href="https://www.youtube.com/watch?v=vdB-8eLEW8g"&gt;One Love&lt;/a&gt;, &lt;a class="reference external" href="https://www.youtube.com/watch?v=JFMtBibwrgY"&gt;Electric Slide&lt;/a&gt;, complete with line
-dancing.  Bermudian line dancing has to be seen to be appreciated.
-Last night was typical.  A mixture of regulars to the place and those
-just there for the party.  Everyone having a good time
-together. There were a lot of &lt;a class="reference external" href="https://www.youtube.com/watch?v=y6Sxv-sUYtM"&gt;Happy&lt;/a&gt; people.&lt;/p&gt;
-&lt;p&gt;My music tastes are a bit weird.  I pretty much follow the crowd.  And
-my guitar music.  I have been (very slowly) learning to play over the
-past few years.  I have a few books with tabs, most of them have the
-word &lt;em&gt;easy&lt;/em&gt; in their titles.&lt;/p&gt;
-&lt;p&gt;I would pick a song and try the patience of those around me by playing
-it over and over again, badly.  I would look at the tabs of some and
-think, no way I can play that.  But now I am starting to get a little
-better and a little more adventurous.  I am noticing songs that have
-been there for years ready for me to play.  Song of the moment is the
-&lt;a class="reference external" href="https://www.youtube.com/watch?v=YZo88P1Ie94"&gt;The Joker&lt;/a&gt;.  Like all good songs, there is lots of scope for
-changing the lyrics:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-I'm a picker,
-I'm a grinder,
-I'm a lover,
-I'm a sinner,
-I play my music in the sun
-&lt;/pre&gt;
-&lt;p&gt;Grinder not grinner, in tribute to the &lt;a class="reference external" href="https://www.youtube.com/watch?v=pTXjp2bf1vo"&gt;Sheffield Grinder&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And seeing as I have a bit of a &lt;a class="reference external" href="http://git-scm.com/"&gt;git&lt;/a&gt; obsession:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-I'm a puller,
-I'm a merger,
-I'm a midnight coder,
-I get my checkouts from github.
-&lt;/pre&gt;
-&lt;p&gt;Thanks Uncle, old stuff still works.  Sometimes it works way better
-than the new stuff.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda music awesome</category><guid>http://swfiua.github.io/80days/posts/the-music-from-uncle.html</guid><pubDate>Sun, 21 Dec 2014 20:01:33 GMT</pubDate></item></channel></rss>
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>django python</category><guid>http://swfiua.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</guid><pubDate>Wed, 14 Jan 2015 21:12:36 GMT</pubDate></item></channel></rss>

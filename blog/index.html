@@ -85,6 +85,114 @@
 <div class="postindex">
     <article class="h-entry post-text">
     <header>
+        <h1 class="p-name entry-title"><a href="../posts/mercurial-adjustment.html" class="u-url">Mercurial Adjustment</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
+            <p class="dateline"><a href="../posts/mercurial-adjustment.html" rel="bookmark"><time class="published dt-published" datetime="2015-02-10T19:47:43+00:00" title="2015-02-10 19:47">2015-02-10 19:47</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/mercurial-adjustment.html#disqus_thread" data-disqus-identifier="cache/posts/mercurial-adjustment.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <div>
+<p>So careful observers will note the project is running a little late.</p>
+<p>The aim was to launch the site on February 1st.  I am not quite ready
+to go live yet.   I want a few more features implemented first.</p>
+<p>I am also aware that there is a lot still to do.  But it was always
+the plan to build features through the 80 day running of the
+competition.</p>
+<p>This project has been a very interesting experience for me.  At the
+start, I had a task that I knew I could get done in a few days.  With
+stuff I had used in the past.  But, I wanted to learn some knew
+stuff.  <a class="reference external" href="https://angularjs.org/">angular.js</a> was one thing.</p>
+<p>I really like python and have enjoyed working with <a class="reference external" href="https://www.djangoproject.com/">django</a> over the
+years.  It has been a struggle at times.  I've always loved what the
+project is doing, it has been a constantly evolving project.  Often,
+knew releases would break old sites.  This was actually a good thing,
+a bit of reading and you could find the solution.  And if you
+implemented it, your code was generally better.</p>
+<p>I have loved <a class="reference external" href="https://docs.djangoproject.com/en/1.7/topics/migrations/">django migrations</a>.  I like to develop sites as they
+are being run.  Now one tricky bit is knowing when you can (or should)
+let others loose on the site.  They might put work into it that would
+be lost by changes you want to make.</p>
+<p>This is where these migrations come in very handy.  Over the course of
+what I have been doing I have been running:</p>
+<pre class="literal-block">
+python 80days/manage.py makemigrations
+</pre>
+<p>and/or:</p>
+<pre class="literal-block">
+python 80days/manage.py migrate
+</pre>
+<p>more or less at random (as I got to know what the errors really mean,
+so less random as time went on.  And what has been cool is that pretty
+much every time they have lead me through the process and done exactly
+what I wanted with pretty minimal fuss.</p>
+<p>Murphy's law dictates that I will now encounter a nightmare with
+migrations, at some, inconvenient point.  The good news is I have good
+confidence in these migrations.  In particular, I love the way you get
+the code for the migration.  So, if I am doing something scary, or if
+it all breaks, then I can take a look at it.</p>
+<div class="section" id="angular">
+<h2>Angular</h2>
+<p>This has been a rocky ride at times.  On the face of it, it is doing
+something elegant and simple.   But it is doing what it does inside
+the DOM model as implemented by various browsers.  These browsers are
+trying to be helpful.  So I spent an afternoon wrestling with <a class="reference external" href="https://github.com/angular/angular.js/issues/1459">angular
+directives for table rows</a>.  I just wanted to write a partial piece
+of html for each row.  Now it seems this is really tricky to do in
+angular because of the way browsers try to be helpful with broken
+table code.</p>
+<p>Overall, I am happy with where things are.  There are a lot of areas
+I would like to learn more about.  I need to spend an afternoon with
+the node/angular testing setup.  I really do need to start writing
+those tests.</p>
+<p>In short, there are a lot of things I know can be done better, but
+most are good enough for now and I can work on the pain points as they
+become more aparent,</p>
+</div>
+<div class="section" id="summary">
+<h2>Summary</h2>
+<p>The good news is that after all the research and experimenting I have
+found a lot of the gotchas.  In short, I have the tools and have
+figured enough about how they work that I should be quite productive
+from here on in.</p>
+<p>Was cookiecutter a good idea?  Very much so.  It introduced me to lots
+of things that I would not of explored at this point otherwise.  Some
+bits I have pretty much forgotten about, but I think most of the stuff
+I have explored is mentioned in this blog somewhere, or in <a class="reference external" href="https://github.com/swfiua/">github</a>.
+So, if nothing else, it is there if I need to refer to it.</p>
+</div>
+<div class="section" id="and-finally">
+<h2>And finally..</h2>
+<p>So the mercurial adjustment works like this.  Every software project
+runs late.  They run late for lots of reasons.  Most of them good.</p>
+<p>Now the <a class="reference external" href="http://en.wikipedia.org/wiki/Mercury_%28planet%29">planet mercury</a> orbits the sun in just under 88 days.  But
+here on planet earth, in that time the earth moves, so that it is
+actually nearly 116 days before the earth, mercury and sun are in a
+similar alignment.  This probably needs to be done in a <a class="reference external" href="https://github.com/jupyter">jupyter
+notebook</a>, so for now, the deal is that depending on your frame of
+reference and definition of a day, 80 days could arguably be deemed to
+be a shade over 105 days as most of us here on earth know them.</p>
+<p>So next time your n day software project is running late, come into
+work dressed as Mercury ;)</p>
+<!-- title: links -->
+<!-- slug: references -->
+<!-- date: 2014-11-13 14:08:31 UTC -->
+<!-- tags: -->
+<!-- link: -->
+<!-- description: links to include in all posts -->
+<!-- type: text -->
+</div>
+</div>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
         <h1 class="p-name entry-title"><a href="../posts/are-we-nearly-there-yet.html" class="u-url">Are we nearly there yet?</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
@@ -795,93 +903,6 @@ some models, hence the need for cog.</p>
 suitable urls.py, serializers.py and api.py to the cookiecutter
 template.  I'll add that to the list of things to do, if only to delay
 the learning of <a class="reference external" href="https://angularjs.org/">angular.js</a> ;)</p>
-<!-- title: links -->
-<!-- slug: references -->
-<!-- date: 2014-11-13 14:08:31 UTC -->
-<!-- tags: -->
-<!-- link: -->
-<!-- description: links to include in all posts -->
-<!-- type: text -->
-</div>
-    </div>
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="../posts/the-music-from-uncle.html" class="u-url">The Music from UNCLE</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
-            <p class="dateline"><a href="../posts/the-music-from-uncle.html" rel="bookmark"><time class="published dt-published" datetime="2014-12-21T20:01:33+00:00" title="2014-12-21 20:01">2014-12-21 20:01</time></a></p>
-                <p class="commentline">
-        
-    <a href="../posts/the-music-from-uncle.html#disqus_thread" data-disqus-identifier="cache/posts/the-music-from-uncle.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="e-content entry-content">
-    <div>
-<p>I am lucky enough to live in a wonderful part of the world.  <a class="reference external" href="https://www.youtube.com/watch?v=vbVyE6hZjCU">Bermuda
-is another world</a>.  It really is.</p>
-<p>A tiny island of just 60,000 people, a place with a complex history.
-There are a lot of wonderful people here.  There are also some cool
-things starting to happen here such as <a class="reference external" href="http://code441.com">code441</a> and <a class="reference external" href="http://wearebermuda.com/">wearebermuda</a>.</p>
-<p>It is Christmas time.  The last Saturday before Christmas and there
-are parties everywhere.  Many of them are company parties.  You know
-the thing, you sort of have to go along.  With luck you'll get to sit
-with some of the people at work you actually like.  As the night goes
-on, if you are lucky, you will find some like-minded people to spend
-time with.</p>
-<p>This year, no office party for me.  So, we went to a local bar.  There
-is a DJ every Saturday night at this place.  The dance floor is always
-packed, for a simple reason: he knows his crowd.  And he always walks
-around before he starts, plans his work and works his plan.</p>
-<p>Last night there must have been 60 cars parked in the area.  The place
-was packed.  Everyone was having a good time.</p>
-<p>Now only in Bermuda could a DJ start the evening with <a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30">My God is
-Awesome</a>, follow it up with <a class="reference external" href="https://www.youtube.com/watch?v=9T4WB2zfmps">Silent Night</a> and already have his
-audience tapping their feet and getting into the mood.</p>
-<p>I'd never heard <a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30">My God is Awesome</a> before.  Actually, I am sure I
-must of heard it, just hadn't really listend.  And I only really
-listened this time because it reminded me of the <a class="reference external" href="http://awesome.naquadah.org/">Awesome window
-manager</a>  I've been using awesome the last few weeks and it has had a
-huge impact on the way I use my computer.   And I am only scratching
-the surface of what it can do.</p>
-<p>So this was followed up with <a class="reference external" href="https://www.youtube.com/watch?v=xlVxEAUqWU0">You can't hurry love</a>, an old version
-by the Supremes.  Another special song for me.</p>
-<p>Then there was <a class="reference external" href="https://www.youtube.com/watch?v=vdB-8eLEW8g">One Love</a>, <a class="reference external" href="https://www.youtube.com/watch?v=JFMtBibwrgY">Electric Slide</a>, complete with line
-dancing.  Bermudian line dancing has to be seen to be appreciated.
-Last night was typical.  A mixture of regulars to the place and those
-just there for the party.  Everyone having a good time
-together. There were a lot of <a class="reference external" href="https://www.youtube.com/watch?v=y6Sxv-sUYtM">Happy</a> people.</p>
-<p>My music tastes are a bit weird.  I pretty much follow the crowd.  And
-my guitar music.  I have been (very slowly) learning to play over the
-past few years.  I have a few books with tabs, most of them have the
-word <em>easy</em> in their titles.</p>
-<p>I would pick a song and try the patience of those around me by playing
-it over and over again, badly.  I would look at the tabs of some and
-think, no way I can play that.  But now I am starting to get a little
-better and a little more adventurous.  I am noticing songs that have
-been there for years ready for me to play.  Song of the moment is the
-<a class="reference external" href="https://www.youtube.com/watch?v=YZo88P1Ie94">The Joker</a>.  Like all good songs, there is lots of scope for
-changing the lyrics:</p>
-<pre class="literal-block">
-I'm a picker,
-I'm a grinder,
-I'm a lover,
-I'm a sinner,
-I play my music in the sun
-</pre>
-<p>Grinder not grinner, in tribute to the <a class="reference external" href="https://www.youtube.com/watch?v=pTXjp2bf1vo">Sheffield Grinder</a>.</p>
-<p>And seeing as I have a bit of a <a class="reference external" href="http://git-scm.com/">git</a> obsession:</p>
-<pre class="literal-block">
-I'm a puller,
-I'm a merger,
-I'm a midnight coder,
-I get my checkouts from github.
-</pre>
-<p>Thanks Uncle, old stuff still works.  Sometimes it works way better
-than the new stuff.</p>
 <!-- title: links -->
 <!-- slug: references -->
 <!-- date: 2014-11-13 14:08:31 UTC -->

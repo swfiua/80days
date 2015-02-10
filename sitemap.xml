@@ -34,7 +34,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index-1.html</loc>
-  <lastmod>2015-01-27</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/blog/index-2.html</loc>
@@ -118,7 +118,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/index.html</loc>
-  <lastmod>2015-01-22</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</loc>
@@ -173,6 +173,10 @@
   <lastmod>2015-01-27</lastmod>
  </url>
  <url>
+  <loc>http://swfiua.github.io/80days/posts/mercurial-adjustment.html</loc>
+  <lastmod>2015-02-10</lastmod>
+ </url>
+ <url>
   <loc>http://swfiua.github.io/80days/posts/more-on-django-allauth.html</loc>
   <lastmod>2015-01-22</lastmod>
  </url>
@@ -194,7 +198,7 @@
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/references.html</loc>
-  <lastmod>2015-01-27</lastmod>
+  <lastmod>2015-02-10</lastmod>
  </url>
  <url>
   <loc>http://swfiua.github.io/80days/posts/star-trek-universal-translator.html</loc>
