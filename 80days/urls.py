@@ -28,6 +28,8 @@ PARTIAL_DATA = [
     ['competitors/competitors',   ['.html']],
 
     ['teams/teams',               ['.html', '.js']],
+    ['teams/team-list',           ['.html']],
+    ['teams/team-create',         ['.html']],
 
 
     ['components/version/version-directive',['.js']],
