@@ -278,3 +278,24 @@ app.directive("teamCreate", [ '$http', function($http) {
 	controllerAs: "teamCreate"
     };
 }]);
+
+
+app.directive("competitionTabs", function() {
+    return {
+	restrict: 'E',
+	templateUrl: 'competition/tabs.html',
+	controller: function() {
+	    this.tab = 1;
+	
+	    this.selectTab = function(setTab){
+		this.tab = setTab;
+	    };
+
+	    this.isSelected = function(checkTab) {
+		return this.tab === checkTab;
+	    };
+	},
+
+	controllerAs: "compTab"
+    };
+});

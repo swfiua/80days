@@ -20,6 +20,7 @@ PARTIAL_DATA = [
     ['components/tabs/tabs',      ['.html']],
     ['components/version/version',['.js']],
 
+    ['competition/tabs',          ['.html']],
     ['competition/enter',         ['.html']],
     ['competition/competition',   ['.html']],
     ['competitions/competitions', ['.html', '.js']],
