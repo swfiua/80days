@@ -15,13 +15,23 @@ admin.autodiscover()
 # (partial_url, [exts]) pairs
 PARTIAL_DATA = [
     ['home/home',                 ['.html', '.js']],
+    ['app',                       ['.css',  '.js']],
+
+    ['components/tabs/tabs',      ['.html']],
+    ['components/version/version',['.js']],
+
+    ['competition/tabs',          ['.html']],
     ['competition/enter',         ['.html']],
     ['competition/competition',   ['.html']],
     ['competitions/competitions', ['.html', '.js']],
+
+    ['competitors/competitor',    ['.html']],
+    ['competitors/competitors',   ['.html']],
+
     ['teams/teams',               ['.html', '.js']],
-    ['app',                       ['.css',  '.js']],
-    ['components/tabs/tabs',      ['.html']],
-    ['components/version/version',['.js']],
+    ['teams/team-list',           ['.html']],
+    ['teams/team-create',         ['.html']],
+
 
     ['components/version/version-directive',['.js']],
     ['components/version/interpolate-filter',['.js']],
