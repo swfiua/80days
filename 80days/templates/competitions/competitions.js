@@ -280,6 +280,9 @@ app.directive("teamCreate", [ '$http', function($http) {
 }]);
 
 
+// FIXME this code is identical to the appTabs, bar a couple of names
+// Actually, it is just the controller that is the thing I want to 
+// re-use.  
 app.directive("competitionTabs", function() {
     return {
 	restrict: 'E',
