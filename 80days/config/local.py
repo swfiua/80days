@@ -13,7 +13,7 @@ from .common import Common
 class Local(Common):
 
     # DEBUG
-    DEBUG = values.BooleanValue(False)
+    DEBUG = values.BooleanValue(True)
     ALLOWED_HOSTS = ["*"]
 
     TEMPLATE_DEBUG = DEBUG
