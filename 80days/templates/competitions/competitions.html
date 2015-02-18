@@ -1,22 +1,16 @@
 
 <section ng-controller="CompetitionsCtrl as comps">
-  <h2>Up-coming competitions</h2>
+  <h2>Up-coming and in progress competitions</h2>
 
-  <competition-tabs  ng-show="!comps.started(competition)"
+  <competition-panels  ng-show="!comps.finished(competition)"
 		     ng-repeat="competition in comps.competitions">
-  </competition-tabs>            
+  </competition-panels>            
 
-  <h2>Competitions in progress</h2>
+  <h2>Competitions archive</h2>
   
-  <competition-tabs  ng-show="comps.inProgress(competition)" 
+  <competition-panels  ng-show="comps.finished(competition)" 
 		     ng-repeat="competition in comps.competitions">
-  </competition-tabs>            
-
-  <h2>Completed competitions</h2>
-  
-  <competition-tabs  ng-show="comps.finished(competition)" 
-		     ng-repeat="competition in comps.competitions">
-  </competition-tabs>            
+  </competition-panels>            
 
   <h2>My stats</h2>
 

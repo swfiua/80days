@@ -283,22 +283,22 @@ app.directive("teamCreate", [ '$http', function($http) {
 // FIXME this code is identical to the appTabs, bar a couple of names
 // Actually, it is just the controller that is the thing I want to 
 // re-use.  
-app.directive("competitionTabs", function() {
+app.directive("competitionPanels", function() {
     return {
 	restrict: 'E',
-	templateUrl: 'competition/tabs.html',
+	templateUrl: 'competition/panels.html',
 	controller: function() {
-	    this.tab = 1;
+	    this.panel = 1;
 	
-	    this.selectTab = function(setTab){
-		this.tab = setTab;
+	    this.selectPanel = function(setPanel){
+		this.panel = setPanel;
 	    };
 
-	    this.isSelected = function(checkTab) {
-		return this.tab === checkTab;
+	    this.isSelected = function(checkPanel) {
+		return this.panel === checkPanel;
 	    };
 	},
 
-	controllerAs: "compTab"
+	controllerAs: "compPanel"
     };
 });

@@ -1,11 +1,23 @@
-<section>
+<section class="competition">
 <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
+<h3> {$ competition.name $} </h3>
+
+<p> {$ competition.description $} <p>
+
+<ul class="menu-panel">
+  <li ng-class="{ active: compPanel.isSelected(1) }">
+    <a href ng-click="compPanel.selectPanel(1)">Entries</a></li>
+
+  <li ng-class="{ active: compPanel.isSelected(2) }">
+    <a href ng-click="compPanel.selectPanel(2)">Teams</a></li>
+
+  <li ng-class="{ active: compPanel.isSelected(3) }">
+    <a href ng-click="compPanel.selectPanel(3)">Team Member Requests</a></li>
+</ul>
 
 <div>
-  <h3> {$ competition.name $} </h3>
-  <p> {$ competition.description $} <p>
   
   <p> Start: <strong>{$ comps.startDate(competition) | date $}</strong> <p>
   <p> End: <strong>{$ comps.endDate(competition) | date $}</strong> </p>
@@ -14,20 +26,9 @@
   <p> Number of competitors:  <strong>{$ competition.competitors.length $}</strong> </p>
 </div>
 
-<ul class="menu">
-  <li ng-class="{ active: compTab.isSelected(1) }">
-    <a href ng-click="compTab.selectTab(1)">Entries</a></li>
-
-  <li ng-class="{ active: compTab.isSelected(2) }">
-    <a href ng-click="compTab.selectTab(2)">Teams</a></li>
-
-  <li ng-class="{ active: compTab.isSelected(3) }">
-    <a href ng-click="compTab.selectTab(3)">Team Member Requests</a></li>
-</ul>
-
 
 <!--  Competitor information  -->
-<div ng-show="compTab.isSelected(1)">
+<div ng-show="compPanel.isSelected(1)">
   <competitor-list></competitor-list>
 
   <competition-enter 
@@ -36,12 +37,12 @@
 </div>
 
 <!--  Team information  -->
-<div ng-show="compTab.isSelected(2)">
+<div ng-show="compPanel.isSelected(2)">
   <team-list></team-list>
 </div>
 
 <!--  Team member requrests -->
-<div ng-show="compTab.isSelected(2)">
+<div ng-show="compPanel.isSelected(2)">
   <team-member-requestss></team-member-requestss>
 </div>
 

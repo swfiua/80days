@@ -7,6 +7,13 @@
   padding: 0 0 0.5em;
 }
 
+.menu-panel {
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+
 .menu:before {
   content: "[";
 }
@@ -27,4 +34,34 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.menu-panel:before {
+  content: "[";
+}
+
+.menu-panel:after {
+  content: "]";
+}
+
+.menu-panel > li {
+  display: inline;
+}
+
+.menu-panel > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu-panel > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+
+.competition {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
 }
