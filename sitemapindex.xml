@@ -61,6 +61,10 @@
   <lastmod>2015-01-25</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://swfiua.github.io/80days/galleries/Magic/rss.xml</loc>
+  <lastmod>2015-02-23</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Snowy/rss.xml</loc>
   <lastmod>2015-02-14</lastmod>
  </sitemap>
@@ -78,6 +82,6 @@
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/sitemap.xml</loc>
-  <lastmod>2015-02-14</lastmod>
+  <lastmod>2015-02-23</lastmod>
  </sitemap>
 </sitemapindex>
