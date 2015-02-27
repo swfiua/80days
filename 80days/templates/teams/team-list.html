@@ -1,7 +1,6 @@
-<h3>Teams Needing Members:</h3>
 
 <div ng-show="(!comps.isTeamMember(competition)) && comps.teamsNeedingMembers(competition).length">
-  <h4>The teams below are looking for members.</h4>
+  <h4>The teams below are looking for members:</h4>
 
   <div ng-repeat="team in comps.teamsNeedingMembers(competition)">
     <p><strong>{$ team.name $}</strong>
@@ -11,7 +10,7 @@
 	  <div ng-repeat="member in team.team_members">
 	    <li>{$ member.nickname $}</li>
 	  </div>
-	  <li>You? <button>Ask to join team</button></li>
+	  <li>You? <button onclick="">Ask to join team</button></li>
 	</ul>
       </p>
   </div>

@@ -6,6 +6,16 @@
 
 <p> {$ competition.description $} <p>
 
+<div>
+  
+  <p> <strong>{$ competition.days $}</strong> days
+      from <strong>{$ comps.startDate(competition) | date $}</strong>
+      to <strong>{$ comps.endDate(competition) | date $}</strong> 
+      
+  <p>Team: size: <strong>{$ competition.team_size $}</strong> </p>
+  <p> Number of competitors:  <strong>{$ competition.competitors.length $}</strong> </p>
+</div>
+
 <ul class="menu-panel">
   <li ng-class="{ active: compPanel.isSelected(1) }">
     <a href ng-click="compPanel.selectPanel(1)">Entries</a></li>
@@ -16,16 +26,6 @@
   <li ng-class="{ active: compPanel.isSelected(3) }">
     <a href ng-click="compPanel.selectPanel(3)">Team Member Requests</a></li>
 </ul>
-
-<div>
-  
-  <p> Start: <strong>{$ comps.startDate(competition) | date $}</strong> <p>
-  <p> End: <strong>{$ comps.endDate(competition) | date $}</strong> </p>
-  <p> Days: <strong>{$ competition.days $}</strong> <p>
-  <p> Team: size: <strong>{$ competition.team_size $}</strong> </p>
-  <p> Number of competitors:  <strong>{$ competition.competitors.length $}</strong> </p>
-</div>
-
 
 <!--  Competitor information  -->
 <div ng-show="compPanel.isSelected(1)">
@@ -41,7 +41,7 @@
   <team-list></team-list>
 </div>
 
-<!--  Team member requrests -->
+<!--  Team member requests -->
 <div ng-show="compPanel.isSelected(2)">
   <team-member-requestss></team-member-requestss>
 </div>
