@@ -24,6 +24,7 @@
     "node": ">=0.8.0"
   },
   "scripts": {
+    "start": "node index.js",
     "postinstall": "bower install",
 
     "prestart": "npm install",
