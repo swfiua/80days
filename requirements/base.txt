@@ -39,4 +39,5 @@ pytz==2014.7
 #django-eighty-days
 djangorestframework
 django-rest-swagger
-django-quiz-app==0.5.0
+#django-quiz-app
+git+git://github.com/swfiua/django_quiz.git
