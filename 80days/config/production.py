@@ -120,3 +120,5 @@ class Production(Common):
     # END CACHING
 
     # Your production stuff: Below this line define 3rd party libary settings
+
+    STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
