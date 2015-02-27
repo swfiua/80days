@@ -41,3 +41,4 @@ djangorestframework
 django-rest-swagger
 #django-quiz-app
 git+git://github.com/swfiua/django_quiz.git
+django-filter==0.9.2
