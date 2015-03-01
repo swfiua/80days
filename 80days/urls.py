@@ -32,6 +32,7 @@ PARTIAL_DATA = [
     ['teams/team-list',           ['.html']],
     ['teams/team-create',         ['.html']],
 
+    ['activities/activities',     ['.html', '.js']],
 
     ['components/version/version-directive',['.js']],
     ['components/version/interpolate-filter',['.js']],
