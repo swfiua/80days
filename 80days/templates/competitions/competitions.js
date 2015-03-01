@@ -76,7 +76,7 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	var entered;
 	var my_comps = this.myCompetitions();
 	
-	console.log("my_comps number: " + my_comps.length);
+	//console.log("my_comps number: " + my_comps.length);
 
     
 	for (var index in my_comps) {
@@ -96,9 +96,9 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	if (!competition) { return false; }
 
 	var my_teams = this.myTeams();
-	console.log("my_teams number: " + my_teams.length);
+	//console.log("my_teams number: " + my_teams.length);
 
-	console.log(my_teams);
+	//console.log(my_teams);
 	
 	
 	var my_team_ids = [];
@@ -107,7 +107,7 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 	    my_team_ids.push(team.id);
 	});
 
-	console.log('my team ids: ' + my_team_ids);
+	//console.log('my team ids: ' + my_team_ids);
 	
 	var hits = [];
 	hits = competition.teams.filter(function(team) {
@@ -119,14 +119,14 @@ app.controller('CompetitionsCtrl', [ '$http', function($http) {
 
     this.teamsNeedingMembers = function(competition) {
 	var needing_members = competition.teams.filter(function(team) {
-	    console.log(team.team_members.length < competition.team_size);
-	    console.log(team.team_members.length);
-	    console.log(competition.team_size);
+	    //console.log(team.team_members.length < competition.team_size);
+	    //console.log(team.team_members.length);
+	    //console.log(competition.team_size);
 
 	    return team.team_members.length < competition.team_size;
 	});
-	console.log('needong: ');
-	needing_members.forEach(function(team) { console.log(team.name);});
+	// console.log('needong: ');
+	// needing_members.forEach(function(team) { console.log(team.name);});
 
 	return needing_members;
     };
@@ -224,58 +224,6 @@ app.directive("competitionEnter", [ '$http', function($http) {
 	    };
 	},
 	controllerAs: "enrol"
-    };
-}]);
-
-app.directive("teamList", function() {
-    return {
-	restrict: 'E',
-	templateUrl: 'teams/team-list.html',
-	controller: function() {
-	},
-	controllerAs: "teams",
-    };
-});
-
-app.directive("teamCreate", [ '$http', function($http) {
-
-    return {
-	restrict: 'E',
-	templateUrl: 'teams/team-create.html',
-	controller: function() {
-	    this.team = {};
-
-	    this.createTeam = function(competition, compsCtrl) {
-		// code to enrol in a competition
-		
-		// save it and add it to the competion
-		//competition.competitors.push(this.competitor)
-
-		$http.post('/eighty/create_team/', this.team).
-		    success(function(team, status, headers, config) {
-			alert("Team Created" + team);
-
-
-			// And add the team to the competition
-			$http.post('/eighty/add_team/', {
-			    competition_id: competition.id, 
-			    team_id: team.id}).
-			    success(function(data, status, headers, config) {
-				// Now need to refresh the models
-				compsCtrl.refresh()
-			    }).
-			    error(function(data, status, headers, config) {
-				//alert("Problem updating team" + data);
-			    });
-		    }).
-		    error(function(data, status, headers, config) {
-			alert("Problem creating team" + data);
-		    });
-		
-		this.team = {};
-	    };
-	},
-	controllerAs: "teamCreate"
     };
 }]);
 
