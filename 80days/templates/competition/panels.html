@@ -13,20 +13,25 @@
       to <strong>{$ comps.endDate(competition) | date $}</strong> 
       
   <p>Team: size: <strong>{$ competition.team_size $}</strong> </p>
-  <p> Number of competitors:  <strong>{$ competition.competitors.length $}</strong> </p>
-  <p> Number of teams:  <strong>{$ competition.teams.length $}</strong> </p>
 </div>
 
-<ul class="menu-panel">
-  <li ng-class="{ active: compPanel.isSelected(1) }">
-    <a href ng-click="compPanel.selectPanel(1)">Entries</a></li>
+<p>User name: {{ user }}</p>
+<p>User id: {{ user.id }}</p>
 
-  <li ng-class="{ active: compPanel.isSelected(2) }">
-    <a href ng-click="compPanel.selectPanel(2)">Teams</a></li>
 
-  <li ng-class="{ active: compPanel.isSelected(3) }">
-    <a href ng-click="compPanel.selectPanel(3)">Team Member Requests</a></li>
-</ul>
+<div ng-controller="CompetitionController">
+  <a href="#/competitors/?competition={$ competition.id $}">Entries</a> |
+  <a href="#/teams/?competition={$ competition.id $}">Teams</a>
+  <div ng-view></div>
+
+  <hr />
+
+  <pre>$location.path() = {$ $location.path() $}</pre>
+  <pre>$route.current.templateUrl = {$ $route.current.templateUrl $}</pre>
+  <pre>$route.current.params = {$ $route.current.params $}</pre>
+  <pre>$route.current.scope.name = {$ $route.current.scope.name $}</pre>
+  <pre>$routeParams = {$ $routeParams $}</pre>
+</div>
 
 <!--  Competitor information  -->
 <div ng-show="compPanel.isSelected(1)">
@@ -39,12 +44,14 @@
 
 <!--  Team information  -->
 <div ng-show="compPanel.isSelected(2)">
-  <team-list></team-list>
+  <div ng-controller="teamsController" competition={$ competition.id $}>
+    <teams></teams>
+  </div>
 </div>
 
 <!--  Team member requests -->
 <div ng-show="compPanel.isSelected(2)">
-  <team-member-requestss></team-member-requestss>
+  <team-member-requests></team-member-requests>
 </div>
 
 </section>

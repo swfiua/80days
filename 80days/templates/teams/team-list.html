@@ -1,8 +1,8 @@
 
-<div ng-show="(!comps.isTeamMember(competition)) && comps.teamsNeedingMembers(competition).length">
+<div ng-show=1>
   <h4>The teams below are looking for members:</h4>
 
-  <div ng-repeat="team in comps.teamsNeedingMembers(competition)">
+  <div ng-repeat="team in teamsController.teams">
     <p><strong>{$ team.name $}</strong>
       Captain:  <strong>{$ team.captain.nickname $} </strong></p>
       <p>Current team:

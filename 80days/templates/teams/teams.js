@@ -2,7 +2,7 @@
 
 var app = angular.module('myApp.teams', ['ngRoute'])
 
-.controller('MainTeamController', function($scope, $route, $routeParams, $location) {
+.controller('CompetitionController', function($scope, $route, $routeParams, $location) {
      $scope.$route = $route;
      $scope.$location = $location;
      $scope.$routeParams = $routeParams;
@@ -11,16 +11,40 @@ var app = angular.module('myApp.teams', ['ngRoute'])
 app.config(['$routeProvider', function($routeProvider) {
     
     $routeProvider.when('/teams/', {templateUrl: 'teams/teams.html', controller: 'teamsController'});
+    $routeProvider.when('/competitors/', {templateUrl: 'competitors/competitors.html', controller: 'competitorsController'});
 }]);
 
 
-app.controller('teamsController', function($scope, $routeParams) {
+app.controller('teamsController', function($scope, $routeParams, $http) {
+    var view = this;
     $scope.name = "teamsController";
-    $scope.competition = $routeParams.competition;
-    this.teams = ['a', 'b'];
+    $scope.competition_id = $routeParams.competition;
+    
+    $scope.teams = [];
+
+    $http.get('/eighty/teams', {competition: $scope.competition_id}).success(function(data){
+	    $scope.teams = data;
+    });
+
+
+    this.myTeam = function(user_id) {
+	for (var tix in this.teams) {
+	    var team = this.teams[tix];
+	    for (var mix in team.team_members) {
+		var member = team.team_members[mix];
+		if (member.user.id == user_id) {
+		    return team;
+		}
+	    }
+	}
+	return;
+    };
 
     this.showCompetition = function() {
 	alert('competition + ' + this.competition);
+    };
+    this.showTeams = function() {
+	alert('teams + ' + this.teams);
     };
 });
 
