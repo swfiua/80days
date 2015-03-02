@@ -1,29 +1,39 @@
 {% extends "base.html" %}
+{% load staticfiles i18n %}
 
-{% block body_header %}
-<body class="balloon_background">
+{% block extrastyle %}
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href={% static "css/project.css" %}>
 {% endblock %}
-
-{% block title %}Around the world in 80 days{% endblock %}
-
 
 {% block content %}
-<h2 align="center"> Coming soon... </h2>
+  
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-8">
+      <app-panels  class="balloon_background"></app-panels>
+    </div>
 
-<!-- <p><img src="{{ STATIC_URL }}images/Around_the_World_in_Eighty_Days_map.png" /></p> -->
+    <div class "col-md-2">
+      <ul>
+	{% if request.user.is_authenticated %}
+	<li><a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %}</a></li>
+	<li><a href="{% url 'account_logout' %}">{% trans "Logout" %}</a></li>
+	{% else %}
+	<li><a href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a></li>
+	<li><a href="{% url 'account_login' %}">{% trans "Log In" %}</a></li>
+	{% endif %}
 
-<app-tabs></app-tabs>
-
-<div ng-controller="HomeCtrl as view" align="center">
-<h2> Coming soon... </h2>
-
-<h3>{$ view.today|date $} is today's date  </h3>
-<h3>{$ (view.today + (24 * 3600 * 80 * 1000)) |date $} is 80 days from today </h3>
-<h3>{$ (view.today - (24 * 3600 * 80 * 1000)) |date $} was 80 days ago </h3>
-
+      </ul>
+    </div>
+  </div>
 </div>
-
 
 {% endblock %}
 
-
+{% block appcode %}
+<!-- Javascript for the application -->
+<script src="app.js"></script>
+<script src="home/home.js"></script>
+{% endblock %}

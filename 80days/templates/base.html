@@ -1,64 +1,42 @@
-{% load staticfiles i18n %}<!DOCTYPE html>
-<html lang="en" ng-app>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{% block title %}80days{% endblock title %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    {% block css %}
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-
-    <!-- Your stuff: Third-party css libraries go here -->
-
-    <!-- This file store project specific CSS -->
-    <link href="{% static 'css/project.css' %}" rel="stylesheet">
-    {% endblock %}
-
-    {% block angular %}
-      
-      <!-- stuff for my app -->
-      <script src={% static "bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js" %}></script>
-
-      <script src={% static "bower_components/angular/angular.js" %}></script>
-      <script src={% static "bower_components/angular-route/angular-route.js" %}></script>
-      <script src={% static "bower_components/angular-cookies/angular-cookies.js" %}></script>
-      <script src={% static "app.js" %}></script>
-      <script src={% static "home/home.js" %}></script>
-      <script src={% static "teams/teams.js" %}></script>
-      <script src={% static "competitions/competitions.js" %}></script>
-      <script src={% static "components/version/version.js" %}></script>
-      <script src={% static "components/version/version-directive.js" %}></script>
-      <script src={% static "components/version/interpolate-filter.js" %}></script>
-    {% endblock %}
-
-  </head>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+{% load staticfiles i18n %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Around the world in 80 days</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  {% block body_header %} 
-  <body> 
+  {% block extrastyle %}
+  <!-- app specific stylesheets -->
   {% endblock %}
 
-    <div class="header navbar">
-      <div class="container">
-        <a class="navbar-brand" href="/">80days</a>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="{% url 'home' %}">Home</a></li>
-          <li><a href="{% url 'about' %}">About</a></li>
+  {% block stylesheet %}
+  <link rel="stylesheet" href={% static "bower_components/html5-boilerplate/css/normalize.css"%}>
+  <link rel="stylesheet" href={% static "bower_components/html5-boilerplate/css/main.css"%}>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+  {% endblock %}
 
+
+</head>
+<body>
+  <!-- application tabs -->
+
+  {% block content %}
+  
+  <div class="plain_background">
+    <app-tabs></app-tabs>
+  </div>
+
+  <ul>
           {% if request.user.is_authenticated %}
             <li><a href="{% url 'users:detail' request.user.username  %}">{% trans "My Profile" %}</a></li>
             <li><a href="{% url 'account_logout' %}">{% trans "Logout" %}</a></li>
@@ -66,41 +44,23 @@
             <li><a href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a></li>
             <li><a href="{% url 'account_login' %}">{% trans "Log In" %}</a></li>
           {% endif %}
-        </ul>
-      </div>
-    </div>
 
-    <div class="container">
-        
-      {% if messages %}
-          {% for message in messages %}
-              <div class="alert {% if message.tags %}alert-{{ message.tags }}"{% endif %}>{{ message }}</div>
-          {% endfor %}
-      {% endif %}
+  </ul>
+  {% endblock %}
+  
 
-      {% block content %}
-        <p>Use this document as a way to quick start any new project.</p>
-      {% endblock content %}
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  {% block scripts %}
+  <script src={% static "bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"%}></script>
+  <script src={% static "bower_components/angular/angular.js"%}></script>
+  <script src={% static "bower_components/angular-route/angular-route.js"%}></script>
+  <script src={% static "bower_components/angular-cookies/angular-cookies.js"%}></script>
+  {% endblock %}
 
-    </div> <!-- /container -->
-    
-    {% block modal %}{% endblock modal %}
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    {% block javascript %}
-      <!-- Latest JQuery -->
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-      <!-- Your stuff: Third-party javascript libraries go here -->
-
-      <!-- place project specific Javascript in this file -->
-      <script src="{% static 'js/project.js' %}"></script>
-    {% endblock javascript %}
-  </body>
+  {% block appcode %}
+  <!-- Javascript for the application -->
+  {% endblock %}
+</body>
 </html>
- 

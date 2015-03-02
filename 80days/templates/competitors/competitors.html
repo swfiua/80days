@@ -4,9 +4,7 @@
 </div>
 
 
-<div ng-show="competitors.length">
-  <div ng-repeat="entry in competitors">
-    <competitor-info></competitor-info>
-  </div>
+<div ng-repeat="entry in competitorController.competitors">
+  <competitor-info></competitor-info>
 </div>
 

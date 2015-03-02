@@ -18,19 +18,24 @@
 <p>User name: {{ user }}</p>
 <p>User id: {{ user.id }}</p>
 
+<ul class="menu-panel">
+  <li ng-class="{ active: compPanelCtrl.isSelected(1) }">
+    <a href ng-click="compPanelCtrl.selectPanel(1)">Entries</a></li>
 
-<div ng-controller="CompetitionController">
-  <a href="#/competitors/?competition={$ competition.id $}&user={{ user.id }}">Entries</a> |
-  <a href="#/teams/?competition={$ competition.id $}&user={{ user.id }}">Teams</a>
-  <div ng-view></div>
+  <li ng-class="{ active: compPanelCtrl.isSelected(2) }">
+    <a href ng-click="compPanelCtrl.selectPanel(2)">Teams</a></li>
 
-  <hr />
+  <li ng-class="{ active: compPanelCtrl.isSelected(3) }">
+    <a href ng-click="compPanelCtrl.selectPanel(3)">Team Member Requests</a></li>
+</ul>
 
-  <pre>$location.path() = {$ $location.path() $}</pre>
-  <pre>$route.current.templateUrl = {$ $route.current.templateUrl $}</pre>
-  <pre>$route.current.params = {$ $route.current.params $}</pre>
-  <pre>$route.current.scope.name = {$ $route.current.scope.name $}</pre>
-  <pre>$routeParams = {$ $routeParams $}</pre>
+<p>  panel is: {$ compPanelCtrl.panel $}</p>
+<!--  Competitor information  -->
+<div ng-show="compPanelCtrl.isSelected(1)">
+  {$ competition $}
+  <br>
+  {$ $}
+  <competitor-list></competitor-list>
 </div>
 
 </section>

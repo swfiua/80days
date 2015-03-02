@@ -1,0 +1,18 @@
+<section>
+<ul class="menu">
+  <li ng-class="{ active: panel.isSelected(1) }">
+    <a href ng-click="panel.selectPanel(1)">Home</a></li>
+
+  <li ng-class="{ active: panel.isSelected(2) }">
+    <a href ng-click="panel.selectPanel(2)">Competitions</a></li>
+
+</ul>
+
+<!--  Home Tab's Content  -->
+<div ng-show="panel.isSelected(1)" ng-include="'home/home.html'"> </div>
+
+<!--  Competitions Tab's Content  -->
+<div ng-show="panel.isSelected(2)" ng-include="'competitions/competitions.html'"> </div>
+
+
+</section>

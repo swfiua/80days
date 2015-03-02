@@ -17,7 +17,7 @@ PARTIAL_DATA = [
     ['home/home',                 ['.html', '.js']],
     ['app',                       ['.css',  '.js']],
 
-    ['components/tabs/tabs',      ['.html']],
+    ['app-panels',                ['.html']],
     ['components/version/version',['.js']],
 
     ['competition/panels',          ['.html']],
@@ -44,20 +44,13 @@ CONTENT_TYPES=dict(
     )
 
 urlpatterns = patterns('',
-    url(r'^$',  # noqa
-        TemplateView.as_view(template_name='pages/home2.html'),
+    url(r'^$',  
+        TemplateView.as_view(template_name='pages/home.html'),
         name="home"),
-    #url(r'^home2/$',  # noqa
-    #    TemplateView.as_view(template_name='pages/home2.html'),
-    #    name="home"),
 
     url(r'^about/$',
         TemplateView.as_view(template_name='pages/about.html'),
-        name="about"),
-
-    url(r'^app/$',
-        TemplateView.as_view(template_name='app/index.html'),
-        name="app"))
+        name="about"))
 
 for partial_url, exts in PARTIAL_DATA:
     for ext in exts:
