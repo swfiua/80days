@@ -1,18 +1,8 @@
 
-<div ng-show=1>
-  <h4>The teams below are looking for members:</h4>
-
-  <div ng-repeat="team in teamsController.teams">
+<div ng-show="teams.length">
+  <div ng-repeat="team in teams">
     <p><strong>{$ team.name $}</strong>
       Captain:  <strong>{$ team.captain.nickname $} </strong></p>
-      <p>Current team:
-	<ul>
-	  <div ng-repeat="member in team.team_members">
-	    <li>{$ member.nickname $}</li>
-	  </div>
-	  <li>You? <button onclick="">Ask to join team</button></li>
-	</ul>
-      </p>
   </div>
 </div>
 

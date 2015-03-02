@@ -20,8 +20,8 @@
 
 
 <div ng-controller="CompetitionController">
-  <a href="#/competitors/?competition={$ competition.id $}">Entries</a> |
-  <a href="#/teams/?competition={$ competition.id $}">Teams</a>
+  <a href="#/competitors/?competition={$ competition.id $}&user={{ user.id }}">Entries</a> |
+  <a href="#/teams/?competition={$ competition.id $}&user={{ user.id }}">Teams</a>
   <div ng-view></div>
 
   <hr />
@@ -31,27 +31,6 @@
   <pre>$route.current.params = {$ $route.current.params $}</pre>
   <pre>$route.current.scope.name = {$ $route.current.scope.name $}</pre>
   <pre>$routeParams = {$ $routeParams $}</pre>
-</div>
-
-<!--  Competitor information  -->
-<div ng-show="compPanel.isSelected(1)">
-  <competitor-list></competitor-list>
-
-  <competition-enter 
-     ng-show="(!comps.finished(competition)) &&  
-    	      (comps.notEntered(competition))"></competition-enter>
-</div>
-
-<!--  Team information  -->
-<div ng-show="compPanel.isSelected(2)">
-  <div ng-controller="teamsController" competition={$ competition.id $}>
-    <teams></teams>
-  </div>
-</div>
-
-<!--  Team member requests -->
-<div ng-show="compPanel.isSelected(2)">
-  <team-member-requests></team-member-requests>
 </div>
 
 </section>

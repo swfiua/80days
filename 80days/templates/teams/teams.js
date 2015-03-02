@@ -10,41 +10,30 @@ var app = angular.module('myApp.teams', ['ngRoute'])
 
 app.config(['$routeProvider', function($routeProvider) {
     
-    $routeProvider.when('/teams/', {templateUrl: 'teams/teams.html', controller: 'teamsController'});
-    $routeProvider.when('/competitors/', {templateUrl: 'competitors/competitors.html', controller: 'competitorsController'});
+    $routeProvider.when('/teams/', {templateUrl: 'teams/teams.html', controller: 'TeamsController'});
+    $routeProvider.when('/competitors/', {templateUrl: 'competitors/competitors.html', controller: 'CompetitorsController'});
 }]);
 
 
-app.controller('teamsController', function($scope, $routeParams, $http) {
+app.controller('TeamsController', function($scope, $routeParams, $http) {
     var view = this;
-    $scope.name = "teamsController";
-    $scope.competition_id = $routeParams.competition;
+    $scope.name = "TeamsController";
+    $scope.competition = $routeParams.competition;
+    $scope.competitor = $routeParams.competitor;
     
     $scope.teams = [];
 
-    $http.get('/eighty/teams', {competition: $scope.competition_id}).success(function(data){
+    $http.get('/eighty/teams?competition=' + $scope.competition).success(function(data){
 	    $scope.teams = data;
     });
 
-
-    this.myTeam = function(user_id) {
-	for (var tix in this.teams) {
-	    var team = this.teams[tix];
-	    for (var mix in team.team_members) {
-		var member = team.team_members[mix];
-		if (member.user.id == user_id) {
-		    return team;
-		}
-	    }
-	}
-	return;
-    };
 
     this.showCompetition = function() {
 	alert('competition + ' + this.competition);
     };
     this.showTeams = function() {
-	alert('teams + ' + this.teams);
+	console.log('number of teams: ' + teams.length)
+	alert('teams + ' + $scope.teams);
     };
 });
 
@@ -97,4 +86,48 @@ app.directive("teamCreate", [ '$http', function($http) {
 	controllerAs: "teamCreate"
     };
 }]);
+
+app.controller('CompetitorsController', function($scope, $routeParams, $http) {
+    
+    // extract stuff from routeParams
+    var view = this;
+    $scope.name = "CompetitorsController";
+    $scope.competition_id = $routeParams.competition;
+    $scope.user_id = $routeParams.user;
+    
+    // Model variables
+    $scope.competitors = [];
+    $scope.me = {};
+    this.me = 0;
+    
+
+    $http.get("/eighty/competitors?competition=" + $scope.competition_id).
+	success(function(data) {
+	    $scope.competitors = data;
+	    
+	    // extract my competitor entry
+	    for (var ix in data) {
+		if (data[ix].user == $scope.user_id) {
+		    $scope.me = data[ix];
+		    this.me = data[ix];
+		}
+	    }
+	});
+
+    $scope.isEntered = function() {
+	return $scope.me.id;
+    };
+
+    $scope.enrol = function() {
+	$scope.me.competition = $scope.competition_id;
+	// $scope.me.user = $scope.user_id;
+	console.log('enrol' + $scope.me.competition);
+
+	$http.post('/eighty/create_competitor/', $scope.me).
+	    success(function(competitor, status, headers, config) {
+		$scope.competitors.push(competitor);
+		view.me = competitor;
+	    });
+    };
+});
 

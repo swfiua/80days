@@ -1,5 +1,12 @@
-<div ng-show="competition.competitors.length">
-  <div ng-repeat="entry in competition.competitors">
+
+<div ng-hide="me.id">
+  <competition-enter></competition-enter>
+</div>
+
+
+<div ng-show="competitors.length">
+  <div ng-repeat="entry in competitors">
     <competitor-info></competitor-info>
   </div>
 </div>
+

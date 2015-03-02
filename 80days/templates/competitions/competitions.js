@@ -186,44 +186,6 @@ app.directive("competitionEnter", [ '$http', function($http) {
     return {
 	restrict: 'E',
 	templateUrl: 'competition/enter.html',
-	controller: function() {
-	    this.competitor = {};
-
-	    // $http.get('/detail_competition', {pk: 
-	    
-	    this.enrol = function(competition, compsCtrl) {
-		// code to enrol in a competition
-		
-		// save it and add it to the competion
-		//competition.competitors.push(this.competitor)
-
-		$http.post('/eighty/create_competitor/', this.competitor).
-		    success(function(competitor, status, headers, config) {
-			alert("Competitor Created" + competitor);
-
-
-			// And save the competition
-			$http.post('/eighty/add_competitor/', {
-			    competition_id: competition.id, 
-			    competitor_id: competitor.id}).
-			    success(function(data, status, headers, config) {
-				//alert("Competition Updated" + data);
-				
-				// Now need to refresh the models
-				compsCtrl.refresh()
-			    }).
-			    error(function(data, status, headers, config) {
-				//alert("Problem updating competition" + data);
-			    });
-		    }).
-		    error(function(data, status, headers, config) {
-			alert("Problem creating competitor" + data);
-		    });
-		
-		this.competitor = {};
-	    };
-	},
-	controllerAs: "enrol"
     };
 }]);
 
