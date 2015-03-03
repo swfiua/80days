@@ -2,7 +2,7 @@
 <div>
   <form name="enterForm" 
 	ng-submit="enterForm.$valid && competitorController.enrol()" novalidate>
-    Nick-name: <input type="text" ng-model="me.nickname"
+    Nick-name: <input type="text" ng-model="competitorController.me.nickname"
                       placeholder="Phileas Fogg" required>
     <input type="submit" value="Enter Competion"/>
   </form>
