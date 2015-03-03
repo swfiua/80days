@@ -147,15 +147,15 @@ app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
     };
 
     this.isCompetitor = function() {
-	return view.me.id;
+	return view.me.id|0;
     };
 
     this.createTeam = function() {
 
-	this.team.competition = this.competition.id;
-	this.team.captain = this.me.id;
+	view.team.competition = view.competition.id;
+	view.team.captain = view.me.id;
 	
-	$http.post('/eighty/create_team/', this.team).
+	$http.post('/eighty/create_team/', view.team).
 	    success(function(team, status, headers, config) {
 		console.log("Team Created" + team);
 
@@ -166,14 +166,14 @@ app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
 			console.log("Team added to me" + team);
 
 			// and add to the model
-			this.teams.push(team);
+			view.teams.push(team);
 		    });
 	    }).
 	    error(function(data, status, headers, config) {
 		alert("Problem creating team" + data);
 	    });
 		
-	this.team = {};
+	view.team = {};
     };
 
 }]);
