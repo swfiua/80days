@@ -157,13 +157,11 @@ app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
 	
 	$http.post('/eighty/create_team/', view.team).
 	    success(function(team, status, headers, config) {
-		console.log("Team Created" + team);
 
 		// now need to set my team and save
 		view.me.team = team.id;
 		$http.post('/eighty/competitors/', view.me).
 		    success(function(team, status, headers, config) {
-			console.log("Team added to me" + team);
 
 			// and add to the model
 			view.teams.push(team);
