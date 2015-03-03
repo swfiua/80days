@@ -103,9 +103,7 @@ app.controller('CompetitorController', [ '$scope', '$http', function($scope, $ht
     this.enrol = function() {
 	view.me.competition = $scope.competition.id;
 
-	console.log('enrol' + $scope.me.competition);
-
-	$http.post('/eighty/create_competitor/', $scope.me).
+	$http.post('/eighty/create_competitor/', view.me).
 	    success(function(competitor, status, headers, config) {
 		view.competitors.push(competitor);
 		view.me = competitor;
@@ -159,11 +157,17 @@ app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
 	
 	$http.post('/eighty/create_team/', this.team).
 	    success(function(team, status, headers, config) {
-		alert("Team Created" + team);
+		console.log("Team Created" + team);
 
 		// now need to set my team and save
 		view.me.team = team.id;
-		$http.post('/eighty/competitors/', view.me);
+		$http.post('/eighty/competitors/', view.me).
+		    success(function(team, status, headers, config) {
+			console.log("Team added to me" + team);
+
+			// and add to the model
+			this.teams.push(team);
+		    });
 	    }).
 	    error(function(data, status, headers, config) {
 		alert("Problem creating team" + data);
