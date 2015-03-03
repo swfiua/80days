@@ -1,4 +1,12 @@
-<team-list></team-list>
+
+<div ng-show="tc.teams.length">
+  Current entries:
+  <ul>
+  <div ng-repeat="team in tc.teams">
+    <li> {$ team.name $} </li>
+  </div>
+  </ul>
+</div>
 controller: {$ name $}<br />
 
 teams: {$ tc.teams $}
