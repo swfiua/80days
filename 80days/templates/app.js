@@ -18,6 +18,7 @@ config(function($interpolateProvider) {
 
 run(function($http, $cookies) {
     $http.defaults.headers.post['X-CSRFToken'] = $cookies.csrftoken;
+    $http.defaults.headers.put['X-CSRFToken'] = $cookies.csrftoken;
 });
 
 app.config(function($httpProvider) {
@@ -160,11 +161,11 @@ app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
 
 		// now need to set my team and save
 		view.me.team = team.id;
-		$http.post('/eighty/competitors/', view.me).
+		$http.put('/eighty/detail_competitors/' + view.me.id +'/', view.me).
 		    success(function(team, status, headers, config) {
 
 			// and add to the model
-			view.teams.push(team);
+			view.teams.push(view.me);
 		    });
 	    }).
 	    error(function(data, status, headers, config) {
