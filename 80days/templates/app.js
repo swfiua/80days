@@ -2,9 +2,10 @@
 
 // Declare app level module which depends on views, and components
 var app = angular.module('myApp', [
-  'ngRoute',
-  'ngCookies',
-  'myApp.home',
+    'ngRoute',
+    'ngCookies',
+    'myApp.home',
+    'ngResource',
 ]).
 
 config(['$routeProvider', function($routeProvider) {
@@ -25,6 +26,11 @@ app.config(function($httpProvider) {
     $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 });
 
+app.config(['$resourceProvider', function($resourceProvider) {
+  // Don't strip trailing slashes from calculated URLs
+  $resourceProvider.defaults.stripTrailingSlashes = false;
+}]);
+
 app.controller('PanelController', function() {
     
     this.panel = 1;
@@ -38,18 +44,27 @@ app.controller('PanelController', function() {
     };
 });
 
+app.factory('Competitions', ['$resource', function($resource) {
+    return $resource('/eighty/competitions/');
+}]);
 
-app.controller('CompetitionsController', [ '$http', function($http) {
+app.factory('Competition', ['$resource', function($resource) {
+    return $resource('/eighty/detail_competitions/:id');
+}]);
+
+// app.factory('Competitors', ['$resource', function($resource) {
+//     return $resource('/eighty/competitors/');
+// }]);
+
+// app.factory('Competitor', ['$resource', function($resource) {
+//     return $resource('/eighty/detail_competitors/:id');
+// }]);
+
+
+app.controller('CompetitionsController', [ '$http', 'Competitions', function($http, Competitions) {
     var view = this;
-    view.predicate = "-start"
-    view.competitions = [];
-    view.competitors = [];
-    view.user_info = {competitions: [], competitors: [], teams: []};
-
-    $http.get('/eighty/competitions/').success(function(data){
-	view.competitions = data;
-    });
-
+    view.competitions = Competitions.query();
+    view.predicate = "-start";
 
     this.startDate = function(competition) {
 	return new Date(competition.start);
@@ -113,13 +128,11 @@ app.controller('CompetitorController', [ '$scope', '$http', function($scope, $ht
 
 }]);
 
-app.controller('CompetitionController', [ '$scope', '$http', function($scope, $http) {
+app.controller('CompetitionController', [ '$scope', '$http', 'Competitors', function($scope, $http, Competitors) {
     var view = this;
-    view.competitors = [];
+    view.competitors = Competitors.query({competition: $scope.competition.id});
 
-    $http.get('/eighty/competitors/?competition=' + $scope.competition.id).success(function(data){
-	view.competitors = data;
-    });
+    console.log($scope);
 
 }]);
 
