@@ -1,0 +1,11 @@
+<div>
+  <h4>Create your own team:</h4>
+  <form name="teamCreateForm" 
+	ng-submit="teamCreateForm.$valid &&
+	tc.createTeam()" novalidate>
+    <label for="name">Team name:</label>
+    <input type="text" ng-model="tc.team.name"
+           placeholder="The Team With No Name" required id="name">
+    <input type="submit" value="Create Team"/>
+  </form>
+</div>
