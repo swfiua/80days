@@ -90,27 +90,89 @@ app.controller('CompetitionsController', [ '$http', function($http) {
 app.controller('CompetitorController', [ '$scope', '$http', function($scope, $http) {
     var view = this;
     view.competitors = [];
-    view.user_info = {competitions: [], competitors: [], teams: []};
+    view.me = {};
 
     $http.get('/eighty/competitors/?competition=' + $scope.competition.id).success(function(data){
 	view.competitors = data;
     });
+
+    $http.get('/eighty/everything_for_user/' + $scope.competition.id + '/').success(function(data){
+	$scope.me = view.me = data.competitor;
+    });
+
+    this.enrol = function() {
+	view.me.competition = $scope.competition.id;
+
+	console.log('enrol' + $scope.me.competition);
+
+	$http.post('/eighty/create_competitor/', $scope.me).
+	    success(function(competitor, status, headers, config) {
+		view.competitors.push(competitor);
+		view.me = competitor;
+	    });
+    };
+
 }]);
 
 app.controller('CompetitionController', [ '$scope', '$http', function($scope, $http) {
     var view = this;
     view.competitors = [];
-    view.me = undefined;
 
     $http.get('/eighty/competitors/?competition=' + $scope.competition.id).success(function(data){
 	view.competitors = data;
     });
-    $http.get('/eighty/everything_for_user/' + $scope.competition.id).success(function(data){
-	view.me = data;
-    });
 
 }]);
 
+app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
+    var view = this;
+    view.teams = [];
+    view.me = {};
+    view.team = {}
+    view.competition = $scope.competition;
+    
+    $http.get('/eighty/teams?competition=' + $scope.competition.id).success(function(data){
+	    view.teams = data;
+    });
+
+    $http.get('/eighty/everything_for_user/' + $scope.competition.id + '/').success(function(data){
+	$scope.me = view.me = data.competitor;
+    });
+    
+
+    this.notTeamMember = function() {
+	
+	if (view.me.team) return false;
+	if (view.me.team_member_request) return false;
+	
+	return true;
+    };
+
+    this.isCompetitor = function() {
+	return view.me.id;
+    };
+
+    this.createTeam = function() {
+
+	this.team.competition = this.competition.id;
+	this.team.captain = this.me.id;
+	
+	$http.post('/eighty/create_team/', this.team).
+	    success(function(team, status, headers, config) {
+		alert("Team Created" + team);
+
+		// now need to set my team and save
+		view.me.team = team.id;
+		$http.post('/eighty/competitors/', view.me);
+	    }).
+	    error(function(data, status, headers, config) {
+		alert("Problem creating team" + data);
+	    });
+		
+	this.team = {};
+    };
+
+}]);
 
 // DIRECTIVES
 
@@ -171,3 +233,19 @@ app.directive("competitionPanels", function() {
     };
 });
 
+app.directive("teams", function() {
+    return {
+	restrict: 'E',
+	templateUrl: 'teams/teams.html',
+	controller: 'TeamsController',
+	controllerAs: 'tc'
+    };
+});
+
+app.directive("teamCreate", function() {
+
+    return {
+	restrict: 'E',
+	templateUrl: 'teams/team-create.html',
+    };
+});

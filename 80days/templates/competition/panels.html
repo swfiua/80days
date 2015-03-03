@@ -29,13 +29,13 @@
     <a href ng-click="compPanelCtrl.selectPanel(3)">Team Member Requests</a></li>
 </ul>
 
-<p>  panel is: {$ compPanelCtrl.panel $}</p>
 <!--  Competitor information  -->
 <div ng-show="compPanelCtrl.isSelected(1)">
-  {$ competition $}
-  <br>
-  {$ $}
   <competitor-list></competitor-list>
+</div>
+
+<div ng-show="compPanelCtrl.isSelected(2)">
+  <teams></teams>
 </div>
 
 </section>
