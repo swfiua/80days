@@ -44,6 +44,7 @@ app.controller('PanelController', function() {
     };
 });
 
+// RESOURCES
 app.factory('Competitions', ['$resource', function($resource) {
     return $resource('/eighty/competitions/');
 }]);
@@ -115,87 +116,75 @@ app.controller('CompetitionsController', [ '$http', 'Competitions', function($ht
 
 }]);
 
-app.controller('CompetitorController', [ '$scope', '$http', function($scope, $http) {
+// Controller for competition panels
+app.controller('CompetitionController', [ 
+    '$scope', '$http', 'Competitors', 'Teams', 'Competitor', 'User', 
+    function($scope, $http, Competitors, Teams, Competitor, User) {
+	var view = this;
+	$scope.my_competitors = []
+	$scope.user = User.get({}, function() {
+	    $scope.my_competitors = Competitors.query({competition: $scope.competition.id, user: $scope.user.id});
+	});
+	$scope.competitors = Competitors.query({competition: $scope.competition.id});
+	$scope.teams = Teams.query({competition: $scope.competition.id});
+	
+	console.log($scope);
+    }
+]);
+
+app.controller('CompetitorController', [ '$scope', 'Competitor', function($scope, Competitor) {
     var view = this;
-    view.competitors = [];
-    view.me = {};
-
-    $http.get('/eighty/competitors/?competition=' + $scope.competition.id).success(function(data){
-	view.competitors = data;
-    });
-
-    $http.get('/eighty/everything_for_user/' + $scope.competition.id + '/').success(function(data){
-	$scope.me = view.me = data.competitor;
-    });
+    view.competitors = $scope.competitors;
+    view.me = new Competitor();
 
     this.enrol = function() {
+	if ($scope.my_competitors.length) {
+	    alert("Already entered!");
+	};
 	view.me.competition = $scope.competition.id;
 
-	$http.post('/eighty/create_competitor/', view.me).
-	    success(function(competitor, status, headers, config) {
-		view.competitors.push(competitor);
-		view.me = competitor;
-	    });
+	view.me.$save();
+	$scope.my_competitors.competitors.push(view.me);
     };
-
 }]);
 
-app.controller('CompetitionController', [ '$scope', '$http', 'Competitors', function($scope, $http, Competitors) {
+
+app.controller('TeamsController', [ '$scope', 'Teams', 'Team', function($scope, Teams, Team) {
     var view = this;
-    view.competitors = Competitors.query({competition: $scope.competition.id});
-
-    console.log($scope);
-
-}]);
-
-app.controller('TeamsController', [ '$scope', '$http', function($scope, $http) {
-    var view = this;
-    view.teams = [];
-    view.me = {};
-    view.team = {}
+    view.teams = $scope.teams;
+    view.team = new Team();
     view.competition = $scope.competition;
     
-    $http.get('/eighty/teams?competition=' + $scope.competition.id).success(function(data){
-	    view.teams = data;
-    });
-
-    $http.get('/eighty/everything_for_user/' + $scope.competition.id + '/').success(function(data){
-	$scope.me = view.me = data.competitor;
-    });
-    
-
     this.notTeamMember = function() {
 	
-	if (view.me.team) return false;
-	if (view.me.team_member_request) return false;
+	if (!$scope.my_competitors.length) return false;
+
+	var me = $scope.my_competitors[0];
+	if (me.team) return false;
+	if (me.team_member_request) return false;
 	
 	return true;
     };
 
     this.isCompetitor = function() {
-	return view.me.id|0;
+	return $scope.my_competitors.length;
     };
+
 
     this.createTeam = function() {
 
-	view.team.competition = view.competition.id;
-	view.team.captain = view.me.id;
+	view.team.competition = $scope.competition.id;
+	var me = $scope.my_competitors[0];
+	view.team.captain = me.id;
 	
-	$http.post('/eighty/create_team/', view.team).
-	    success(function(team, status, headers, config) {
-
-		// now need to set my team and save
-		view.me.team = team.id;
-		$http.put('/eighty/detail_competitors/' + view.me.id +'/', view.me).
-		    success(function(team, status, headers, config) {
-
-			// and add to the model
-			view.teams.push(view.me);
-		    });
-	    }).
-	    error(function(data, status, headers, config) {
-		alert("Problem creating team" + data);
-	    });
+	view.team.save(function(team) {
+	    // now need to set my team and save
+	    me.team = team.id;
+	    me.$save();
+	    
+	    // and add to the model
+	    view.teams.push(team);
+	});
 		
 	view.team = {};
     };
@@ -241,13 +230,13 @@ app.directive("competitorInfo", function() {
     };
 });
 
-app.directive("competitionEnter", [ '$http', function($http) {
+app.directive("competitionEnter", function() {
 
     return {
 	restrict: 'E',
 	templateUrl: 'competition/enter.html',
     };
-}]);
+});
 
 
 // Competition Panels -- everything for a single competition
