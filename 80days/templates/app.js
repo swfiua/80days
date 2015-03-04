@@ -52,13 +52,25 @@ app.factory('Competition', ['$resource', function($resource) {
     return $resource('/eighty/detail_competitions/:id');
 }]);
 
-// app.factory('Competitors', ['$resource', function($resource) {
-//     return $resource('/eighty/competitors/');
-// }]);
+app.factory('Competitors', ['$resource', function($resource) {
+    return $resource('/eighty/competitors/');
+}]);
 
-// app.factory('Competitor', ['$resource', function($resource) {
-//     return $resource('/eighty/detail_competitors/:id');
-// }]);
+app.factory('Competitor', ['$resource', function($resource) {
+    return $resource('/eighty/detail_competitors/:id');
+}]);
+
+app.factory('Teams', ['$resource', function($resource) {
+    return $resource('/eighty/teams/');
+}]);
+
+app.factory('Team', ['$resource', function($resource) {
+    return $resource('/eighty/detail_teams/:id');
+}]);
+
+app.factory('User', ['$resource', function($resource) {
+    return $resource('/eighty/user_id/');
+}]);
 
 
 app.controller('CompetitionsController', [ '$http', 'Competitions', function($http, Competitions) {
