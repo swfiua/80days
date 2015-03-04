@@ -144,7 +144,7 @@ app.controller('CompetitorController', [ '$scope', 'Competitor', function($scope
 	view.me.competition = $scope.competition.id;
 
 	view.me.$save();
-	$scope.my_competitors.competitors.push(view.me);
+	$scope.my_competitors.push(view.me);
     };
 }]);
 
@@ -177,7 +177,7 @@ app.controller('TeamsController', [ '$scope', 'Teams', 'Team', function($scope, 
 	var me = $scope.my_competitors[0];
 	view.team.captain = me.id;
 	
-	view.team.save(function(team) {
+	view.team.$save(function(team) {
 	    // now need to set my team and save
 	    me.team = team.id;
 	    me.$save();
