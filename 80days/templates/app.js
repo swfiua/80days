@@ -50,7 +50,7 @@ app.factory('Competitions', ['$resource', function($resource) {
 }]);
 
 app.factory('Competition', ['$resource', function($resource) {
-    return $resource('/eighty/detail_competitions/:id');
+    return $resource('/eighty/create_competition/');
 }]);
 
 app.factory('Competitors', ['$resource', function($resource) {
@@ -58,7 +58,7 @@ app.factory('Competitors', ['$resource', function($resource) {
 }]);
 
 app.factory('Competitor', ['$resource', function($resource) {
-    return $resource('/eighty/detail_competitors/:id');
+    return $resource('/eighty/create_competitor/');
 }]);
 
 app.factory('Teams', ['$resource', function($resource) {
@@ -66,7 +66,7 @@ app.factory('Teams', ['$resource', function($resource) {
 }]);
 
 app.factory('Team', ['$resource', function($resource) {
-    return $resource('/eighty/detail_teams/:id');
+    return $resource('/eighty/create_team/');
 }]);
 
 app.factory('User', ['$resource', function($resource) {
