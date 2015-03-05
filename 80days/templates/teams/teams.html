@@ -7,14 +7,6 @@
   </div>
   </ul>
 </div>
-controller: {$ name $}<br />
-
-teams: {$ tc.teams $}
-
-
-<p>not team member: {$ tc.notTeamMember() $}
-<p>isCompetitor: {$ tc.isCompetitor() $}
-<p> both {$ tc.notTeamMember() && tc.isCompetitor() $}
 
 <div ng-show="tc.notTeamMember() && tc.isCompetitor()">
   <p> Ask to join team </p>

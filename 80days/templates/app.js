@@ -61,6 +61,13 @@ app.factory('Competitor', ['$resource', function($resource) {
     return $resource('/eighty/create_competitor/');
 }]);
 
+app.factory('DetailCompetitor', ['$resource', function($resource) {
+    return $resource('/eighty/detail_competitors/:id/', {}, {
+	put: {method: 'PUT'}
+    });
+}]);
+
+
 app.factory('Teams', ['$resource', function($resource) {
     return $resource('/eighty/teams/');
 }]);
@@ -118,23 +125,21 @@ app.controller('CompetitionsController', [ '$http', 'Competitions', function($ht
 
 // Controller for competition panels
 app.controller('CompetitionController', [ 
-    '$scope', '$http', 'Competitors', 'Teams', 'Competitor', 'User', 
-    function($scope, $http, Competitors, Teams, Competitor, User) {
+    '$scope', '$http', 'Competitors', 'Competitor', 'User', 
+    function($scope, $http, Competitors, Competitor, User) {
 	var view = this;
 	$scope.my_competitors = []
 	$scope.user = User.get({}, function() {
 	    $scope.my_competitors = Competitors.query({competition: $scope.competition.id, user: $scope.user.id});
 	});
-	$scope.competitors = Competitors.query({competition: $scope.competition.id});
-	$scope.teams = Teams.query({competition: $scope.competition.id});
 	
 	console.log($scope);
     }
 ]);
 
-app.controller('CompetitorController', [ '$scope', 'Competitor', function($scope, Competitor) {
+app.controller('CompetitorController', [ '$scope', 'Competitor', 'Competitors', function($scope, Competitor, Competitors) {
     var view = this;
-    view.competitors = $scope.competitors;
+    view.competitors = Competitors.query({competition: $scope.competition.id});
     view.me = new Competitor();
 
     this.enrol = function() {
@@ -142,54 +147,63 @@ app.controller('CompetitorController', [ '$scope', 'Competitor', function($scope
 	    alert("Already entered!");
 	};
 	view.me.competition = $scope.competition.id;
-
-	view.me.$save();
-	$scope.my_competitors.push(view.me);
-    };
-}]);
-
-
-app.controller('TeamsController', [ '$scope', 'Teams', 'Team', function($scope, Teams, Team) {
-    var view = this;
-    view.teams = $scope.teams;
-    view.team = new Team();
-    view.competition = $scope.competition;
-    
-    this.notTeamMember = function() {
 	
-	if (!$scope.my_competitors.length) return false;
-
-	var me = $scope.my_competitors[0];
-	if (me.team) return false;
-	if (me.team_member_request) return false;
-	
-	return true;
-    };
-
-    this.isCompetitor = function() {
-	return $scope.my_competitors.length;
-    };
-
-
-    this.createTeam = function() {
-
-	view.team.competition = $scope.competition.id;
-	var me = $scope.my_competitors[0];
-	view.team.captain = me.id;
-	
-	view.team.$save(function(team) {
-	    // now need to set my team and save
-	    me.team = team.id;
-	    me.$save();
-	    
-	    // and add to the model
-	    view.teams.push(team);
+	view.me.$save({}, function() {
+	    $scope.my_competitors.push(view.me);
+	    view.competitors.push(view.me);
 	});
-		
-	view.team = {};
     };
-
 }]);
+
+
+app.controller('TeamsController', [
+    '$scope', 'Teams', 'Team', 'DetailCompetitor',
+    function($scope, Teams, Team, DetailCompetitor) {
+	var view = this;
+	view.teams = Teams.query({competition: $scope.competition.id});
+	view.team = new Team();
+	
+	this.notTeamMember = function() {
+	    
+	    if (!$scope.my_competitors.length) return false;
+
+	    var me = $scope.my_competitors[0];
+	    if (me.team) return false;
+	    if (me.team_member_request) return false;
+	    
+	    return true;
+	};
+
+	this.isCompetitor = function() {
+	    return $scope.my_competitors.length;
+	};
+
+
+	this.createTeam = function() {
+
+	    view.team.competition = $scope.competition.id;
+	    var me = $scope.my_competitors[0];
+	    view.team.captain = me.id;
+	    
+	    view.team.$save({}, function(t) {
+		// now need to set my team and save
+		var detail_me = new DetailCompetitor.get({id: me.id}, function() {
+
+		    detail_me.team = t.id;
+		    me.team = t.id;
+		    detail_me.$put({id: detail_me.id});
+		    
+		    // and add to the model
+		    view.teams.push(t);
+
+		});
+	    });
+	    
+	    view.team = {};
+	};
+
+    }
+]);
 
 // DIRECTIVES
 
