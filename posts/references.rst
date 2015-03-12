@@ -84,3 +84,5 @@
 .. _django migrations: https://docs.djangoproject.com/en/1.7/topics/migrations/
 
 .. _jupyter notebook: https://github.com/jupyter
+
+.. _Chewstick: http://www.chewstick.org/

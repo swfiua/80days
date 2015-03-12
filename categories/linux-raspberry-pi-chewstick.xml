@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days (linux raspberry-pi chewstick)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/categories/linux-raspberry-pi-chewstick.xml"></atom:link><language>en</language><lastBuildDate>Thu, 12 Mar 2015 13:52:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
+&lt;p&gt;March 14th has become known as &lt;a class="reference external" href="http://www.piday.org/"&gt;Pi Day&lt;/a&gt;, on account of the fact that
+the first three digits of the mathematical constant pi.&lt;/p&gt;
+&lt;p&gt;This year it is extra special, since the next two digits are 15, which
+corresponds to the year.  After that, the next five digits of pi are
+9:26:53.&lt;/p&gt;
+&lt;p&gt;To mark the occasion &lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; at the new premises on 81 Front St
+is hosting a &lt;a class="reference external" href="http://www.raspberrypi.org/pi-day-is-around-the-corner/"&gt;Raspberry Pi Day&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A raspberry pi is a $30 computer (Raspberry Pi) that runs off a phone
+charger. We will be making videos of people performing, playing games
+etc, so bring your camera, SD card, instruments to contribute your
+content as we build a Raspberry Pi media centre.&lt;/p&gt;
+&lt;img alt="../galleries/RaspberryPi/raspberry.jpg" src="http://swfiua.github.io/80days/galleries/RaspberryPi/raspberry.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;We will also have a retro games console running on a pi.&lt;/p&gt;
+&lt;p&gt;The plan is to start the event at 9:26:53am and run with it until
+9:26:53pm.&lt;/p&gt;
+&lt;p&gt;I have three working raspberry pi's and some SD cards that can be used
+to host the operating system.&lt;/p&gt;
+&lt;p&gt;I have one pi running the &lt;a class="reference external" href="http://kodi.tv/"&gt;Kodi&lt;/a&gt; media centre that I hope to add some
+&lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; and Bermuda content to.  The image below shows Kodi
+displaying the Bermuda weather.&lt;/p&gt;
+&lt;img alt="../galleries/RaspberryPi/weather_pi.jpg" src="http://swfiua.github.io/80days/galleries/RaspberryPi/weather_pi.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;I have another pi running a retro games console and a third running
+the &lt;a class="reference external" href="http://www.raspbian.org/"&gt;Raspian&lt;/a&gt; operating system.&lt;/p&gt;
+&lt;p&gt;There is no need to bring anything but yourself to the event, but if
+you do have raspberry pi's or related hardware it would be good to
+bring them along too.&lt;/p&gt;
+&lt;p&gt;All going well, we will also have actual pies to eat too :)&lt;/p&gt;
+&lt;p&gt;For more information see this &lt;a class="reference external" href="https://www.facebook.com/events/1563187683958954/"&gt;facebook&lt;/a&gt; posting.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>linux raspberry-pi chewstick</category><guid>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</guid><pubDate>Thu, 12 Mar 2015 15:14:01 GMT</pubDate></item></channel></rss>
