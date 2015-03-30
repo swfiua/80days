@@ -76,7 +76,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -96,6 +96,8 @@
         <li><a class="reference badge" href="kindling-python-github.html">kindling python github</a></li>
         <li><a class="reference badge" href="linux.html">linux</a></li>
         <li><a class="reference badge" href="linux-raspberry-pi-chewstick.html">linux raspberry-pi chewstick</a></li>
+        <li><a class="reference badge" href="raspberry-pi-chewstick.html">raspberry-pi chewstick</a></li>
+        <li><a class="reference badge" href="sufc-football-bermuda.html">sufc football bermuda</a></li>
     </ul>
 
         </div>
@@ -135,7 +137,7 @@
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");

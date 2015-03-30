@@ -76,7 +76,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -87,6 +87,12 @@
         <h1>Posts for March 2015</h1>
     </header>
     <ul class="postlist">
+        <li>
+<a href="../../posts/bermuda-3-bahamas-0.html" class="listtitle">Bermuda 3 Bahamas 0</a> <time class="listdate" datetime="2015-03-29T22:34:42+00:00" title="2015-03-29 22:34">2015-03-29 22:34</time>
+</li>
+        <li>
+<a href="../../posts/pis-and-pies-on-pi-day.html" class="listtitle">Pi's and pies on pi day</a> <time class="listdate" datetime="2015-03-17T15:55:47+00:00" title="2015-03-17 15:55">2015-03-17 15:55</time>
+</li>
         <li>
 <a href="../../posts/pi-day-at-chewstick.html" class="listtitle">Pi Day at Chewstick</a> <time class="listdate" datetime="2015-03-12T15:14:01+00:00" title="2015-03-12 15:14">2015-03-12 15:14</time>
 </li>
@@ -133,7 +139,7 @@
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");

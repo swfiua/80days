@@ -23,6 +23,7 @@
 
 
 
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <style type="text/css">
     .image-block {
         display: inline-block;
@@ -85,7 +86,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -94,8 +95,8 @@
     
 <nav class="breadcrumbs">
 <ul class="breadcrumb">
-        <li><a href="../">galleries</a></li>
-        <li><a href="#">Magic</a></li>
+                <li><a href="../">galleries</a></li>
+                <li>Magic</li>
 </ul>
 </nav>
 
@@ -148,7 +149,7 @@
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");
@@ -158,7 +159,7 @@
     
 <script src="../../assets/js/flowr.plugin.js"></script>
 <script>
-jsonContent = [{"url_thumb": "selfie.thumbnail.jpg", "title": "Selfie", "url": "selfie.jpg", "size": {"h": 101, "w": 180}}];
+jsonContent = [{"url_thumb": "selfie.thumbnail.jpg", "title": "Selfie", "url": "selfie.jpg", "size": {"w": 180, "h": 101}}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,

@@ -76,7 +76,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -556,20 +556,20 @@ for the project.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="checking-when-80-days-from-the-start-of-the-project-is">Checking when 80 days from the start of the project is</h2>
+<h2 id="Checking-when-80-days-from-the-start-of-the-project-is">Checking when 80 days from the start of the project is<a class="anchor-link" href="../posts/calculating-80-days-from-now.html#Checking-when-80-days-from-the-start-of-the-project-is">¶</a>
+</h2>
 <p>The first commit to github was done on 15th November 2014.</p>
 <p>However, I had been working on the project for a couple of days by then, so I will take 13th November 2014 as the start date.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">
-In [1]:
-</div>
+<div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">datetime</span>
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">datetime</span>
 </pre></div>
 
 </div>
@@ -579,12 +579,10 @@ In [1]:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">
-In [2]:
-</div>
+<div class="prompt input_prompt">In [2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2014</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2014</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
 
 <span class="n">start</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
 </pre></div>
@@ -598,14 +596,11 @@ In [2]:
 
 
 <div class="output_area">
-<div class="prompt output_prompt">
-    Out[2]:</div>
+<div class="prompt output_prompt">Out[2]:</div>
 
 
-<div class="output_text output_subarea output_pyout">
-<pre>
-'2014-11-13'
-</pre>
+<div class="output_text output_subarea output_execute_result">
+<pre>'2014-11-13'</pre>
 </div>
 
 </div>
@@ -620,17 +615,16 @@ In [2]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now calculate 80 days from the start date</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">
-In [3]:
-</div>
+<div class="prompt input_prompt">In [3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">end</span> <span class="o">=</span> <span class="n">start</span> <span class="o">+</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">80</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">end</span> <span class="o">=</span> <span class="n">start</span> <span class="o">+</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">80</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -644,17 +638,16 @@ In [3]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Check that the 80 days of coding ends on 1st February 2015</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">
-In [4]:
-</div>
+<div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">end</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">end</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -666,14 +659,11 @@ In [4]:
 
 
 <div class="output_area">
-<div class="prompt output_prompt">
-    Out[4]:</div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
-<div class="output_text output_subarea output_pyout">
-<pre>
-'2015-02-01'
-</pre>
+<div class="output_text output_subarea output_execute_result">
+<pre>'2015-02-01'</pre>
 </div>
 
 </div>
@@ -688,17 +678,16 @@ In [4]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>What day of the week does the competition start on?</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">
-In [5]:
-</div>
+<div class="prompt input_prompt">In [5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">end</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"%A"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">end</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"%A"</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -710,14 +699,11 @@ In [5]:
 
 
 <div class="output_area">
-<div class="prompt output_prompt">
-    Out[5]:</div>
+<div class="prompt output_prompt">Out[5]:</div>
 
 
-<div class="output_text output_subarea output_pyout">
-<pre>
-'Sunday'
-</pre>
+<div class="output_text output_subarea output_execute_result">
+<pre>'Sunday'</pre>
 </div>
 
 </div>
@@ -732,21 +718,20 @@ In [5]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>How many days are we into the project?</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">
-In [6]:
-</div>
+<div class="prompt input_prompt">In [6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
 
 <span class="n">day</span> <span class="o">=</span> <span class="p">(</span><span class="n">today</span><span class="o">-</span><span class="n">start</span><span class="p">)</span><span class="o">.</span><span class="n">days</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s">"Today is day </span><span class="si">%(day)d</span><span class="s">.  </span><span class="si">%(togo)d</span><span class="s"> days to go."</span> <span class="o">%</span> <span class="nb">dict</span><span class="p">(</span><span class="n">day</span><span class="o">=</span><span class="n">day</span><span class="p">,</span> <span class="n">togo</span><span class="o">=</span><span class="p">(</span><span class="mi">80</span><span class="o">-</span><span class="n">day</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">"Today is day %(day)d.  %(togo)d days to go."</span> <span class="o">%</span> <span class="nb">dict</span><span class="p">(</span><span class="n">day</span><span class="o">=</span><span class="n">day</span><span class="p">,</span> <span class="n">togo</span><span class="o">=</span><span class="p">(</span><span class="mi">80</span><span class="o">-</span><span class="n">day</span><span class="p">)))</span>
 </pre></div>
 
 </div>
@@ -760,9 +745,7 @@ In [6]:
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Today is day 70.  10 days to go.
-
+<pre>Today is day 70.  10 days to go.
 </pre>
 </div>
 </div>
@@ -849,7 +832,7 @@ Today is day 70.  10 days to go.
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");

@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Thu, 12 Mar 2015 13:52:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 30 Mar 2015 14:14:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bermuda 3 Bahamas 0</title><link>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This afternoon Bermuda were playing Bahamas in a World Cup qualifier.&lt;/p&gt;
+&lt;p&gt;It was the second leg, but Bermuda, led by Nahki Wells, were already
+5-0 win in the Bahamas last Wednesday.&lt;/p&gt;
+&lt;p&gt;This game hadn't been generally broadcast in Bermuda.  But we had seen
+highlights, and the first many of us knew about the game was via a
+banner that was put out on the TV station.&lt;/p&gt;
+&lt;p&gt;As a long suffering supporter of the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Mighty Blades&lt;/a&gt; I have rarely
+been in the position of being able to go to a game, already 5-0 up.  I
+have also never been to a World Cup game before.&lt;/p&gt;
+&lt;p&gt;So today we set off early to the game on the moped.  The game was a
+sell out, parking was likely to be tricky.  In any case, the build up
+to the game would likely be fun.&lt;/p&gt;
+&lt;p&gt;It was cold.  Not Canada cold, but Bermuda cold.  Cloudy and damp,
+windy and looked like it could rain any minute.  The rain held off.&lt;/p&gt;
+&lt;p&gt;The build up to the game was fun too.  Many in the crowd knew one or
+more of the players well.  There was excitement that we would see a
+few goals, and a slight fear that maybe things could unravel.  And
+there were Gombeys :)&lt;/p&gt;
+&lt;p&gt;Bermuda did dominate the game from start to finish.  The goalkeeper,
+Fredrick Hall, was substited at half-time.  I am guessing that he was
+frozen, as the ball boys had all had a lot more work to do.  It was
+a good time to give his back-up a chance to play, and he at least had
+some saves to make.&lt;/p&gt;
+&lt;p&gt;Nahki Wells won a penalty, then crashed the resulting kick against the
+cross-bar.  This was close to half-time, Bermuda had already had 5-6
+really good chances, but the ball didn't want to go in the net.&lt;/p&gt;
+&lt;p&gt;Earlier Wells had been fouled, about 30 yards out and needed treatment
+from the physio.  He was then made to leave the field, and was not
+able to be there for the free-kick that required the treatment.
+Broken rules?&lt;/p&gt;
+&lt;p&gt;Justi Donawa had what looked like a painful injury to his foot, and
+had to be replaced.&lt;/p&gt;
+&lt;p&gt;Second half was more of the same, but Bermuda were increasingly
+getting the feeling that it was going to end 0-0.  The players felt it
+and the crowd too.&lt;/p&gt;
+&lt;p&gt;Then Nahki Wells broke through and this time made no mistake, 1-0.&lt;/p&gt;
+&lt;p&gt;From this point every time Bermuda went forward, and that was
+frequently, they looked like scoring.  The game ended 3-0.  The Gombey
+Warriors will play Guatemala, away on the 8th of June, at home on the
+16th.&lt;/p&gt;
+&lt;p&gt;Two last things.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;This is a very young Bermuda team.  I heard the average age is
+just 21.&lt;/li&gt;
+&lt;li&gt;The Bahamas also have a young team.  They played a good game today,
+the game flowed, there were lots of entertaining moments.  It can't
+have been easy travelling away already 5-0 down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It was a great afternoon, two teams, refs and the crowd all played
+their part.  Looking forward to the next games.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>sufc football bermuda</category><guid>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</guid><pubDate>Sun, 29 Mar 2015 22:34:42 GMT</pubDate></item><item><title>Pi's and pies on pi day</title><link>http://swfiua.github.io/80days/posts/pis-and-pies-on-pi-day.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As per my previous posting there was a Pi-day event last Saturday at
+&lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 4)&lt;/p&gt;
+&lt;p&gt;Error in "image" directive:
+1 argument(s) required, 0 supplied.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+.. image::
+   :width: 400
+   :height: 300
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;pi 2, 64GB SD card&lt;/p&gt;
+&lt;p&gt;OpenElec&lt;/p&gt;
+&lt;p&gt;Raspian&lt;/p&gt;
+&lt;p&gt;PiPlay&lt;/p&gt;
+&lt;p&gt;Soccket&lt;/p&gt;
+&lt;p&gt;Actual pies&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>raspberry-pi chewstick</category><guid>http://swfiua.github.io/80days/posts/pis-and-pies-on-pi-day.html</guid><pubDate>Tue, 17 Mar 2015 15:55:47 GMT</pubDate></item><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
 &lt;p&gt;March 14th has become known as &lt;a class="reference external" href="http://www.piday.org/"&gt;Pi Day&lt;/a&gt;, on account of the fact that
 the first three digits of the mathematical constant pi.&lt;/p&gt;
 &lt;p&gt;This year it is extra special, since the next two digits are 15, which
@@ -469,34 +550,30 @@ things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
 &lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
 mark stuff for expansion.&lt;/p&gt;
 &lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
-&lt;pre class="code javascript literal-block"&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_991913cb4085493ab45462547e21523c-1"&gt;&lt;/a&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_991913cb4085493ab45462547e21523c-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_991913cb4085493ab45462547e21523c-3"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_991913cb4085493ab45462547e21523c-4"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
 extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
-&lt;pre class="code javascript literal-block"&gt;
-&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
-&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
-&lt;span class="p"&gt;]).&lt;/span&gt;
-&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;span class="p"&gt;}]).&lt;/span&gt;
-
-&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;So, making some progress, but I still can't figure out this controller
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-1"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-2"&gt;&lt;/a&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-3"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// Declare app level module which depends on views, and components&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-4"&gt;&lt;/a&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-5"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-6"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-7"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-8"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-9"&gt;&lt;/a&gt;&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-10"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-11"&gt;&lt;/a&gt;  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-12"&gt;&lt;/a&gt;&lt;span class="p"&gt;}]).&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-13"&gt;&lt;/a&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-14"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-15"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-16"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-17"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
 &lt;a class="reference external" href="http://campus.codeschool.com"&gt;codeschool&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In particular, their &lt;a class="reference external" href="http://campus.codeschool.com/courses/shaping-up-with-angular-js"&gt;shaping up with angular&lt;/a&gt; introduction.  I had
@@ -535,98 +612,4 @@ the line for the file you want to diff.  More &lt;a class="reference external" h
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
 &lt;!-- type: text --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>javascript angular django</category><guid>http://swfiua.github.io/80days/posts/angular-momentum.html</guid><pubDate>Mon, 26 Jan 2015 16:44:11 GMT</pubDate></item><item><title>I met Bill's Gates and got the t-shirt</title><link>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
-top ten list of people I would like to meet.&lt;/p&gt;
-&lt;p&gt;I've been an free and open software enthusiast for longer than I care
-to remember.  Let's just say that over the years Bill hasn't exactly
-been a friend of open source.  To be fair, it pretty much threatened
-to destroy his rather lucrative business model.&lt;/p&gt;
-&lt;p&gt;To some extent it has.  Bill has moved on, so has Steve "linux is a
-cancer" Balmer.  Microsoft is making more and more code available as
-open source.  I would guess they have realised that if you want to be
-relevant in today's software world you need your stuff to run on
-linux, or at least play nicely with that platform.&lt;/p&gt;
-&lt;p&gt;There is a lot going on in the tech world, it isn't clear how it is
-all going to pan out.  But free and open source is stronger than
-ever.&lt;/p&gt;
-&lt;p&gt;Last night, my &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; and I wandered down the hill to the local
-hostelry.&lt;/p&gt;
-&lt;p&gt;As I &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/the-music-from-uncle.html"&gt;blogged&lt;/a&gt; a few weeks back, Saturday there is a DJ at this place
-and it is often a fun night.  We were planning to meet another friend
-who had just got back to the island.&lt;/p&gt;
-&lt;p&gt;We arrived and things were still quiet.  They were showing some
-highlights from the FA Cup on the TV.  I love the FA Cup, always have
-done.  It is when the lower league teams get a chance to show what
-they can do against higher clubs.  Yesterday was a great day for the
-underdogs.  Bradford City, also known as the &lt;em&gt;Bantams&lt;/em&gt; (curiously,
-google in their soccer info used the name &lt;em&gt;Bantams&lt;/em&gt; rather than
-Bradford City.  It was odd, because every other club was listed by
-their more formal name.  It was Sheffield United, not the Blades
-playing a Preston.&lt;/p&gt;
-&lt;p&gt;There were quite a few people having dinner at the place and 2-3 were
-celebrating birthdays.  DJ Uncle was doing his round of the room,
-figuring out his audience.&lt;/p&gt;
-&lt;p&gt;Around this time a guy walked by wearing a t-shirt and a silver tie,
-all sparkles and glitter, obviously top quality as it was ready-tied
-and held around his neck by a piece of elastic.   I saw the words,
-"Bill's Gates" on his t-shirt.   My curiousity was peaked and we got
-talking.&lt;/p&gt;
-&lt;p&gt;It soon became clear it was the guy's birthday.  He introduced himself
-as Bill Gates (or it might have been Bill's Gates).  There may have
-been some alcohol involved, so details are a little blurry.  But the
-gist was he was founder member of "BFBC".  The F is along the same
-lines as the f in swfiua.  So it was "Bill's F* Boat Club".&lt;/p&gt;
-&lt;p&gt;Clearly, this was my chance to be photographed with the man himself:&lt;/p&gt;
-&lt;img alt="../galleries/Gates/Me%20with%20Bill's%20Gates.jpg" src="http://swfiua.github.io/80days/galleries/Gates/Me%20with%20Bill's%20Gates.jpg" style="width: 300px; height: 400px;"&gt;
-&lt;p&gt;I can report that Bill was a fine upstanding character and was even
-kind enough to give me one of his t-shirts:&lt;/p&gt;
-&lt;img alt="../galleries/Gates/i_got_the_t_shirt.jpg" src="http://swfiua.github.io/80days/galleries/Gates/i_got_the_t_shirt.jpg" style="width: 300px; height: 400px;"&gt;
-&lt;p&gt;Now in case you haven't heard Bermuda has been chosen as the venue for
-the &lt;a class="reference external" href="http://www.americascup.com/en/news/131_Bermuda-is-the-home-of-the-2017-America-s-Cup.html"&gt;2017 America's Cup&lt;/a&gt;.  There is quite a bit of excitement about
-the island due to this.  Maybe BFBC will enter the race :)&lt;/p&gt;
-&lt;p&gt;Of course, Uncle played &lt;a class="reference external" href="https://www.youtube.com/watch?v=inS9gAgSENE"&gt;Happy Birthday&lt;/a&gt; for Bill and the others with
-birthdays.&lt;/p&gt;
-&lt;p&gt;I have been on a bit of a Springsteen kick that last week or so,
-something to do with starting to learn some tunes from my "Bruce
-Springsteen easy guitar":&lt;/p&gt;
-&lt;img alt="../galleries/Springsteen/Springsteen.jpg" src="http://swfiua.github.io/80days/galleries/Springsteen/Springsteen.jpg" style="width: 300px; height: 400px;"&gt;
-&lt;p&gt;Ace girl asked Uncle if he would play some.  And in light of the giant
-killings in the FA Cup and with the hope of more to come from the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Red
-and White Wizards&lt;/a&gt; it was appropriate that he should choose &lt;a class="reference external" href="https://www.youtube.com/watch?v=6vQpW9XRiyM"&gt;Glory Days&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Thanks Bill and everyone who helped make last night a fun time.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item><item><title>Adventures in angular land</title><link>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Since this blog is the nearest thing I have of a record of what I am
-doing, well I guess &lt;a class="reference external" href="https://github.com/swfiua/"&gt;github&lt;/a&gt; might have parts of the story, but in
-general, if I want to recall what I did, here is where I come.&lt;/p&gt;
-&lt;!-- So, today was an adventure.  So lots of tutorials are videos --&gt;
-&lt;!-- nowadays.  Lots of them.  Some are good --&gt;
-&lt;p&gt;I started with a minor adventure of &lt;em&gt;node.js&lt;/em&gt; land, including package
-managers (npm) and packages such as &lt;a class="reference external" href="http://gruntjs.com/"&gt;grunt&lt;/a&gt;.  At one point I had my
-django site being served via grunt, which I undestand is another layer
-of the onion.  Thinking this might be useful soon as I will be writing
-code.  Live updates could be handy.&lt;/p&gt;
-&lt;p&gt;After this I still had to find some javascript with a pattern I could
-follow.  By now I am getting a bit of a grasp on the parts.  It feels
-like a really complicated way to render forms on a browser.  But as
-that is something I've always found more painful that it should be, a
-bit more pain to find a better solution might be worth the trouble.&lt;/p&gt;
-&lt;p&gt;So &lt;cite&gt;Angular seed&lt;/cite&gt; came to the rescue.  I think in fact this is what
-Nick was using a few weeks back at the global hackathon.&lt;/p&gt;
-&lt;p&gt;So after a bit more fun of installing &lt;em&gt;npm&lt;/em&gt; a few different ways and
-something called &lt;em&gt;bower&lt;/em&gt; which seems to be package manager for
-&lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;But the best bit is that all this stuff actually did work.  And I
-moved the app into my tree of code and that works under &lt;em&gt;npm&lt;/em&gt; there
-too.  So, I think I am 80% of the way to finishing my kindling.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/adventures-in-angular-land.html</guid><pubDate>Thu, 22 Jan 2015 19:58:44 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>javascript angular django</category><guid>http://swfiua.github.io/80days/posts/angular-momentum.html</guid><pubDate>Mon, 26 Jan 2015 16:44:11 GMT</pubDate></item></channel></rss>

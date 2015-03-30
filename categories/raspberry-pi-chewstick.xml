@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (raspberry-pi chewstick)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link rel="self" href="http://swfiua.github.io/80days/categories/raspberry-pi-chewstick.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 30 Mar 2015 14:07:55 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pi's and pies on pi day</title><link>http://swfiua.github.io/80days/posts/pis-and-pies-on-pi-day.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As per my previous posting there was a Pi-day event last Saturday at
+&lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 4)&lt;/p&gt;
+&lt;p&gt;Error in "image" directive:
+1 argument(s) required, 0 supplied.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+.. image::
+   :width: 400
+   :height: 300
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;pi 2, 64GB SD card&lt;/p&gt;
+&lt;p&gt;OpenElec&lt;/p&gt;
+&lt;p&gt;Raspian&lt;/p&gt;
+&lt;p&gt;PiPlay&lt;/p&gt;
+&lt;p&gt;Soccket&lt;/p&gt;
+&lt;p&gt;Actual pies&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>raspberry-pi chewstick</category><guid>http://swfiua.github.io/80days/posts/pis-and-pies-on-pi-day.html</guid><pubDate>Tue, 17 Mar 2015 15:55:47 GMT</pubDate></item></channel></rss>

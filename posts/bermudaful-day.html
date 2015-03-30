@@ -98,7 +98,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -292,7 +292,7 @@ result of grafting buts from different fruits onto a wild lemon base.</p>
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");
