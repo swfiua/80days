@@ -69,4 +69,7 @@ Two last things.
   the game flowed, there were lots of entertaining moments.  It can't
   have been easy travelling away already 5-0 down.  
 
+It was a great afternoon, two teams, refs and the crowd all played
+their part.  Looking forward to the next games.
+
 
