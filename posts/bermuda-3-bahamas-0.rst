@@ -15,7 +15,7 @@ This game hadn't been generally broadcast in Bermuda.  But we had seen
 highlights, and the first many of us knew about the game was via a
 banner that was put out on the TV station.
 
-As a long suffering supporter of the `mighty blades`_ I have rarely
+As a long suffering supporter of the `Mighty Blades`_ I have rarely
 been in the position of being able to go to a game, already 5-0 up.  I
 have also never been to a World Cup game before.  
 
@@ -72,4 +72,11 @@ Two last things.
 It was a great afternoon, two teams, refs and the crowd all played
 their part.  Looking forward to the next games.
 
+
+.. include:: posts/references.rst
+
+   
+.. _Mighty Blades: Blade_
+
+	     
 
