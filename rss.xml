@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link rel="self" type="application/rss+xml" href="http://swfiua.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 30 Mar 2015 14:14:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bermuda 3 Bahamas 0</title><link>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This afternoon Bermuda were playing Bahamas in a World Cup qualifier.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 07 Apr 2015 20:53:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blades and Sens results correlated?</title><link>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;I have felt for a while that when the Blades win, the Sens also seem
+to do better.  When the Blades lose, the Sens don't do so well.&lt;/p&gt;
+&lt;p&gt;My guess is this is mostly just perspective, but I follow both teams.
+Blades, or Sheffield United, are hoping to get a place in the League 1
+play-offs.  The Sens, or Ottawa Senators, are trying to get into the
+Stanley Playoffs.&lt;/p&gt;
+&lt;p&gt;If you'd asked me at the start of the year, I would have thought being
+about where we are was a distinct possibility.  I still felt we might
+push into the top two.  That would get us up to the Championship
+automatically.&lt;/p&gt;
+&lt;p&gt;The Sens on the other hand appeared to be going nowhere.  Until the
+inevitable sacking of the coach to be replaced by Dave Cameron, who
+was the assistant up to that point.  And for a while nothing changed,
+but then a new goalie was brought in, due to injuries.  Since then
+they have been on a run.&lt;/p&gt;
+&lt;p&gt;The last few games have been just like watching the Blades.  The
+Blades never (well almost never) do it the easy way.  So it is always
+a season of maybe, just waiting for the point where it all unravels.&lt;/p&gt;
+&lt;p&gt;But this Sens run has been different.  They are already way beyond
+what anyone could have hoped for a few months back.  But now they are
+tantalisingly close to a playoffs, with a team that is playing well
+and having fun.  But like the Blades, they've been doing it the hard
+way.  3-0 leads disappearing, coming from behind to go on and win in
+over-time.   &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="getting-some-data"&gt;Getting some data&lt;/h2&gt;
+&lt;p&gt;So, there has been a lot going on and my guess is that anything
+that might be in the data will be better explained by major changes such
+as of coaching staff or players.&lt;/p&gt;
+&lt;p&gt;So first problem, getting the data.  I am planning to just get this season's results for both teams and extract the days when they both played, then take a look at how the results lined up.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>sufc sens</category><guid>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item><item><title>Bermuda 3 Bahamas 0</title><link>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This afternoon Bermuda were playing Bahamas in a World Cup qualifier.&lt;/p&gt;
 &lt;p&gt;It was the second leg, but Bermuda, led by Nahki Wells, were already
 5-0 win in the Bahamas last Wednesday.&lt;/p&gt;
 &lt;p&gt;This game hadn't been generally broadcast in Bermuda.  But we had seen
@@ -55,32 +105,7 @@ their part.  Looking forward to the next games.&lt;/p&gt;
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>sufc football bermuda</category><guid>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</guid><pubDate>Sun, 29 Mar 2015 22:34:42 GMT</pubDate></item><item><title>Pi's and pies on pi day</title><link>http://swfiua.github.io/80days/posts/pis-and-pies-on-pi-day.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As per my previous posting there was a Pi-day event last Saturday at
-&lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 4)&lt;/p&gt;
-&lt;p&gt;Error in "image" directive:
-1 argument(s) required, 0 supplied.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-.. image::
-   :width: 400
-   :height: 300
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;pi 2, 64GB SD card&lt;/p&gt;
-&lt;p&gt;OpenElec&lt;/p&gt;
-&lt;p&gt;Raspian&lt;/p&gt;
-&lt;p&gt;PiPlay&lt;/p&gt;
-&lt;p&gt;Soccket&lt;/p&gt;
-&lt;p&gt;Actual pies&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>raspberry-pi chewstick</category><guid>http://swfiua.github.io/80days/posts/pis-and-pies-on-pi-day.html</guid><pubDate>Tue, 17 Mar 2015 15:55:47 GMT</pubDate></item><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>sufc football bermuda</category><guid>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</guid><pubDate>Sun, 29 Mar 2015 22:34:42 GMT</pubDate></item><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
 &lt;p&gt;March 14th has become known as &lt;a class="reference external" href="http://www.piday.org/"&gt;Pi Day&lt;/a&gt;, on account of the fact that
 the first three digits of the mathematical constant pi.&lt;/p&gt;
 &lt;p&gt;This year it is extra special, since the next two digits are 15, which
@@ -550,30 +575,34 @@ things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
 &lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
 mark stuff for expansion.&lt;/p&gt;
 &lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_991913cb4085493ab45462547e21523c-1"&gt;&lt;/a&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_991913cb4085493ab45462547e21523c-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_991913cb4085493ab45462547e21523c-3"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_991913cb4085493ab45462547e21523c-4"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
 extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-1"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-3"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// Declare app level module which depends on views, and components&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-4"&gt;&lt;/a&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-5"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-6"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-7"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-8"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-9"&gt;&lt;/a&gt;&lt;span class="p"&gt;]).&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-10"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-11"&gt;&lt;/a&gt;  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-12"&gt;&lt;/a&gt;&lt;span class="p"&gt;}]).&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-13"&gt;&lt;/a&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-14"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-15"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-16"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-17"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;So, making some progress, but I still can't figure out this controller
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
+&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="p"&gt;}]).&lt;/span&gt;
+
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
 &lt;a class="reference external" href="http://campus.codeschool.com"&gt;codeschool&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In particular, their &lt;a class="reference external" href="http://campus.codeschool.com/courses/shaping-up-with-angular-js"&gt;shaping up with angular&lt;/a&gt; introduction.  I had

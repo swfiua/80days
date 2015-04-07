@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (sufc sens)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/sufc-sens.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 07 Apr 2015 20:53:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blades and Sens results correlated?</title><link>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;I have felt for a while that when the Blades win, the Sens also seem
+to do better.  When the Blades lose, the Sens don't do so well.&lt;/p&gt;
+&lt;p&gt;My guess is this is mostly just perspective, but I follow both teams.
+Blades, or Sheffield United, are hoping to get a place in the League 1
+play-offs.  The Sens, or Ottawa Senators, are trying to get into the
+Stanley Playoffs.&lt;/p&gt;
+&lt;p&gt;If you'd asked me at the start of the year, I would have thought being
+about where we are was a distinct possibility.  I still felt we might
+push into the top two.  That would get us up to the Championship
+automatically.&lt;/p&gt;
+&lt;p&gt;The Sens on the other hand appeared to be going nowhere.  Until the
+inevitable sacking of the coach to be replaced by Dave Cameron, who
+was the assistant up to that point.  And for a while nothing changed,
+but then a new goalie was brought in, due to injuries.  Since then
+they have been on a run.&lt;/p&gt;
+&lt;p&gt;The last few games have been just like watching the Blades.  The
+Blades never (well almost never) do it the easy way.  So it is always
+a season of maybe, just waiting for the point where it all unravels.&lt;/p&gt;
+&lt;p&gt;But this Sens run has been different.  They are already way beyond
+what anyone could have hoped for a few months back.  But now they are
+tantalisingly close to a playoffs, with a team that is playing well
+and having fun.  But like the Blades, they've been doing it the hard
+way.  3-0 leads disappearing, coming from behind to go on and win in
+over-time.   &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="getting-some-data"&gt;Getting some data&lt;/h2&gt;
+&lt;p&gt;So, there has been a lot going on and my guess is that anything
+that might be in the data will be better explained by major changes such
+as of coaching staff or players.&lt;/p&gt;
+&lt;p&gt;So first problem, getting the data.  I am planning to just get this season's results for both teams and extract the days when they both played, then take a look at how the results lined up.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>sufc sens</category><guid>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item></channel></rss>

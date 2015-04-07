@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (javascript angular django)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link rel="self" href="http://swfiua.github.io/80days/categories/javascript-angular-django.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 30 Mar 2015 14:07:57 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular Momentum</title><link>http://swfiua.github.io/80days/posts/angular-momentum.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;On Friday I got to the point that the angular seed app is now checked
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (javascript angular django)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/javascript-angular-django.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 07 Apr 2015 20:53:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Angular Momentum</title><link>http://swfiua.github.io/80days/posts/angular-momentum.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;On Friday I got to the point that the angular seed app is now checked
 into my 80days repository.&lt;/p&gt;
 &lt;p&gt;Today's mission is to start turning that into the app I really want.&lt;/p&gt;
 &lt;p&gt;One of the first things I want to do is fix up angular so that it uses
@@ -15,30 +15,34 @@ things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
 &lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
 mark stuff for expansion.&lt;/p&gt;
 &lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_991913cb4085493ab45462547e21523c-1"&gt;&lt;/a&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_991913cb4085493ab45462547e21523c-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_991913cb4085493ab45462547e21523c-3"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_991913cb4085493ab45462547e21523c-4"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
 extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-1"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-3"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// Declare app level module which depends on views, and components&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-4"&gt;&lt;/a&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-5"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-6"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-7"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-8"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-9"&gt;&lt;/a&gt;&lt;span class="p"&gt;]).&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-10"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-11"&gt;&lt;/a&gt;  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-12"&gt;&lt;/a&gt;&lt;span class="p"&gt;}]).&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-13"&gt;&lt;/a&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-14"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-15"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-16"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;a name="rest_code_98705a983f044b9c9c30c6155c9c411c-17"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;So, making some progress, but I still can't figure out this controller
+&lt;pre class="code javascript literal-block"&gt;
+&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Declare app level module which depends on views, and components
+&lt;/span&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="p"&gt;}]).&lt;/span&gt;
+
+&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to
 &lt;a class="reference external" href="http://campus.codeschool.com"&gt;codeschool&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In particular, their &lt;a class="reference external" href="http://campus.codeschool.com/courses/shaping-up-with-angular-js"&gt;shaping up with angular&lt;/a&gt; introduction.  I had
