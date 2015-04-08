@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 07 Apr 2015 20:53:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blades and Sens results correlated?</title><link>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 08 Apr 2015 15:35:43 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blades and Sens results correlated?</title><link>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -44,6 +44,41 @@ over-time.   &lt;/p&gt;
 that might be in the data will be better explained by major changes such
 as of coaching staff or players.&lt;/p&gt;
 &lt;p&gt;So first problem, getting the data.  I am planning to just get this season's results for both teams and extract the days when they both played, then take a look at how the results lined up.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="yesterday-s-games"&gt;Yesterday's games&lt;/h2&gt;
+&lt;p&gt;The mighty Blades had a key game against local rivals Doncaster.  As
+per usual, they did things the hard way, coming from behind twice to
+end up winners 3-2.&lt;/p&gt;
+&lt;p&gt;That is two big wins over local rivals in a matter of days.  The
+Blades are now firmly in the playoff positions, one more win from the
+last three games might be all that is needed.&lt;/p&gt;
+&lt;p&gt;Another local side, Chesterfield, are looming large.  It feels like
+they will play a part in the rest of our season.  I grew up on the
+Chesterfield side of Sheffield, almost equidistant from the two
+grounds.&lt;/p&gt;
+&lt;p&gt;Meanwhile, the Senators were at home to the Pittsburgh Penguins last
+night, in what really was a must win game.&lt;/p&gt;
+&lt;p&gt;It was also fan appreciation night.  Within 10 seconds of the start
+they were 1-0 down.  By 5 minutes in they were 2-0 down and by the end
+of the first period it was 3-0.  Oh dear.  Sid Crosby on form and the
+young Sens not firing.&lt;/p&gt;
+&lt;p&gt;Second period was a different story.  Sens put the Penguins under
+pressure, but nothing finding the net, until 5 minutes from the end of
+the period.  Pageau managed to sneak one in off one of the Penguin's
+skates.&lt;/p&gt;
+&lt;p&gt;30 seconds into the third period they got a second.  Two minutes from
+time they equalised and then Mark Stone fired in the winner in
+overtime.&lt;/p&gt;
+&lt;p&gt;Now that is what I call a fan appreciation night.&lt;/p&gt;
+&lt;p&gt;Oh, and Blades and Sens both win on the same night, so that hypothesis
+is proven ;)&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
