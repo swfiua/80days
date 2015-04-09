@@ -11,9 +11,9 @@ template = """
     "%(title)s\\n",
     "=========\\n",
     "\\n",
-    "<img src=\\"../gallerids/HackBermuda/%(image)s\\" width=\\"400\\" height=\\"300\\">"
+    "<img src=\\"galleries/HackBermuda/%(image)s\\" width=\\"%(width)d\\" height=\\"%(height)d\\">"
    ]
-  },
+  }
 """
 
 
@@ -21,15 +21,17 @@ slides = [
     dict(title="There is no snow!",
          image="snow.jpg"),
     dict(title="Just pink sand and blue sky",
-         image="horseshow.jpg"),
+         image="horseshoe.jpg"),
     dict(title="But there are hurricanes",
-         image="gonzalo-modis-oct17.jpg"),
+         image="gonzalo-modis-oct17.jpg",
+         width=450, height=600),
     dict(title="Gonzalo damage",
          image="treedown.jpg"),
     dict(title="Stand me up again",
-         image="treeup.jpg"),
+         image="treeup.jpg",
+         width=450, height=600),
     dict(title="Raspberry pi day",
-         image="piday3.jpg"),
+         image="pi_day_pies.jpg"),
     dict(title="Chewstick",
          image="mandela.jpg"),
     dict(title="The Pink and Blue Limo",
@@ -37,11 +39,16 @@ slides = [
     dict(title="America's Cup 2017",
          image="americascup.jpg"),
     dict(title="Come and hack in the sun",
-         image="daniels.jpg"),
+         image="fishing.jpg"),
 ]
 
+output = []
 
 for slide in slides:
 
-    print(template % slide)
+    info = dict(width=600, height=450)
+    info.update(slide)
+    output.append(template % info)
+
+print(','.join(output))
     
