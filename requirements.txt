@@ -6,11 +6,13 @@ ghp-import==0.4.1
 ipython==3.1.0
 ipython-doctester==0.3.0
 Jinja2==2.7.3
+jsonschema==2.4.0
 livereload==2.3.2
 Logbook==0.9.0
 lxml==3.4.2
 Mako==1.0.1
 MarkupSafe==0.23
+mistune==0.5.1
 natsort==3.5.6
 Nikola==7.3.1
 pbr==0.10.0
