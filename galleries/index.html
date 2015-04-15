@@ -23,6 +23,7 @@
 
 
 
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <style type="text/css">
     .image-block {
         display: inline-block;
@@ -85,7 +86,7 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -94,28 +95,21 @@
     
 <nav class="breadcrumbs">
 <ul class="breadcrumb">
-        <li><a href="#">galleries</a></li>
+                <li>galleries</li>
 </ul>
 </nav>
 
     <h1>galleries</h1>
     <ul>
-        <li><a href="Bermuda/"><i class="glyphicon
-        glyphicon-folder-open"></i> Bermuda</a></li>
-        <li><a href="Blades/"><i class="glyphicon
-        glyphicon-folder-open"></i> Blades</a></li>
-        <li><a href="Gates/"><i class="glyphicon
-        glyphicon-folder-open"></i> Gates</a></li>
-        <li><a href="Magic/"><i class="glyphicon
-        glyphicon-folder-open"></i> Magic</a></li>
-        <li><a href="RaspberryPi/"><i class="glyphicon
-        glyphicon-folder-open"></i> RaspberryPi</a></li>
-        <li><a href="Snowy/"><i class="glyphicon
-        glyphicon-folder-open"></i> Snowy</a></li>
-        <li><a href="SpittalPond/"><i class="glyphicon
-        glyphicon-folder-open"></i> SpittalPond</a></li>
-        <li><a href="Springsteen/"><i class="glyphicon
-        glyphicon-folder-open"></i> Springsteen</a></li>
+        <li><a href="Bermuda/"><i class="glyphicon glyphicon-folder-open"></i> Bermuda</a></li>
+        <li><a href="Blades/"><i class="glyphicon glyphicon-folder-open"></i> Blades</a></li>
+        <li><a href="Gates/"><i class="glyphicon glyphicon-folder-open"></i> Gates</a></li>
+        <li><a href="HackBermuda/"><i class="glyphicon glyphicon-folder-open"></i> HackBermuda</a></li>
+        <li><a href="Magic/"><i class="glyphicon glyphicon-folder-open"></i> Magic</a></li>
+        <li><a href="RaspberryPi/"><i class="glyphicon glyphicon-folder-open"></i> RaspberryPi</a></li>
+        <li><a href="Snowy/"><i class="glyphicon glyphicon-folder-open"></i> Snowy</a></li>
+        <li><a href="SpittalPond/"><i class="glyphicon glyphicon-folder-open"></i> SpittalPond</a></li>
+        <li><a href="Springsteen/"><i class="glyphicon glyphicon-folder-open"></i> Springsteen</a></li>
     </ul>
 
 <div id="gallery_container"></div>
@@ -157,7 +151,7 @@
 <!-- End of social buttons -->
 
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
     <!-- fancy dates -->
     <script>
     moment.locale("");
