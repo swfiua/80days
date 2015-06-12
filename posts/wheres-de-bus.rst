@@ -70,8 +70,7 @@ as `OpenGTS`_ and `Traccar`_ that might be usable here.
 .. _Vehicle tracking systems: https://en.wikipedia.org/wiki/Vehicle_tracking_system
 .. _OpenMBTA: http://openmbta.org/
 
-.. _Open data bus tracking:
-http://efficientgov.com/blog/2013/01/10/open-data-allows-your-city-to-develop-bus-tracking-apps/
+.. _Open data bus tracking: http://efficientgov.com/blog/2013/01/10/open-data-allows-your-city-to-develop-bus-tracking-apps/
 
 .. _One Bus Away: http://onebusaway.org/
 
