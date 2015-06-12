@@ -17,6 +17,10 @@
   <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/art.xml</loc>
+  <lastmod>2015-05-24</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://swfiua.github.io/80days/categories/bermuda-bus-ottawa-sufc.xml</loc>
   <lastmod>2015-04-15</lastmod>
  </sitemap>
@@ -25,8 +29,20 @@
   <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/bermuda.xml</loc>
+  <lastmod>2015-06-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/bus.xml</loc>
+  <lastmod>2015-06-12</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://swfiua.github.io/80days/categories/django-python.xml</loc>
   <lastmod>2015-04-15</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/ferry.xml</loc>
+  <lastmod>2015-06-12</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/categories/football-sufc-blades.xml</loc>
@@ -53,6 +69,10 @@
   <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/open-source.xml</loc>
+  <lastmod>2015-06-12</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://swfiua.github.io/80days/categories/python-montreal.xml</loc>
   <lastmod>2015-04-15</lastmod>
  </sitemap>
@@ -65,51 +85,55 @@
   <lastmod>2015-04-15</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://swfiua.github.io/80days/categories/transit.xml</loc>
+  <lastmod>2015-06-12</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Bermuda/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Blades/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Gates/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/HackBermuda/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Magic/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/RaspberryPi/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Snowy/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/SpittalPond/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/Springsteen/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/galleries/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-05-24</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/rss.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-06-12</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://swfiua.github.io/80days/sitemap.xml</loc>
-  <lastmod>2015-04-15</lastmod>
+  <lastmod>2015-06-12</lastmod>
  </sitemap>
 </sitemapindex>

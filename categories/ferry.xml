@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (ferry)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/ferry.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 12 Jun 2015 16:04:25 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Where's de bus</title><link>http://swfiua.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
+give Bermuda's public transport users up to date information on where
+the buses and ferries actually are.&lt;/p&gt;
+&lt;p&gt;Transit authorities that have made this data available have found a
+number of &lt;a class="reference external" href="http://www.actsoft.com/public-transportation-profits-from-gps-tracking/"&gt;benefits&lt;/a&gt; of bus tracking, including increased usage of
+public transport.&lt;/p&gt;
+&lt;p&gt;There is a thriving open source project, &lt;a class="reference external" href="http://onebusaway.org/"&gt;One Bus Away&lt;/a&gt; which looks
+like it could be used in the Bermuda environment.&lt;/p&gt;
+&lt;p&gt;A first step in getting the transport data into the &lt;a class="reference external" href="https://developers.google.com/transit/gtfs/reference"&gt;General Transit
+Feed Specification&lt;/a&gt; (GTFS) format.  This provides a flexible format
+for transit data.  It is how you specify bus stop locations, routes
+and timetables.  Once you have your data in this format there are a
+number of projects that you can use to create a powerful transit
+application.&lt;/p&gt;
+&lt;p&gt;The &lt;a class="reference external" href="http://onebusaway.org/"&gt;One Bus Away&lt;/a&gt; project is an open source project that is being
+used in a number of US and Canadian cities.  It should be usable here
+in Bermuda too.&lt;/p&gt;
+&lt;p&gt;Google provides good support for transit information and the
+&lt;a class="reference external" href="http://www.dutchnews.nl/news/archives/2015/06/the-netherlands-debuts-new-google-public-transport-service/"&gt;Netherlands&lt;/a&gt; recently became the first country in the world to
+provide full information via their service.&lt;/p&gt;
+&lt;p&gt;Whilst this support from Google is good to have, since many tourists
+will be using google maps whilst visiting the island, there are
+benefits to being in control of your own data and websites.  There are
+restrictions on the use of Google maps and you are not in control of
+future development when you use that platform.  Further, users may not
+wish to share their location with Google due to privacy concerns.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.openstreetmap.org/search?query=bermuda#map=12/32.2949/-64.7830"&gt;OpenStreetMap&lt;/a&gt; is an free and open project to make top quality
+digital maps available.  The Bermuda map is quite excellent.  Further,
+there is a good open source javascript library, &lt;a class="reference external" href="http://leafletjs.com/"&gt;leaflet&lt;/a&gt; to create
+interactive maps using OpenStreetMap data.&lt;/p&gt;
+&lt;p&gt;A few months back Open Bermuda started work on a &lt;a class="reference external" href="https://github.com/openbermuda/wheres-de-bus"&gt;Where's de bus&lt;/a&gt;
+project during a hackathon.  The challenge at that time was finding
+out where the actual bus stops were.  It is hoped that it will be
+possible to get this information and full bus and ferry timetables in
+machine readable form from the Bermuda Transportation Board (BTB).&lt;/p&gt;
+&lt;p&gt;Given the small size of Bermuda and its transit network it would also
+be possible to crowd-source the data for a transit application.  If
+live GPS data is not avaialable from BTB an alternative would be to
+create a mobile application that public transport users could run and
+use to report bus locations as well as how full the bus currently is.&lt;/p&gt;
+&lt;p&gt;There are already some open source GPS tracking systems available such
+as &lt;a class="reference external" href="http://www.opengts.org/"&gt;OpenGTS&lt;/a&gt; and &lt;a class="reference external" href="https://www.traccar.org/"&gt;Traccar&lt;/a&gt; that might be usable here.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;div class="system-message" id="open-data-bus-tracking"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 65)&lt;/p&gt;
+Explicit markup ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://efficientgov.com/blog/2013/01/10/open-data-allows-your-city-to-develop-bus-tracking-apps/"&gt;http://efficientgov.com/blog/2013/01/10/open-data-allows-your-city-to-develop-bus-tracking-apps/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://swfiua.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item></channel></rss>

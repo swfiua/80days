@@ -3,15 +3,15 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Snowy | Around the world in 80 days</title>
+    <title>Posts about art | Around the world in 80 days</title>
 
     
-            <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 
     
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://swfiua.github.io/80days/galleries/Snowy/index.html">
+      <link rel="canonical" href="http://swfiua.github.io/80days/categories/art.html">
 
 
 
@@ -21,17 +21,9 @@
     
 
 
+    
 
-
-<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-<style type="text/css">
-    .image-block {
-        display: inline-block;
-    }
-    .flowr_row {
-        width: 100%;
-    }
-    </style>
+        <link rel="alternate" type="application/rss+xml" title="RSS for tag art" href="art.xml">
 
 
 </head>
@@ -60,13 +52,13 @@
             <ul class="nav navbar-nav">
                 
                 <li>
-<a href="../../archive.html">Archives</a>
+<a href="../archive.html">Archives</a>
                 </li>
 <li>
-<a href="../../categories/index.html">Tags</a>
+<a href="index.html">Tags</a>
                 </li>
 <li>
-<a href="../../rss.xml">RSS feed</a>
+<a href="../rss.xml">RSS feed</a>
 
                 
             </li>
@@ -92,33 +84,19 @@
         <div class="row">
             
             
-    
-<nav class="breadcrumbs">
-<ul class="breadcrumb">
-                <li><a href="../">galleries</a></li>
-                <li>Snowy</li>
-</ul>
-</nav>
-
-    <h1>Snowy</h1>
-
-<div id="gallery_container"></div>
-<noscript>
-<ul class="thumbnails">
+<article class="tagpage">
+    <header>
+        <h1>Posts about art</h1>
+        <div class="metadata">
+                <p class="feedlink"><a href="art.xml" type="application/rss+xml">RSS feed</a></p>
+        </div>
+    </header>
+    <ul class="postlist">
         <li>
-<a href="packed.jpg" class="thumbnail image-reference" title="Packed">
-            <img src="packed.thumbnail.jpg" alt="Packed"></a>
-        </li>
-<li>
-<a href="coding.jpg" class="thumbnail image-reference" title="Coding">
-            <img src="coding.thumbnail.jpg" alt="Coding"></a>
-        </li>
-<li>
-<a href="dontlikethismoving.jpg" class="thumbnail image-reference" title="Dontlikethismoving">
-            <img src="dontlikethismoving.thumbnail.jpg" alt="Dontlikethismoving"></a>
+<a href="../posts/sharon-wilson.html" class="listtitle">Sharon Wilson</a> <time class="listdate" datetime="2015-05-24T15:40:38+00:00" title="2015-05-24 15:40">2015-05-24 15:40</time>
 </li>
-</ul>
-</noscript>
+    </ul>
+</article>
 
         </div>
         <!--End of body content-->
@@ -133,7 +111,7 @@
 </div>
 
 
-            <script src="../../assets/js/all-nocdn.js"></script>
+            <script src="../assets/js/all-nocdn.js"></script>
     
 <!-- Social buttons -->
 <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
@@ -165,45 +143,6 @@
     </script>
     <!-- end fancy dates -->
     
-<script src="../../assets/js/flowr.plugin.js"></script>
-<script>
-jsonContent = [{"url_thumb": "packed.thumbnail.jpg", "size": {"w": 101, "h": 180}, "title": "Packed", "url": "packed.jpg"}, {"url_thumb": "coding.thumbnail.jpg", "size": {"w": 101, "h": 180}, "title": "Coding", "url": "coding.jpg"}, {"url_thumb": "dontlikethismoving.thumbnail.jpg", "size": {"w": 180, "h": 144}, "title": "Dontlikethismoving", "url": "dontlikethismoving.jpg"}];
-$("#gallery_container").flowr({
-        data : jsonContent,
-        height : 180*.6,
-        padding: 5,
-        rows: -1,
-        render : function(params) {
-            // Just return a div, string or a dom object, anything works fine
-            img = $("<img />").attr({
-                'src': params.itemData.url_thumb,
-                'width' : params.width,
-                'height' : params.height
-            }).css('max-width', '100%');
-            link = $( "<a></a>").attr({
-                'href': params.itemData.url,
-                'class': 'image-reference'
-            });
-            div = $("<div />").addClass('image-block').attr({
-                'title': params.itemData.title,
-                'data-toggle': "tooltip",
-            });
-            link.append(img);
-            div.append(link);
-            div.hover(div.tooltip());
-            return div;
-        },
-        itemWidth : function(data) { return data.size.w; },
-        itemHeight : function(data) { return data.size.h; },
-        complete : function(params) {
-            if( jsonContent.length > params.renderedItems ) {
-                nextRenderList = jsonContent.slice( params.renderedItems );
-            }
-        }
-    });
-$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
-</script>
-
 
 
 </body>
