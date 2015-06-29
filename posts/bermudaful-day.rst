@@ -1,7 +1,7 @@
 .. title: Bermudaful Day
 .. slug: bermudaful-day
 .. date: 2015-03-10 03:35:22 UTC
-.. tags: 
+.. tags: bermuda, gardening, Spittal Pond
 .. link: bermuda gardening spittalpond
 .. description: A lovely day in Bermuda
 .. type: text

@@ -1,7 +1,7 @@
 .. title: I met Bill's Gates and got the t-shirt
 .. slug: i-met-bills-gates-and-got-the-t-shirt
 .. date: 2015-01-25 22:22:58 UTC
-.. tags: 
+.. tags: bermuda, music, linux, blades
 .. link: 
 .. description: bermuda music linux blades
 .. type: text
@@ -39,7 +39,7 @@ underdogs.  Bradford City, also known as the *Bantams* (curiously,
 google in their soccer info used the name *Bantams* rather than
 Bradford City.  It was odd, because every other club was listed by
 their more formal name.  It was Sheffield United, not the Blades
-playing a Preston.
+playing at Preston.
 
 There were quite a few people having dinner at the place and 2-3 were
 celebrating birthdays.  DJ Uncle was doing his round of the room,
