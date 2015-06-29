@@ -111,14 +111,17 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archives"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+        ('/index.html', 'Home', 'icon-home'),
+        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('https://twitter.com/swifua', 'My Twitter', 'icon-twitter'),
+        ('https://github.com/swfiua', 'My Github', 'icon-github'),
+    )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3-gradients"
+THEME = "zen-ipython"
 
 # Below this point, everything is optional
 
@@ -201,7 +204,7 @@ PAGES = (
     ("notebooks/*.ipynb", "notebooks", "story.tmpl"),
     ("stories/*.txt", "", "story.tmpl"),
 )
-
+WRITE_TAG_CLOUD = True
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
 # Default is:
@@ -602,7 +605,7 @@ MathJax.Hub.Config({
         inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
     },
-    displayAlign: 'left', // Change this to 'center' to center equations.
+    displayAlign: 'center', // Change this to 'center' to center equations.
     "HTML-CSS": {
         styles: {'.MathJax_Display': {"margin": 0}}
     }
