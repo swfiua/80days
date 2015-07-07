@@ -115,7 +115,7 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archives', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
-        ('https://twitter.com/swifua', 'My Twitter', 'icon-twitter'),
+        ('https://twitter.com/swfiua', 'My Twitter', 'icon-twitter'),
         ('https://github.com/swfiua', 'My Github', 'icon-github'),
     )
 }
