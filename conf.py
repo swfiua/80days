@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Johnny Gill"  # (translatable)
 BLOG_TITLE = "Around the world in 80 days"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://swfiua.github.io/80days/"
+SITE_URL = "http://openbermuda.github.io/80days/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
