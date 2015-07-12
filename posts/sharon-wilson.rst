@@ -35,4 +35,22 @@ the end of the road, sometimes with a couple of balloons attached.  In
 that case, you are in luck.  She will welcome you to her home and let
 you discover her art.
 
+I have a copy of a book she produced, here is the cover:
 
+.. image::
+   galleries/sharon_wilson/book_cover.jpg
+
+My cat seems to like the book too:
+
+.. image::
+   galleries/snowy/snowy_wilson.jpg
+
+There is a story behind everything she paints.  She will tell you some
+of those stories, but also let you find your own story.
+
+Here is another picture, it has a good story too:
+
+.. image::
+   galleries/sharon_wilson/father_and_daughter.jpg
+
+   
