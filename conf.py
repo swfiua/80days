@@ -275,7 +275,7 @@ COMPILERS = {
 INDEX_PATH = "blog"
 
 # Create per-month archives instead of per-year
-CREATE_MONTHLY_ARCHIVE = True
+CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
 # CREATE_SINGLE_ARCHIVE = False
 # Final locations for the archives are:
