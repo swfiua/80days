@@ -111,6 +111,26 @@ are also rumours that Cleveland have been `stripped of the cup`_.
 
 It is never dull following the Red and White wizards.
 
+So much for the cricket, the day itself was fun from beginning to
+end.  Unfortunately, I had packed the bag of stuff to take to the
+ground, so instead of drinks and food and sunscreen we had an
+assortment of raspberry pi's, humidity sensors, air pressure sensors,
+wires, breadboards and a netbook.
+
+There was food in the clubhouse, yellow and blue, St David's colours.
+So we were able to find some chips that weren't made of silicon.  And
+the rum swizzle went down very smoothly.
+
+The banter in the crowd rarely stopped, with fans from both sides
+sitting enjoying together.
+
+Cricket in Bermuda is very much something you go to watch with family
+and friends.  Worst case, you have a day in the sunshine in a
+beautiful setting, with people you love.
+
+Next stop the blue and red of Somerset playing the light and dark blue
+of St George's.  Cup Match!
+
 .. _editorial: http://www.royalgazette.com/article/20150720/COMMENT01/150729969
 
 .. _stripped of the cup: http://www.royalgazette.com/article/20150720/SPORT02/150729960   
