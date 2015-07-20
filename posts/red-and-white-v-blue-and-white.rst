@@ -20,7 +20,7 @@ are blue and white.
 
 I come from Sheffield, UK, a city divided between the blue and white
 of the Owls and the red and white of the Mighty Blades.  I follow the
-Blades, so it was natural for me to be cheering for Bailley's Bay.
+Blades, so it was natural for me to be cheering for Bailey's Bay.
 
 We had a slow start to the day and it was a long (for Bermuda) ride on
 the moped to St David's, so we didn't get to the ground until just
