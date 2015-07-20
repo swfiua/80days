@@ -31,7 +31,7 @@ headgear he directed us towards the Digicel tent.
 
 .. image:: ../galleries/EasternCounties/20150718_123538.jpg
    :width:  400
-   :height: 400
+   :height: 300
 
 The game was nicely poised, with Cleveland batting first and on about
 80 runs for 4 wickets at lunch.
@@ -41,7 +41,7 @@ for 127 in 45 overs.
 
 .. image:: ../galleries/EasternCounties/20150718_151601.jpg
    :width:  400
-   :height: 400
+   :height: 300
            
 
 Lord's is a wonderful ground, right by the ocean, with natural banks
@@ -50,14 +50,14 @@ round the ground and took some pictures.
 
 .. image:: ../galleries/EasternCounties/20150718_125203.jpg
    :width:  400
-   :height: 400
+   :height: 300
 
 And then there is the precariously perched commentary position that
 you have to walk the plank to get to:
            	   
 .. image:: ../galleries/EasternCounties/20150718_152446.jpg
    :width:  400
-   :height: 400
+   :height: 300
 
 Now being a Blades supporter I have got used to my team snatching
 defeat from the jaws of victory.  The target of 128 that Bay were set
@@ -77,7 +77,7 @@ pitch to try and get the game restarted.
 
 .. image:: ../galleries/EasternCounties/20150718_171958.jpg
    :width:  400
-   :height: 400
+   :height: 300
 
 Soon after the restart, there was another delay for a drinks break.
 The batsmen were finding it difficult to get into any sort of rhythm
