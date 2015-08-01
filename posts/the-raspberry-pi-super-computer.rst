@@ -1,7 +1,7 @@
 .. title: The raspberry pi super computer
 .. slug: the-raspberry-pi-super-computer
-.. date: 2015-07-01 22:08:09 UTC
-.. tags: raspberry pi, draft
+.. date: 2015-08-01 22:08:09 UTC
+.. tags: raspberry pi, Cray-XMP, Cray
 .. category: 
 .. link: 
 .. description: The raspberry pi as a supercomputer
@@ -35,11 +35,19 @@ available in he future.
 
 In short, computing power is becoming very, very cheap.
 
-Cray-1
-======
+Cray-XMP
+========
 
-SGI Indigo
-==========
+To give some indication of how cheap compute power has become, this
+`comparison to a Cray-XMP`_ shows that the older Pi B+ has very
+similar compute power to the Cray-XMP.
+
+When you compate the inflation adjusted price tags you see how cheap
+compute power has become.
+
+The Pi 2 is roughly six times the power of the B+.  Hence 20 of those
+gives you 120 Cray-XMP's.   For $1000.
+
 
 Renewable energy
 ================
@@ -56,5 +64,6 @@ that can be used to mop up spare compute cycles.
 
 Bitcoin mining is one potential application.
 
-Homogeneous encryption
-======================
+
+http://vk5tu.livejournal.com/50955.html
+
