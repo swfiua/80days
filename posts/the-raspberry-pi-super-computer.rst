@@ -65,5 +65,5 @@ that can be used to mop up spare compute cycles.
 Bitcoin mining is one potential application.
 
 
-http://vk5tu.livejournal.com/50955.html
+.. _comparison to a Cray-XMP: http://vk5tu.livejournal.com/50955.html
 
