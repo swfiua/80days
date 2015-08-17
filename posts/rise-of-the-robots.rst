@@ -1,7 +1,7 @@
 .. title: Rise of the robots
 .. slug: rise-of-the-robots
 .. date: 2015-08-12 18:22:29 UTC
-.. tags: robots, algorithms, jobs
+.. tags: robots, algorithms, jobs, draft
 .. category: 
 .. link: 
 .. description: Thoughts on Rise of the Robots
