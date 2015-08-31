@@ -81,3 +81,10 @@ A storm named Fred has just formed.  Like Erika, there is a fair
 amount of uncertainty on what path it takes and how intense it will
 get.  
 
+More information
+================
+
+Michael Johnston has also been blogging about the `recent storms`_.
+
+
+.. _recent storms: https://bermudaweather.wordpress.com/2015/08/30/active-tropics/
