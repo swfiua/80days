@@ -1,7 +1,7 @@
 .. title: Rachel Pi OS
 .. slug: rachel-pi-os
 .. date: 2015-07-29 23:42:52 UTC
-.. tags: 
+.. tags: draft
 .. category: 
 .. link: 
 .. description: 
