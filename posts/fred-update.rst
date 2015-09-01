@@ -25,7 +25,7 @@ possibilities, including heading westward.
 
 Latest (5AM AST, 1st September) forecast discussion:
 
-http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml?
+http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml
 
 These discussions tend to be very helpful in gauging how much
 confidence the forecasters about the forecasts.
