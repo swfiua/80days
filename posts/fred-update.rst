@@ -15,12 +15,14 @@ damage.
 Six years ago, Fred formed around the same area a little further
 south, but did not intensify as fast.  It did become a hurricane, then
 dissipated as it curled, for a short while was heading easterly, then
-got pushed back eastward.  By this time it had fallen apart and it
-did not get organised again.
+got pushed back westward.  By this time it had fallen apart and it
+did not get organised again, but the remnants of the storm tracked a
+good way across the Atlantic.
 
 Looking at the discussion of Fred, it is likely to be pulled apart in
 the short term.  Then the track forecasts give a range of
-possibilities. 
+possibilities, including heading westward.
+
 
 Bermuda Weather
 ===============
