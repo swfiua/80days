@@ -1,7 +1,7 @@
 .. title: SWFIUA explained
 .. slug: swfiua-explained
 .. date: 2014-12-17 15:13:30 UTC
-.. tags: football sufc blades
+.. tags: football, sufc, blades
 .. link: 
 .. description: What this swfiua thing is all about
 .. type: text

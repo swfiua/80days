@@ -1,7 +1,7 @@
 .. title: Pi Day at Chewstick
 .. slug: pi-day-at-chewstick
 .. date: 2015-03-12 15:14:01 UTC
-.. tags: linux raspberry-pi chewstick
+.. tags: linux, raspberry pi, chewstick
 .. link: 
 .. description: Raspberry pi's at Chewstick
 .. type: text

@@ -1,7 +1,7 @@
 .. title: Dancing in the dark
 .. slug: dancing-in-the-dark
 .. date: 2015-01-22 17:25:29 UTC
-.. tags: kindling python github
+.. tags: kindling, python, github
 .. link: 
 .. description: Kindling projects
 .. type: text

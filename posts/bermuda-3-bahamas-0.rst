@@ -1,7 +1,7 @@
 .. title: Bermuda 3 Bahamas 0
 .. slug: bermuda-3-bahamas-0
 .. date: 2015-03-29 22:34:42 UTC
-.. tags: sufc football bermuda
+.. tags: sufc, football, bermuda
 .. link: 
 .. description: World Cup football
 .. type: text

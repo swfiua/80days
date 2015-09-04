@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Johnny Gill"  # (translatable)
 BLOG_TITLE = "Around the world in 80 days"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://swfiua.github.io/80days/"
+SITE_URL = "http://openbermuda.github.io/80days/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
@@ -111,14 +111,17 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archives"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+        ('/index.html', 'Home', 'icon-home'),
+        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('https://twitter.com/swfiua', 'My Twitter', 'icon-twitter'),
+        ('https://github.com/swfiua', 'My Github', 'icon-github'),
+    )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3-gradients"
+THEME = "zen-ipython"
 
 # Below this point, everything is optional
 
@@ -201,7 +204,7 @@ PAGES = (
     ("notebooks/*.ipynb", "notebooks", "story.tmpl"),
     ("stories/*.txt", "", "story.tmpl"),
 )
-
+WRITE_TAG_CLOUD = True
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
 # Default is:
@@ -272,7 +275,7 @@ COMPILERS = {
 INDEX_PATH = "blog"
 
 # Create per-month archives instead of per-year
-CREATE_MONTHLY_ARCHIVE = True
+CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
 # CREATE_SINGLE_ARCHIVE = False
 # Final locations for the archives are:
@@ -595,20 +598,20 @@ DEPLOY_DRAFTS = False
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
-# MATHJAX_CONFIG = """
-# <script type="text/x-mathjax-config">
-# MathJax.Hub.Config({
-#     tex2jax: {
-#         inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-#         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
-#     },
-#     displayAlign: 'left', // Change this to 'center' to center equations.
-#     "HTML-CSS": {
-#         styles: {'.MathJax_Display': {"margin": 0}}
-#     }
-# });
-# </script>
-# """
+MATHJAX_CONFIG = """
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
+    },
+    displayAlign: 'center', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+"""
 
 # Do you want to customize the nbconversion of your IPython notebook?
 # IPYNB_CONFIG = {}

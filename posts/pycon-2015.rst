@@ -1,7 +1,7 @@
 .. title: PyCon 2015
 .. slug: pycon-2015
 .. date: 2015-04-14 13:31:56 UTC
-.. tags: python montreal
+.. tags: python, pycon, montreal
 .. category: 
 .. link: 
 .. description: Another wonderful PyCon

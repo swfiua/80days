@@ -1,7 +1,7 @@
 .. title: Django Rest API code generation with cog
 .. slug: django-rest-api-code-generation-with-cog
 .. date: 2015-01-14 21:12:36 UTC
-.. tags: django python
+.. tags: django, python
 .. link: 
 .. description: 
 .. type: text

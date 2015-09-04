@@ -1,7 +1,7 @@
 .. title: Are we nearly there yet?
 .. slug: are-we-nearly-there-yet
 .. date: 2015-02-10 15:43:05 UTC
-.. tags: angular django python 80days
+.. tags: angular, django, python, 80days
 .. link: 
 .. description: Update on 80 days project
 .. type: text
