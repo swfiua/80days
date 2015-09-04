@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (python)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/python.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>D Bermuda Pi</title><link>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Bermuda-Pi"&gt;Bermuda Pi&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Pi"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+$$\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi$$$$Number \; -e^{i\pi}$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The week 10th to 18th October 2015 there is a lot happening in Bermuda.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;TEDx Bermuda on 10th October&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;America's Cup racing 16th-18th October&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The first anniversary of hurricanes Fay and Gonzalo&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This creates a good opportunity to run a number of small events around
+&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Software&lt;/a&gt; and &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Culture&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Science, Technology, Engineering and Mathematics &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEM&lt;/a&gt; is already
+getting a lot of attention.  This is natural in a world where there is
+so much innovation and change in current times.&lt;/p&gt;
+&lt;p&gt;Throughout my life technological change has created a lot of wonderful
+things.  At the same time, humanity and social systems are struggling
+to keep pace with this change.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEAM&lt;/a&gt; adds the Arts into STEM.  Making the Bermuda $\pi$ a STEAM
+powered event seems a natural choice, as the event can then embrace
+Bermudian culture in general.&lt;/p&gt;
+&lt;p&gt;At the same time, a hurricane can be viewed as a giant steam engine.
+Bermuda once ran a steam powered island.  How about bringing this to
+the 21st century:  &lt;em&gt;D Bermuda $\pi$, STEAM powered&lt;/em&gt;.&lt;/p&gt;
+&lt;h5 id="Free-Culture"&gt;Free Culture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Free-Culture"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;People in the free software movement have been dealing with this
+change for some time.  They have developed ways of working with
+technology that not only scale, but also enable people to build
+systems that evolve naturally over time.&lt;/p&gt;
+&lt;p&gt;There is a more general Free Culture movement, publishing artistic
+material under &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Creative Commons&lt;/a&gt; licenses that mirror the free
+software licenses.  Generally, these licenses allow others to build on
+the ideas and use them in their own work, usually with attribution.
+Some licenses do not permit commercial use, but many do.  Authors
+choose a license based on their own values.&lt;/p&gt;
+&lt;h5 id="Weather-and-hurricanes"&gt;Weather and hurricanes&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather-and-hurricanes"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Given the connection with Fay and Gonzalo some events would focus on
+hurricane research in the Bermuda context.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Event-Ideas"&gt;Event Ideas&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Event-Ideas"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;h4 id="A-Pi-conference"&gt;A Pi conference&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#A-Pi-conference"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Raspberry Pi's&lt;/li&gt;
+&lt;li&gt;Weather data&lt;/li&gt;
+&lt;li&gt;Hurricane simulation&lt;/li&gt;
+&lt;li&gt;Damage surveys and damage estimation&lt;/li&gt;
+&lt;li&gt;Impact of climate change&lt;/li&gt;
+&lt;li&gt;lightning talks&lt;/li&gt;
+&lt;li&gt;python and pi's in Bermuda education&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aim for most presentations to be about activities that are going on
+already in Bermuda, with some visions for future projects.&lt;/p&gt;
+&lt;p&gt;Invite others from overseas that are doing similar work.  Better
+still, people we are already collaborating with on Bermuda projects.&lt;/p&gt;
+&lt;p&gt;Focus on the Bermuda context: why is what you are doing a good fit for
+Bermuda, how can it fit better?&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Music,-Art"&gt;Music, Art&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Music,-Art"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Allow local musicians and artists to work and play together.  Work on
+making local artists work freely available on line.&lt;/p&gt;
+&lt;p&gt;Work on ways technology can complement the arts and vice versa.&lt;/p&gt;
+&lt;h4 id="Story-Telling"&gt;Story Telling&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Story-Telling"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Have people tell their hurricane stories about last year's storms.&lt;/p&gt;
+&lt;p&gt;Structure in a way that the stories might inspire new ideas to gather
+data and do research based on data from previous storms.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;ul&gt;
+&lt;li&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/li&gt;
+&lt;li&gt;Pies to eat&lt;/li&gt;
+&lt;li&gt;Education, teaching students using raspberry pi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The ideas here are very much inspired by the way &lt;a href="https://us.pycon.org"&gt;python conferences are run&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The aim is to have a number of small events, that together make up the &lt;code&gt;Bermuda Pi&lt;/code&gt; experience.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Food and sustainable agriculture&lt;/p&gt;
+&lt;h4 id="Local-Bermuda-food"&gt;Local Bermuda food&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Local-Bermuda-food"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;h4 id="How-to-do-sustainable-agriculture"&gt;How to do sustainable agriculture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#How-to-do-sustainable-agriculture"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Leisure-activities"&gt;Leisure activities&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Leisure-activities"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Fay and Gonzalo parties would seem a good starter&lt;/p&gt;
+&lt;p&gt;Music, story-telling, Bermudian food,&lt;/p&gt;
+&lt;p&gt;Gombeys!&lt;/p&gt;
+&lt;p&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/p&gt;
+&lt;p&gt;Pies to eat!&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Weather"&gt;Weather&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Any event during hurricane season has to pay attention to the weather.&lt;/p&gt;
+&lt;p&gt;Given that one theme of &lt;code&gt;D Bermuda Pi&lt;/code&gt; will be hurricane research it
+would be unfortunate if the event were hit by a hurricane.&lt;/p&gt;
+&lt;p&gt;Having said that, it would give the researchers valuable first hand experience.&lt;/p&gt;
+&lt;p&gt;One project to work on during the week would be getting better
+estimates of the probability of the event being hit by bad weather.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use long term climate features such as El Nino, the North Atlantic
+Oscillation, and the Bermuda High to help with contingency planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Develop tools that can help with future event planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Study detailed windfields around the island to better understand the
+challenges faced by the sailors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Study tides and currents around the island&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Murphy's Law&lt;/a&gt; is likely to intervene here, so in the meanwhile it
+would be good if we kept an eye on the long range hurricane forecasts
+and nearer the time be in a position to work with Bermuda Weather and
+have plans in place in the event of bad weather.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Sustainablility-and-environmental-impact"&gt;Sustainablility and environmental impact&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Sustainablility-and-environmental-impact"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Renewable-Energy"&gt;Renewable Energy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Renewable-Energy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Information-security-and-privacy"&gt;Information security and privacy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Information-security-and-privacy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Cryptocurrencies,-Bitcoin"&gt;Cryptocurrencies, Bitcoin&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Cryptocurrencies,-Bitcoin"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Bermuda-Based-Organisations"&gt;Bermuda Based Organisations&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Based-Organisations"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;BIOS station&lt;/li&gt;
+&lt;li&gt;Bermuda Weather&lt;/li&gt;
+&lt;li&gt;BEST -- sustainablility&lt;/li&gt;
+&lt;li&gt;code441&lt;/li&gt;
+&lt;li&gt;codtuna&lt;/li&gt;
+&lt;li&gt;Pecha Kucha&lt;/li&gt;
+&lt;li&gt;Chewstick&lt;/li&gt;
+&lt;li&gt;Others?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Coding-Sprint"&gt;Coding Sprint&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Coding-Sprint"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Work on free software projects for a better Bermuda.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Reinsurance"&gt;Reinsurance&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Reinsurance"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Many of the reinsurers are using free software and the python language in particular.&lt;/p&gt;
+&lt;p&gt;It should be possible to have a &lt;em&gt;free software in finance&lt;/em&gt; track,
+perhaps along the lines of the PyData conferences.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Visitors"&gt;Visitors&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Visitors"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Free software practitioners and enthusiasts&lt;/li&gt;
+&lt;li&gt;Python Foundation&lt;/li&gt;
+&lt;li&gt;RedHat&lt;/li&gt;
+&lt;li&gt;Canonical/Ubuntu&lt;/li&gt;
+&lt;li&gt;Environmentalists&lt;/li&gt;
+&lt;li&gt;Meteorologists and climate researchers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Venues"&gt;Venues&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Venues"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This will very much depend on the level of interest&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Southampton Princess conference hall, used for TEDx&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;BIOS station&lt;/p&gt;
+&lt;p&gt;The BIOS station is close to the airport and close to Paget Island (see below).&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Paget-Island"&gt;Paget Island&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Paget-Island"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Paget Island is one of a number of Government run islands.  It has
+basic facilities.  It would make an excellent venue for a coding
+sprint focussing on the environment and sustainability.&lt;/p&gt;
+&lt;p&gt;Bermuda is an expensive place to visit, some free sofware enthusiasts
+would be more than happy to come and camp on the island.&lt;/p&gt;
+&lt;p&gt;One goal would be to make this as inclusive an event as possible,
+hence creating many different activities that will appeal to different
+demographics, but also to find ways to mix those people and give them
+new experiences.&lt;/p&gt;
+&lt;p&gt;The buildings and infrastructure on Paget Island are in need of some
+TLC.  It would be good to work towards building a place run on
+renewable energy, environmentally positive where people can come to
+study how we are doing things in Bermuda.&lt;/p&gt;
+&lt;p&gt;The philosophy of a camp on the island would be to leave the place
+better than it is found.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Chewstick"&gt;Chewstick&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Chewstick"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Everywhere!"&gt;Everywhere!&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Everywhere!"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Trivia"&gt;Trivia&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Trivia"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Around-the-world-in-80-days"&gt;Around the world in 80 days&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Around-the-world-in-80-days"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;This blog started as a blog for an idea to create an *Around the world
+in 80 days* idea, to run little competitions where people get miles
+(or kilometers) for activities.  The idea is to see how far round the
+world you can get in 80 days, with fun twists along the way.
+One idea was to do an &lt;em&gt;Around Bermuda on Bermuda Bus and Ferry&lt;/em&gt;
+competition.  I learnt a lot on the project, but never quite got it
+out of the door.  But that is another story.&lt;/p&gt;
+&lt;p&gt;There is a version still limping along on heroku: &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kudos to heroku.  I have a half build project running there, haven't
+checked it in ages and boom it springs into life.&lt;/p&gt;
+&lt;p&gt;There are some other pieces coming together that might make the bus
+thing viable in the near future, just needs a bit of time applied to
+it.&lt;/p&gt;
+&lt;p&gt;One thing that I found useful in the project was thinking in an 80 day
+time horizon.  So I was curious about what date is 80 days before 10th
+October 2015, the date for the start of the Bermuda $\pi$.&lt;/p&gt;
+&lt;p&gt;Hitting &lt;em&gt;Home&lt;/em&gt; on the &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt; shows me this:&lt;/p&gt;
+&lt;p&gt;Jun 29, 2015 is today's date&lt;/p&gt;
+&lt;p&gt;Sep 17, 2015 is 80 days from today&lt;/p&gt;
+&lt;p&gt;Apr 10, 2015 was 80 days ago&lt;/p&gt;
+&lt;p&gt;So time for a little python.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# lets see what python says&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=-&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;2015-07-22
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;So&lt;/span&gt; &lt;span class="n"&gt;things&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;started&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;July&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="n"&gt;nd&lt;/span&gt; &lt;span class="mi"&gt;2015&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+$$2015^{{10}^2}$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="What's-this-*Number-$-e^{i\pi}$-thing-about?"&gt;What's this *Number $-e^{i\pi}$ thing about?&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#What's-this-*Number-%24-e%5E%7Bi%5Cpi%7D%24-thing-about?"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;There is a wonderful equation in mathematics that links some of the key
+constants from the world of mathematics.&lt;/p&gt;
+&lt;p&gt;There is $\pi$, the ratio between a circle's diameter and its
+circumference. $\pi$ turns up all the time in mathematics.&lt;/p&gt;
+&lt;p&gt;Then there is &lt;em&gt;e&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Both $\pi$ and $e$ are transcendental, a special type of number,
+although there are an infinite number of transendental numbers, when
+they turn up in mathematics they tend to be important.&lt;/p&gt;
+&lt;p&gt;Then there is 1.  The special number that you can multiply any other
+number by and leave it unchanged.&lt;/p&gt;
+&lt;p&gt;And there is 0.  The special number you can add to anything and leave it unchanged.&lt;/p&gt;
+&lt;p&gt;The equation is known as &lt;a href="https://en.wikipedia.org/wiki/Euler%27s_identity"&gt;Euler's identity&lt;/a&gt;:&lt;/p&gt;
+$$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would:&lt;/p&gt;
+&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>bermuda</category><category>chewstick</category><category>education</category><category>python</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</guid><pubDate>Mon, 22 Jun 2015 21:12:40 GMT</pubDate></item><item><title>PyCon 2015</title><link>http://openbermuda.github.io/80days/posts/pycon-2015.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am writing this as I fly back to Bermuda from another wonderful
+PyCon.  This year it was again in Montreal, the same venue as last
+year.  The next two years it will be in Portland, Oregon.&lt;/p&gt;
+&lt;p&gt;This is just one of the wonders of PyCon, the opportunity to visit
+vibrant cities with large tech communities.&lt;/p&gt;
+&lt;p&gt;The conference was bigger than ever, 3000 attendees.  My first PyCon
+was a mere 400 or so attendees.  Happily, as the conference has grown
+in size, it has retained the spirit that makes it a fantastic
+experience for old and new pythonistas.  If anything, it is more
+welcoming and inclusive as the years pass.  The community actively
+seeks to be inclusive and there were a number of talks and events
+along this theme.&lt;/p&gt;
+&lt;p&gt;The community spirit is absolutely fundamental to the success of
+python.  It is one of the main reasons to consider the language.  When
+you are working with python there is a huge community of enthusiastic
+and dedicated people who are only too happy to share their work and
+help others.&lt;/p&gt;
+&lt;p&gt;Below are some of the personal highlights from the conference, but
+there really is so much going on that what you will read here is just
+a snapshot of the magic that is PyCon and the python community.&lt;/p&gt;
+&lt;p&gt;It is also in no particular order.&lt;/p&gt;
+&lt;div class="section" id="satellite-data-for-everyone"&gt;
+&lt;h2&gt;Satellite data for everyone&lt;/h2&gt;
+&lt;p&gt;Chris Waigl gave an excellent talk on satellite imagery, the freely
+available data, how to work with it and the python tools that enable
+that work.&lt;/p&gt;
+&lt;p&gt;Seeing what others are able to do with data like this inevitably
+inspires new ideas.&lt;/p&gt;
+&lt;p&gt;I am planning to take a look at what imagery is available for Bermuda
+over the period of the hurricanes Fay and Gonzalo that hit the island
+separated only by six days.&lt;/p&gt;
+&lt;p&gt;There will definitely be good before and after imagery, with luck
+there will also be some usable images from the six day period between
+the storms.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-usual-suspects"&gt;
+&lt;h2&gt;The usual suspects&lt;/h2&gt;
+&lt;p&gt;The python community has some speakers that are very skilled at
+presenting complex ideas in an entertaining and informative way.
+They are always worth looking out for.  If you are new at PyCon, ask
+others what talks they are going to, it will help you be in the right
+room for you.&lt;/p&gt;
+&lt;p&gt;Oh, and don't panic, pretty much all talks are recorded and available
+online (youtube seems to have replaced PyVideo here).&lt;/p&gt;
+&lt;p&gt;This year, for me, it was the three B's: Beazely, Bernhart and
+Batchelder.&lt;/p&gt;
+&lt;div class="section" id="david-beazely-live-coding"&gt;
+&lt;h3&gt;David Beazely live coding&lt;/h3&gt;
+&lt;p&gt;I always enjoy listening to David Beazely.  This year he spoke on
+python concurrency with live coding.  I am guessing there were at
+least 1000 people present.  For added kicks and giggles he chose
+python 3.5.0a3 (I think).  The key bit was the 'a', he was doing a
+live demo with an alpha version of python: what could possibly go
+wrong?  He demonstrated the way the Global Interpreter Lock (GIL)
+impacts performance of threaded code.&lt;/p&gt;
+&lt;p&gt;One line that grabbed my attention was that the GIL does not behave
+like an operating system.  The GIL is all about making sure threads
+don't trample on each other by mangling shared data.  In short, within
+python only one thread can run at a time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ned-batchelder-names-and-values"&gt;
+&lt;h3&gt;Ned Batchelder names and values&lt;/h3&gt;
+&lt;p&gt;Ned Batchelder spoke on python names and values, a wonderfully clear
+exposition on how python stores values.  I recommend this talk to
+anyone new to python, it will likely save you a few hours of chasing
+mysterious bugs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gary-bernhardt"&gt;
+&lt;h2&gt;Gary Bernhardt&lt;/h2&gt;
+&lt;p&gt;Gary Bernhardt followed up his &lt;em&gt;Rise and fall of javascript&lt;/em&gt; from last
+year with a closing keynote motivated by Donald Rumsfeld's
+&lt;em&gt;known-unknowns&lt;/em&gt; speech.  He talked about beliefs programmers have,
+that really have an underlying belief driving them.  Discovering that
+underlying belief is the key to being able to discuss these ideas with
+others that have differing views.  He gave an example along these
+lines.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Python needs tests because it does not have static typing
+&lt;/pre&gt;
+&lt;pre class="literal-block"&gt;
+I don't need tests because I have types
+&lt;/pre&gt;
+&lt;p&gt;Gary pointed out that these two statements cannot both be true, unless
+tests are somehow the same as types and eloquently exposed the
+underlying beliefs behind these statements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="not-all-python"&gt;
+&lt;h2&gt;Not all Python&lt;/h2&gt;
+&lt;p&gt;PyCon is by no means all python.&lt;/p&gt;
+&lt;p&gt;There were talks on &lt;em&gt;Advanced Git&lt;/em&gt;, ethics, inclusivity, freedom, the
+brokenness of TLS (https).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="not-all-talks"&gt;
+&lt;h2&gt;Not all talks&lt;/h2&gt;
+&lt;p&gt;The Expo Hall where conference sponsors had their booths also served
+as the breakfast and lunch place.  As per last year, I found the Expo
+Hall a valuable place to spend time.&lt;/p&gt;
+&lt;p&gt;The vast majority of sponsors booths are run by techies, not
+marketting droids and they are great place to find others with similar
+interests.&lt;/p&gt;
+&lt;p&gt;Meal times give an opportunity to sit at a random table and meet
+others and share ideas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="magic"&gt;
+&lt;h2&gt;MAGIC&lt;/h2&gt;
+&lt;p&gt;I have been interested in the MAGIC center at Rochester Institute of
+Technology since hearing Remy DeCausemaker speak about it last year.&lt;/p&gt;
+&lt;p&gt;MAGIC allows students to take a minor in Open Source.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="lightning-talks"&gt;
+&lt;h2&gt;Lightning talks&lt;/h2&gt;
+&lt;p&gt;Lightning talks are always fun, often at the end of the day.  Speakers
+have precisely 5 minutes to talk.  If you want to give a talk, just
+sign up on the board.  These are usually over-subscribed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="poster-sessions"&gt;
+&lt;h2&gt;Poster Sessions&lt;/h2&gt;
+&lt;p&gt;Sunday morning the expo hall switched into a combined jobs fair and
+poster sessions.   The poster sessions were small booths where people
+created posters relating to projects and ideas they are working on.&lt;/p&gt;
+&lt;p&gt;You can then wander around and talk to people working on ideas you are
+also interested in.  These complement the talks in that it gives a
+chance for more detailed discussion with the people running the
+projects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="live-captioning"&gt;
+&lt;h2&gt;Live captioning&lt;/h2&gt;
+&lt;p&gt;Most of the talks had live captioning.  This captioning was remarkably
+good with essentially real time display.  It even coped well with
+speakers that added a bit of French.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="keynotes"&gt;
+&lt;h2&gt;Keynotes&lt;/h2&gt;
+&lt;p&gt;Jacob Kaplan-Moss's &lt;a class="reference external" href="https://www.youtube.com/watch?v=hIJdFxYlEKE"&gt;keynote&lt;/a&gt; reflected the focus on inclusivity in the
+python community.  He talked about how programmers are all perceived
+either to &lt;em&gt;rock&lt;/em&gt; or &lt;em&gt;suck&lt;/em&gt;.  In short we are led to believe that the
+distribution of programming abilities is essentially an upside down
+bell-curve.&lt;/p&gt;
+&lt;p&gt;Jacob pointed out the absurdity of this perception and also its very
+damaging consequences.  The reality is that programming ability, like
+most attributes, should follow a normal distribution, hence the vast
+majority of programmers are just average or as Jacob described
+himself, &lt;em&gt;I am a mediocre programmer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The python community is full of people who use python in order to get
+other stuff done in a very wide range of activities.  It is widely
+used in science, finance, education and a plethora of other areas.&lt;/p&gt;
+&lt;p&gt;As such, you will often hear pythonistas say, "I am not a real
+programmer".   I would include myself in this bracket, despite having
+spent my entire working career building software of one sort or
+another.  But that software has always been a means to an end.&lt;/p&gt;
+&lt;p&gt;I believe my reality is closer to being &lt;em&gt;good enough&lt;/em&gt; at quite a lot
+of things and having the capacity to become &lt;em&gt;good enough&lt;/em&gt; at anything
+I am passionate enough about to pursue.&lt;/p&gt;
+&lt;p&gt;But to get there you have to deal with the &lt;em&gt;little hater&lt;/em&gt;.  The voice
+that eats away at you saying, "You suck at this".   Many software
+communities will confirm this belief for you.  The python community is
+trying to be different.&lt;/p&gt;
+&lt;p&gt;By insisting that all programmers &lt;em&gt;rock&lt;/em&gt; we are excluding the vast
+majority of programmers from that activity.  This causes angst for
+those already pursuing at the activity and dramatically increases the
+barrier to entry.  The result is a smaller, less diverse, less
+interesting and less effective community.&lt;/p&gt;
+&lt;p&gt;Thanks Jacob for a truly inspiring talk.  Thanks also to the python
+community for recognising and trying to address this issue.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sprinting"&gt;
+&lt;h2&gt;Sprinting&lt;/h2&gt;
+&lt;p&gt;My flight home was not until Monday evening, so I was able to attend
+the first day of code sprints.&lt;/p&gt;
+&lt;p&gt;Once the conference closed on Sunday afternoon, sprint leaders were
+given a couple of minutes to talk about what they would be working
+on.&lt;/p&gt;
+&lt;p&gt;There was then an introductory session organised, primarily aimed at
+people new to sprinting, but also of great benefit to more experienced
+sprinters.&lt;/p&gt;
+&lt;p&gt;There were people giving introductions to git, virtualenv, virtualbox,
+testing in python, http and more.  Each introduction was repeated 3
+times in 15 minute sessions.  Hence, everyone could listed to three
+subjects of there choice.&lt;/p&gt;
+&lt;p&gt;I found this a useful session to fill in some gaps in my knowledge and
+also to get to know some of the other sprinters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon-videos"&gt;
+&lt;h2&gt;PyCon videos&lt;/h2&gt;
+&lt;p&gt;If this blog post has sparked your interest in PyCon I would encourage
+you to watch some videos from the talks.  Just go to youtube and
+search for PyCon 2015.  See the &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/"&gt;schedule&lt;/a&gt; if you want to see the
+full list of talks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-state-of-the-python"&gt;
+&lt;h2&gt;The state of the python&lt;/h2&gt;
+&lt;p&gt;One of the reasons I like to attend PyCon is that you get a very good
+feel for where the language and community is currently placed, what
+projects are being widely used, what projects are up and coming and
+generally where the community is heading.&lt;/p&gt;
+&lt;p&gt;I have watched PyCon grow and be delighted that it has not lost the
+excitement and sheer inspiration it always generates.&lt;/p&gt;
+&lt;p&gt;The community is stronger than ever and making great efforts to be
+more inclusive and accessible.&lt;/p&gt;
+&lt;div class="section" id="python-3-x"&gt;
+&lt;h3&gt;Python 3.x&lt;/h3&gt;
+&lt;p&gt;Guido in his keynote spoke again about the challenges of moving to
+Python 3.  Whilst there are still large numbers of projects that have
+not been ported (Guido quoted only 5,000 out of 55,000 on PyPi),
+things are actually way better than that.&lt;/p&gt;
+&lt;p&gt;All of the top 1000 most used projects have been ported.  The reality
+is that if you are starting a new project, python 3.x is a great
+choice.  You will be using projects that are in active development.&lt;/p&gt;
+&lt;p&gt;If you are maintaining a large body of python 2.x code then that is
+where things become more challenging.  It only takes one critical
+package that is not ported and you are stuck.  Indeed, this is why
+the process of moving to python 3.x has taken so long, a project
+cannot be ported until all its dependencies are also ported.&lt;/p&gt;
+&lt;p&gt;My takeaway from this PyCon was that more than ever people are using
+and enjoying python 3.x.  I think we are moving to a time when
+new packages will be available under python 3.x and not under python
+2.x and this will provide incentive to switch.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="micro-bit"&gt;
+&lt;h3&gt;Micro Bit&lt;/h3&gt;
+&lt;p&gt;The UK, in a project driven by the BBC is planning to give 1 million
+school children a &lt;a class="reference external" href="http://www.bbc.co.uk/mediacentre/mediapacks/makeitdigital/micro-bit"&gt;Micro Bit&lt;/a&gt; computer.  These are small raspberry pi
+like devices.  Python will be used as one of the languages to use on
+the device.&lt;/p&gt;
+&lt;p&gt;More generally, python is widely used in education.  The Python
+Software Foundation deserves a lot of credit for this, there has been
+a huge amount of work over many years promoting the language in
+education and it is reaping rewards.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Another wonderful conference that has, as always, generated a lot of
+exciting ideas for me to pursue.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>montreal</category><category>pycon</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/pycon-2015.html</guid><pubDate>Tue, 14 Apr 2015 13:31:56 GMT</pubDate></item><item><title>Are we nearly there yet?</title><link>http://openbermuda.github.io/80days/posts/are-we-nearly-there-yet.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As of last night I have competition entry all working.&lt;/p&gt;
+&lt;p&gt;You can see all the competions being run.  If a competition has not
+started yet or is still in progress you can enter.&lt;/p&gt;
+&lt;p&gt;To enter, just give the nickname you want to use for the competion.&lt;/p&gt;
+&lt;p&gt;Next job is to add code to allow competitors to create and join teams.&lt;/p&gt;
+&lt;p&gt;This shouldn't take too long given what I now have.&lt;/p&gt;&lt;/div&gt;</description><category>80days</category><category>angular</category><category>django</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/are-we-nearly-there-yet.html</guid><pubDate>Tue, 10 Feb 2015 15:43:05 GMT</pubDate></item><item><title>Dancing in the dark</title><link>http://openbermuda.github.io/80days/posts/dancing-in-the-dark.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So ten days to go until this project is supposed to be up and running.
+Now, this is a software project, just something I have been doing
+mostly for my own amusement, but it has a deadline and I am starting
+to hear that whooshing sound that deadlines make as the come by.&lt;/p&gt;
+&lt;p&gt;I am 70 days in, so what do I have?&lt;/p&gt;
+&lt;p&gt;I have a simple &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; api built in &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt;.  It comes with data
+migrations and code generators that mean adding new models should
+require very little coding.  I have the api documented using
+&lt;a class="reference external" href="https://github.com/marcgibbons/django-rest-swagger"&gt;django rest swagger&lt;/a&gt;.  And I can manipulate tables using the
+standard django admin interface.&lt;/p&gt;
+&lt;p&gt;I have also taken a look at &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; and it looks like it will
+do a good job for me.&lt;/p&gt;
+&lt;p&gt;However, so far no proper front end.  As far as the front end is
+concerned I am &lt;a class="reference external" href="https://www.youtube.com/watch?v=UoPwqDW5750"&gt;Dancing in the Dark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We had two hurricanes here in Bermuda back in October.  It is winter
+now.  Actually, a beautiful day today, 21C, sunny, few clouds and
+beautiful blue oceans.  I just rode out of town on the bus.  Must be
+one of the best bus rides in the world.&lt;/p&gt;
+&lt;p&gt;But, come evening, the sun disappears and a chill descends as the
+dampness comes out of the walls.&lt;/p&gt;
+&lt;p&gt;There is a lot of wood around the island, branches broken by the
+storms, whole trees knocked over.  In many cases, all the branches
+have been cut off trees and the stumps set back up, green shoots of
+recovery are starting to sprout from these stumps.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I have been gathering wood for fires most nights.  It
+reminds me of happy days on scout camps way back when.  Summer camps
+with the scouts were the best.  We would cook all week on an open
+fire.  Between us, and guided by &lt;em&gt;Skip&lt;/em&gt;, we would figure out how to
+light fires, how to get a good fire going and then let it die down a
+little for cooking.&lt;/p&gt;
+&lt;p&gt;One thing you learn right from the start is, &lt;em&gt;you can't start a fire
+without a spark&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;And that is where &lt;a class="reference external" href="http://nedbatchelder.com//blog/201501/kindling_projects_page.html"&gt;kindling&lt;/a&gt; comes in. As I trim the bigger branches
+to get logs for the fires the smaller twigs drop to the floor.  Once I
+have logs you can gather up a bundle of smaller twigs.  This is the
+kindling.  This is what lights the fire.  The tiny pieces.&lt;/p&gt;
+&lt;p&gt;So, today I am setting out on a little kindling project.  I want to
+add a little box to the &lt;em&gt;Around the world in 80 days&lt;/em&gt; site with
+today's date and a couple of other labels showing 80 days from now and
+80 days before today.&lt;/p&gt;
+&lt;p&gt;Now I could do this very quickly with django templates given the code
+I already have.  But, I want to try &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt;.  That way I will
+have a new tool I can play with.  If it isn't working for me, then
+maybe it will end up like the bow-saw that I find less fun to use than
+the small hand axe, still useful, but not the tool I like to use most
+of the time.  Or maybe, it will turn out to be a new and better hand
+axe.&lt;/p&gt;
+&lt;p&gt;So, time to light the blue touch paper and stand well back.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>github</category><category>kindling</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/dancing-in-the-dark.html</guid><pubDate>Thu, 22 Jan 2015 17:25:29 GMT</pubDate></item><item><title>Django Rest API code generation with cog</title><link>http://openbermuda.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;After a good break for the holidays, a couple of weeks in the
+frozen wastes of Canada complete with arriving home with a stinking
+cold I am now at the, &lt;em&gt;"this code won't write itself"&lt;/em&gt; part of the 80 days
+project.&lt;/p&gt;
+&lt;p&gt;There is quite a bit to do, but I am still finding distractions to
+spend time on.&lt;/p&gt;
+&lt;p&gt;I have been using &lt;a class="reference external" href="http://www.django-rest-framework.org/"&gt;django rest framework&lt;/a&gt; to create a REST api for
+the project.&lt;/p&gt;
+&lt;p&gt;Creating serializers, api classes and url specs for these frameworks
+is largely a matter of generating standard boiler plate code.  This is
+the sort of stuff I hate doing: tedious and error prone.&lt;/p&gt;
+&lt;p&gt;I originally wrote my own noddy code generator to help with some of
+this, but was less than satisfied with the result: it was fine for my
+immediate needs, but as I add more models to the application I would
+need to do more autogeneration.  I had the inescapable feeling that my
+code generator was probably more trouble than it was worth.  At the
+same time, writing code like this by hand is deeply unsatisfying.&lt;/p&gt;
+&lt;p&gt;So, just when it was looking like I would have to start learning
+&lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; and build the front end, Ned Batchelder came to the
+rescue on Twitter by &lt;a class="reference external" href="https://twitter.com/swfiua/status/554742651082539010"&gt;posting&lt;/a&gt; a link to a new release of &lt;a class="reference external" href="http://nedbatchelder.com/code/cog/"&gt;cog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ned described it as "a small tool that does a small job well".&lt;/p&gt;
+&lt;p&gt;Sure enough, it does.  It lets you embed python code (disguised as
+comments) within your code to do the code generation.&lt;/p&gt;
+&lt;p&gt;There are a few features in &lt;em&gt;cog&lt;/em&gt; that appealed to me:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;the code generator can be run in a way that over-writes the input
+file with the newly generated code&lt;/li&gt;
+&lt;li&gt;it calculates checksums for the generated code and embeds them in
+the output.  This is useful as it allows it to spot if you have
+edited the code since it was generated and hence refuse to
+re-generate that code.&lt;/li&gt;
+&lt;li&gt;you can re-run and it will update the existing code, assuming the
+checksums have not changed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Armed with cog, I came up with &lt;a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/codegen.py"&gt;codegen.py&lt;/a&gt; to generate the boring
+bits of &lt;a class="reference external" href="https://github.com/swfiua/django_eighty_days/blob/master/django_eighty_days/api.py"&gt;api.py&lt;/a&gt; as well as &lt;em&gt;urls.py&lt;/em&gt; and &lt;em&gt;serializers.py&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I am quite happy with the results.  Doug Hellmann had suggested maybe
+&lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt; might be a better solution to this problem.  In my
+case, I am using cookiecutter to get the base files for my django
+application, but this code generation cannot take place until you add
+some models, hence the need for cog.&lt;/p&gt;
+&lt;p&gt;Better still would be to combine the two and add codegen.py and
+suitable urls.py, serializers.py and api.py to the cookiecutter
+template.  I'll add that to the list of things to do, if only to delay
+the learning of &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; ;)&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>django</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/django-rest-api-code-generation-with-cog.html</guid><pubDate>Wed, 14 Jan 2015 21:12:36 GMT</pubDate></item></channel></rss>

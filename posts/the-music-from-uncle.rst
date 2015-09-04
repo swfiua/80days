@@ -1,7 +1,7 @@
 .. title: The Music from UNCLE
 .. slug: the-music-from-uncle
 .. date: 2014-12-21 20:01:33 UTC
-.. tags: bermuda music awesome
+.. tags: bermuda, music, awesome
 .. link: 
 .. description: 
 .. type: text

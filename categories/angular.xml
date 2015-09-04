@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (angular)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/angular.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Are we nearly there yet?</title><link>http://openbermuda.github.io/80days/posts/are-we-nearly-there-yet.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As of last night I have competition entry all working.&lt;/p&gt;
+&lt;p&gt;You can see all the competions being run.  If a competition has not
+started yet or is still in progress you can enter.&lt;/p&gt;
+&lt;p&gt;To enter, just give the nickname you want to use for the competion.&lt;/p&gt;
+&lt;p&gt;Next job is to add code to allow competitors to create and join teams.&lt;/p&gt;
+&lt;p&gt;This shouldn't take too long given what I now have.&lt;/p&gt;&lt;/div&gt;</description><category>80days</category><category>angular</category><category>django</category><category>python</category><guid>http://openbermuda.github.io/80days/posts/are-we-nearly-there-yet.html</guid><pubDate>Tue, 10 Feb 2015 15:43:05 GMT</pubDate></item><item><title>Angular velocity</title><link>http://openbermuda.github.io/80days/posts/angular-velocity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So it has been a while since I blogged about the 80 day project.&lt;/p&gt;
+&lt;p&gt;This is largely due to most of my free time has been spent working on
+the code.&lt;/p&gt;
+&lt;p&gt;Just to recap, 77 days into the project I still had quite a bit to
+do.  Most of the work up to that point had been on getting pieces
+together, decide what tools to use, learning those tools.&lt;/p&gt;
+&lt;p&gt;The next job was to move the angular code around a bit and try and get
+django serving it all.  In particular, I had decided it was probably
+worthwhile to have the &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; partial html pieces go through
+the &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; template engine.&lt;/p&gt;
+&lt;p&gt;Getting npm up and running, with a recent enough version can be
+tricky, but there was an excellent guide on &lt;a class="reference external" href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions"&gt;Installing npm on Ubuntu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With moving all the files around, &lt;strong&gt;.bowerrc&lt;/strong&gt; needed editing a few
+times to point it at where the bower_components were now made to be
+installed.&lt;/p&gt;
+&lt;p&gt;Ever since the &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/global-hackathon-team-bermuda.html"&gt;Global Hackathon, Team Bermuda&lt;/a&gt; I have had mild
+paranoia that cross-site-request-forgery is going to bite me at some
+point.  I am hoping that by serving everything under django I will
+avoid that nightmare.  In the meanwhile, I did at this &lt;a class="reference external" href="https://github.com/swfiua/80days/commit/678ae25e432b8633230bf67f8168a8f8188717b1"&gt;csrf fix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A previous post, &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/nginx-on-kodingcom.html"&gt;Nginx on koding.com&lt;/a&gt; came in useful for setting
+up postgres on koding.com as I decided it was more than time to get
+this thing running on a cloud based machine.&lt;/p&gt;
+&lt;p&gt;I have not found myself using &lt;em&gt;django-angular&lt;/em&gt;, but the &lt;a class="reference external" href="http://django-angular.readthedocs.org/en/latest/integration.html"&gt;django
+angular integration&lt;/a&gt; docs have been an enormous help in highlighting
+issues in integrating django and angular.&lt;/p&gt;
+&lt;p&gt;In amongst all this I decided it was time to add &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; to
+the mix.&lt;/p&gt;
+&lt;p&gt;This was mostly painless, following the django-quiz docs, but when I
+fired up the server it failed.  The problem was down to me using
+&lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; which effectively removes &lt;em&gt;auth.User&lt;/em&gt;. The fix is to
+use &lt;em&gt;settings.AUTH_USER_MODEL&lt;/em&gt; if you want to reference the &lt;em&gt;User&lt;/em&gt;
+model in your own models.&lt;/p&gt;
+&lt;p&gt;I made the &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/commit/9416c05cd447e3aa40a2351684f2105dafa95e13"&gt;user model fix&lt;/a&gt; and made a pull request.  Happily, the
+project maintainer actioned the request within the hour (many thanks
+Tom!) and I was able to update to the new version with:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pip install git+https://github.com/tomwalker/django_quiz.git
+&lt;/pre&gt;
+&lt;p&gt;By February 1st I was starting to get comfortable with angular and the
+pieces were coming together.  I have some simple partials, I have
+angular calling the django rest API and I have the beginnings of some
+views.&lt;/p&gt;
+&lt;p&gt;The next task is to display competitions a user can enter and provide
+an enter button.   At this point I did a bit more thinking and
+reading.  Deciding what logic to put in angular and what to put in
+django views and api calls needs a little thought.&lt;/p&gt;
+&lt;p&gt;From here the plan is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;get the competion list and competion entry features working&lt;/li&gt;
+&lt;li&gt;get team creation and team membership features implemented&lt;/li&gt;
+&lt;li&gt;get the site up and running in the cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have a simple test server on koding.com, but want to run the actual
+site on a different instance.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>80days</category><category>angular</category><category>django</category><category>javascript</category><guid>http://openbermuda.github.io/80days/posts/angular-velocity.html</guid><pubDate>Fri, 06 Feb 2015 14:36:22 GMT</pubDate></item><item><title>Angular Momentum</title><link>http://openbermuda.github.io/80days/posts/angular-momentum.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;On Friday I got to the point that the angular seed app is now checked
+into my 80days repository.&lt;/p&gt;
+&lt;p&gt;Today's mission is to start turning that into the app I really want.&lt;/p&gt;
+&lt;p&gt;One of the first things I want to do is fix up angular so that it uses
+different markers for its template substitution.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; uses '{{' and '}}' to mark blocks that the template engine
+needs to pay attention to and do substitutions.  Actually, the &lt;cite&gt;django
+template languate&lt;/cite&gt; has two escape patterns:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;{{ and }} are used to mark variables to be expanded&lt;/li&gt;
+&lt;li&gt;{% and %} are used to mark django template tags.  These get used for
+things like marking &lt;em&gt;for&lt;/em&gt; loops and the like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now by an unhappy coincidence, &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; also uses {{ and }} to
+mark stuff for expansion.&lt;/p&gt;
+&lt;p&gt;Happily, angular allows you to over-ride these markers, as follows:&lt;/p&gt;
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-1"&gt;&lt;/a&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;my_app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'MyApp'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-3"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-4"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;In fact, since I already had some code in my &lt;em&gt;app.js&lt;/em&gt; I just added the
+extra config code, so my &lt;em&gt;app.js&lt;/em&gt; now looks like this:&lt;/p&gt;
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-1"&gt;&lt;/a&gt;&lt;span class="s1"&gt;'use strict'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-2"&gt;&lt;/a&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-3"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// Declare app level module which depends on views, and components&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-4"&gt;&lt;/a&gt;&lt;span class="nx"&gt;angular&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'myApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-5"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'ngRoute'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-6"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-7"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.view2'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-8"&gt;&lt;/a&gt;  &lt;span class="s1"&gt;'myApp.version'&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-9"&gt;&lt;/a&gt;&lt;span class="p"&gt;]).&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-10"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;'$routeProvider'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-11"&gt;&lt;/a&gt;  &lt;span class="nx"&gt;$routeProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;otherwise&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="nx"&gt;redirectTo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'/view1'&lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-12"&gt;&lt;/a&gt;&lt;span class="p"&gt;}]).&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-13"&gt;&lt;/a&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-14"&gt;&lt;/a&gt;&lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-15"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;startSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'{$'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-16"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$interpolateProvider&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;endSymbol&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'$}'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;a name="rest_code_7a79100e678c46daada58bb53132ca16-17"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;So, making some progress, but I still can't figure out this controller
+thing and how to tie it all together.  Time to go back to
+&lt;a class="reference external" href="http://campus.codeschool.com"&gt;codeschool&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In particular, their &lt;a class="reference external" href="http://campus.codeschool.com/courses/shaping-up-with-angular-js"&gt;shaping up with angular&lt;/a&gt; introduction.  I had
+to register with codeschool.  Thankfully, that was painless bar having
+to create yet-another-password.&lt;/p&gt;
+&lt;p&gt;But it has been worth it.  You can watch the videos at 1.5x or 2.0x or
+slow them down.  It would be great if they took the mythtv trick and
+shifted the frequency of voices down so that the presenters don't
+sound like chipmunks on speed when you speed things up.&lt;/p&gt;
+&lt;p&gt;The good bit is you can click on "Start Challenges" as soon as you are
+bored with the video.&lt;/p&gt;
+&lt;p&gt;Once in the challenges, the "check my work" button is genius and
+extraordinarily helpful.&lt;/p&gt;
+&lt;div class="section" id="angular-date-filter"&gt;
+&lt;h2&gt;Angular date filter&lt;/h2&gt;
+&lt;p&gt;I just fell in love with the angular date filter.  Feed it a unix
+datetime and it does the right thing.  Eg Unix time began 1969/12/31 @
+8:00PM in Bermuda, note the four our offset from UTC.&lt;/p&gt;
+&lt;p&gt;See this &lt;a class="reference external" href="https://github.com/swfiua/80days/commit/04a9b8a64f9cb402c434ad1f6b6224757ca09182"&gt;github commit&lt;/a&gt; for some code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="thanks"&gt;
+&lt;h2&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks to @ergoemacs on twitter who posted a link to their excellent
+mini tutorial on &lt;a class="reference external" href="http://ergoemacs.org/emacs/emacs_magit-mode_tutorial.html"&gt;magit-mode&lt;/a&gt;: git mode for emacs.  I had this
+installed already, but never quite plucked up the courage to try it.
+Wow: git in emacs: lovely jubbly!&lt;/p&gt;
+&lt;p&gt;And thanks to stack exchange for this tip on how to &lt;a class="reference external" href="http://stackoverflow.com/questions/17798109/how-can-i-diff-a-single-file-with-magit"&gt;diff a single
+file with magit&lt;/a&gt;,  Answer: just hit tab in the magit status buffer on
+the line for the file you want to diff.  More &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=lovely+jubbly"&gt;lovely-jubbly&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And finally, thanks to Snowy, who helped with the coding:&lt;/p&gt;
+&lt;img alt="../galleries/Snowy/coding.jpg" src="http://openbermuda.github.io/80days/galleries/Snowy/coding.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>angular</category><category>django</category><category>javascript</category><guid>http://openbermuda.github.io/80days/posts/angular-momentum.html</guid><pubDate>Mon, 26 Jan 2015 16:44:11 GMT</pubDate></item></channel></rss>

@@ -1,2 +1,2 @@
-Sitemap: http://swfiua.github.io/80days/sitemapindex.xml
+Sitemap: http://openbermuda.github.io/80days/sitemapindex.xml
 

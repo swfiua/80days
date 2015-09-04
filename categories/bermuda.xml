@@ -1,5 +1,615 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days (bermuda)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/bermuda.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 12 Jun 2015 16:07:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Where's de bus</title><link>http://swfiua.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (bermuda)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/categories/bermuda.xml"></atom:link><language>en</language><lastBuildDate>Fri, 04 Sep 2015 18:46:46 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Magic Roundabouts and Geese</title><link>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Growing up as children we would watch The Magic Roundabout on the BBC.&lt;/p&gt;
+&lt;p&gt;It was a five minute children's program with a carousel, Zebedee,
+Dougal the dog and Dylan the rabbit.&lt;/p&gt;
+&lt;p&gt;Each episode ended with Zebedee saying, "Time for bed", before
+springing off, literally.&lt;/p&gt;
+&lt;p&gt;As we got older we might watch a bit of the news that followed.&lt;/p&gt;
+&lt;div class="section" id="roundabouts-around-the-world"&gt;
+&lt;h2&gt;Roundabouts around the world&lt;/h2&gt;
+&lt;p&gt;Around the world, traffic rules vary quite a bit.  Here are some
+examples.&lt;/p&gt;
+&lt;div class="section" id="france"&gt;
+&lt;h3&gt;France&lt;/h3&gt;
+&lt;p&gt;In France roundabouts used to be much less common than in the UK.&lt;/p&gt;
+&lt;p&gt;The early traffic rule was essentially, "priorite a la droite".  This
+rule dated back to horses and carriages and mostly they could see each
+other coming for a good way, it was simple to slow down and give way
+to those from one side.&lt;/p&gt;
+&lt;p&gt;Another key rule, is which side of the road to drive on.  The French,
+like most of continental Europe, drive on the right.&lt;/p&gt;
+&lt;p&gt;Looked at from above, the French go anti-clockwise around
+roundabouts.&lt;/p&gt;
+&lt;p&gt;So, when they arrive at one, those already on the roundabout give way
+to new arrivals, coming from the right.&lt;/p&gt;
+&lt;p&gt;This works well with light traffic.  With heavy draffic, things can
+fall apart: once the roundabout is full of cars nobody can go
+anywhere, although if you are just taking the first right then you'll
+probably be ok.&lt;/p&gt;
+&lt;div class="section" id="arc-de-triomphe"&gt;
+&lt;h4&gt;Arc de Triomphe&lt;/h4&gt;
+&lt;p&gt;Now this is more like The Magic Roundabout.  I have no idea what the
+rules are.   Rumour has it that insurance companies exclude any
+accident that happens here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="british-isles"&gt;
+&lt;h3&gt;British Isles&lt;/h3&gt;
+&lt;p&gt;Here they drive on the left and go clockwise round roundabouts.&lt;/p&gt;
+&lt;p&gt;You give way to those already on the roundabout.  Those already on can
+keep going, those arriving have to wait for it to be safe to enter.&lt;/p&gt;
+&lt;p&gt;So, like the French you are giving way to those on the right.&lt;/p&gt;
+&lt;p&gt;Again, it can work well it depends on the traffic volume and pattern.&lt;/p&gt;
+&lt;div class="section" id="swindon"&gt;
+&lt;h4&gt;Swindon&lt;/h4&gt;
+&lt;p&gt;Swindon actually has a Magic Roundabout.&lt;/p&gt;
+&lt;p&gt;It is a crazy construction of five roundabouts with another roundabout
+inside them all.&lt;/p&gt;
+&lt;p&gt;UK rules apply, so once you get on the thing it is like a
+roller-coaster, just go with the flow.&lt;/p&gt;
+&lt;p&gt;When the accidents happen, people are usually moving pretty slowly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="north-america"&gt;
+&lt;h3&gt;North America&lt;/h3&gt;
+&lt;p&gt;Roundabouts used to be far less common in North America.  Four-way
+stops are the order of the day.&lt;/p&gt;
+&lt;p&gt;You arrive at the junction and stop.  If no-one else is there then you
+can proceed, others arriving after you should give way.&lt;/p&gt;
+&lt;p&gt;Now this can lead to the &lt;em&gt;Canadian stand-off&lt;/em&gt;.   You arrive at a
+roundabout just as someone else arrives.  There then follows an
+elaborate dance where you both just sit there waiting for the other to
+go first, often accompanied by hand-gestures.   Dead-lock is not
+uncommon.&lt;/p&gt;
+&lt;div class="section" id="ottawa"&gt;
+&lt;h4&gt;Ottawa&lt;/h4&gt;
+&lt;p&gt;There is a roundabout near the Experimental Farm that itself seems to
+be a wonderful experiment in mixing British and French roundabout
+rules.&lt;/p&gt;
+&lt;p&gt;Back in the day it was probably a four way stop, a simple cross-roads.&lt;/p&gt;
+&lt;p&gt;Let's pretend there is a north-south (NS) road crossing east-west (EW)
+and the NS is the bigger road.&lt;/p&gt;
+&lt;p&gt;If you are travelling NS or SN, you can pretent your are French and
+drive straight on to the roundabout.  Those coming from an EW
+direction will give way to you.&lt;/p&gt;
+&lt;p&gt;If you are turning left, then you will have to give way to traffic
+entering on the NS road.&lt;/p&gt;
+&lt;p&gt;Now if you arrive on the EW road you have to give way to traffic
+already on the roundabout.&lt;/p&gt;
+&lt;p&gt;So this is a complicated mixture of giving way to the left or right
+depending on where you are on the roundabout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="going-backwards-round-the-magic-roundabout"&gt;
+&lt;h4&gt;Going backwards round the magic roundabout&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;* please don't try this *&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Traffic arriving from east (or west) could do a Pierre Trudeau, behind
+the Queen pirouette, turning 180 degrees to enter the roundabout
+backwards.&lt;/p&gt;
+&lt;p&gt;In this way, the &lt;em&gt;give way to traffic on your right&lt;/em&gt; rule ensures the
+traffic that you need to giver way to is always coming from your right.&lt;/p&gt;
+&lt;p&gt;Once on the roundabout another pirouette should be done, having done
+this, again give way to traffic entering from the North/South road,
+which is again on your right.&lt;/p&gt;
+&lt;p&gt;This also ensures if you exit on this route you are facing the right
+way.&lt;/p&gt;
+&lt;p&gt;If continuing around the roundabout, another pirouette should be
+performed after passing the north/south road.  Hence, you will again
+be going backwards on the magic roundabout.   With your right side to
+the centre of the roundabout there is no need to give way.&lt;/p&gt;
+&lt;p&gt;When I was much younger my mother one night announced she felt a
+little typsy.  As a curious child I asked what that was like.  She
+said, "it is like I am going backwards on the magic roundabout".&lt;/p&gt;
+&lt;p&gt;Like I said, don't try this on the road.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="johnny-barnes"&gt;
+&lt;h3&gt;Johnny Barnes&lt;/h3&gt;
+&lt;p&gt;In Hamilton, Bermuda there are several roundabouts.&lt;/p&gt;
+&lt;p&gt;But there is one special one.  It is known as The Johnny Barnes
+roundabout and has its own magic.&lt;/p&gt;
+&lt;p&gt;It is indeed magic.  Every weekday, between 5am and 10am you will see
+Johnny Barnes.  He has been waving to traffic and dispensing love
+at the roundabout since retiring from the Bus company.  He is now in
+his 90's.&lt;/p&gt;
+&lt;p&gt;Bermuda has its own road rules.  Mostly following the British.  But
+the horn only really gets used to say &lt;em&gt;hi&lt;/em&gt; to friends and cousins.&lt;/p&gt;
+&lt;p&gt;If you see a friend trying to get out of a small side road you might
+well follow the "priorite a la droite" rule and wave for them to go
+ahead of you, even though you have right of way.  The roads are
+narrow, the speed limit is 20 mph and a little give and take makes it
+a better place for everyone.&lt;/p&gt;
+&lt;p&gt;But if you are new to the island, watch out for vehicles stopping to let
+people out of tiny driveways and side roads.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-about-the-geese"&gt;
+&lt;h2&gt;What about the geese?&lt;/h2&gt;
+&lt;p&gt;Last week the Mighty Blades played Swindon.  Those brave fans that
+made the journey down to Swindon went there knowing they would have to
+negotiate the Magic Roundabout.&lt;/p&gt;
+&lt;p&gt;Being Blades fans, they were probably expecting the worst and a heavy
+defeat.  I believe all the fans got through the roundabout unscathed.&lt;/p&gt;
+&lt;p&gt;As for the game, well the new manager, Nigel Adkins, played a
+motivational video before the game.  Google "geese sufc" and you
+should find it.&lt;/p&gt;
+&lt;p&gt;It explains how geese are able to travel 70% further by flying in a V
+formation.  How one goose will lead and when tired drop back into the
+formation and let another take the lead.d&lt;/p&gt;
+&lt;p&gt;If a goose is tiring and struggling, two other strong geese will drop
+down to the ocean with the struggler and stay with it until it either
+dies or makes a recovery.  They will then fly together to rejoin the
+flock, or tag onto another flock following behind.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="magic-roundabouts-and-mother-geese"&gt;
+&lt;h2&gt;Magic Roundabouts and Mother Geese&lt;/h2&gt;
+&lt;p&gt;When I was younger, my mum was my Magic Roundabout.  She would watch
+the world circling around her and find ways to change the paths of
+those that needed to be on a different path, or gently put together
+those that would benefit from each other.&lt;/p&gt;
+&lt;p&gt;I now have another Magic Roundabout in my life.  Mum's are magic.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>france</category><category>ottawa</category><category>roundabouts</category><category>sufc</category><category>swindon</category><guid>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</guid><pubDate>Fri, 04 Sep 2015 14:54:08 GMT</pubDate></item><item><title>D Bermuda Pi</title><link>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Bermuda-Pi"&gt;Bermuda Pi&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Pi"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+$$\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi$$$$Number \; -e^{i\pi}$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The week 10th to 18th October 2015 there is a lot happening in Bermuda.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;TEDx Bermuda on 10th October&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;America's Cup racing 16th-18th October&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The first anniversary of hurricanes Fay and Gonzalo&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This creates a good opportunity to run a number of small events around
+&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Software&lt;/a&gt; and &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Culture&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Science, Technology, Engineering and Mathematics &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEM&lt;/a&gt; is already
+getting a lot of attention.  This is natural in a world where there is
+so much innovation and change in current times.&lt;/p&gt;
+&lt;p&gt;Throughout my life technological change has created a lot of wonderful
+things.  At the same time, humanity and social systems are struggling
+to keep pace with this change.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEAM&lt;/a&gt; adds the Arts into STEM.  Making the Bermuda $\pi$ a STEAM
+powered event seems a natural choice, as the event can then embrace
+Bermudian culture in general.&lt;/p&gt;
+&lt;p&gt;At the same time, a hurricane can be viewed as a giant steam engine.
+Bermuda once ran a steam powered island.  How about bringing this to
+the 21st century:  &lt;em&gt;D Bermuda $\pi$, STEAM powered&lt;/em&gt;.&lt;/p&gt;
+&lt;h5 id="Free-Culture"&gt;Free Culture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Free-Culture"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;People in the free software movement have been dealing with this
+change for some time.  They have developed ways of working with
+technology that not only scale, but also enable people to build
+systems that evolve naturally over time.&lt;/p&gt;
+&lt;p&gt;There is a more general Free Culture movement, publishing artistic
+material under &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Creative Commons&lt;/a&gt; licenses that mirror the free
+software licenses.  Generally, these licenses allow others to build on
+the ideas and use them in their own work, usually with attribution.
+Some licenses do not permit commercial use, but many do.  Authors
+choose a license based on their own values.&lt;/p&gt;
+&lt;h5 id="Weather-and-hurricanes"&gt;Weather and hurricanes&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather-and-hurricanes"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Given the connection with Fay and Gonzalo some events would focus on
+hurricane research in the Bermuda context.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Event-Ideas"&gt;Event Ideas&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Event-Ideas"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;h4 id="A-Pi-conference"&gt;A Pi conference&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#A-Pi-conference"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Raspberry Pi's&lt;/li&gt;
+&lt;li&gt;Weather data&lt;/li&gt;
+&lt;li&gt;Hurricane simulation&lt;/li&gt;
+&lt;li&gt;Damage surveys and damage estimation&lt;/li&gt;
+&lt;li&gt;Impact of climate change&lt;/li&gt;
+&lt;li&gt;lightning talks&lt;/li&gt;
+&lt;li&gt;python and pi's in Bermuda education&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aim for most presentations to be about activities that are going on
+already in Bermuda, with some visions for future projects.&lt;/p&gt;
+&lt;p&gt;Invite others from overseas that are doing similar work.  Better
+still, people we are already collaborating with on Bermuda projects.&lt;/p&gt;
+&lt;p&gt;Focus on the Bermuda context: why is what you are doing a good fit for
+Bermuda, how can it fit better?&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Music,-Art"&gt;Music, Art&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Music,-Art"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Allow local musicians and artists to work and play together.  Work on
+making local artists work freely available on line.&lt;/p&gt;
+&lt;p&gt;Work on ways technology can complement the arts and vice versa.&lt;/p&gt;
+&lt;h4 id="Story-Telling"&gt;Story Telling&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Story-Telling"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Have people tell their hurricane stories about last year's storms.&lt;/p&gt;
+&lt;p&gt;Structure in a way that the stories might inspire new ideas to gather
+data and do research based on data from previous storms.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;ul&gt;
+&lt;li&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/li&gt;
+&lt;li&gt;Pies to eat&lt;/li&gt;
+&lt;li&gt;Education, teaching students using raspberry pi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The ideas here are very much inspired by the way &lt;a href="https://us.pycon.org"&gt;python conferences are run&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The aim is to have a number of small events, that together make up the &lt;code&gt;Bermuda Pi&lt;/code&gt; experience.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Food and sustainable agriculture&lt;/p&gt;
+&lt;h4 id="Local-Bermuda-food"&gt;Local Bermuda food&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Local-Bermuda-food"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;h4 id="How-to-do-sustainable-agriculture"&gt;How to do sustainable agriculture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#How-to-do-sustainable-agriculture"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Leisure-activities"&gt;Leisure activities&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Leisure-activities"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Fay and Gonzalo parties would seem a good starter&lt;/p&gt;
+&lt;p&gt;Music, story-telling, Bermudian food,&lt;/p&gt;
+&lt;p&gt;Gombeys!&lt;/p&gt;
+&lt;p&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/p&gt;
+&lt;p&gt;Pies to eat!&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Weather"&gt;Weather&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Any event during hurricane season has to pay attention to the weather.&lt;/p&gt;
+&lt;p&gt;Given that one theme of &lt;code&gt;D Bermuda Pi&lt;/code&gt; will be hurricane research it
+would be unfortunate if the event were hit by a hurricane.&lt;/p&gt;
+&lt;p&gt;Having said that, it would give the researchers valuable first hand experience.&lt;/p&gt;
+&lt;p&gt;One project to work on during the week would be getting better
+estimates of the probability of the event being hit by bad weather.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use long term climate features such as El Nino, the North Atlantic
+Oscillation, and the Bermuda High to help with contingency planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Develop tools that can help with future event planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Study detailed windfields around the island to better understand the
+challenges faced by the sailors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Study tides and currents around the island&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Murphy's Law&lt;/a&gt; is likely to intervene here, so in the meanwhile it
+would be good if we kept an eye on the long range hurricane forecasts
+and nearer the time be in a position to work with Bermuda Weather and
+have plans in place in the event of bad weather.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Sustainablility-and-environmental-impact"&gt;Sustainablility and environmental impact&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Sustainablility-and-environmental-impact"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Renewable-Energy"&gt;Renewable Energy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Renewable-Energy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Information-security-and-privacy"&gt;Information security and privacy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Information-security-and-privacy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Cryptocurrencies,-Bitcoin"&gt;Cryptocurrencies, Bitcoin&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Cryptocurrencies,-Bitcoin"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Bermuda-Based-Organisations"&gt;Bermuda Based Organisations&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Based-Organisations"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;BIOS station&lt;/li&gt;
+&lt;li&gt;Bermuda Weather&lt;/li&gt;
+&lt;li&gt;BEST -- sustainablility&lt;/li&gt;
+&lt;li&gt;code441&lt;/li&gt;
+&lt;li&gt;codtuna&lt;/li&gt;
+&lt;li&gt;Pecha Kucha&lt;/li&gt;
+&lt;li&gt;Chewstick&lt;/li&gt;
+&lt;li&gt;Others?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Coding-Sprint"&gt;Coding Sprint&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Coding-Sprint"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Work on free software projects for a better Bermuda.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Reinsurance"&gt;Reinsurance&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Reinsurance"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Many of the reinsurers are using free software and the python language in particular.&lt;/p&gt;
+&lt;p&gt;It should be possible to have a &lt;em&gt;free software in finance&lt;/em&gt; track,
+perhaps along the lines of the PyData conferences.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Visitors"&gt;Visitors&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Visitors"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Free software practitioners and enthusiasts&lt;/li&gt;
+&lt;li&gt;Python Foundation&lt;/li&gt;
+&lt;li&gt;RedHat&lt;/li&gt;
+&lt;li&gt;Canonical/Ubuntu&lt;/li&gt;
+&lt;li&gt;Environmentalists&lt;/li&gt;
+&lt;li&gt;Meteorologists and climate researchers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Venues"&gt;Venues&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Venues"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This will very much depend on the level of interest&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Southampton Princess conference hall, used for TEDx&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;BIOS station&lt;/p&gt;
+&lt;p&gt;The BIOS station is close to the airport and close to Paget Island (see below).&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Paget-Island"&gt;Paget Island&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Paget-Island"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Paget Island is one of a number of Government run islands.  It has
+basic facilities.  It would make an excellent venue for a coding
+sprint focussing on the environment and sustainability.&lt;/p&gt;
+&lt;p&gt;Bermuda is an expensive place to visit, some free sofware enthusiasts
+would be more than happy to come and camp on the island.&lt;/p&gt;
+&lt;p&gt;One goal would be to make this as inclusive an event as possible,
+hence creating many different activities that will appeal to different
+demographics, but also to find ways to mix those people and give them
+new experiences.&lt;/p&gt;
+&lt;p&gt;The buildings and infrastructure on Paget Island are in need of some
+TLC.  It would be good to work towards building a place run on
+renewable energy, environmentally positive where people can come to
+study how we are doing things in Bermuda.&lt;/p&gt;
+&lt;p&gt;The philosophy of a camp on the island would be to leave the place
+better than it is found.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Chewstick"&gt;Chewstick&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Chewstick"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Everywhere!"&gt;Everywhere!&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Everywhere!"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Trivia"&gt;Trivia&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Trivia"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Around-the-world-in-80-days"&gt;Around the world in 80 days&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Around-the-world-in-80-days"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;This blog started as a blog for an idea to create an *Around the world
+in 80 days* idea, to run little competitions where people get miles
+(or kilometers) for activities.  The idea is to see how far round the
+world you can get in 80 days, with fun twists along the way.
+One idea was to do an &lt;em&gt;Around Bermuda on Bermuda Bus and Ferry&lt;/em&gt;
+competition.  I learnt a lot on the project, but never quite got it
+out of the door.  But that is another story.&lt;/p&gt;
+&lt;p&gt;There is a version still limping along on heroku: &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kudos to heroku.  I have a half build project running there, haven't
+checked it in ages and boom it springs into life.&lt;/p&gt;
+&lt;p&gt;There are some other pieces coming together that might make the bus
+thing viable in the near future, just needs a bit of time applied to
+it.&lt;/p&gt;
+&lt;p&gt;One thing that I found useful in the project was thinking in an 80 day
+time horizon.  So I was curious about what date is 80 days before 10th
+October 2015, the date for the start of the Bermuda $\pi$.&lt;/p&gt;
+&lt;p&gt;Hitting &lt;em&gt;Home&lt;/em&gt; on the &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt; shows me this:&lt;/p&gt;
+&lt;p&gt;Jun 29, 2015 is today's date&lt;/p&gt;
+&lt;p&gt;Sep 17, 2015 is 80 days from today&lt;/p&gt;
+&lt;p&gt;Apr 10, 2015 was 80 days ago&lt;/p&gt;
+&lt;p&gt;So time for a little python.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# lets see what python says&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=-&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;2015-07-22
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;So&lt;/span&gt; &lt;span class="n"&gt;things&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;started&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;July&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="n"&gt;nd&lt;/span&gt; &lt;span class="mi"&gt;2015&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+$$2015^{{10}^2}$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="What's-this-*Number-$-e^{i\pi}$-thing-about?"&gt;What's this *Number $-e^{i\pi}$ thing about?&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#What's-this-*Number-%24-e%5E%7Bi%5Cpi%7D%24-thing-about?"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;There is a wonderful equation in mathematics that links some of the key
+constants from the world of mathematics.&lt;/p&gt;
+&lt;p&gt;There is $\pi$, the ratio between a circle's diameter and its
+circumference. $\pi$ turns up all the time in mathematics.&lt;/p&gt;
+&lt;p&gt;Then there is &lt;em&gt;e&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Both $\pi$ and $e$ are transcendental, a special type of number,
+although there are an infinite number of transendental numbers, when
+they turn up in mathematics they tend to be important.&lt;/p&gt;
+&lt;p&gt;Then there is 1.  The special number that you can multiply any other
+number by and leave it unchanged.&lt;/p&gt;
+&lt;p&gt;And there is 0.  The special number you can add to anything and leave it unchanged.&lt;/p&gt;
+&lt;p&gt;The equation is known as &lt;a href="https://en.wikipedia.org/wiki/Euler%27s_identity"&gt;Euler's identity&lt;/a&gt;:&lt;/p&gt;
+$$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would:&lt;/p&gt;
+&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>bermuda</category><category>chewstick</category><category>education</category><category>python</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</guid><pubDate>Mon, 22 Jun 2015 21:12:40 GMT</pubDate></item><item><title>Where's de bus</title><link>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
 give Bermuda's public transport users up to date information on where
 the buses and ferries actually are.&lt;/p&gt;
 &lt;p&gt;Transit authorities that have made this data available have found a
@@ -47,7 +657,7 @@ as &lt;a class="reference external" href="http://www.opengts.org/"&gt;OpenGTS&lt
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://swfiua.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item><item><title>Sharon Wilson</title><link>http://swfiua.github.io/80days/posts/sharon-wilson.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;If you visit Bermuda you will likely end up at Horseshoe Bay at some
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item><item><title>Sharon Wilson</title><link>http://openbermuda.github.io/80days/posts/sharon-wilson.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;If you visit Bermuda you will likely end up at Horseshoe Bay at some
 point during your trip.&lt;/p&gt;
 &lt;p&gt;This is one of the biggest and busiest of the South Shore beaches.
 Whenever there is a long weekend things will be happening on Horseshoe
@@ -67,4 +677,408 @@ lives.  Her home is also her studio and her gallery.&lt;/p&gt;
 &lt;p&gt;If she is open for visitors she usually puts out a &lt;em&gt;sandwich board&lt;/em&gt; at
 the end of the road, sometimes with a couple of balloons attached.  In
 that case, you are in luck.  She will welcome you to her home and let
-you discover her art.&lt;/p&gt;&lt;/div&gt;</description><category>art</category><category>bermuda</category><guid>http://swfiua.github.io/80days/posts/sharon-wilson.html</guid><pubDate>Sun, 24 May 2015 15:40:38 GMT</pubDate></item></channel></rss>
+you discover her art.&lt;/p&gt;
+&lt;p&gt;I have a copy of a book she produced, here is the cover:&lt;/p&gt;
+&lt;img alt="../galleries/SharonWilson/book_cover.jpg" src="http://openbermuda.github.io/80days/galleries/SharonWilson/book_cover.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;My cat seems to like the book too:&lt;/p&gt;
+&lt;img alt="../galleries/Snowy/snowy_wilson.jpg" src="http://openbermuda.github.io/80days/galleries/Snowy/snowy_wilson.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;There is a story behind everything she paints.  She will tell you some
+of those stories, but also let you find your own story.&lt;/p&gt;
+&lt;p&gt;Here is another picture, it has a good story too:&lt;/p&gt;
+&lt;img alt="../galleries/SharonWilson/father_and_daughter.jpg" src="http://openbermuda.github.io/80days/galleries/SharonWilson/father_and_daughter.jpg" style="width: 300px; height: 400px;"&gt;&lt;/div&gt;</description><category>art</category><category>bermuda</category><guid>http://openbermuda.github.io/80days/posts/sharon-wilson.html</guid><pubDate>Sun, 24 May 2015 15:40:38 GMT</pubDate></item><item><title>Bermuda 3 Bahamas 0</title><link>http://openbermuda.github.io/80days/posts/bermuda-3-bahamas-0.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This afternoon Bermuda were playing Bahamas in a World Cup qualifier.&lt;/p&gt;
+&lt;p&gt;It was the second leg, but Bermuda, led by Nahki Wells, were already
+5-0 win in the Bahamas last Wednesday.&lt;/p&gt;
+&lt;p&gt;This game hadn't been generally broadcast in Bermuda.  But we had seen
+highlights, and the first many of us knew about the game was via a
+banner that was put out on the TV station.&lt;/p&gt;
+&lt;p&gt;As a long suffering supporter of the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Mighty Blades&lt;/a&gt; I have rarely
+been in the position of being able to go to a game, already 5-0 up.  I
+have also never been to a World Cup game before.&lt;/p&gt;
+&lt;p&gt;So today we set off early to the game on the moped.  The game was a
+sell out, parking was likely to be tricky.  In any case, the build up
+to the game would likely be fun.&lt;/p&gt;
+&lt;p&gt;It was cold.  Not Canada cold, but Bermuda cold.  Cloudy and damp,
+windy and looked like it could rain any minute.  The rain held off.&lt;/p&gt;
+&lt;p&gt;The build up to the game was fun too.  Many in the crowd knew one or
+more of the players well.  There was excitement that we would see a
+few goals, and a slight fear that maybe things could unravel.  And
+there were Gombeys :)&lt;/p&gt;
+&lt;p&gt;Bermuda did dominate the game from start to finish.  The goalkeeper,
+Fredrick Hall, was substited at half-time.  I am guessing that he was
+frozen, as the ball boys had all had a lot more work to do.  It was
+a good time to give his back-up a chance to play, and he at least had
+some saves to make.&lt;/p&gt;
+&lt;p&gt;Nahki Wells won a penalty, then crashed the resulting kick against the
+cross-bar.  This was close to half-time, Bermuda had already had 5-6
+really good chances, but the ball didn't want to go in the net.&lt;/p&gt;
+&lt;p&gt;Earlier Wells had been fouled, about 30 yards out and needed treatment
+from the physio.  He was then made to leave the field, and was not
+able to be there for the free-kick that required the treatment.
+Broken rules?&lt;/p&gt;
+&lt;p&gt;Justi Donawa had what looked like a painful injury to his foot, and
+had to be replaced.&lt;/p&gt;
+&lt;p&gt;Second half was more of the same, but Bermuda were increasingly
+getting the feeling that it was going to end 0-0.  The players felt it
+and the crowd too.&lt;/p&gt;
+&lt;p&gt;Then Nahki Wells broke through and this time made no mistake, 1-0.&lt;/p&gt;
+&lt;p&gt;From this point every time Bermuda went forward, and that was
+frequently, they looked like scoring.  The game ended 3-0.  The Gombey
+Warriors will play Guatemala, away on the 8th of June, at home on the
+16th.&lt;/p&gt;
+&lt;p&gt;Two last things.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;This is a very young Bermuda team.  I heard the average age is
+just 21.&lt;/li&gt;
+&lt;li&gt;The Bahamas also have a young team.  They played a good game today,
+the game flowed, there were lots of entertaining moments.  It can't
+have been easy travelling away already 5-0 down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It was a great afternoon, two teams, refs and the crowd all played
+their part.  Looking forward to the next games.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>football</category><category>sufc</category><guid>http://openbermuda.github.io/80days/posts/bermuda-3-bahamas-0.html</guid><pubDate>Sun, 29 Mar 2015 22:34:42 GMT</pubDate></item><item><title>Bermudaful Day</title><link>http://openbermuda.github.io/80days/posts/bermudaful-day.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;A couple of weeks back I had my sons and their partners visiting from
+Canada.  They were having difficulty understanding why I am thinking
+it was so cold here.&lt;/p&gt;
+&lt;p&gt;I've lived in many places, but including hard Ottawa winters, but
+never felt as cold as Bermuda the last few weeks.  It is all
+perspective.&lt;/p&gt;
+&lt;p&gt;We had good times while they were here, below is just one of those
+days.&lt;/p&gt;
+&lt;div class="section" id="pink-and-blue-limo"&gt;
+&lt;h2&gt;Pink and blue limo&lt;/h2&gt;
+&lt;p&gt;We'd decided to go to Spittal Pond.  As we are down the west end of
+the island, that means 2 buses, or &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/the-pink-and-blue-limo.rst"&gt;the pink and blue limo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We were in luck, the number 7 bus pulled up just as we reached the
+stop.  A sunny day, so the views along South Shore were spectacular.&lt;/p&gt;
+&lt;p&gt;We were soon in town and just had a bit of time between buses to look
+at Victoria Park and the web of ropes holding up trees that have been
+lifted back up since the hurricanes knocked them over.&lt;/p&gt;
+&lt;p&gt;Onto the number 1 bus and another beautiful journey.  You are higher
+up on the bus, and see so a lot more.  Plus it stops every now and
+again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="spittal-pond"&gt;
+&lt;h2&gt;Spittal Pond&lt;/h2&gt;
+&lt;img alt="../galleries/SpittalPond/20150221_132114.jpg" src="http://openbermuda.github.io/80days/galleries/SpittalPond/20150221_132114.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;I have liked Spittal Pond for a lot of years.  It is a place in
+Bermuda where you can really feel in a natural environment.
+Spectactular views and lots to explore.&lt;/p&gt;
+&lt;p&gt;It is also a place that changes through the seasons, so there is
+always something new to see.&lt;/p&gt;
+&lt;p&gt;This was the first time I had been since the hurricanes.  There wasn't
+much sign of them on this walk.  Just a fiew views that didn't used to
+exist.&lt;/p&gt;
+&lt;p&gt;But we were treated to a sunny day without much wind.  The ocean
+always looks better in the sun.  It lights up the clarity of the water
+and the pink sand beneath.&lt;/p&gt;
+&lt;p&gt;The path leads down to some rocks where in a few places there are
+actually steps cut out to make it a little easier to clamber over.&lt;/p&gt;
+&lt;p&gt;At the waters edge there were a couple of large parrot fish, bobbing
+around as the waves were breaking against the rocks.&lt;/p&gt;
+&lt;img alt="../galleries/SpittalPond/20150221_140921.jpg" src="http://openbermuda.github.io/80days/galleries/SpittalPond/20150221_140921.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;/div&gt;
+&lt;div class="section" id="portuguese-rock"&gt;
+&lt;h2&gt;Portuguese Rock&lt;/h2&gt;
+&lt;p&gt;We took the little detour up to a rocky cliff overlooking the ocean.
+Here there is a brass plate that is a cast of an inscription that was
+found on the rock here.  It has the date 1543 and some other marks
+that have been interpretted as "R. P." standing for Rex Portugaline.&lt;/p&gt;
+&lt;p&gt;1543 is nearly 70 years before the island was settled, indicating that
+there is more to the early history of this island than we are every
+likely to discover.&lt;/p&gt;
+&lt;img alt="../galleries/SpittalPond/20150221_133042.jpg" src="http://openbermuda.github.io/80days/galleries/SpittalPond/20150221_133042.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-farm-on-mcgalls-hill"&gt;
+&lt;h2&gt;The farm on McGalls Hill&lt;/h2&gt;
+&lt;p&gt;Once back at the road we decided to walk over the hill, past St Mark's
+church and down McGall's Hill to the Northrock.&lt;/p&gt;
+&lt;p&gt;Part way down the hill we stopped to look at a small banana
+plantation.  The farmer, Henry, and his wife, Theresa, were there
+looking after the land and invited us down.&lt;/p&gt;
+&lt;p&gt;Henry delighted in telling us just what is invoved in growing
+bananas.  He also showed us onions, giant cloves of garlic and new
+potatoes.&lt;/p&gt;
+&lt;p&gt;They had such patience in showing how all the different plants
+thrived.  Henry also told us about the fruit salad tree.&lt;/p&gt;
+&lt;p&gt;Citrus fruit used to be a big thing in Bermuda.  If you visit the
+island ask an older Bermudian about the citrus and they will tell you
+Bermuda used to have some of the best citrus fruit you can find.&lt;/p&gt;
+&lt;p&gt;Henry explained that you can even grow fruit salad trees here: a
+single tree that grows lemons, limes, oranges and grapefruit, all as a
+result of grafting buts from different fruits onto a wild lemon base.&lt;/p&gt;
+&lt;p&gt;All in all, it was a great day.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>gardening</category><category>Spittal Pond</category><guid>http://openbermuda.github.io/80days/posts/bermudaful-day.html</guid><pubDate>Tue, 10 Mar 2015 03:35:22 GMT</pubDate></item><item><title>The Pink and Blue Limo</title><link>http://openbermuda.github.io/80days/posts/the-pink-and-blue-limo.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;When I first met &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; I was living in Ottawa.  One day she was
+heading out into town on one of her missions.  I asked if she wanted
+me to run her wherever she was going in the car.&lt;/p&gt;
+&lt;p&gt;I have to confess, I don't really enjoy driving around Ottawa.  In
+winter, when it is -25C outside then the car is a nice option to
+have.  But I know I will spend a chunk of time stuck in traffic.
+Plus, Ottawa is a grid system, there are traffic lights every block.
+But, if ace-girl is running late then again the car can be handy.&lt;/p&gt;
+&lt;p&gt;This day, she just responded, "Don't worry, I will just take the
+&lt;a class="reference external" href="http://www.showbus.com/galcanada/octranspo.htm"&gt;Red and White Limo&lt;/a&gt;."&lt;/p&gt;
+&lt;p&gt;Regular readers of this blog (if there are any! -- note to self, look
+into google analytics) will know that I have a bit of a thing about
+red and white, entirely due to the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Red and White Wizards&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So my ears pricked up at the mention of red and white.  I was a little
+concerned &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; seemed to be planning to take the limo to get where
+she wanted.  Really, I would much rather run her there in the car.&lt;/p&gt;
+&lt;p&gt;She quickly put my out of my misery.  The buses in Ottawa are red and
+white, so &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; just referred to them as the red and white limo.&lt;/p&gt;
+&lt;p&gt;I have always liked the bus.  I grew up in Sheffield, UK at a time
+when the bus service was quite excellent.  Being under 16 I could go
+anywhere in town for just 2 new pence.  Adults had to pay the princely
+sum of 10 new pence.  I would walk down to the bottom of our road and
+a bus would always turn up within 10 minutes or so.  No need to check
+the timetable: the buses were often 5 minutes or so off schedule, but
+they were so regular that it didn't matter.  Sheffield buses were
+&lt;a class="reference external" href="http://www.bus-and-coach-photos.com/picture/number3844.asp"&gt;Brown and Cream Limos&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Not really my favourite colour scheme, red and white would have been
+better, but then the blue and white half of the city might never have
+taken a bus.  In any case, these things looked like giant ice-cream
+sandwiches: a block of vanilla ice cream sandwiched between two
+wafers.&lt;/p&gt;
+&lt;p&gt;The ride into town was always fun.  I would sit upstairs, preferably
+at the front where you could see everything.  My journey was down
+Abbeydale Road.  It felt like you could literally find anything you
+wanted on Abbeydale Road.  Looking out of the bus I would always
+notice new things.  There was the cycle shop that had a &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Penny-farthing"&gt;penny
+farthing&lt;/a&gt; mounted above the shop window.   A bit further down there
+was Bardwell's electronics store.  This was like a little hardware
+store only it sold electronic components:  resistors, capacitors and
+these new fangled things called transistors.  Oh, and you could still
+get valves there too.&lt;/p&gt;
+&lt;p&gt;Well move on 30 or so years and I am now in Bermuda with &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt;.
+Nowadays she takes the &lt;a class="reference external" href="http://www.bermuda-online.org/bermudabus.jpg"&gt;Pink and Blue Limo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For anyone who enjoys buses, the &lt;a class="reference external" href="http://www.bermuda-online.org/bermudabus.jpg"&gt;Pink and Blue Limo&lt;/a&gt; has to be one
+of the best bus experiences in the world.  First of all, the buses are
+pink and blue.  Pink to match the sand on the beaches, blue to match
+the sky.&lt;/p&gt;
+&lt;p&gt;The bus stops are marked by pink or blue poles.  Pink means the bus is
+heading in to town, blue means it is heading away from town.&lt;/p&gt;
+&lt;p&gt;I am lucky, I live at the top of a hill between South Shore and Middle
+Road.  I can walk down to South Shore and take the 7, or I can go to
+Middle Road and take the 8.  There is a bus every half hour, happily
+at my point in the island the buses are off cut by 15 minutes, the
+result is average waiting time should be less than 10 minutes most of
+the time.&lt;/p&gt;
+&lt;p&gt;I also have a moped.  This is a great way to get around the island,
+but on occasion I head into town and end up having a couple of beers.
+One such occasion was last Wednesday.  The &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Red and White Wizards&lt;/a&gt;
+were playing Tottenham Hotspur in the first leg of the League Cup
+semi-final.&lt;/p&gt;
+&lt;p&gt;The Blades are two divisions below Spurs.  Just getting to this semi
+was quite an achievement.  I headed in to town with &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; to
+watch the game.&lt;/p&gt;
+&lt;p&gt;As you can expect, for such a major fixture the bar was packed out:&lt;/p&gt;
+&lt;img alt="../galleries/Blades/packed_out_at_the_hood.jpg" src="http://openbermuda.github.io/80days/galleries/Blades/packed_out_at_the_hood.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;I was fearing the worst.  The Blades have actually been doing really
+well in the cups since &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Nigel_Clough"&gt;Nigel Clough&lt;/a&gt; took over as manager.  But
+after years of following the Blades I know not to get my hopes up.  I
+really just hoped that the game wouldn't be over in 20 minutes with us
+3-0 down and the prospect of a pointless game at Bramall Lane the
+following week.  In fact, first half the blades looked in control,
+even had a couple of half chances.&lt;/p&gt;
+&lt;p&gt;The longer the game went on, the more I dared to hope.  Spurs did get
+a penalty, which they scored, but the game finished 1-0.  As this is
+two legs, the blades are just 1-0 down at half-time with the second
+leg due to be played in front of a sell-out crowd at the Lane.
+Tomorrow could be fun.&lt;/p&gt;
+&lt;p&gt;So, suffice to say, riding home on the bike was not an option.  We
+left the bike with one of the people working in the bar.  His bike was
+off the road due to a scary accident, happily he just had a bit of
+road rash and some bruises.&lt;/p&gt;
+&lt;p&gt;The next day I took the &lt;a class="reference external" href="http://www.bermuda-online.org/bermudabus.jpg"&gt;Pink and Blue Limo&lt;/a&gt; in to town to collect
+the bike.  I walked down to the 7, but was sat on the wall admiring
+the view and looking for my ticket when the bus sailed past.  Not the
+driver's fault, I wasn't at the actual stop.  Fortunately, I had time
+to walk over the hill, getting there just in time to admire the view
+before the 8 turned up.&lt;/p&gt;
+&lt;p&gt;Bermuda bus etiquette is quite complex.  The buses are smaller than
+normal buses and only single decker, mainly because the roads here are
+pretty narrow.  If you are on the bus you wait until it has come to a
+stop before getting up from your seat to get off.&lt;/p&gt;
+&lt;p&gt;The school children always give up their seat to older people.
+Everyone greets the driver as they get on the bus.  Usually, there are
+a bunch of regulars on the bus.  It is Bermuda, everyone knows
+everyone and you see people catching up on news as they encounter
+friends and relatives.&lt;/p&gt;
+&lt;p&gt;I always like to get a seat by the window.  On the number 7 the views
+of the South Shore beaches are breathtaking.  On the number 8 you are
+inland for much of the journey, but it is never dull.  You
+will get glimpses of the ocean, but also see lots of the wonderful
+coloured houses and of course all the plants and trees.&lt;/p&gt;
+&lt;p&gt;Since the hurricanes Gonzalo and Fay, back in October there has been
+lots more to look at.  First, there was all the damage to the trees as
+well as some property damage.  Within a couple of days everything was
+pretty much running as normal, but everywhere you looked there were
+people helping clean up.  Either soldiers in the regiment, those
+working for the government as well as many proud Bermudians working
+together to get the island back on its feet.&lt;/p&gt;
+&lt;p&gt;Now the hurricanes took out a lot of trees, so now you can see things
+you never knew were there.  The older Bermudians just smile, they have
+seen it before, after Fabian or Emily or Felix.&lt;/p&gt;
+&lt;p&gt;The journey is a good time to think, to slow down, experience
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=vbVyE6hZjCU"&gt;another world that is Bermuda&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am writing this post today in part because the &lt;a class="reference external" href="http://www.bermuda-online.org/bermudabus.jpg"&gt;Pink and Blue Limo&lt;/a&gt;
+is off the road.  Unfortunately, the government here is short of
+money.  As a result, they have been trying to reduce the wage bill.&lt;/p&gt;
+&lt;p&gt;This is coming at a time when the island is full of excitement having
+won the right to host the &lt;a class="reference external" href="http://www.americascup.com/"&gt;America's Cup&lt;/a&gt; in 2017.  There is a lot of
+work to do to get the island ready for this.  But the government is
+broke.  And to deal with that they made an agreement with the unions
+to cut wages in return for days of &lt;em&gt;furlough&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I don't know the ins-and-outs of it all, but the hope was this would
+be a temporary measure and that after a year or so the budget would
+begin to balance and hours would be restored.&lt;/p&gt;
+&lt;p&gt;This now doesn't look like happening and so the last two days there
+have been peaceful demonstrations in town in protest.&lt;/p&gt;
+&lt;p&gt;Here is hoping that all parties will get around the table and work out
+a solution that works for all of Bermuda and &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; can get back
+to her &lt;a class="reference external" href="http://www.bermuda-online.org/bermudabus.jpg"&gt;Pink and Blue Limo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Oh, and if the blades could somehow pull off a miracle tomorrow, that
+would also be good ;)&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ottawa</category><category>sufc</category><guid>http://openbermuda.github.io/80days/posts/the-pink-and-blue-limo.html</guid><pubDate>Tue, 27 Jan 2015 18:57:42 GMT</pubDate></item><item><title>I met Bill's Gates and got the t-shirt</title><link>http://openbermuda.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Those who know me probably think that Bill Gates is not exactly on my
+top ten list of people I would like to meet.&lt;/p&gt;
+&lt;p&gt;I've been an free and open software enthusiast for longer than I care
+to remember.  Let's just say that over the years Bill hasn't exactly
+been a friend of open source.  To be fair, it pretty much threatened
+to destroy his rather lucrative business model.&lt;/p&gt;
+&lt;p&gt;To some extent it has.  Bill has moved on, so has Steve "linux is a
+cancer" Balmer.  Microsoft is making more and more code available as
+open source.  I would guess they have realised that if you want to be
+relevant in today's software world you need your stuff to run on
+linux, or at least play nicely with that platform.&lt;/p&gt;
+&lt;p&gt;There is a lot going on in the tech world, it isn't clear how it is
+all going to pan out.  But free and open source is stronger than
+ever.&lt;/p&gt;
+&lt;p&gt;Last night, my &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt; and I wandered down the hill to the local
+hostelry.&lt;/p&gt;
+&lt;p&gt;As I &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/the-music-from-uncle.html"&gt;blogged&lt;/a&gt; a few weeks back, Saturday there is a DJ at this place
+and it is often a fun night.  We were planning to meet another friend
+who had just got back to the island.&lt;/p&gt;
+&lt;p&gt;We arrived and things were still quiet.  They were showing some
+highlights from the FA Cup on the TV.  I love the FA Cup, always have
+done.  It is when the lower league teams get a chance to show what
+they can do against higher clubs.  Yesterday was a great day for the
+underdogs.  Bradford City, also known as the &lt;em&gt;Bantams&lt;/em&gt; (curiously,
+google in their soccer info used the name &lt;em&gt;Bantams&lt;/em&gt; rather than
+Bradford City.  It was odd, because every other club was listed by
+their more formal name.  It was Sheffield United, not the Blades
+playing at Preston.&lt;/p&gt;
+&lt;p&gt;There were quite a few people having dinner at the place and 2-3 were
+celebrating birthdays.  DJ Uncle was doing his round of the room,
+figuring out his audience.&lt;/p&gt;
+&lt;p&gt;Around this time a guy walked by wearing a t-shirt and a silver tie,
+all sparkles and glitter, obviously top quality as it was ready-tied
+and held around his neck by a piece of elastic.   I saw the words,
+"Bill's Gates" on his t-shirt.   My curiousity was peaked and we got
+talking.&lt;/p&gt;
+&lt;p&gt;It soon became clear it was the guy's birthday.  He introduced himself
+as Bill Gates (or it might have been Bill's Gates).  There may have
+been some alcohol involved, so details are a little blurry.  But the
+gist was he was founder member of "BFBC".  The F is along the same
+lines as the f in swfiua.  So it was "Bill's F* Boat Club".&lt;/p&gt;
+&lt;p&gt;Clearly, this was my chance to be photographed with the man himself:&lt;/p&gt;
+&lt;img alt="../galleries/Gates/Me%20with%20Bill's%20Gates.jpg" src="http://openbermuda.github.io/80days/galleries/Gates/Me%20with%20Bill's%20Gates.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;I can report that Bill was a fine upstanding character and was even
+kind enough to give me one of his t-shirts:&lt;/p&gt;
+&lt;img alt="../galleries/Gates/i_got_the_t_shirt.jpg" src="http://openbermuda.github.io/80days/galleries/Gates/i_got_the_t_shirt.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;Now in case you haven't heard Bermuda has been chosen as the venue for
+the &lt;a class="reference external" href="http://www.americascup.com/en/news/131_Bermuda-is-the-home-of-the-2017-America-s-Cup.html"&gt;2017 America's Cup&lt;/a&gt;.  There is quite a bit of excitement about
+the island due to this.  Maybe BFBC will enter the race :)&lt;/p&gt;
+&lt;p&gt;Of course, Uncle played &lt;a class="reference external" href="https://www.youtube.com/watch?v=inS9gAgSENE"&gt;Happy Birthday&lt;/a&gt; for Bill and the others with
+birthdays.&lt;/p&gt;
+&lt;p&gt;I have been on a bit of a Springsteen kick that last week or so,
+something to do with starting to learn some tunes from my "Bruce
+Springsteen easy guitar":&lt;/p&gt;
+&lt;img alt="../galleries/Springsteen/Springsteen.jpg" src="http://openbermuda.github.io/80days/galleries/Springsteen/Springsteen.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;Ace girl asked Uncle if he would play some.  And in light of the giant
+killings in the FA Cup and with the hope of more to come from the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Red
+and White Wizards&lt;/a&gt; it was appropriate that he should choose &lt;a class="reference external" href="https://www.youtube.com/watch?v=6vQpW9XRiyM"&gt;Glory Days&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks Bill and everyone who helped make last night a fun time.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>linux</category><category>music</category><guid>http://openbermuda.github.io/80days/posts/i-met-bills-gates-and-got-the-t-shirt.html</guid><pubDate>Sun, 25 Jan 2015 22:22:58 GMT</pubDate></item><item><title>The Music from UNCLE</title><link>http://openbermuda.github.io/80days/posts/the-music-from-uncle.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am lucky enough to live in a wonderful part of the world.  &lt;a class="reference external" href="https://www.youtube.com/watch?v=vbVyE6hZjCU"&gt;Bermuda
+is another world&lt;/a&gt;.  It really is.&lt;/p&gt;
+&lt;p&gt;A tiny island of just 60,000 people, a place with a complex history.
+There are a lot of wonderful people here.  There are also some cool
+things starting to happen here such as &lt;a class="reference external" href="http://code441.com"&gt;code441&lt;/a&gt; and &lt;a class="reference external" href="http://wearebermuda.com/"&gt;wearebermuda&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is Christmas time.  The last Saturday before Christmas and there
+are parties everywhere.  Many of them are company parties.  You know
+the thing, you sort of have to go along.  With luck you'll get to sit
+with some of the people at work you actually like.  As the night goes
+on, if you are lucky, you will find some like-minded people to spend
+time with.&lt;/p&gt;
+&lt;p&gt;This year, no office party for me.  So, we went to a local bar.  There
+is a DJ every Saturday night at this place.  The dance floor is always
+packed, for a simple reason: he knows his crowd.  And he always walks
+around before he starts, plans his work and works his plan.&lt;/p&gt;
+&lt;p&gt;Last night there must have been 60 cars parked in the area.  The place
+was packed.  Everyone was having a good time.&lt;/p&gt;
+&lt;p&gt;Now only in Bermuda could a DJ start the evening with &lt;a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30"&gt;My God is
+Awesome&lt;/a&gt;, follow it up with &lt;a class="reference external" href="https://www.youtube.com/watch?v=9T4WB2zfmps"&gt;Silent Night&lt;/a&gt; and already have his
+audience tapping their feet and getting into the mood.&lt;/p&gt;
+&lt;p&gt;I'd never heard &lt;a class="reference external" href="https://www.youtube.com/watch?v=wDC7NeVfc30"&gt;My God is Awesome&lt;/a&gt; before.  Actually, I am sure I
+must of heard it, just hadn't really listend.  And I only really
+listened this time because it reminded me of the &lt;a class="reference external" href="http://awesome.naquadah.org/"&gt;Awesome window
+manager&lt;/a&gt;  I've been using awesome the last few weeks and it has had a
+huge impact on the way I use my computer.   And I am only scratching
+the surface of what it can do.&lt;/p&gt;
+&lt;p&gt;So this was followed up with &lt;a class="reference external" href="https://www.youtube.com/watch?v=xlVxEAUqWU0"&gt;You can't hurry love&lt;/a&gt;, an old version
+by the Supremes.  Another special song for me.&lt;/p&gt;
+&lt;p&gt;Then there was &lt;a class="reference external" href="https://www.youtube.com/watch?v=vdB-8eLEW8g"&gt;One Love&lt;/a&gt;, &lt;a class="reference external" href="https://www.youtube.com/watch?v=JFMtBibwrgY"&gt;Electric Slide&lt;/a&gt;, complete with line
+dancing.  Bermudian line dancing has to be seen to be appreciated.
+Last night was typical.  A mixture of regulars to the place and those
+just there for the party.  Everyone having a good time
+together. There were a lot of &lt;a class="reference external" href="https://www.youtube.com/watch?v=y6Sxv-sUYtM"&gt;Happy&lt;/a&gt; people.&lt;/p&gt;
+&lt;p&gt;My music tastes are a bit weird.  I pretty much follow the crowd.  And
+my guitar music.  I have been (very slowly) learning to play over the
+past few years.  I have a few books with tabs, most of them have the
+word &lt;em&gt;easy&lt;/em&gt; in their titles.&lt;/p&gt;
+&lt;p&gt;I would pick a song and try the patience of those around me by playing
+it over and over again, badly.  I would look at the tabs of some and
+think, no way I can play that.  But now I am starting to get a little
+better and a little more adventurous.  I am noticing songs that have
+been there for years ready for me to play.  Song of the moment is the
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=YZo88P1Ie94"&gt;The Joker&lt;/a&gt;.  Like all good songs, there is lots of scope for
+changing the lyrics:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+I'm a picker,
+I'm a grinder,
+I'm a lover,
+I'm a sinner,
+I play my music in the sun
+&lt;/pre&gt;
+&lt;p&gt;Grinder not grinner, in tribute to the &lt;a class="reference external" href="https://www.youtube.com/watch?v=pTXjp2bf1vo"&gt;Sheffield Grinder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And seeing as I have a bit of a &lt;a class="reference external" href="http://git-scm.com/"&gt;git&lt;/a&gt; obsession:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+I'm a puller,
+I'm a merger,
+I'm a midnight coder,
+I get my checkouts from github.
+&lt;/pre&gt;
+&lt;p&gt;Thanks Uncle, old stuff still works.  Sometimes it works way better
+than the new stuff.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>awesome</category><category>bermuda</category><category>music</category><guid>http://openbermuda.github.io/80days/posts/the-music-from-uncle.html</guid><pubDate>Sun, 21 Dec 2014 20:01:33 GMT</pubDate></item></channel></rss>

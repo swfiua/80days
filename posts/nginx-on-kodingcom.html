@@ -1,135 +1,60 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Deploying django apps with nginx on koding.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nginx on koding.com | Around the world in 80 days</title>
-
-    
-            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-
-    
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-
-      <link rel="canonical" href="http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html">
-
-
-
-    
-        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
-
-    
-
-
-    
-
-    <meta name="description" itemprop="description" content="Deploying django apps with nginx on koding.com">
-    <meta name="author" content="Johnny Gill">
-        <link rel="prev" href="rant-about-computer-insecurity.html" title="Rant about computer (in)security" type="text/html">
-        <link rel="next" href="the-music-from-uncle.html" title="The Music from UNCLE" type="text/html">
-    
-    <meta property="og:site_name" content="Around the world in 80 days">
-    <meta property="og:title" content="Nginx on koding.com">
-    <meta property="og:url" content="http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html">
-    <meta property="og:description" content="Deploying django apps with nginx on koding.com">
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2014-12-18T19:58:05+00:00">
-
-    
-
-    
-
-
-
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Deploying django apps with nginx on koding.com">
+<meta name="viewport" content="width=device-width">
+<title>Nginx on koding.com | Around the world in 80 days</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="http://openbermuda.github.io/80days/posts/nginx-on-kodingcom.html">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+    },
+    displayAlign: 'center', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script><!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Johnny Gill">
+<meta property="og:site_name" content="Around the world in 80 days">
+<meta property="og:title" content="Nginx on koding.com">
+<meta property="og:url" content="http://openbermuda.github.io/80days/posts/nginx-on-kodingcom.html">
+<meta property="og:description" content="Deploying django apps with nginx on koding.com">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2014-12-18T19:58:05+00:00">
 </head>
 <body>
-<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <section class="social"><ul>
+<li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/swfiua" title="My Twitter"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/swfiua" title="My Github"><i class="icon-github"></i></a></li>
 
-<!-- Menubar -->
+        </ul></section><section class="page-content"><div class="content" rel="main">
+    <div class="post">
+        <h1 class="p-name entry-title" itemprop="headline name">Nginx on koding.com</h1>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://swfiua.github.io/80days/">
-
-                <span id="blog-title">Around the world in 80 days</span>
-            </a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                
-                <li>
-<a href="../archive.html">Archives</a>
-                </li>
-<li>
-<a href="../categories/index.html">Tags</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
-
-                
-            </li>
-</ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                
-                
-                    
-    <li>
-    <a href="nginx-on-kodingcom.rst" id="sourcelink">Source</a>
-    </li>
-
-                
-            </ul>
-        </div>
-<!-- /.navbar-collapse -->
-    </div>
-<!-- /.container -->
-</nav>
-
-<!-- End of Menubar -->
-
-<div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
-        <div class="row">
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2014-12-18T19:58:05+00:00">2014-12-18 19:58</time>
             
+                      |  
+        <a href="nginx-on-kodingcom.rst" id="sourcelink">Source</a>
+
+            </div>
             
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
-    
-    <header>
-        
-    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Nginx on koding.com</a></h1>
-
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Johnny Gill</span></p>
-            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-12-18T19:58:05+00:00" itemprop="datePublished" title="2014-12-18 19:58">2014-12-18 19:58</time></a></p>
-                <p class="commentline">
-        
-    <a href="nginx-on-kodingcom.html#disqus_thread" data-disqus-identifier="cache/posts/nginx-on-kodingcom.html">Comments</a>
-
-
-            
-        </p>
-<p class="sourceline"><a href="nginx-on-kodingcom.rst" id="sourcelink">Source</a></p>
-
-                <meta name="description" itemprop="description" content="Deploying django apps with nginx on koding.com">
         </div>
-        
-
-    </header>
-
-    <div class="e-content entry-content" itemprop="articleBody text">
-    <div>
+        <div class="body">
+            <div>
 <p>It is more than time that I get the project up and running on a host
 somewhere.</p>
 <p>I could just check the code out on <a class="reference external" href="https//koding.com">koding.com</a> and run the project
@@ -159,17 +84,17 @@ Secret value 'SECRET_KEY' is not set
 advice on how to go about keeping it secret.</p>
 <p>So looking at what the wonderful <a class="reference external" href="https://github.com/pydanny/cookiecutter-django">cookiecutter django</a> created I see
 the following incantation in <em>config/production.py</em>:</p>
-<pre class="code python"><a name="rest_code_34f45a7f11144760a32d446afb13c69f-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
-<a name="rest_code_34f45a7f11144760a32d446afb13c69f-2"></a>
-<a name="rest_code_34f45a7f11144760a32d446afb13c69f-3"></a><span class="c"># SECRET KEY</span>
-<a name="rest_code_34f45a7f11144760a32d446afb13c69f-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
-<a name="rest_code_34f45a7f11144760a32d446afb13c69f-5"></a><span class="c"># END SECRET KEY</span>
+<pre class="code python"><a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
+<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-2"></a>
+<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-3"></a><span class="c"># SECRET KEY</span>
+<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
+<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-5"></a><span class="c"># END SECRET KEY</span>
 </pre>
 <p>So what is this <em>configuration.values</em> thing?   Turns out it is coming
 from the <a class="reference external" href="http://django-configurations.readthedocs.org/">django configurations</a> application that the <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a>
 was kind enough to include.</p>
 <p>OK, so it helps you not have to do</p>
-<pre class="code python"><a name="rest_code_5cb21cd72fb3417b861c3110a110bd5f-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
+<pre class="code python"><a name="rest_code_5297ada5437f4b34b8a91dd07060c31c-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
 </pre>
 <p>Now, that has to be a good thing :)</p>
 <p>So reading the docs I come to:</p>
@@ -223,31 +148,19 @@ However, firefox and even chrome from another machine are just fine.</p>
 <!-- type: text -->
 </div>
 </div>
-    </div>
-    <aside class="postpromonav">
-    <nav>
-    
-
-    
-        <ul class="pager">
-            <li class="previous">
+        </div>
+                <ul class="pager">
+<li class="previous">
                 <a href="rant-about-computer-insecurity.html" rel="prev" title="Rant about computer (in)security">Previous post</a>
             </li>
             <li class="next">
                 <a href="the-music-from-uncle.html" rel="next" title="The Music from UNCLE">Next post</a>
             </li>
         </ul>
-
-    </nav>
-    </aside>
-        <section class="comments">
-        <h2>Comments</h2>
-        
-        
-        <div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="eightydays",
-            disqus_url="http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html",
+            disqus_url="http://openbermuda.github.io/80days/posts/nginx-on-kodingcom.html",
         disqus_title="Nginx on koding.com",
         disqus_identifier="cache/posts/nginx-on-kodingcom.html",
         disqus_config = function () {
@@ -258,68 +171,22 @@ However, firefox and even chrome from another machine are just fine.</p>
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+    </script><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
     <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-        </section>
-    
-
-</article>
-
-        
-       <script>var disqus_shortname="eightydays";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
-
-
-
-        </div>
-        <!--End of body content-->
-
-        <footer>
-            Contents © 2015         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+    </div>
+                    <footer id="footer" role="contentinfo"><p>Contents © 2015         <a href="mailto:swfiua@gmail.com">Johnny Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-
+</p>
             
         </footer>
-    </div>
 </div>
-
-
-            <script src="../assets/js/all-nocdn.js"></script>
-    
-<!-- Social buttons -->
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-<a class="addthis_button_more">Share</a>
-<ul>
-<li>
-<a class="addthis_button_facebook"></a>
-</li>
-<li>
-<a class="addthis_button_google_plusone_share"></a>
-</li>
-<li>
-<a class="addthis_button_linkedin"></a>
-</li>
-<li>
-<a class="addthis_button_twitter"></a>
-</li>
-</ul>
-</div>
-<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-<!-- End of social buttons -->
-
-
-    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
-    <!-- fancy dates -->
-    <script>
-    moment.locale("");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script>
-    <!-- end fancy dates -->
-    
-
-
+    </section><script src="../assets/js/all-nocdn.js" type="text/javascript"></script><script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
 </body>
 </html>

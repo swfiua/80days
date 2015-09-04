@@ -1,7 +1,7 @@
 .. title: Angular velocity
 .. slug: angular-velocity
 .. date: 2015-02-06 14:36:22 UTC
-.. tags: angular javascript django 80days
+.. tags: angular, javascript, django, 80days
 .. category: 
 .. link: 
 .. description: 80day coding adventure angular django python

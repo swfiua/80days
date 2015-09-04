@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (silverlight)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/silverlight.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Future proof your organisation with free software</title><link>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago I was hoping to be able to listen to a Bermuda
+Parliament debate via the Hansard site.&lt;/p&gt;
+&lt;p&gt;I was actually unable to find a stream for the debates.  Further
+enquiries revealed it does exist, but the streaming uses Microsoft's
+Silverlight.&lt;/p&gt;
+&lt;p&gt;This creates a problem, since Microsoft has abandoned Silverlight and
+it is no longer supported and does not work in many modern browsers.&lt;/p&gt;
+&lt;p&gt;This is a scenario that gets repeated over and over.  In what follows,
+I will be using government as an example, but you could substitute
+&lt;em&gt;organisation&lt;/em&gt; for government and the story is the same.&lt;/p&gt;
+&lt;p&gt;So here is a typical scenario:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Government has a problem to solve, in this case streaming recordings
+of parliamentary debates.&lt;/li&gt;
+&lt;li&gt;Government hires a consultant &lt;a class="footnote-reference" href="http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id2" id="id1"&gt;[1]&lt;/a&gt;  to implement a solution:&lt;ul&gt;
+&lt;li&gt;the consultant chooses the technology stack&lt;/li&gt;
+&lt;li&gt;government workers lack time, resources and skills to understand the
+choices the consultant is making.  This problem is exacerbated by
+outsourcing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Consultant provides a solution with proprietary technologies.  In many
+cases the consultant, not the government owns the software created for
+the project.  The result is the government is locked into that
+consultant for support and dependent on proprietary software
+companies for support.&lt;/li&gt;
+&lt;li&gt;Proprietary vendor drops support for the tech that was used.  Result
+is unmaintainable websites that eventually have to be replaced.
+Everything is thrown out and the process is repeated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the free software world you get a different story:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Government has a problem to solve, in this case streaming recordings
+of parliamentary debates.&lt;/li&gt;
+&lt;li&gt;Government IT staff research free software solutions that will solve
+the problem&lt;ul&gt;
+&lt;li&gt;they look to see what others are using;&lt;/li&gt;
+&lt;li&gt;they work with those in other government departments with similar
+problems;&lt;/li&gt;
+&lt;li&gt;they pick some free software projects that solve the problem and
+that appear to be active and vibrant projects;&lt;/li&gt;
+&lt;li&gt;the solution is implemented;&lt;/li&gt;
+&lt;li&gt;any software written is released as a free software project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this scenario, the end result is something that can be supported not
+just by the government workers involved in the project, but actually
+anyone with access to the code, which is in fact &lt;em&gt;everyone&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This includes enthusiasts in the local community, but also people
+worldwide that are working with the technology that is being used.&lt;/p&gt;
+&lt;p&gt;Instead of being tied to a single supplier, there is choice and hence a
+competitive market.&lt;/p&gt;
+&lt;p&gt;The software will generally be both free as in freedom and free as in
+cost.  The money saved can be invested in developing local talent to
+support it.&lt;/p&gt;
+&lt;p&gt;Further money will be saved in the future due to not having to replace
+the system due to proprietary vendors stopping support.  Sure the system
+will need maintenance and future development, but the government workers
+will have all the tools they need to do this.&lt;/p&gt;
+&lt;p&gt;The system will likely require lower cost hardware resource too.&lt;/p&gt;
+&lt;div class="section" id="silverlight-and-moonlight"&gt;
+&lt;h2&gt;Silverlight and Moonlight&lt;/h2&gt;
+&lt;p&gt;The Silverlight story is an excellent example of this sort of problem.&lt;/p&gt;
+&lt;p&gt;Microsoft launched Silverlight with a great fanfare, whilst ignoring
+web standards such as HTML5 that provided very similar capabilities.&lt;/p&gt;
+&lt;p&gt;It integrated nicely with their .NET platform and they provided some
+good tools to help with development.&lt;/p&gt;
+&lt;p&gt;However, Silverlight failed to gain traction and by 2013 Microsoft
+announced they were discontinuing development, just six years after
+introducing the technology.&lt;/p&gt;
+&lt;div class="section" id="security-and-proprietary-frameworks"&gt;
+&lt;h3&gt;Security and proprietary frameworks&lt;/h3&gt;
+&lt;p&gt;This never ending stream of proprietary technologies, each supposedly
+better than the previous technology, that is no longer supported,
+creates serious computer security issues.&lt;/p&gt;
+&lt;p&gt;Many government websites here in Bermuda use Adobe Flash or
+Silverlight.  The latter is no longer supported, the former has very
+patchy support.&lt;/p&gt;
+&lt;p&gt;In any case, government sites using Flash depend on ancient versions
+that are likely riddled with security holes, yet impossible to
+support.  Further, they simply do not work in modern browsers.&lt;/p&gt;
+&lt;p&gt;Free software greatly reduces this problem: since the software comes
+with freedom, those using it have everything they need to support it.&lt;/p&gt;
+&lt;p&gt;Upgrades are done only as and when significant improvements are made,
+not on some corporation's timetable, designed to generate revenue for
+that corporation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mono"&gt;
+&lt;h2&gt;Mono&lt;/h2&gt;
+&lt;p&gt;Silverlight is built on top of Microsoft's .NET framework.  .NET is
+interesting technology, but in many ways not fundamentally different to
+Java.&lt;/p&gt;
+&lt;p&gt;The free software community has always been wary of .NET.  There is a
+project called "mono" that is a free implementation of .NET.  There were
+concerns that mono infringes some Microsoft, might use those patents to
+attack mono.&lt;/p&gt;
+&lt;p&gt;In fact, this has not happened and recently Microsoft has released a
+number of .NET related tools as open source, but there is still some
+wariness about mono.  I believe it does have a significant role to play
+in helping Microsoft shops migrate to free software.&lt;/p&gt;
+&lt;p&gt;When Silverlight was announced the Mono team started the Moonlight
+project, a free implementation of silverlight.&lt;/p&gt;
+&lt;p&gt;The project was abandonned in 2012 after poor adoption of Silverlight
+and very few sites that use Silverlight work under Moonlight.&lt;/p&gt;
+&lt;p&gt;The result is that people who used Silverlight are left with an
+expensive mess.&lt;/p&gt;
+&lt;p&gt;It is also interesting to read the criticisms of Silverlight in the
+wikipedia article.  Note that many of these criticisms come from
+companies like Adobe, who were probably more motivated by protecting
+their ancient Flash technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="footnotes"&gt;
+&lt;h2&gt;Footnotes&lt;/h2&gt;
+&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;I say &lt;em&gt;consultant&lt;/em&gt; but it could be any vendor offering a solution.&lt;/p&gt;
+&lt;p&gt;I don't mean to bash consultants, there are some excellent ones out
+there, I am planning to be one myself.&lt;/p&gt;
+&lt;p&gt;Consultant's work pattern should be to come to an organisation,
+empower them to solve their own problem and leave them with all the
+resources they need to continue to maintain and develop that
+solution.&lt;/p&gt;
+&lt;p&gt;In short, "get in, solve the problem, empower the organisation, get
+out".&lt;/p&gt;
+&lt;p class="last"&gt;Too often the "empower the organisation" bit is skipped since by
+not doing that the consultant creates future opportunities for
+themselves.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>.NET</category><category>free software</category><category>moonlight</category><category>silverlight</category><guid>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</guid><pubDate>Wed, 01 Jul 2015 20:52:03 GMT</pubDate></item></channel></rss>

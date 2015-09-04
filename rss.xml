@@ -1,5 +1,1235 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://swfiua.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link href="http://swfiua.github.io/80days/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 12 Jun 2015 16:07:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Where's de bus</title><link>http://swfiua.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 04 Sep 2015 18:46:46 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Magic Roundabouts and Geese</title><link>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Growing up as children we would watch The Magic Roundabout on the BBC.&lt;/p&gt;
+&lt;p&gt;It was a five minute children's program with a carousel, Zebedee,
+Dougal the dog and Dylan the rabbit.&lt;/p&gt;
+&lt;p&gt;Each episode ended with Zebedee saying, "Time for bed", before
+springing off, literally.&lt;/p&gt;
+&lt;p&gt;As we got older we might watch a bit of the news that followed.&lt;/p&gt;
+&lt;div class="section" id="roundabouts-around-the-world"&gt;
+&lt;h2&gt;Roundabouts around the world&lt;/h2&gt;
+&lt;p&gt;Around the world, traffic rules vary quite a bit.  Here are some
+examples.&lt;/p&gt;
+&lt;div class="section" id="france"&gt;
+&lt;h3&gt;France&lt;/h3&gt;
+&lt;p&gt;In France roundabouts used to be much less common than in the UK.&lt;/p&gt;
+&lt;p&gt;The early traffic rule was essentially, "priorite a la droite".  This
+rule dated back to horses and carriages and mostly they could see each
+other coming for a good way, it was simple to slow down and give way
+to those from one side.&lt;/p&gt;
+&lt;p&gt;Another key rule, is which side of the road to drive on.  The French,
+like most of continental Europe, drive on the right.&lt;/p&gt;
+&lt;p&gt;Looked at from above, the French go anti-clockwise around
+roundabouts.&lt;/p&gt;
+&lt;p&gt;So, when they arrive at one, those already on the roundabout give way
+to new arrivals, coming from the right.&lt;/p&gt;
+&lt;p&gt;This works well with light traffic.  With heavy draffic, things can
+fall apart: once the roundabout is full of cars nobody can go
+anywhere, although if you are just taking the first right then you'll
+probably be ok.&lt;/p&gt;
+&lt;div class="section" id="arc-de-triomphe"&gt;
+&lt;h4&gt;Arc de Triomphe&lt;/h4&gt;
+&lt;p&gt;Now this is more like The Magic Roundabout.  I have no idea what the
+rules are.   Rumour has it that insurance companies exclude any
+accident that happens here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="british-isles"&gt;
+&lt;h3&gt;British Isles&lt;/h3&gt;
+&lt;p&gt;Here they drive on the left and go clockwise round roundabouts.&lt;/p&gt;
+&lt;p&gt;You give way to those already on the roundabout.  Those already on can
+keep going, those arriving have to wait for it to be safe to enter.&lt;/p&gt;
+&lt;p&gt;So, like the French you are giving way to those on the right.&lt;/p&gt;
+&lt;p&gt;Again, it can work well it depends on the traffic volume and pattern.&lt;/p&gt;
+&lt;div class="section" id="swindon"&gt;
+&lt;h4&gt;Swindon&lt;/h4&gt;
+&lt;p&gt;Swindon actually has a Magic Roundabout.&lt;/p&gt;
+&lt;p&gt;It is a crazy construction of five roundabouts with another roundabout
+inside them all.&lt;/p&gt;
+&lt;p&gt;UK rules apply, so once you get on the thing it is like a
+roller-coaster, just go with the flow.&lt;/p&gt;
+&lt;p&gt;When the accidents happen, people are usually moving pretty slowly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="north-america"&gt;
+&lt;h3&gt;North America&lt;/h3&gt;
+&lt;p&gt;Roundabouts used to be far less common in North America.  Four-way
+stops are the order of the day.&lt;/p&gt;
+&lt;p&gt;You arrive at the junction and stop.  If no-one else is there then you
+can proceed, others arriving after you should give way.&lt;/p&gt;
+&lt;p&gt;Now this can lead to the &lt;em&gt;Canadian stand-off&lt;/em&gt;.   You arrive at a
+roundabout just as someone else arrives.  There then follows an
+elaborate dance where you both just sit there waiting for the other to
+go first, often accompanied by hand-gestures.   Dead-lock is not
+uncommon.&lt;/p&gt;
+&lt;div class="section" id="ottawa"&gt;
+&lt;h4&gt;Ottawa&lt;/h4&gt;
+&lt;p&gt;There is a roundabout near the Experimental Farm that itself seems to
+be a wonderful experiment in mixing British and French roundabout
+rules.&lt;/p&gt;
+&lt;p&gt;Back in the day it was probably a four way stop, a simple cross-roads.&lt;/p&gt;
+&lt;p&gt;Let's pretend there is a north-south (NS) road crossing east-west (EW)
+and the NS is the bigger road.&lt;/p&gt;
+&lt;p&gt;If you are travelling NS or SN, you can pretent your are French and
+drive straight on to the roundabout.  Those coming from an EW
+direction will give way to you.&lt;/p&gt;
+&lt;p&gt;If you are turning left, then you will have to give way to traffic
+entering on the NS road.&lt;/p&gt;
+&lt;p&gt;Now if you arrive on the EW road you have to give way to traffic
+already on the roundabout.&lt;/p&gt;
+&lt;p&gt;So this is a complicated mixture of giving way to the left or right
+depending on where you are on the roundabout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="going-backwards-round-the-magic-roundabout"&gt;
+&lt;h4&gt;Going backwards round the magic roundabout&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;* please don't try this *&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Traffic arriving from east (or west) could do a Pierre Trudeau, behind
+the Queen pirouette, turning 180 degrees to enter the roundabout
+backwards.&lt;/p&gt;
+&lt;p&gt;In this way, the &lt;em&gt;give way to traffic on your right&lt;/em&gt; rule ensures the
+traffic that you need to giver way to is always coming from your right.&lt;/p&gt;
+&lt;p&gt;Once on the roundabout another pirouette should be done, having done
+this, again give way to traffic entering from the North/South road,
+which is again on your right.&lt;/p&gt;
+&lt;p&gt;This also ensures if you exit on this route you are facing the right
+way.&lt;/p&gt;
+&lt;p&gt;If continuing around the roundabout, another pirouette should be
+performed after passing the north/south road.  Hence, you will again
+be going backwards on the magic roundabout.   With your right side to
+the centre of the roundabout there is no need to give way.&lt;/p&gt;
+&lt;p&gt;When I was much younger my mother one night announced she felt a
+little typsy.  As a curious child I asked what that was like.  She
+said, "it is like I am going backwards on the magic roundabout".&lt;/p&gt;
+&lt;p&gt;Like I said, don't try this on the road.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="johnny-barnes"&gt;
+&lt;h3&gt;Johnny Barnes&lt;/h3&gt;
+&lt;p&gt;In Hamilton, Bermuda there are several roundabouts.&lt;/p&gt;
+&lt;p&gt;But there is one special one.  It is known as The Johnny Barnes
+roundabout and has its own magic.&lt;/p&gt;
+&lt;p&gt;It is indeed magic.  Every weekday, between 5am and 10am you will see
+Johnny Barnes.  He has been waving to traffic and dispensing love
+at the roundabout since retiring from the Bus company.  He is now in
+his 90's.&lt;/p&gt;
+&lt;p&gt;Bermuda has its own road rules.  Mostly following the British.  But
+the horn only really gets used to say &lt;em&gt;hi&lt;/em&gt; to friends and cousins.&lt;/p&gt;
+&lt;p&gt;If you see a friend trying to get out of a small side road you might
+well follow the "priorite a la droite" rule and wave for them to go
+ahead of you, even though you have right of way.  The roads are
+narrow, the speed limit is 20 mph and a little give and take makes it
+a better place for everyone.&lt;/p&gt;
+&lt;p&gt;But if you are new to the island, watch out for vehicles stopping to let
+people out of tiny driveways and side roads.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-about-the-geese"&gt;
+&lt;h2&gt;What about the geese?&lt;/h2&gt;
+&lt;p&gt;Last week the Mighty Blades played Swindon.  Those brave fans that
+made the journey down to Swindon went there knowing they would have to
+negotiate the Magic Roundabout.&lt;/p&gt;
+&lt;p&gt;Being Blades fans, they were probably expecting the worst and a heavy
+defeat.  I believe all the fans got through the roundabout unscathed.&lt;/p&gt;
+&lt;p&gt;As for the game, well the new manager, Nigel Adkins, played a
+motivational video before the game.  Google "geese sufc" and you
+should find it.&lt;/p&gt;
+&lt;p&gt;It explains how geese are able to travel 70% further by flying in a V
+formation.  How one goose will lead and when tired drop back into the
+formation and let another take the lead.d&lt;/p&gt;
+&lt;p&gt;If a goose is tiring and struggling, two other strong geese will drop
+down to the ocean with the struggler and stay with it until it either
+dies or makes a recovery.  They will then fly together to rejoin the
+flock, or tag onto another flock following behind.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="magic-roundabouts-and-mother-geese"&gt;
+&lt;h2&gt;Magic Roundabouts and Mother Geese&lt;/h2&gt;
+&lt;p&gt;When I was younger, my mum was my Magic Roundabout.  She would watch
+the world circling around her and find ways to change the paths of
+those that needed to be on a different path, or gently put together
+those that would benefit from each other.&lt;/p&gt;
+&lt;p&gt;I now have another Magic Roundabout in my life.  Mum's are magic.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>france</category><category>ottawa</category><category>roundabouts</category><category>sufc</category><category>swindon</category><guid>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</guid><pubDate>Fri, 04 Sep 2015 14:54:08 GMT</pubDate></item><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
+a hurricane going over the Cape Verde islands.  I was shown pictures
+today of seas damaging a pier.  I have not heard too much more about
+damage.&lt;/p&gt;
+&lt;p&gt;Six years ago, Fred formed around the same area a little further
+south, but did not intensify as fast.  It did become a hurricane, then
+dissipated as it curled, for a short while was heading easterly, then
+got pushed back westward.  By this time it had fallen apart and it
+did not get organised again, but the remnants of the storm tracked a
+good way across the Atlantic.&lt;/p&gt;
+&lt;p&gt;Looking at the discussion of Fred, it is likely to be pulled apart in
+the short term.  Then the track forecasts give a range of
+possibilities, including heading westward.&lt;/p&gt;
+&lt;p&gt;Latest (5AM AST, 1st September) forecast discussion:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml"&gt;http://www.nhc.noaa.gov/text/refresh/MIATCDAT1+shtml/010849.shtml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These discussions tend to be very helpful in gauging how much
+confidence the forecasters about the forecasts.&lt;/p&gt;
+&lt;p&gt;These days, both track and intensity forecasts can be pretty accurate
+out to 24 hours or so.&lt;/p&gt;
+&lt;p&gt;This paragraph from the discussion has a lot of information in it:&lt;/p&gt;
+&lt;blockquote&gt;
+Fred is expected to move between west-northwest and northwest for
+the next 72 hours as a mid-level ridge to the north of the cyclone
+gradually builds westward. After that time, a turn toward the
+north-northwest and north is forecast due to a deep-layer trough
+currently over eastern Canada that is expected to dig
+southeastward over the central Atlantic and erode the ridge. The
+NHC model guidance is in decent agreement on this developing
+pattern change.  However, there are significant differences in the
+model solutions with the HWRF, GFS, and GFDL models keeping Fred
+stronger and making the northward turn sooner, whereas the weaker
+solution models like the UKMET and ECMWF take a weaker and more
+vertically shallow cyclone farther west before turning it
+northward.  The official forecast track is a little south of the
+previous advisory track, mainly due to the more southerly initial
+position, and follows a blend of the weaker UKMET and ECMWF
+solutions.&lt;/blockquote&gt;
+&lt;p&gt;At the end, we learn the current forecast track is further south than
+the previous advisory.  The discussion notes this is mostly because
+Fred did not move as far north as expected over the previous period.&lt;/p&gt;
+&lt;p&gt;Disagreements in models are usually informative, often indicating
+there is more uncertainty in the forecast.  Sometimes the forecasters
+have good understanding of why the models are disagreeing, different
+models have different strengths.&lt;/p&gt;
+&lt;div class="section" id="bermuda-weather"&gt;
+&lt;h2&gt;Bermuda Weather&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="wikipedia"&gt;
+&lt;h2&gt;Wikipedia&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29"&gt;https://en.wikipedia.org/wiki/Hurricane_Fred_%282015%29&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29"&gt;https://en.wikipedia.org/wiki/Hurricane_Fred_%282009%29&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="national-hurricane-centre"&gt;
+&lt;h2&gt;National Hurricane Centre&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif"&gt;http://weather.bm/images/surfaceAnalysis/Latest/Atlantic.gif&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>2014</category><category>2015</category><category>fred</category><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/fred-update.html</guid><pubDate>Tue, 01 Sep 2015 00:41:56 GMT</pubDate></item><item><title>Erika, Andrew, Danny and Fred</title><link>http://openbermuda.github.io/80days/posts/erika-andrew-danny-and-fred.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The last few weeks the Atlantic hurricane season has got more active.&lt;/p&gt;
+&lt;p&gt;Danny never really got started, was blown apart by sheer, but no doubt
+spawned a lot of thunderstorms.&lt;/p&gt;
+&lt;p&gt;Flooding from Erika has resulted in numerous deaths in Domincan
+Republic.&lt;/p&gt;
+&lt;p&gt;Erika has fallen apart, but again there will be a lot of thunderstorms
+along its path.  There is a lot of moisture in the atmosphere.&lt;/p&gt;
+&lt;div class="section" id="erika"&gt;
+&lt;h2&gt;Erika&lt;/h2&gt;
+&lt;p&gt;Early forecasts had the most likely track heading over Hispanola, Then
+curving, but likely being blown apart by sheer from strong upper
+atmosphere winds related to El Nino.&lt;/p&gt;
+&lt;p&gt;This is in fact very close to what actually has happened.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="track-forecast"&gt;
+&lt;h2&gt;Track forecast&lt;/h2&gt;
+&lt;p&gt;The weather models started to suggest the storm would curve more
+northerly.  This all involves really complex systems that stretch over
+thousands of miles.&lt;/p&gt;
+&lt;p&gt;So the models most likely path was more northerly, and that might take
+it on a path to hit Florida.&lt;/p&gt;
+&lt;p&gt;At one point the most likely track was heading all up the east coast
+of Florida, without making landfall.  If it had held together it might
+of intensified over hot water with low windsheer and been a major
+storm at landfall in the Carolinas.&lt;/p&gt;
+&lt;p&gt;Throughout this period there was always the possibility of heading
+over Hispanola, but it wasn't the most likely path.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="andrew"&gt;
+&lt;h2&gt;Andrew&lt;/h2&gt;
+&lt;p&gt;Andrew formed in a similar season to 2015 with a high El Nino.&lt;/p&gt;
+&lt;p&gt;It took a more northerly track, steered north of the Caribbean, then
+turned straight into Florida.&lt;/p&gt;
+&lt;p&gt;I think a comparison of Andrew and Erika, Danny too, would be
+interesting.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="fred"&gt;
+&lt;h2&gt;Fred&lt;/h2&gt;
+&lt;p&gt;Hurricane names run on a six year cycle.  So, there are six lists,
+that repeat every six years.&lt;/p&gt;
+&lt;p&gt;If a storm becomes significant in some way, usually the more intense
+and damaging storms that hit land, the name gets &lt;em&gt;retired&lt;/em&gt; from the
+list and is forever associated with that storm.&lt;/p&gt;
+&lt;p&gt;So, we have Fred.  Now for me, Fred means Fiery Fred Trueman,
+Yorkshire and England fast bolwer.  I never saw him play, but often
+heard him commentating on test matches.&lt;/p&gt;
+&lt;p&gt;So some day we will see a Fiery Fred storm.&lt;/p&gt;
+&lt;p&gt;A storm named Fred has just formed.  Like Erika, there is a fair
+amount of uncertainty on what path it takes and how intense it will
+get.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="more-information"&gt;
+&lt;h2&gt;More information&lt;/h2&gt;
+&lt;p&gt;Michael Johnston has also been blogging about the &lt;a class="reference external" href="https://bermudaweather.wordpress.com/2015/08/30/active-tropics/"&gt;recent storms&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>hurricane</category><category>weather</category><guid>http://openbermuda.github.io/80days/posts/erika-andrew-danny-and-fred.html</guid><pubDate>Sun, 30 Aug 2015 21:39:48 GMT</pubDate></item><item><title>The raspberry pi super computer</title><link>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The raspberry pi 2 comes with around 6 times the processing power of
+the original pi.&lt;/p&gt;
+&lt;p&gt;It is still fairly low powered, but it is interesting to compare the
+pi with some older computers that were considered powerful in their
+day.&lt;/p&gt;
+&lt;p&gt;The pi comes with an ARM 7, quad-core processor.  It also has a
+Broadcom graphics processor that can potentially be used for compute
+intensive work.&lt;/p&gt;
+&lt;p&gt;It also comes with 1GB of memory.&lt;/p&gt;
+&lt;p&gt;For disk storage the nornal approach is to use a micro SD card.  There
+are 16GB cards that give 45MB/s read/write capability.&lt;/p&gt;
+&lt;p&gt;For less than $1000 you can get 20 pi's, with fast SD cards.  The
+result is a machine with 80 cores, 16GB of memory and 320GB of disk,
+with a combined bandwidth of 900MB/s read and write.&lt;/p&gt;
+&lt;p&gt;These things are low power, so a 20 pi machine would require just 100
+watts of power.&lt;/p&gt;
+&lt;p&gt;It is reasonable to assume that more powerful devices will be
+available in he future.&lt;/p&gt;
+&lt;p&gt;In short, computing power is becoming very, very cheap.&lt;/p&gt;
+&lt;div class="section" id="cray-xmp"&gt;
+&lt;h2&gt;Cray-XMP&lt;/h2&gt;
+&lt;p&gt;To give some indication of how cheap compute power has become, this
+&lt;a class="reference external" href="http://vk5tu.livejournal.com/50955.html"&gt;comparison to a Cray-XMP&lt;/a&gt; shows that the older Pi B+ has very
+similar compute power to the Cray-XMP.&lt;/p&gt;
+&lt;p&gt;When you compate the inflation adjusted price tags you see how cheap
+compute power has become.&lt;/p&gt;
+&lt;p&gt;The Pi 2 is roughly six times the power of the B+.  Hence 20 of those
+gives you 120 Cray-XMP's.   For $1000.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="renewable-energy"&gt;
+&lt;h2&gt;Renewable energy&lt;/h2&gt;
+&lt;p&gt;One criticism often directed at renewable energy is that sun, wind and
+wave are not reliable.  In order to reliably meet peak demand much
+it is necessary to have much more capacity than is needed on average.&lt;/p&gt;
+&lt;p&gt;One way to mitigate this cost is to have uses for the spare capacity.&lt;/p&gt;
+&lt;p&gt;One possible use is to have a compute farm to mop up spare capacity.
+This works particularly well if you have long running computations
+that can be used to mop up spare compute cycles.&lt;/p&gt;
+&lt;p&gt;Bitcoin mining is one potential application.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Cray</category><category>Cray-XMP</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/the-raspberry-pi-super-computer.html</guid><pubDate>Sat, 01 Aug 2015 22:08:09 GMT</pubDate></item><item><title>Red and White v Blue and White</title><link>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last Saturday there was a big cricket match at Lord's.&lt;/p&gt;
+&lt;p&gt;Not the Lord's where England were falling apart as the Aussies were
+dominating the second test, but Lord's in St David's, Bermuda.&lt;/p&gt;
+&lt;p&gt;Bailey's Bay were playing Cleveland County in what is known as the
+Eastern Counties.&lt;/p&gt;
+&lt;p&gt;Each team in Bermuda has its colours, Bay are red and white, Cleveland
+are blue and white.&lt;/p&gt;
+&lt;p&gt;I come from Sheffield, UK, a city divided between the blue and white
+of the Owls and the red and white of the Mighty Blades.  I follow the
+Blades, so it was natural for me to be cheering for Bailey's Bay.&lt;/p&gt;
+&lt;p&gt;We had a slow start to the day and it was a long (for Bermuda) ride on
+the moped to St David's, so we didn't get to the ground until just
+before lunch.&lt;/p&gt;
+&lt;p&gt;As we entered we were greeted by a larger than life character in red
+and white.  Once I took out my red and white, &lt;em&gt;cat in the hat&lt;/em&gt;
+headgear he directed us towards the Digicel tent.&lt;/p&gt;
+&lt;img alt="../galleries/EasternCounties/20150718_123538.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_123538.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;The game was nicely poised, with Cleveland batting first and on about
+80 runs for 4 wickets at lunch.&lt;/p&gt;
+&lt;p&gt;After lunch the Bay bowlers dominated and Cleveland were bowled out
+for 127 in 49.3 overs.&lt;/p&gt;
+&lt;img alt="../galleries/EasternCounties/20150718_151601.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_151601.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;Lord's is a wonderful ground, right by the ocean, with natural banks
+on which people build stands.  Between innings we went for a walk
+round the ground and took some pictures.&lt;/p&gt;
+&lt;img alt="../galleries/EasternCounties/20150718_125203.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_125203.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;And then there is the precariously perched commentary position that
+you have to walk the plank to get to:&lt;/p&gt;
+&lt;img alt="../galleries/EasternCounties/20150718_152446.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_152446.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;Now being a Blades supporter I have got used to my team snatching
+defeat from the jaws of victory.  The target of 128 that Bay were set
+should have been easily within their grasp, but we were about to
+witness one of the most bizarre afternoon's cricket there ever was.&lt;/p&gt;
+&lt;p&gt;Bay lost two early wickets, but then regrouped and the batsmen were
+starting to open up at 50-2.   Cleveland had a couple of strong
+appeals turned down.  There was a strong appeal for a catch, but it
+was one of those where it was hard to tell if the ball had been
+blocked into the ground or hit the ground and come off the bat.  The
+umpire gave the benefit of the doubt to the batsman.&lt;/p&gt;
+&lt;p&gt;Cleveland protested and for 40 minutes chaos ensued.  Both coaches,
+the president of the Eastern Counties and even a policeman took to the
+pitch to try and get the game restarted.&lt;/p&gt;
+&lt;img alt="../galleries/EasternCounties/20150718_171958.jpg" src="http://openbermuda.github.io/80days/galleries/EasternCounties/20150718_171958.jpg" style="width: 400px; height: 300px;"&gt;
+&lt;p&gt;Soon after the restart, there was another delay for a drinks break.
+The batsmen were finding it difficult to get into any sort of rhythm
+and first ball after the break a wicket fell.&lt;/p&gt;
+&lt;p&gt;After this wickets fell steadily, but Bay always looked like they
+would make it.  Until, after 30 overs, with the scores tied and Bay
+with just 2 wickets remaining the umpires declared the game over.&lt;/p&gt;
+&lt;p&gt;With the scores tied, Cleveland, as holders, were declared winners.&lt;/p&gt;
+&lt;p&gt;It reminded me of the infamous F.A. Cup tie when the Blades were
+holding their own against an Arsenal side.  The ball was kicked into
+play for an injury.  The resulting throw was sportingly thrown back to
+the blades players, but Kanu did not seem to understand what was
+happening, raced onto the ball and slotted it into the net.&lt;/p&gt;
+&lt;p&gt;Arsenal went on to win, but Wenger graciously agreed to replay the
+game.  Of course, the Blades went on to lose the replay, but at least
+the game was not decided by this bizarre incident.&lt;/p&gt;
+&lt;p&gt;I read today that the Cleveland coach was very unhappy with his sides
+behaviour, perhaps he will follow Wenger's example and ask for the
+game to be replayed.  However, that might not be possible given the
+busy summer cricket schedule here in Bermuda, with Cup Match &lt;a class="footnote-reference" href="http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html#id2" id="id1"&gt;[2]&lt;/a&gt; less than
+two weeks away this might not be an option.&lt;/p&gt;
+&lt;p&gt;Today's Royal Gazette has a full page &lt;a class="reference external" href="http://www.royalgazette.com/article/20150720/COMMENT01/150729969"&gt;editorial&lt;/a&gt; on the game.  There
+are also rumours that Cleveland have been &lt;a class="reference external" href="http://www.royalgazette.com/article/20150720/SPORT02/150729960"&gt;stripped of the cup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is never dull following the Red and White wizards.&lt;/p&gt;
+&lt;p&gt;So much for the cricket, the day itself was fun from beginning to
+end.  Unfortunately, I had packed the bag of stuff to take to the
+ground, so instead of drinks and food and sunscreen we had an
+assortment of raspberry pi's, humidity sensors, air pressure sensors,
+wires, breadboards and a netbook.&lt;/p&gt;
+&lt;p&gt;There was food in the clubhouse, yellow and blue, St David's colours.
+So we were able to find some chips that weren't made of silicon.  And
+the rum swizzle went down very smoothly.&lt;/p&gt;
+&lt;p&gt;The banter in the crowd rarely stopped, with fans from both sides
+sitting enjoying together.&lt;/p&gt;
+&lt;p&gt;Cricket in Bermuda is very much something you go to watch with family
+and friends.  Worst case, you have a day in the sunshine in a
+beautiful setting, with people you love.&lt;/p&gt;
+&lt;p&gt;Next stop the blue and red of Somerset playing the light and dark blue
+of St George's.  Cup Match!&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html#id1"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cup match is a two day game between the Red and Blue of
+Somerset and the dark and light blue of St Georges.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;</description><guid>http://openbermuda.github.io/80days/posts/red-and-white-v-blue-and-white.html</guid><pubDate>Mon, 20 Jul 2015 00:35:52 GMT</pubDate></item><item><title>Sixty-seven Minutes</title><link>http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Nelson-Mandela-Day"&gt;Nelson Mandela Day&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html#Nelson-Mandela-Day"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;July 18th is Nelson Mandela's birthday, he would have been 97.&lt;/p&gt;
+&lt;p&gt;The United Nations calls it Mandela Day, or international day for
+freedom, justice and democracy.  They say:&lt;/p&gt;
+&lt;p&gt;Every year on 18 July — the day Nelson Mandela was born — the UN
+   joins a call by the Nelson Mandela Foundation to devote 67 minutes of
+   time to helping others, as a way to mark Nelson Mandela International
+   Day.&lt;/p&gt;
+&lt;p&gt;For 67 years Nelson Mandela devoted his life to the service of
+   humanity — as a human rights lawyer, a prisoner of conscience, an
+   international peacemaker and the first democratically elected
+   president of a free South Africa.&lt;/p&gt;
+&lt;p&gt;There is more here:  &lt;a href="http://www.un.org/en/events/mandeladay/"&gt;http://www.un.org/en/events/mandeladay/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are a number of events being organised in Bermuda.&lt;/p&gt;
+&lt;p&gt;It looks like things might kick off early with this event at Bermuda College:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;blockquote&gt;&lt;p&gt;On the Eve of Nelson Mandela Day&lt;/p&gt;
+&lt;p&gt;Collaboration by:&lt;/p&gt;
+&lt;p&gt;ADHT,  Bermuda College, Chewstick, HRC, Imagine Bermuda&lt;/p&gt;
+&lt;p&gt;Presents&lt;/p&gt;
+&lt;p&gt;Another Kind of ‘Happy Hour’&lt;/p&gt;
+&lt;p&gt;Based @ the Bermuda College Library&lt;/p&gt;
+&lt;p&gt;FRIDAY, JULY 17TH 5.30 – 7.30 pm&lt;/p&gt;
+&lt;p&gt;MUSIC……….POETRY………STORY-SHARING&lt;/p&gt;
+&lt;p&gt;NETWORKING…….NETPLAYING&lt;/p&gt;
+&lt;p&gt;Meet and Greet,&lt;/p&gt;
+&lt;p&gt;Even stump your feet,&lt;/p&gt;
+&lt;p&gt;Although Challenging,&lt;/p&gt;
+&lt;p&gt;Remember, Life is Sweet!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;There are others planning events, I will try to post details here.&lt;/p&gt;
+&lt;p&gt;I am thinking of going to different events and doing &lt;em&gt;sixty-seven minutes of pi&lt;/em&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Mandela often spoke of Ubuntu:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Ubuntu does not mean that people should not enrich themselves. The
+question therefore is: Are you going to do so in order to enable the
+community around you to be able to improve?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Trivia"&gt;Trivia&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html#Trivia"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [7]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;math&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;ipython_doctester&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;test&lt;/span&gt;
+
+&lt;span class="c"&gt;# FIXME &lt;/span&gt;
+&lt;span class="c"&gt;# ipython_doctester broken, might be this prob: https://github.com/catherinedevlin/ipython_doctester/pull/5&lt;/span&gt;
+&lt;span class="c"&gt;#@test&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;prime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;""" Simple primality tester&lt;/span&gt;
+
+&lt;span class="sd"&gt;    Examples:&lt;/span&gt;
+&lt;span class="sd"&gt;    &lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;gt;&amp;gt;&amp;gt; prime(15)&lt;/span&gt;
+&lt;span class="sd"&gt;    False&lt;/span&gt;
+
+&lt;span class="sd"&gt;    &amp;gt;&amp;gt;&amp;gt; prime(67)&lt;/span&gt;
+&lt;span class="sd"&gt;    True&lt;/span&gt;
+&lt;span class="sd"&gt;    """&lt;/span&gt;
+
+    &lt;span class="c"&gt;# Deal with some small numbers&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;True&lt;/span&gt;
+
+    &lt;span class="n"&gt;factor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="n"&gt;factor&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sqrt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;factor&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;False&lt;/span&gt;
+        
+        &lt;span class="n"&gt;factor&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;True&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [9]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# Is 67 prime?&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Is 67 prime?"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;67&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c"&gt;# Mandela would have been 97&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Is 97 prime?"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;97&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;Is 67 prime?
+True
+Is 97 prime?
+True
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Sixty-seven-minutes-of-$\pi$"&gt;Sixty-seven minutes of $\pi$&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html#Sixty-seven-minutes-of-%24%5Cpi%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Angles are measured in different units.  Mostly, people seem to use degrees.&lt;/p&gt;
+&lt;p&gt;A right angle is 90 degrees.  The angles in a triangle add up to 180 degrees.&lt;/p&gt;
+&lt;p&gt;In mathematics it is often useful to use different units, &lt;em&gt;radians&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$\pi$ radians is equal to 180 degrees.  So the angles in a triangle
+add up to 180 degrees.&lt;/p&gt;
+&lt;p&gt;Now just as there are 60 minutes in an hour, there are also 60 minutes in a degree.&lt;/p&gt;
+&lt;p&gt;So, 67 minutes of $\pi$ is just 67 minutes from 180 degrees.&lt;/p&gt;
+$$ x = \pi * 67 / (180 * 60)$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [10]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# In python&lt;/span&gt;
+
+&lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;67&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;0.019489509980603347&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [11]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# Now 67 minutes of pi number begins 0.01948.&lt;/span&gt;
+
+&lt;span class="mi"&gt;1948&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;67&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;2015&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;So if Mandela had started his campaigning on his birthday in 1948 he would still be at it today.&lt;/p&gt;
+&lt;p&gt;The UN are just asking you to spend 67 minutes helping others on his birthday.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>67</category><category>giving</category><category>mandela</category><category>pi</category><category>take a minute</category><guid>http://openbermuda.github.io/80days/posts/sixty-seven-minutes.html</guid><pubDate>Thu, 09 Jul 2015 17:02:34 GMT</pubDate></item><item><title>Future proof your organisation with free software</title><link>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago I was hoping to be able to listen to a Bermuda
+Parliament debate via the Hansard site.&lt;/p&gt;
+&lt;p&gt;I was actually unable to find a stream for the debates.  Further
+enquiries revealed it does exist, but the streaming uses Microsoft's
+Silverlight.&lt;/p&gt;
+&lt;p&gt;This creates a problem, since Microsoft has abandoned Silverlight and
+it is no longer supported and does not work in many modern browsers.&lt;/p&gt;
+&lt;p&gt;This is a scenario that gets repeated over and over.  In what follows,
+I will be using government as an example, but you could substitute
+&lt;em&gt;organisation&lt;/em&gt; for government and the story is the same.&lt;/p&gt;
+&lt;p&gt;So here is a typical scenario:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Government has a problem to solve, in this case streaming recordings
+of parliamentary debates.&lt;/li&gt;
+&lt;li&gt;Government hires a consultant &lt;a class="footnote-reference" href="http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id2" id="id1"&gt;[1]&lt;/a&gt;  to implement a solution:&lt;ul&gt;
+&lt;li&gt;the consultant chooses the technology stack&lt;/li&gt;
+&lt;li&gt;government workers lack time, resources and skills to understand the
+choices the consultant is making.  This problem is exacerbated by
+outsourcing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Consultant provides a solution with proprietary technologies.  In many
+cases the consultant, not the government owns the software created for
+the project.  The result is the government is locked into that
+consultant for support and dependent on proprietary software
+companies for support.&lt;/li&gt;
+&lt;li&gt;Proprietary vendor drops support for the tech that was used.  Result
+is unmaintainable websites that eventually have to be replaced.
+Everything is thrown out and the process is repeated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the free software world you get a different story:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Government has a problem to solve, in this case streaming recordings
+of parliamentary debates.&lt;/li&gt;
+&lt;li&gt;Government IT staff research free software solutions that will solve
+the problem&lt;ul&gt;
+&lt;li&gt;they look to see what others are using;&lt;/li&gt;
+&lt;li&gt;they work with those in other government departments with similar
+problems;&lt;/li&gt;
+&lt;li&gt;they pick some free software projects that solve the problem and
+that appear to be active and vibrant projects;&lt;/li&gt;
+&lt;li&gt;the solution is implemented;&lt;/li&gt;
+&lt;li&gt;any software written is released as a free software project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this scenario, the end result is something that can be supported not
+just by the government workers involved in the project, but actually
+anyone with access to the code, which is in fact &lt;em&gt;everyone&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This includes enthusiasts in the local community, but also people
+worldwide that are working with the technology that is being used.&lt;/p&gt;
+&lt;p&gt;Instead of being tied to a single supplier, there is choice and hence a
+competitive market.&lt;/p&gt;
+&lt;p&gt;The software will generally be both free as in freedom and free as in
+cost.  The money saved can be invested in developing local talent to
+support it.&lt;/p&gt;
+&lt;p&gt;Further money will be saved in the future due to not having to replace
+the system due to proprietary vendors stopping support.  Sure the system
+will need maintenance and future development, but the government workers
+will have all the tools they need to do this.&lt;/p&gt;
+&lt;p&gt;The system will likely require lower cost hardware resource too.&lt;/p&gt;
+&lt;div class="section" id="silverlight-and-moonlight"&gt;
+&lt;h2&gt;Silverlight and Moonlight&lt;/h2&gt;
+&lt;p&gt;The Silverlight story is an excellent example of this sort of problem.&lt;/p&gt;
+&lt;p&gt;Microsoft launched Silverlight with a great fanfare, whilst ignoring
+web standards such as HTML5 that provided very similar capabilities.&lt;/p&gt;
+&lt;p&gt;It integrated nicely with their .NET platform and they provided some
+good tools to help with development.&lt;/p&gt;
+&lt;p&gt;However, Silverlight failed to gain traction and by 2013 Microsoft
+announced they were discontinuing development, just six years after
+introducing the technology.&lt;/p&gt;
+&lt;div class="section" id="security-and-proprietary-frameworks"&gt;
+&lt;h3&gt;Security and proprietary frameworks&lt;/h3&gt;
+&lt;p&gt;This never ending stream of proprietary technologies, each supposedly
+better than the previous technology, that is no longer supported,
+creates serious computer security issues.&lt;/p&gt;
+&lt;p&gt;Many government websites here in Bermuda use Adobe Flash or
+Silverlight.  The latter is no longer supported, the former has very
+patchy support.&lt;/p&gt;
+&lt;p&gt;In any case, government sites using Flash depend on ancient versions
+that are likely riddled with security holes, yet impossible to
+support.  Further, they simply do not work in modern browsers.&lt;/p&gt;
+&lt;p&gt;Free software greatly reduces this problem: since the software comes
+with freedom, those using it have everything they need to support it.&lt;/p&gt;
+&lt;p&gt;Upgrades are done only as and when significant improvements are made,
+not on some corporation's timetable, designed to generate revenue for
+that corporation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mono"&gt;
+&lt;h2&gt;Mono&lt;/h2&gt;
+&lt;p&gt;Silverlight is built on top of Microsoft's .NET framework.  .NET is
+interesting technology, but in many ways not fundamentally different to
+Java.&lt;/p&gt;
+&lt;p&gt;The free software community has always been wary of .NET.  There is a
+project called "mono" that is a free implementation of .NET.  There were
+concerns that mono infringes some Microsoft, might use those patents to
+attack mono.&lt;/p&gt;
+&lt;p&gt;In fact, this has not happened and recently Microsoft has released a
+number of .NET related tools as open source, but there is still some
+wariness about mono.  I believe it does have a significant role to play
+in helping Microsoft shops migrate to free software.&lt;/p&gt;
+&lt;p&gt;When Silverlight was announced the Mono team started the Moonlight
+project, a free implementation of silverlight.&lt;/p&gt;
+&lt;p&gt;The project was abandonned in 2012 after poor adoption of Silverlight
+and very few sites that use Silverlight work under Moonlight.&lt;/p&gt;
+&lt;p&gt;The result is that people who used Silverlight are left with an
+expensive mess.&lt;/p&gt;
+&lt;p&gt;It is also interesting to read the criticisms of Silverlight in the
+wikipedia article.  Note that many of these criticisms come from
+companies like Adobe, who were probably more motivated by protecting
+their ancient Flash technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="footnotes"&gt;
+&lt;h2&gt;Footnotes&lt;/h2&gt;
+&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;I say &lt;em&gt;consultant&lt;/em&gt; but it could be any vendor offering a solution.&lt;/p&gt;
+&lt;p&gt;I don't mean to bash consultants, there are some excellent ones out
+there, I am planning to be one myself.&lt;/p&gt;
+&lt;p&gt;Consultant's work pattern should be to come to an organisation,
+empower them to solve their own problem and leave them with all the
+resources they need to continue to maintain and develop that
+solution.&lt;/p&gt;
+&lt;p&gt;In short, "get in, solve the problem, empower the organisation, get
+out".&lt;/p&gt;
+&lt;p class="last"&gt;Too often the "empower the organisation" bit is skipped since by
+not doing that the consultant creates future opportunities for
+themselves.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>.NET</category><category>free software</category><category>moonlight</category><category>silverlight</category><guid>http://openbermuda.github.io/80days/posts/future-proof-your-organisation-with-free-software.html</guid><pubDate>Wed, 01 Jul 2015 20:52:03 GMT</pubDate></item><item><title>D Bermuda Pi</title><link>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Bermuda-Pi"&gt;Bermuda Pi&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Pi"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+$$\Delta \; B\epsilon\rho\mu\delta\alpha \; \Pi$$$$Number \; -e^{i\pi}$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The week 10th to 18th October 2015 there is a lot happening in Bermuda.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;TEDx Bermuda on 10th October&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;America's Cup racing 16th-18th October&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The first anniversary of hurricanes Fay and Gonzalo&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This creates a good opportunity to run a number of small events around
+&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Software&lt;/a&gt; and &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Free Culture&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Science, Technology, Engineering and Mathematics &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEM&lt;/a&gt; is already
+getting a lot of attention.  This is natural in a world where there is
+so much innovation and change in current times.&lt;/p&gt;
+&lt;p&gt;Throughout my life technological change has created a lot of wonderful
+things.  At the same time, humanity and social systems are struggling
+to keep pace with this change.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;STEAM&lt;/a&gt; adds the Arts into STEM.  Making the Bermuda $\pi$ a STEAM
+powered event seems a natural choice, as the event can then embrace
+Bermudian culture in general.&lt;/p&gt;
+&lt;p&gt;At the same time, a hurricane can be viewed as a giant steam engine.
+Bermuda once ran a steam powered island.  How about bringing this to
+the 21st century:  &lt;em&gt;D Bermuda $\pi$, STEAM powered&lt;/em&gt;.&lt;/p&gt;
+&lt;h5 id="Free-Culture"&gt;Free Culture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Free-Culture"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;People in the free software movement have been dealing with this
+change for some time.  They have developed ways of working with
+technology that not only scale, but also enable people to build
+systems that evolve naturally over time.&lt;/p&gt;
+&lt;p&gt;There is a more general Free Culture movement, publishing artistic
+material under &lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Creative Commons&lt;/a&gt; licenses that mirror the free
+software licenses.  Generally, these licenses allow others to build on
+the ideas and use them in their own work, usually with attribution.
+Some licenses do not permit commercial use, but many do.  Authors
+choose a license based on their own values.&lt;/p&gt;
+&lt;h5 id="Weather-and-hurricanes"&gt;Weather and hurricanes&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather-and-hurricanes"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Given the connection with Fay and Gonzalo some events would focus on
+hurricane research in the Bermuda context.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Event-Ideas"&gt;Event Ideas&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Event-Ideas"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;h4 id="A-Pi-conference"&gt;A Pi conference&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#A-Pi-conference"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Raspberry Pi's&lt;/li&gt;
+&lt;li&gt;Weather data&lt;/li&gt;
+&lt;li&gt;Hurricane simulation&lt;/li&gt;
+&lt;li&gt;Damage surveys and damage estimation&lt;/li&gt;
+&lt;li&gt;Impact of climate change&lt;/li&gt;
+&lt;li&gt;lightning talks&lt;/li&gt;
+&lt;li&gt;python and pi's in Bermuda education&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aim for most presentations to be about activities that are going on
+already in Bermuda, with some visions for future projects.&lt;/p&gt;
+&lt;p&gt;Invite others from overseas that are doing similar work.  Better
+still, people we are already collaborating with on Bermuda projects.&lt;/p&gt;
+&lt;p&gt;Focus on the Bermuda context: why is what you are doing a good fit for
+Bermuda, how can it fit better?&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Music,-Art"&gt;Music, Art&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Music,-Art"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Allow local musicians and artists to work and play together.  Work on
+making local artists work freely available on line.&lt;/p&gt;
+&lt;p&gt;Work on ways technology can complement the arts and vice versa.&lt;/p&gt;
+&lt;h4 id="Story-Telling"&gt;Story Telling&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Story-Telling"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Have people tell their hurricane stories about last year's storms.&lt;/p&gt;
+&lt;p&gt;Structure in a way that the stories might inspire new ideas to gather
+data and do research based on data from previous storms.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;ul&gt;
+&lt;li&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/li&gt;
+&lt;li&gt;Pies to eat&lt;/li&gt;
+&lt;li&gt;Education, teaching students using raspberry pi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The ideas here are very much inspired by the way &lt;a href="https://us.pycon.org"&gt;python conferences are run&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The aim is to have a number of small events, that together make up the &lt;code&gt;Bermuda Pi&lt;/code&gt; experience.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Food and sustainable agriculture&lt;/p&gt;
+&lt;h4 id="Local-Bermuda-food"&gt;Local Bermuda food&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Local-Bermuda-food"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;h4 id="How-to-do-sustainable-agriculture"&gt;How to do sustainable agriculture&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#How-to-do-sustainable-agriculture"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Leisure-activities"&gt;Leisure activities&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Leisure-activities"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Fay and Gonzalo parties would seem a good starter&lt;/p&gt;
+&lt;p&gt;Music, story-telling, Bermudian food,&lt;/p&gt;
+&lt;p&gt;Gombeys!&lt;/p&gt;
+&lt;p&gt;A 5km run over a 3.14 ($\pi$) mile course.&lt;/p&gt;
+&lt;p&gt;Pies to eat!&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Weather"&gt;Weather&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Weather"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Any event during hurricane season has to pay attention to the weather.&lt;/p&gt;
+&lt;p&gt;Given that one theme of &lt;code&gt;D Bermuda Pi&lt;/code&gt; will be hurricane research it
+would be unfortunate if the event were hit by a hurricane.&lt;/p&gt;
+&lt;p&gt;Having said that, it would give the researchers valuable first hand experience.&lt;/p&gt;
+&lt;p&gt;One project to work on during the week would be getting better
+estimates of the probability of the event being hit by bad weather.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use long term climate features such as El Nino, the North Atlantic
+Oscillation, and the Bermuda High to help with contingency planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Develop tools that can help with future event planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Study detailed windfields around the island to better understand the
+challenges faced by the sailors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Study tides and currents around the island&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html"&gt;Murphy's Law&lt;/a&gt; is likely to intervene here, so in the meanwhile it
+would be good if we kept an eye on the long range hurricane forecasts
+and nearer the time be in a position to work with Bermuda Weather and
+have plans in place in the event of bad weather.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Sustainablility-and-environmental-impact"&gt;Sustainablility and environmental impact&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Sustainablility-and-environmental-impact"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Renewable-Energy"&gt;Renewable Energy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Renewable-Energy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Information-security-and-privacy"&gt;Information security and privacy&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Information-security-and-privacy"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Cryptocurrencies,-Bitcoin"&gt;Cryptocurrencies, Bitcoin&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Cryptocurrencies,-Bitcoin"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Bermuda-Based-Organisations"&gt;Bermuda Based Organisations&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-Based-Organisations"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;BIOS station&lt;/li&gt;
+&lt;li&gt;Bermuda Weather&lt;/li&gt;
+&lt;li&gt;BEST -- sustainablility&lt;/li&gt;
+&lt;li&gt;code441&lt;/li&gt;
+&lt;li&gt;codtuna&lt;/li&gt;
+&lt;li&gt;Pecha Kucha&lt;/li&gt;
+&lt;li&gt;Chewstick&lt;/li&gt;
+&lt;li&gt;Others?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Coding-Sprint"&gt;Coding Sprint&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Coding-Sprint"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Work on free software projects for a better Bermuda.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Reinsurance"&gt;Reinsurance&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Reinsurance"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Many of the reinsurers are using free software and the python language in particular.&lt;/p&gt;
+&lt;p&gt;It should be possible to have a &lt;em&gt;free software in finance&lt;/em&gt; track,
+perhaps along the lines of the PyData conferences.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Visitors"&gt;Visitors&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Visitors"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Free software practitioners and enthusiasts&lt;/li&gt;
+&lt;li&gt;Python Foundation&lt;/li&gt;
+&lt;li&gt;RedHat&lt;/li&gt;
+&lt;li&gt;Canonical/Ubuntu&lt;/li&gt;
+&lt;li&gt;Environmentalists&lt;/li&gt;
+&lt;li&gt;Meteorologists and climate researchers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Venues"&gt;Venues&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Venues"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This will very much depend on the level of interest&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Southampton Princess conference hall, used for TEDx&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;BIOS station&lt;/p&gt;
+&lt;p&gt;The BIOS station is close to the airport and close to Paget Island (see below).&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Paget-Island"&gt;Paget Island&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Paget-Island"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Paget Island is one of a number of Government run islands.  It has
+basic facilities.  It would make an excellent venue for a coding
+sprint focussing on the environment and sustainability.&lt;/p&gt;
+&lt;p&gt;Bermuda is an expensive place to visit, some free sofware enthusiasts
+would be more than happy to come and camp on the island.&lt;/p&gt;
+&lt;p&gt;One goal would be to make this as inclusive an event as possible,
+hence creating many different activities that will appeal to different
+demographics, but also to find ways to mix those people and give them
+new experiences.&lt;/p&gt;
+&lt;p&gt;The buildings and infrastructure on Paget Island are in need of some
+TLC.  It would be good to work towards building a place run on
+renewable energy, environmentally positive where people can come to
+study how we are doing things in Bermuda.&lt;/p&gt;
+&lt;p&gt;The philosophy of a camp on the island would be to leave the place
+better than it is found.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Chewstick"&gt;Chewstick&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Chewstick"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Everywhere!"&gt;Everywhere!&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Everywhere!"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Trivia"&gt;Trivia&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Trivia"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Around-the-world-in-80-days"&gt;Around the world in 80 days&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Around-the-world-in-80-days"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;This blog started as a blog for an idea to create an *Around the world
+in 80 days* idea, to run little competitions where people get miles
+(or kilometers) for activities.  The idea is to see how far round the
+world you can get in 80 days, with fun twists along the way.
+One idea was to do an &lt;em&gt;Around Bermuda on Bermuda Bus and Ferry&lt;/em&gt;
+competition.  I learnt a lot on the project, but never quite got it
+out of the door.  But that is another story.&lt;/p&gt;
+&lt;p&gt;There is a version still limping along on heroku: &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kudos to heroku.  I have a half build project running there, haven't
+checked it in ages and boom it springs into life.&lt;/p&gt;
+&lt;p&gt;There are some other pieces coming together that might make the bus
+thing viable in the near future, just needs a bit of time applied to
+it.&lt;/p&gt;
+&lt;p&gt;One thing that I found useful in the project was thinking in an 80 day
+time horizon.  So I was curious about what date is 80 days before 10th
+October 2015, the date for the start of the Bermuda $\pi$.&lt;/p&gt;
+&lt;p&gt;Hitting &lt;em&gt;Home&lt;/em&gt; on the &lt;a href="https://tonzone80days.herokuapp.com/"&gt;https://tonzone80days.herokuapp.com/&lt;/a&gt; shows me this:&lt;/p&gt;
+&lt;p&gt;Jun 29, 2015 is today's date&lt;/p&gt;
+&lt;p&gt;Sep 17, 2015 is 80 days from today&lt;/p&gt;
+&lt;p&gt;Apr 10, 2015 was 80 days ago&lt;/p&gt;
+&lt;p&gt;So time for a little python.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# lets see what python says&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bermuda_pi_start&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=-&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;eighty_days_before_start&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;2015-07-22
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;So&lt;/span&gt; &lt;span class="n"&gt;things&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;started&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;July&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="n"&gt;nd&lt;/span&gt; &lt;span class="mi"&gt;2015&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+$$2015^{{10}^2}$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="What's-this-*Number-$-e^{i\pi}$-thing-about?"&gt;What's this *Number $-e^{i\pi}$ thing about?&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#What's-this-*Number-%24-e%5E%7Bi%5Cpi%7D%24-thing-about?"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;There is a wonderful equation in mathematics that links some of the key
+constants from the world of mathematics.&lt;/p&gt;
+&lt;p&gt;There is $\pi$, the ratio between a circle's diameter and its
+circumference. $\pi$ turns up all the time in mathematics.&lt;/p&gt;
+&lt;p&gt;Then there is &lt;em&gt;e&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Both $\pi$ and $e$ are transcendental, a special type of number,
+although there are an infinite number of transendental numbers, when
+they turn up in mathematics they tend to be important.&lt;/p&gt;
+&lt;p&gt;Then there is 1.  The special number that you can multiply any other
+number by and leave it unchanged.&lt;/p&gt;
+&lt;p&gt;And there is 0.  The special number you can add to anything and leave it unchanged.&lt;/p&gt;
+&lt;p&gt;The equation is known as &lt;a href="https://en.wikipedia.org/wiki/Euler%27s_identity"&gt;Euler's identity&lt;/a&gt;:&lt;/p&gt;
+$$ e^{i\pi} + 1 = 0 $$&lt;p&gt;As this would be the first Bermuda $\pi$ it would:&lt;/p&gt;
+&lt;h2 id="Bermuda-$\pi$-Number-1-=-$-e^{i\pi}$"&gt;Bermuda $\pi$ Number 1 = $-e^{i\pi}$&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/d-bermuda-pi.html#Bermuda-%24%5Cpi%24-Number-1-=-%24-e%5E%7Bi%5Cpi%7D%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let's make it number one, every year.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>bermuda</category><category>chewstick</category><category>education</category><category>python</category><category>raspberry pi</category><guid>http://openbermuda.github.io/80days/posts/d-bermuda-pi.html</guid><pubDate>Mon, 22 Jun 2015 21:12:40 GMT</pubDate></item><item><title>Where's de bus</title><link>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's TLF students are considering creating an application to
 give Bermuda's public transport users up to date information on where
 the buses and ferries actually are.&lt;/p&gt;
 &lt;p&gt;Transit authorities that have made this data available have found a
@@ -47,7 +1277,7 @@ as &lt;a class="reference external" href="http://www.opengts.org/"&gt;OpenGTS&lt
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://swfiua.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item><item><title>Sharon Wilson</title><link>http://swfiua.github.io/80days/posts/sharon-wilson.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;If you visit Bermuda you will likely end up at Horseshoe Bay at some
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item><item><title>Sharon Wilson</title><link>http://openbermuda.github.io/80days/posts/sharon-wilson.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;If you visit Bermuda you will likely end up at Horseshoe Bay at some
 point during your trip.&lt;/p&gt;
 &lt;p&gt;This is one of the biggest and busiest of the South Shore beaches.
 Whenever there is a long weekend things will be happening on Horseshoe
@@ -67,640 +1297,12 @@ lives.  Her home is also her studio and her gallery.&lt;/p&gt;
 &lt;p&gt;If she is open for visitors she usually puts out a &lt;em&gt;sandwich board&lt;/em&gt; at
 the end of the road, sometimes with a couple of balloons attached.  In
 that case, you are in luck.  She will welcome you to her home and let
-you discover her art.&lt;/p&gt;&lt;/div&gt;</description><category>art</category><category>bermuda</category><guid>http://swfiua.github.io/80days/posts/sharon-wilson.html</guid><pubDate>Sun, 24 May 2015 15:40:38 GMT</pubDate></item><item><title>PyCon 2015</title><link>http://swfiua.github.io/80days/posts/pycon-2015.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am writing this as I fly back to Bermuda from another wonderful
-PyCon.  This year it was again in Montreal, the same venue as last
-year.  The next two years it will be in Portland, Oregon.&lt;/p&gt;
-&lt;p&gt;This is just one of the wonders of PyCon, the opportunity to visit
-vibrant cities with large tech communities.&lt;/p&gt;
-&lt;p&gt;The conference was bigger than ever, 3000 attendees.  My first PyCon
-was a mere 400 or so attendees.  Happily, as the conference has grown
-in size, it has retained the spirit that makes it a fantastic
-experience for old and new pythonistas.  If anything, it is more
-welcoming and inclusive as the years pass.  The community actively
-seeks to be inclusive and there were a number of talks and events
-along this theme.&lt;/p&gt;
-&lt;p&gt;The community spirit is absolutely fundamental to the success of
-python.  It is one of the main reasons to consider the language.  When
-you are working with python there is a huge community of enthusiastic
-and dedicated people who are only too happy to share their work and
-help others.&lt;/p&gt;
-&lt;p&gt;Below are some of the personal highlights from the conference, but
-there really is so much going on that what you will read here is just
-a snapshot of the magic that is PyCon and the python community.&lt;/p&gt;
-&lt;p&gt;It is also in no particular order.&lt;/p&gt;
-&lt;div class="section" id="satellite-data-for-everyone"&gt;
-&lt;h2&gt;Satellite data for everyone&lt;/h2&gt;
-&lt;p&gt;Chris Waigl gave an excellent talk on satellite imagery, the freely
-available data, how to work with it and the python tools that enable
-that work.&lt;/p&gt;
-&lt;p&gt;Seeing what others are able to do with data like this inevitably
-inspires new ideas.&lt;/p&gt;
-&lt;p&gt;I am planning to take a look at what imagery is available for Bermuda
-over the period of the hurricanes Fay and Gonzalo that hit the island
-separated only by six days.&lt;/p&gt;
-&lt;p&gt;There will definitely be good before and after imagery, with luck
-there will also be some usable images from the six day period between
-the storms.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="the-usual-suspects"&gt;
-&lt;h2&gt;The usual suspects&lt;/h2&gt;
-&lt;p&gt;The python community has some speakers that are very skilled at
-presenting complex ideas in an entertaining and informative way.
-They are always worth looking out for.  If you are new at PyCon, ask
-others what talks they are going to, it will help you be in the right
-room for you.&lt;/p&gt;
-&lt;p&gt;Oh, and don't panic, pretty much all talks are recorded and available
-online (youtube seems to have replaced PyVideo here).&lt;/p&gt;
-&lt;p&gt;This year, for me, it was the three B's: Beazely, Bernhart and
-Batchelder.&lt;/p&gt;
-&lt;div class="section" id="david-beazely-live-coding"&gt;
-&lt;h3&gt;David Beazely live coding&lt;/h3&gt;
-&lt;p&gt;I always enjoy listening to David Beazely.  This year he spoke on
-python concurrency with live coding.  I am guessing there were at
-least 1000 people present.  For added kicks and giggles he chose
-python 3.5.0a3 (I think).  The key bit was the 'a', he was doing a
-live demo with an alpha version of python: what could possibly go
-wrong?  He demonstrated the way the Global Interpreter Lock (GIL)
-impacts performance of threaded code.&lt;/p&gt;
-&lt;p&gt;One line that grabbed my attention was that the GIL does not behave
-like an operating system.  The GIL is all about making sure threads
-don't trample on each other by mangling shared data.  In short, within
-python only one thread can run at a time.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="ned-batchelder-names-and-values"&gt;
-&lt;h3&gt;Ned Batchelder names and values&lt;/h3&gt;
-&lt;p&gt;Ned Batchelder spoke on python names and values, a wonderfully clear
-exposition on how python stores values.  I recommend this talk to
-anyone new to python, it will likely save you a few hours of chasing
-mysterious bugs.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="gary-bernhardt"&gt;
-&lt;h2&gt;Gary Bernhardt&lt;/h2&gt;
-&lt;p&gt;Gary Bernhardt followed up his &lt;em&gt;Rise and fall of javascript&lt;/em&gt; from last
-year with a closing keynote motivated by Donald Rumsfeld's
-&lt;em&gt;known-unknowns&lt;/em&gt; speech.  He talked about beliefs programmers have,
-that really have an underlying belief driving them.  Discovering that
-underlying belief is the key to being able to discuss these ideas with
-others that have differing views.  He gave an example along these
-lines.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-Python needs tests because it does not have static typing
-&lt;/pre&gt;
-&lt;pre class="literal-block"&gt;
-I don't need tests because I have types
-&lt;/pre&gt;
-&lt;p&gt;Gary pointed out that these two statements cannot both be true, unless
-tests are somehow the same as types and eloquently exposed the
-underlying beliefs behind these statements.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="not-all-python"&gt;
-&lt;h2&gt;Not all Python&lt;/h2&gt;
-&lt;p&gt;PyCon is by no means all python.&lt;/p&gt;
-&lt;p&gt;There were talks on &lt;em&gt;Advanced Git&lt;/em&gt;, ethics, inclusivity, freedom, the
-brokenness of TLS (https).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="not-all-talks"&gt;
-&lt;h2&gt;Not all talks&lt;/h2&gt;
-&lt;p&gt;The Expo Hall where conference sponsors had their booths also served
-as the breakfast and lunch place.  As per last year, I found the Expo
-Hall a valuable place to spend time.&lt;/p&gt;
-&lt;p&gt;The vast majority of sponsors booths are run by techies, not
-marketting droids and they are great place to find others with similar
-interests.&lt;/p&gt;
-&lt;p&gt;Meal times give an opportunity to sit at a random table and meet
-others and share ideas.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="magic"&gt;
-&lt;h2&gt;MAGIC&lt;/h2&gt;
-&lt;p&gt;I have been interested in the MAGIC center at Rochester Institute of
-Technology since hearing Remy DeCausemaker speak about it last year.&lt;/p&gt;
-&lt;p&gt;MAGIC allows students to take a minor in Open Source.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="lightning-talks"&gt;
-&lt;h2&gt;Lightning talks&lt;/h2&gt;
-&lt;p&gt;Lightning talks are always fun, often at the end of the day.  Speakers
-have precisely 5 minutes to talk.  If you want to give a talk, just
-sign up on the board.  These are usually over-subscribed.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="poster-sessions"&gt;
-&lt;h2&gt;Poster Sessions&lt;/h2&gt;
-&lt;p&gt;Sunday morning the expo hall switched into a combined jobs fair and
-poster sessions.   The poster sessions were small booths where people
-created posters relating to projects and ideas they are working on.&lt;/p&gt;
-&lt;p&gt;You can then wander around and talk to people working on ideas you are
-also interested in.  These complement the talks in that it gives a
-chance for more detailed discussion with the people running the
-projects.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="live-captioning"&gt;
-&lt;h2&gt;Live captioning&lt;/h2&gt;
-&lt;p&gt;Most of the talks had live captioning.  This captioning was remarkably
-good with essentially real time display.  It even coped well with
-speakers that added a bit of French.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="keynotes"&gt;
-&lt;h2&gt;Keynotes&lt;/h2&gt;
-&lt;p&gt;Jacob Kaplan-Moss's &lt;a class="reference external" href="https://www.youtube.com/watch?v=hIJdFxYlEKE"&gt;keynote&lt;/a&gt; reflected the focus on inclusivity in the
-python community.  He talked about how programmers are all perceived
-either to &lt;em&gt;rock&lt;/em&gt; or &lt;em&gt;suck&lt;/em&gt;.  In short we are led to believe that the
-distribution of programming abilities is essentially an upside down
-bell-curve.&lt;/p&gt;
-&lt;p&gt;Jacob pointed out the absurdity of this perception and also its very
-damaging consequences.  The reality is that programming ability, like
-most attributes, should follow a normal distribution, hence the vast
-majority of programmers are just average or as Jacob described
-himself, &lt;em&gt;I am a mediocre programmer&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;The python community is full of people who use python in order to get
-other stuff done in a very wide range of activities.  It is widely
-used in science, finance, education and a plethora of other areas.&lt;/p&gt;
-&lt;p&gt;As such, you will often hear pythonistas say, "I am not a real
-programmer".   I would include myself in this bracket, despite having
-spent my entire working career building software of one sort or
-another.  But that software has always been a means to an end.&lt;/p&gt;
-&lt;p&gt;I believe my reality is closer to being &lt;em&gt;good enough&lt;/em&gt; at quite a lot
-of things and having the capacity to become &lt;em&gt;good enough&lt;/em&gt; at anything
-I am passionate enough about to pursue.&lt;/p&gt;
-&lt;p&gt;But to get there you have to deal with the &lt;em&gt;little hater&lt;/em&gt;.  The voice
-that eats away at you saying, "You suck at this".   Many software
-communities will confirm this belief for you.  The python community is
-trying to be different.&lt;/p&gt;
-&lt;p&gt;By insisting that all programmers &lt;em&gt;rock&lt;/em&gt; we are excluding the vast
-majority of programmers from that activity.  This causes angst for
-those already pursuing at the activity and dramatically increases the
-barrier to entry.  The result is a smaller, less diverse, less
-interesting and less effective community.&lt;/p&gt;
-&lt;p&gt;Thanks Jacob for a truly inspiring talk.  Thanks also to the python
-community for recognising and trying to address this issue.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="sprinting"&gt;
-&lt;h2&gt;Sprinting&lt;/h2&gt;
-&lt;p&gt;My flight home was not until Monday evening, so I was able to attend
-the first day of code sprints.&lt;/p&gt;
-&lt;p&gt;Once the conference closed on Sunday afternoon, sprint leaders were
-given a couple of minutes to talk about what they would be working
-on.&lt;/p&gt;
-&lt;p&gt;There was then an introductory session organised, primarily aimed at
-people new to sprinting, but also of great benefit to more experienced
-sprinters.&lt;/p&gt;
-&lt;p&gt;There were people giving introductions to git, virtualenv, virtualbox,
-testing in python, http and more.  Each introduction was repeated 3
-times in 15 minute sessions.  Hence, everyone could listed to three
-subjects of there choice.&lt;/p&gt;
-&lt;p&gt;I found this a useful session to fill in some gaps in my knowledge and
-also to get to know some of the other sprinters.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="pycon-videos"&gt;
-&lt;h2&gt;PyCon videos&lt;/h2&gt;
-&lt;p&gt;If this blog post has sparked your interest in PyCon I would encourage
-you to watch some videos from the talks.  Just go to youtube and
-search for PyCon 2015.  See the &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/"&gt;schedule&lt;/a&gt; if you want to see the
-full list of talks.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="the-state-of-the-python"&gt;
-&lt;h2&gt;The state of the python&lt;/h2&gt;
-&lt;p&gt;One of the reasons I like to attend PyCon is that you get a very good
-feel for where the language and community is currently placed, what
-projects are being widely used, what projects are up and coming and
-generally where the community is heading.&lt;/p&gt;
-&lt;p&gt;I have watched PyCon grow and be delighted that it has not lost the
-excitement and sheer inspiration it always generates.&lt;/p&gt;
-&lt;p&gt;The community is stronger than ever and making great efforts to be
-more inclusive and accessible.&lt;/p&gt;
-&lt;div class="section" id="python-3-x"&gt;
-&lt;h3&gt;Python 3.x&lt;/h3&gt;
-&lt;p&gt;Guido in his keynote spoke again about the challenges of moving to
-Python 3.  Whilst there are still large numbers of projects that have
-not been ported (Guido quoted only 5,000 out of 55,000 on PyPi),
-things are actually way better than that.&lt;/p&gt;
-&lt;p&gt;All of the top 1000 most used projects have been ported.  The reality
-is that if you are starting a new project, python 3.x is a great
-choice.  You will be using projects that are in active development.&lt;/p&gt;
-&lt;p&gt;If you are maintaining a large body of python 2.x code then that is
-where things become more challenging.  It only takes one critical
-package that is not ported and you are stuck.  Indeed, this is why
-the process of moving to python 3.x has taken so long, a project
-cannot be ported until all its dependencies are also ported.&lt;/p&gt;
-&lt;p&gt;My takeaway from this PyCon was that more than ever people are using
-and enjoying python 3.x.  I think we are moving to a time when
-new packages will be available under python 3.x and not under python
-2.x and this will provide incentive to switch.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="micro-bit"&gt;
-&lt;h3&gt;Micro Bit&lt;/h3&gt;
-&lt;p&gt;The UK, in a project driven by the BBC is planning to give 1 million
-school children a &lt;a class="reference external" href="http://www.bbc.co.uk/mediacentre/mediapacks/makeitdigital/micro-bit"&gt;Micro Bit&lt;/a&gt; computer.  These are small raspberry pi
-like devices.  Python will be used as one of the languages to use on
-the device.&lt;/p&gt;
-&lt;p&gt;More generally, python is widely used in education.  The Python
-Software Foundation deserves a lot of credit for this, there has been
-a huge amount of work over many years promoting the language in
-education and it is reaping rewards.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="summary"&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Another wonderful conference that has, as always, generated a lot of
-exciting ideas for me to pursue.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>python montreal</category><guid>http://swfiua.github.io/80days/posts/pycon-2015.html</guid><pubDate>Tue, 14 Apr 2015 13:31:56 GMT</pubDate></item><item><title>Blades and Sens results correlated?</title><link>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;I have felt for a while that when the Blades win, the Sens also seem
-to do better.  When the Blades lose, the Sens don't do so well.&lt;/p&gt;
-&lt;p&gt;My guess is this is mostly just perspective, but I follow both teams.
-Blades, or Sheffield United, are hoping to get a place in the League 1
-play-offs.  The Sens, or Ottawa Senators, are trying to get into the
-Stanley Playoffs.&lt;/p&gt;
-&lt;p&gt;If you'd asked me at the start of the year, I would have thought being
-about where we are was a distinct possibility.  I still felt we might
-push into the top two.  That would get us up to the Championship
-automatically.&lt;/p&gt;
-&lt;p&gt;The Sens on the other hand appeared to be going nowhere.  Until the
-inevitable sacking of the coach to be replaced by Dave Cameron, who
-was the assistant up to that point.  And for a while nothing changed,
-but then a new goalie was brought in, due to injuries.  Since then
-they have been on a run.&lt;/p&gt;
-&lt;p&gt;The last few games have been just like watching the Blades.  The
-Blades never (well almost never) do it the easy way.  So it is always
-a season of maybe, just waiting for the point where it all unravels.&lt;/p&gt;
-&lt;p&gt;But this Sens run has been different.  They are already way beyond
-what anyone could have hoped for a few months back.  But now they are
-tantalisingly close to a playoffs, with a team that is playing well
-and having fun.  But like the Blades, they've been doing it the hard
-way.  3-0 leads disappearing, coming from behind to go on and win in
-over-time.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Getting-some-data"&gt;Getting some data&lt;a class="anchor-link" href="http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html#Getting-some-data"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So, there has been a lot going on and my guess is that anything
-that might be in the data will be better explained by major changes such
-as of coaching staff or players.&lt;/p&gt;
-&lt;p&gt;So first problem, getting the data.  I am planning to just get this season's results for both teams and extract the days when they both played, then take a look at how the results lined up.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Yesterday's-games"&gt;Yesterday's games&lt;a class="anchor-link" href="http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html#Yesterday's-games"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The mighty Blades had a key game against local rivals Doncaster.  As
-per usual, they did things the hard way, coming from behind twice to
-end up winners 3-2.&lt;/p&gt;
-&lt;p&gt;That is two big wins over local rivals in a matter of days.  The
-Blades are now firmly in the playoff positions, one more win from the
-last three games might be all that is needed.&lt;/p&gt;
-&lt;p&gt;Another local side, Chesterfield, are looming large.  It feels like
-they will play a part in the rest of our season.  I grew up on the
-Chesterfield side of Sheffield, almost equidistant from the two
-grounds.&lt;/p&gt;
-&lt;p&gt;Meanwhile, the Senators were at home to the Pittsburgh Penguins last
-night, in what really was a must win game.&lt;/p&gt;
-&lt;p&gt;It was also fan appreciation night.  Within 10 seconds of the start
-they were 1-0 down.  By 5 minutes in they were 2-0 down and by the end
-of the first period it was 3-0.  Oh dear.  Sid Crosby on form and the
-young Sens not firing.&lt;/p&gt;
-&lt;p&gt;Second period was a different story.  Sens put the Penguins under
-pressure, but nothing finding the net, until 5 minutes from the end of
-the period.  Pageau managed to sneak one in off one of the Penguin's
-skates.&lt;/p&gt;
-&lt;p&gt;30 seconds into the third period they got a second.  Two minutes from
-time they equalised and then Mark Stone fired in the winner in
-overtime.&lt;/p&gt;
-&lt;p&gt;Now that is what I call a fan appreciation night.&lt;/p&gt;
-&lt;p&gt;Oh, and Blades and Sens both win on the same night, so that hypothesis
-is proven ;)&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><category>sufc sens</category><guid>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item><item><title>Bermuda 3 Bahamas 0</title><link>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This afternoon Bermuda were playing Bahamas in a World Cup qualifier.&lt;/p&gt;
-&lt;p&gt;It was the second leg, but Bermuda, led by Nahki Wells, were already
-5-0 win in the Bahamas last Wednesday.&lt;/p&gt;
-&lt;p&gt;This game hadn't been generally broadcast in Bermuda.  But we had seen
-highlights, and the first many of us knew about the game was via a
-banner that was put out on the TV station.&lt;/p&gt;
-&lt;p&gt;As a long suffering supporter of the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Sheffield_United_F.C."&gt;Mighty Blades&lt;/a&gt; I have rarely
-been in the position of being able to go to a game, already 5-0 up.  I
-have also never been to a World Cup game before.&lt;/p&gt;
-&lt;p&gt;So today we set off early to the game on the moped.  The game was a
-sell out, parking was likely to be tricky.  In any case, the build up
-to the game would likely be fun.&lt;/p&gt;
-&lt;p&gt;It was cold.  Not Canada cold, but Bermuda cold.  Cloudy and damp,
-windy and looked like it could rain any minute.  The rain held off.&lt;/p&gt;
-&lt;p&gt;The build up to the game was fun too.  Many in the crowd knew one or
-more of the players well.  There was excitement that we would see a
-few goals, and a slight fear that maybe things could unravel.  And
-there were Gombeys :)&lt;/p&gt;
-&lt;p&gt;Bermuda did dominate the game from start to finish.  The goalkeeper,
-Fredrick Hall, was substited at half-time.  I am guessing that he was
-frozen, as the ball boys had all had a lot more work to do.  It was
-a good time to give his back-up a chance to play, and he at least had
-some saves to make.&lt;/p&gt;
-&lt;p&gt;Nahki Wells won a penalty, then crashed the resulting kick against the
-cross-bar.  This was close to half-time, Bermuda had already had 5-6
-really good chances, but the ball didn't want to go in the net.&lt;/p&gt;
-&lt;p&gt;Earlier Wells had been fouled, about 30 yards out and needed treatment
-from the physio.  He was then made to leave the field, and was not
-able to be there for the free-kick that required the treatment.
-Broken rules?&lt;/p&gt;
-&lt;p&gt;Justi Donawa had what looked like a painful injury to his foot, and
-had to be replaced.&lt;/p&gt;
-&lt;p&gt;Second half was more of the same, but Bermuda were increasingly
-getting the feeling that it was going to end 0-0.  The players felt it
-and the crowd too.&lt;/p&gt;
-&lt;p&gt;Then Nahki Wells broke through and this time made no mistake, 1-0.&lt;/p&gt;
-&lt;p&gt;From this point every time Bermuda went forward, and that was
-frequently, they looked like scoring.  The game ended 3-0.  The Gombey
-Warriors will play Guatemala, away on the 8th of June, at home on the
-16th.&lt;/p&gt;
-&lt;p&gt;Two last things.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;This is a very young Bermuda team.  I heard the average age is
-just 21.&lt;/li&gt;
-&lt;li&gt;The Bahamas also have a young team.  They played a good game today,
-the game flowed, there were lots of entertaining moments.  It can't
-have been easy travelling away already 5-0 down.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It was a great afternoon, two teams, refs and the crowd all played
-their part.  Looking forward to the next games.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>sufc football bermuda</category><guid>http://swfiua.github.io/80days/posts/bermuda-3-bahamas-0.html</guid><pubDate>Sun, 29 Mar 2015 22:34:42 GMT</pubDate></item><item><title>Pi Day at Chewstick</title><link>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;This Saturday the date is 3.14.15, March 14th, '15.&lt;/p&gt;
-&lt;p&gt;March 14th has become known as &lt;a class="reference external" href="http://www.piday.org/"&gt;Pi Day&lt;/a&gt;, on account of the fact that
-the first three digits of the mathematical constant pi.&lt;/p&gt;
-&lt;p&gt;This year it is extra special, since the next two digits are 15, which
-corresponds to the year.  After that, the next five digits of pi are
-9:26:53.&lt;/p&gt;
-&lt;p&gt;To mark the occasion &lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; at the new premises on 81 Front St
-is hosting a &lt;a class="reference external" href="http://www.raspberrypi.org/pi-day-is-around-the-corner/"&gt;Raspberry Pi Day&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A raspberry pi is a $30 computer (Raspberry Pi) that runs off a phone
-charger. We will be making videos of people performing, playing games
-etc, so bring your camera, SD card, instruments to contribute your
-content as we build a Raspberry Pi media centre.&lt;/p&gt;
-&lt;img alt="../galleries/RaspberryPi/raspberry.jpg" src="http://swfiua.github.io/80days/galleries/RaspberryPi/raspberry.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;We will also have a retro games console running on a pi.&lt;/p&gt;
-&lt;p&gt;The plan is to start the event at 9:26:53am and run with it until
-9:26:53pm.&lt;/p&gt;
-&lt;p&gt;I have three working raspberry pi's and some SD cards that can be used
-to host the operating system.&lt;/p&gt;
-&lt;p&gt;I have one pi running the &lt;a class="reference external" href="http://kodi.tv/"&gt;Kodi&lt;/a&gt; media centre that I hope to add some
-&lt;a class="reference external" href="http://www.chewstick.org/"&gt;Chewstick&lt;/a&gt; and Bermuda content to.  The image below shows Kodi
-displaying the Bermuda weather.&lt;/p&gt;
-&lt;img alt="../galleries/RaspberryPi/weather_pi.jpg" src="http://swfiua.github.io/80days/galleries/RaspberryPi/weather_pi.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;I have another pi running a retro games console and a third running
-the &lt;a class="reference external" href="http://www.raspbian.org/"&gt;Raspian&lt;/a&gt; operating system.&lt;/p&gt;
-&lt;p&gt;There is no need to bring anything but yourself to the event, but if
-you do have raspberry pi's or related hardware it would be good to
-bring them along too.&lt;/p&gt;
-&lt;p&gt;All going well, we will also have actual pies to eat too :)&lt;/p&gt;
-&lt;p&gt;For more information see this &lt;a class="reference external" href="https://www.facebook.com/events/1563187683958954/"&gt;facebook&lt;/a&gt; posting.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>linux raspberry-pi chewstick</category><guid>http://swfiua.github.io/80days/posts/pi-day-at-chewstick.html</guid><pubDate>Thu, 12 Mar 2015 15:14:01 GMT</pubDate></item><item><title>Bermudaful Day</title><link>http://swfiua.github.io/80days/posts/bermudaful-day.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;A couple of weeks back I had my sons and their partners visiting from
-Canada.  They were having difficulty understanding why I am thinking
-it was so cold here.&lt;/p&gt;
-&lt;p&gt;I've lived in many places, but including hard Ottawa winters, but
-never felt as cold as Bermuda the last few weeks.  It is all
-perspective.&lt;/p&gt;
-&lt;p&gt;We had good times while they were here, below is just one of those
-days.&lt;/p&gt;
-&lt;div class="section" id="pink-and-blue-limo"&gt;
-&lt;h2&gt;Pink and blue limo&lt;/h2&gt;
-&lt;p&gt;We'd decided to go to Spittal Pond.  As we are down the west end of
-the island, that means 2 buses, or &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/the-pink-and-blue-limo.rst"&gt;the pink and blue limo&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We were in luck, the number 7 bus pulled up just as we reached the
-stop.  A sunny day, so the views along South Shore were spectacular.&lt;/p&gt;
-&lt;p&gt;We were soon in town and just had a bit of time between buses to look
-at Victoria Park and the web of ropes holding up trees that have been
-lifted back up since the hurricanes knocked them over.&lt;/p&gt;
-&lt;p&gt;Onto the number 1 bus and another beautiful journey.  You are higher
-up on the bus, and see so a lot more.  Plus it stops every now and
-again.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="spittal-pond"&gt;
-&lt;h2&gt;Spittal Pond&lt;/h2&gt;
-&lt;img alt="../galleries/SpittalPond/20150221_132114.jpg" src="http://swfiua.github.io/80days/galleries/SpittalPond/20150221_132114.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;p&gt;I have liked Spittal Pond for a lot of years.  It is a place in
-Bermuda where you can really feel in a natural environment.
-Spectactular views and lots to explore.&lt;/p&gt;
-&lt;p&gt;It is also a place that changes through the seasons, so there is
-always something new to see.&lt;/p&gt;
-&lt;p&gt;This was the first time I had been since the hurricanes.  There wasn't
-much sign of them on this walk.  Just a fiew views that didn't used to
-exist.&lt;/p&gt;
-&lt;p&gt;But we were treated to a sunny day without much wind.  The ocean
-always looks better in the sun.  It lights up the clarity of the water
-and the pink sand beneath.&lt;/p&gt;
-&lt;p&gt;The path leads down to some rocks where in a few places there are
-actually steps cut out to make it a little easier to clamber over.&lt;/p&gt;
-&lt;p&gt;At the waters edge there were a couple of large parrot fish, bobbing
-around as the waves were breaking against the rocks.&lt;/p&gt;
-&lt;img alt="../galleries/SpittalPond/20150221_140921.jpg" src="http://swfiua.github.io/80days/galleries/SpittalPond/20150221_140921.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;/div&gt;
-&lt;div class="section" id="portuguese-rock"&gt;
-&lt;h2&gt;Portuguese Rock&lt;/h2&gt;
-&lt;p&gt;We took the little detour up to a rocky cliff overlooking the ocean.
-Here there is a brass plate that is a cast of an inscription that was
-found on the rock here.  It has the date 1543 and some other marks
-that have been interpretted as "R. P." standing for Rex Portugaline.&lt;/p&gt;
-&lt;p&gt;1543 is nearly 70 years before the island was settled, indicating that
-there is more to the early history of this island than we are every
-likely to discover.&lt;/p&gt;
-&lt;img alt="../galleries/SpittalPond/20150221_133042.jpg" src="http://swfiua.github.io/80days/galleries/SpittalPond/20150221_133042.jpg" style="width: 400px; height: 300px;"&gt;
-&lt;/div&gt;
-&lt;div class="section" id="the-farm-on-mcgalls-hill"&gt;
-&lt;h2&gt;The farm on McGalls Hill&lt;/h2&gt;
-&lt;p&gt;Once back at the road we decided to walk over the hill, past St Mark's
-church and down McGall's Hill to the Northrock.&lt;/p&gt;
-&lt;p&gt;Part way down the hill we stopped to look at a small banana
-plantation.  The farmer, Henry, and his wife, Theresa, were there
-looking after the land and invited us down.&lt;/p&gt;
-&lt;p&gt;Henry delighted in telling us just what is invoved in growing
-bananas.  He also showed us onions, giant cloves of garlic and new
-potatoes.&lt;/p&gt;
-&lt;p&gt;They had such patience in showing how all the different plants
-thrived.  Henry also told us about the fruit salad tree.&lt;/p&gt;
-&lt;p&gt;Citrus fruit used to be a big thing in Bermuda.  If you visit the
-island ask an older Bermudian about the citrus and they will tell you
-Bermuda used to have some of the best citrus fruit you can find.&lt;/p&gt;
-&lt;p&gt;Henry explained that you can even grow fruit salad trees here: a
-single tree that grows lemons, limes, oranges and grapefruit, all as a
-result of grafting buts from different fruits onto a wild lemon base.&lt;/p&gt;
-&lt;p&gt;All in all, it was a great day.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/bermudaful-day.html</guid><pubDate>Tue, 10 Mar 2015 03:35:22 GMT</pubDate></item><item><title>Mercurial Adjustment</title><link>http://swfiua.github.io/80days/posts/mercurial-adjustment.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So careful observers will note the project is running a little late.&lt;/p&gt;
-&lt;p&gt;The aim was to launch the site on February 1st.  I am not quite ready
-to go live yet.   I want a few more features implemented first.&lt;/p&gt;
-&lt;p&gt;I am also aware that there is a lot still to do.  But it was always
-the plan to build features through the 80 day running of the
-competition.&lt;/p&gt;
-&lt;p&gt;This project has been a very interesting experience for me.  At the
-start, I had a task that I knew I could get done in a few days.  With
-stuff I had used in the past.  But, I wanted to learn some knew
-stuff.  &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; was one thing.&lt;/p&gt;
-&lt;p&gt;I really like python and have enjoyed working with &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; over the
-years.  It has been a struggle at times.  I've always loved what the
-project is doing, it has been a constantly evolving project.  Often,
-knew releases would break old sites.  This was actually a good thing,
-a bit of reading and you could find the solution.  And if you
-implemented it, your code was generally better.&lt;/p&gt;
-&lt;p&gt;I have loved &lt;a class="reference external" href="https://docs.djangoproject.com/en/1.7/topics/migrations/"&gt;django migrations&lt;/a&gt;.  I like to develop sites as they
-are being run.  Now one tricky bit is knowing when you can (or should)
-let others loose on the site.  They might put work into it that would
-be lost by changes you want to make.&lt;/p&gt;
-&lt;p&gt;This is where these migrations come in very handy.  Over the course of
-what I have been doing I have been running:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-python 80days/manage.py makemigrations
-&lt;/pre&gt;
-&lt;p&gt;and/or:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-python 80days/manage.py migrate
-&lt;/pre&gt;
-&lt;p&gt;more or less at random (as I got to know what the errors really mean,
-so less random as time went on.  And what has been cool is that pretty
-much every time they have lead me through the process and done exactly
-what I wanted with pretty minimal fuss.&lt;/p&gt;
-&lt;p&gt;Murphy's law dictates that I will now encounter a nightmare with
-migrations, at some, inconvenient point.  The good news is I have good
-confidence in these migrations.  In particular, I love the way you get
-the code for the migration.  So, if I am doing something scary, or if
-it all breaks, then I can take a look at it.&lt;/p&gt;
-&lt;div class="section" id="angular"&gt;
-&lt;h2&gt;Angular&lt;/h2&gt;
-&lt;p&gt;This has been a rocky ride at times.  On the face of it, it is doing
-something elegant and simple.   But it is doing what it does inside
-the DOM model as implemented by various browsers.  These browsers are
-trying to be helpful.  So I spent an afternoon wrestling with &lt;a class="reference external" href="https://github.com/angular/angular.js/issues/1459"&gt;angular
-directives for table rows&lt;/a&gt;.  I just wanted to write a partial piece
-of html for each row.  Now it seems this is really tricky to do in
-angular because of the way browsers try to be helpful with broken
-table code.&lt;/p&gt;
-&lt;p&gt;Overall, I am happy with where things are.  There are a lot of areas
-I would like to learn more about.  I need to spend an afternoon with
-the node/angular testing setup.  I really do need to start writing
-those tests.&lt;/p&gt;
-&lt;p&gt;In short, there are a lot of things I know can be done better, but
-most are good enough for now and I can work on the pain points as they
-become more aparent,&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="summary"&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The good news is that after all the research and experimenting I have
-found a lot of the gotchas.  In short, I have the tools and have
-figured enough about how they work that I should be quite productive
-from here on in.&lt;/p&gt;
-&lt;p&gt;Was cookiecutter a good idea?  Very much so.  It introduced me to lots
-of things that I would not of explored at this point otherwise.  Some
-bits I have pretty much forgotten about, but I think most of the stuff
-I have explored is mentioned in this blog somewhere, or in &lt;a class="reference external" href="https://github.com/swfiua/"&gt;github&lt;/a&gt;.
-So, if nothing else, it is there if I need to refer to it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="and-finally"&gt;
-&lt;h2&gt;And finally..&lt;/h2&gt;
-&lt;p&gt;So the mercurial adjustment works like this.  Every software project
-runs late.  They run late for lots of reasons.  Most of them good.&lt;/p&gt;
-&lt;p&gt;Now the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Mercury_%28planet%29"&gt;planet mercury&lt;/a&gt; orbits the sun in just under 88 days.  But
-here on planet earth, in that time the earth moves, so that it is
-actually nearly 116 days before the earth, mercury and sun are in a
-similar alignment.  This probably needs to be done in a &lt;a class="reference external" href="https://github.com/jupyter"&gt;jupyter
-notebook&lt;/a&gt;, so for now, the deal is that depending on your frame of
-reference and definition of a day, 80 days could arguably be deemed to
-be a shade over 105 days as most of us here on earth know them.&lt;/p&gt;
-&lt;p&gt;So next time your n day software project is running late, come into
-work dressed as Mercury ;)&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://swfiua.github.io/80days/posts/mercurial-adjustment.html</guid><pubDate>Tue, 10 Feb 2015 19:47:43 GMT</pubDate></item><item><title>Are we nearly there yet?</title><link>http://swfiua.github.io/80days/posts/are-we-nearly-there-yet.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;As of last night I have competition entry all working.&lt;/p&gt;
-&lt;p&gt;You can see all the competions being run.  If a competition has not
-started yet or is still in progress you can enter.&lt;/p&gt;
-&lt;p&gt;To enter, just give the nickname you want to use for the competion.&lt;/p&gt;
-&lt;p&gt;Next job is to add code to allow competitors to create and join teams.&lt;/p&gt;
-&lt;p&gt;This shouldn't take too long given what I now have.&lt;/p&gt;&lt;/div&gt;</description><category>angular django python 80days</category><guid>http://swfiua.github.io/80days/posts/are-we-nearly-there-yet.html</guid><pubDate>Tue, 10 Feb 2015 15:43:05 GMT</pubDate></item><item><title>Angular velocity</title><link>http://swfiua.github.io/80days/posts/angular-velocity.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;So it has been a while since I blogged about the 80 day project.&lt;/p&gt;
-&lt;p&gt;This is largely due to most of my free time has been spent working on
-the code.&lt;/p&gt;
-&lt;p&gt;Just to recap, 77 days into the project I still had quite a bit to
-do.  Most of the work up to that point had been on getting pieces
-together, decide what tools to use, learning those tools.&lt;/p&gt;
-&lt;p&gt;The next job was to move the angular code around a bit and try and get
-django serving it all.  In particular, I had decided it was probably
-worthwhile to have the &lt;a class="reference external" href="https://angularjs.org/"&gt;angular.js&lt;/a&gt; partial html pieces go through
-the &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;django&lt;/a&gt; template engine.&lt;/p&gt;
-&lt;p&gt;Getting npm up and running, with a recent enough version can be
-tricky, but there was an excellent guide on &lt;a class="reference external" href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions"&gt;Installing npm on Ubuntu&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;With moving all the files around, &lt;strong&gt;.bowerrc&lt;/strong&gt; needed editing a few
-times to point it at where the bower_components were now made to be
-installed.&lt;/p&gt;
-&lt;p&gt;Ever since the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html"&gt;Global Hackathon, Team Bermuda&lt;/a&gt; I have had mild
-paranoia that cross-site-request-forgery is going to bite me at some
-point.  I am hoping that by serving everything under django I will
-avoid that nightmare.  In the meanwhile, I did at this &lt;a class="reference external" href="https://github.com/swfiua/80days/commit/678ae25e432b8633230bf67f8168a8f8188717b1"&gt;csrf fix&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A previous post, &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/nginx-on-kodingcom.html"&gt;Nginx on koding.com&lt;/a&gt; came in useful for setting
-up postgres on koding.com as I decided it was more than time to get
-this thing running on a cloud based machine.&lt;/p&gt;
-&lt;p&gt;I have not found myself using &lt;em&gt;django-angular&lt;/em&gt;, but the &lt;a class="reference external" href="http://django-angular.readthedocs.org/en/latest/integration.html"&gt;django
-angular integration&lt;/a&gt; docs have been an enormous help in highlighting
-issues in integrating django and angular.&lt;/p&gt;
-&lt;p&gt;In amongst all this I decided it was time to add &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/"&gt;django quiz&lt;/a&gt; to
-the mix.&lt;/p&gt;
-&lt;p&gt;This was mostly painless, following the django-quiz docs, but when I
-fired up the server it failed.  The problem was down to me using
-&lt;a class="reference external" href="http://django-allauth.readthedocs.org/"&gt;django-allauth&lt;/a&gt; which effectively removes &lt;em&gt;auth.User&lt;/em&gt;. The fix is to
-use &lt;em&gt;settings.AUTH_USER_MODEL&lt;/em&gt; if you want to reference the &lt;em&gt;User&lt;/em&gt;
-model in your own models.&lt;/p&gt;
-&lt;p&gt;I made the &lt;a class="reference external" href="https://github.com/tomwalker/django_quiz/commit/9416c05cd447e3aa40a2351684f2105dafa95e13"&gt;user model fix&lt;/a&gt; and made a pull request.  Happily, the
-project maintainer actioned the request within the hour (many thanks
-Tom!) and I was able to update to the new version with:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-pip install git+https://github.com/tomwalker/django_quiz.git
-&lt;/pre&gt;
-&lt;p&gt;By February 1st I was starting to get comfortable with angular and the
-pieces were coming together.  I have some simple partials, I have
-angular calling the django rest API and I have the beginnings of some
-views.&lt;/p&gt;
-&lt;p&gt;The next task is to display competitions a user can enter and provide
-an enter button.   At this point I did a bit more thinking and
-reading.  Deciding what logic to put in angular and what to put in
-django views and api calls needs a little thought.&lt;/p&gt;
-&lt;p&gt;From here the plan is:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;get the competion list and competion entry features working&lt;/li&gt;
-&lt;li&gt;get team creation and team membership features implemented&lt;/li&gt;
-&lt;li&gt;get the site up and running in the cloud&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I have a simple test server on koding.com, but want to run the actual
-site on a different instance.&lt;/p&gt;
-&lt;!-- title: links --&gt;
-&lt;!-- slug: references --&gt;
-&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
-&lt;!-- tags: --&gt;
-&lt;!-- link: --&gt;
-&lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>angular javascript django 80days</category><guid>http://swfiua.github.io/80days/posts/angular-velocity.html</guid><pubDate>Fri, 06 Feb 2015 14:36:22 GMT</pubDate></item></channel></rss>
+you discover her art.&lt;/p&gt;
+&lt;p&gt;I have a copy of a book she produced, here is the cover:&lt;/p&gt;
+&lt;img alt="../galleries/SharonWilson/book_cover.jpg" src="http://openbermuda.github.io/80days/galleries/SharonWilson/book_cover.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;My cat seems to like the book too:&lt;/p&gt;
+&lt;img alt="../galleries/Snowy/snowy_wilson.jpg" src="http://openbermuda.github.io/80days/galleries/Snowy/snowy_wilson.jpg" style="width: 300px; height: 400px;"&gt;
+&lt;p&gt;There is a story behind everything she paints.  She will tell you some
+of those stories, but also let you find your own story.&lt;/p&gt;
+&lt;p&gt;Here is another picture, it has a good story too:&lt;/p&gt;
+&lt;img alt="../galleries/SharonWilson/father_and_daughter.jpg" src="http://openbermuda.github.io/80days/galleries/SharonWilson/father_and_daughter.jpg" style="width: 300px; height: 400px;"&gt;&lt;/div&gt;</description><category>art</category><category>bermuda</category><guid>http://openbermuda.github.io/80days/posts/sharon-wilson.html</guid><pubDate>Sun, 24 May 2015 15:40:38 GMT</pubDate></item></channel></rss>

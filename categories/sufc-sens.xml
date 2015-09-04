@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (sufc sens)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/sufc-sens.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 15 Apr 2015 15:15:29 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blades and Sens results correlated?</title><link>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (sufc sens)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/sufc-sens.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blades and Sens results correlated?</title><link>http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -40,7 +40,7 @@ over-time.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Getting-some-data"&gt;Getting some data&lt;a class="anchor-link" href="http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html#Getting-some-data"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So, there has been a lot going on and my guess is that anything
+&lt;h2 id="Getting-some-data"&gt;Getting some data&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html#Getting-some-data"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So, there has been a lot going on and my guess is that anything
 that might be in the data will be better explained by major changes such
 as of coaching staff or players.&lt;/p&gt;
 &lt;p&gt;So first problem, getting the data.  I am planning to just get this season's results for both teams and extract the days when they both played, then take a look at how the results lined up.&lt;/p&gt;
@@ -53,7 +53,7 @@ as of coaching staff or players.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Yesterday's-games"&gt;Yesterday's games&lt;a class="anchor-link" href="http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html#Yesterday's-games"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The mighty Blades had a key game against local rivals Doncaster.  As
+&lt;h2 id="Yesterday's-games"&gt;Yesterday's games&lt;a class="anchor-link" href="http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html#Yesterday's-games"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The mighty Blades had a key game against local rivals Doncaster.  As
 per usual, they did things the hard way, coming from behind twice to
 end up winners 3-2.&lt;/p&gt;
 &lt;p&gt;That is two big wins over local rivals in a matter of days.  The
@@ -85,4 +85,4 @@ is proven ;)&lt;/p&gt;
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><category>sufc sens</category><guid>http://swfiua.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item></channel></rss>
+</description><category>sufc sens</category><guid>http://openbermuda.github.io/80days/posts/blades-and-sens-results-correlated.html</guid><pubDate>Tue, 07 Apr 2015 21:48:37 GMT</pubDate></item></channel></rss>

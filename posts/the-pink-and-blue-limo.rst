@@ -1,7 +1,7 @@
 .. title: The Pink and Blue Limo
 .. slug: the-pink-and-blue-limo
 .. date: 2015-01-27 18:57:42 UTC
-.. tags: bermuda bus ottawa sufc
+.. tags: bermuda, bus, ottawa, sufc
 .. link: 
 .. description: Bermuda Bus
 .. type: text

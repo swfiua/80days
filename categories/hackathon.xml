@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days (hackathon)</title><link>http://swfiua.github.io/80days/</link><description></description><atom:link href="http://swfiua.github.io/80days/categories/hackathon.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 15 Apr 2015 15:15:29 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Global Hackathon, Team Bermuda</title><link>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last weekend I took part in the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/worlds-first-global-hackathon.html"&gt;global hackathon&lt;/a&gt; run by
-&lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; as part of Team Bermuda aka &lt;em&gt;Three&lt;/em&gt; &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=aceboy"&gt;ace-boys&lt;/a&gt; &lt;em&gt;and an&lt;/em&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Around the world in 80 days (hackathon)</title><link>http://openbermuda.github.io/80days/</link><description></description><atom:link rel="self" href="http://openbermuda.github.io/80days/categories/hackathon.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:47:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Global Hackathon, Team Bermuda</title><link>http://openbermuda.github.io/80days/posts/global-hackathon-team-bermuda.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Last weekend I took part in the &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/worlds-first-global-hackathon.html"&gt;global hackathon&lt;/a&gt; run by
+&lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; as part of Team Bermuda aka &lt;em&gt;Three&lt;/em&gt; &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=aceboy"&gt;ace-boys&lt;/a&gt; &lt;em&gt;and an&lt;/em&gt;
 &lt;a class="reference external" href="http://www.urbandictionary.com/define.php?term=Acegirl"&gt;ace-girl&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The other members of the team were:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Nick Hoskins, the one who told us all about it&lt;/li&gt;
-&lt;li&gt;Beckett Simmons, residing &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; expert&lt;/li&gt;
+&lt;li&gt;Beckett Simmons, residing &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; expert&lt;/li&gt;
 &lt;li&gt;Veronica Windus, working remotely from the frozen wastes of Canada&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The idea was to create a web based application in 48 hours.  There
@@ -60,7 +60,7 @@ about really.&lt;/p&gt;
 some views allowing users to see which EULA's had which clauses and
 other such fun stuff.  One idea was to add a quiz, getting people to
 guess whose EULA had which clause, possibly using &lt;cite&gt;django quiz&lt;/cite&gt;.&lt;/p&gt;
-&lt;p&gt;For most of Saturday we pretty much ignored the &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; virtual
+&lt;p&gt;For most of Saturday we pretty much ignored the &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt; virtual
 machine, we were having enough other problems.&lt;/p&gt;
 &lt;p&gt;Actually, the &lt;em&gt;angular&lt;/em&gt; stuff was going quite well.&lt;/p&gt;
 &lt;p&gt;The django side was going a bit slower.  We were using &lt;a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/"&gt;cookiecutter&lt;/a&gt;
@@ -87,7 +87,7 @@ from his house, so the coffee shortage was averted).&lt;/p&gt;
 &lt;p&gt;We decided to work until we were too tired, then get some sleep ready
 to code until 4am on Monday morning.&lt;/p&gt;
 &lt;p&gt;It is all a bit of a blur now, but at some point we decided we should
-see if any of our stuff actually works on &lt;a class="reference external" href="http://swfiua.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt;.&lt;/p&gt;
+see if any of our stuff actually works on &lt;a class="reference external" href="http://openbermuda.github.io/80days/posts/https//koding.com"&gt;koding.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am sure the koding.com IDE is a joy to use, but now was not the time
 to learn it.  Fortunately, Beckett had given us the number one pro-tip
 for using koding.com:&lt;/p&gt;
@@ -130,4 +130,4 @@ CAPS?  ARE WE BACK IN THE 90's ON A SHOUTY FORUM?&lt;/p&gt;
 &lt;p&gt;Remarkably, we got an email yesterday informing us we made it through
 to the next round of the competition.  We can only assume that pretty
 much everyone that got any sort of site up got through the first
-round.  You can even &lt;a class="reference external" href="http://hackathon.koding.com/entries/team-bermuda"&gt;VOTE FOR US&lt;/a&gt; :)&lt;/p&gt;&lt;/div&gt;</description><category>hackathon</category><guid>http://swfiua.github.io/80days/posts/global-hackathon-team-bermuda.html</guid><pubDate>Sat, 13 Dec 2014 22:37:29 GMT</pubDate></item></channel></rss>
+round.  You can even &lt;a class="reference external" href="http://hackathon.koding.com/entries/team-bermuda"&gt;VOTE FOR US&lt;/a&gt; :)&lt;/p&gt;&lt;/div&gt;</description><category>hackathon</category><guid>http://openbermuda.github.io/80days/posts/global-hackathon-team-bermuda.html</guid><pubDate>Sat, 13 Dec 2014 22:37:29 GMT</pubDate></item></channel></rss>

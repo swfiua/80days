@@ -1,7 +1,7 @@
 .. title: Angular Momentum
 .. slug: angular-momentum
 .. date: 2015-01-26 16:44:11 UTC
-.. tags: javascript angular django
+.. tags: javascript, angular, django
 .. link: 
 .. description: Getting angular working in django
 .. type: text
