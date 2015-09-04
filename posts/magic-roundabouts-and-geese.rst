@@ -36,11 +36,11 @@ to those from one side.
 Another key rule, is which side of the road to drive on.  The French,
 like most of continental Europe, drive on the right.
 
-Looked at from above, the French go anti-clockwiase around
+Looked at from above, the French go anti-clockwise around
 roundabouts. 
 
 So, when they arrive at one, those already on the roundabout give way
-to new arrivals.
+to new arrivals, coming from the right.
 
 This works well with light traffic.  With heavy draffic, things can
 fall apart: once the roundabout is full of cars nobody can go
@@ -120,8 +120,8 @@ already on the roundabout.
 So this is a complicated mixture of giving way to the left or right
 depending on where you are on the roundabout.
 
-Going backwards on the magic roundabout
-+++++++++++++++++++++++++++++++++++++++
+Going backwards round the magic roundabout
+++++++++++++++++++++++++++++++++++++++++++
 
 *** please don't try this ***
 
@@ -129,11 +129,12 @@ Traffic arriving from east (or west) could do a Pierre Trudeau, behind
 the Queen pirouette, turning 180 degrees to enter the roundabout
 backwards.
 
-In this way, the *give way to traffic on your right* rule ensures they
-give way to traffic coming from their right.
+In this way, the *give way to traffic on your right* rule ensures the
+traffic that you need to giver way to is always coming from your right.
 
 Once on the roundabout another pirouette should be done, having done
-this, again give way to traffic entering from the North/South road.
+this, again give way to traffic entering from the North/South road,
+which is again on your right.
 
 This also ensures if you exit on this route you are facing the right
 way.
@@ -167,7 +168,12 @@ the horn only really gets used to say *hi* to friends and cousins.
 
 If you see a friend trying to get out of a small side road you might
 well follow the "priorite a la droite" rule and wave for them to go
-ahead of you, even though you have right of way.
+ahead of you, even though you have right of way.  The roads are
+narrow, the speed limit is 20 mph and a little give and take makes it
+a better place for everyone.
+
+But if you are new to the island, watch out for vehicles stopping to let
+people out of tiny driveways and side roads.
 
 What about the geese?
 =====================
@@ -201,5 +207,5 @@ the world circling around her and find ways to change the paths of
 those that needed to be on a different path, or gently put together
 those that would benefit from each other.
 
-I now have another Magic Roundabout in my life.  Mum's are cool.
+I now have another Magic Roundabout in my life.  Mum's are magic.
 
