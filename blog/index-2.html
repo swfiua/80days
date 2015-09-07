@@ -382,17 +382,17 @@ Secret value 'SECRET_KEY' is not set
 advice on how to go about keeping it secret.</p>
 <p>So looking at what the wonderful <a class="reference external" href="https://github.com/pydanny/cookiecutter-django">cookiecutter django</a> created I see
 the following incantation in <em>config/production.py</em>:</p>
-<pre class="code python"><a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
-<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-2"></a>
-<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-3"></a><span class="c"># SECRET KEY</span>
-<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
-<a name="rest_code_72b5fe0379bd462caf0a29ab6ac62e35-5"></a><span class="c"># END SECRET KEY</span>
+<pre class="code python"><a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-1"></a><span class="kn">from</span> <span class="nn">configurations</span> <span class="kn">import</span> <span class="n">values</span>
+<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-2"></a>
+<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-3"></a><span class="c"># SECRET KEY</span>
+<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-4"></a><span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="n">SecretValue</span><span class="p">()</span>
+<a name="rest_code_1064ad4052fa4ea79be62e492b55cb1d-5"></a><span class="c"># END SECRET KEY</span>
 </pre>
 <p>So what is this <em>configuration.values</em> thing?   Turns out it is coming
 from the <a class="reference external" href="http://django-configurations.readthedocs.org/">django configurations</a> application that the <a class="reference external" href="https://cookiecutter.readthedocs.org/en/latest/">cookiecutter</a>
 was kind enough to include.</p>
 <p>OK, so it helps you not have to do</p>
-<pre class="code python"><a name="rest_code_5297ada5437f4b34b8a91dd07060c31c-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
+<pre class="code python"><a name="rest_code_01d95bd354454da59abb8c77111b1782-1"></a><span class="kn">from</span> <span class="nn">foo</span> <span class="kn">import</span> <span class="o">*</span>
 </pre>
 <p>Now, that has to be a good thing :)</p>
 <p>So reading the docs I come to:</p>

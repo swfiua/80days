@@ -787,30 +787,30 @@ things like marking <em>for</em> loops and the like</li>
 <p>Now by an unhappy coincidence, <a class="reference external" href="https://angularjs.org/">angular.js</a> also uses {{ and }} to
 mark stuff for expansion.</p>
 <p>Happily, angular allows you to over-ride these markers, as follows:</p>
-<pre class="code javascript"><a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_0d3b24d3eeea4512bd71e53b66943d11-4"></a><span class="p">});</span>
+<pre class="code javascript"><a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-1"></a><span class="kd">var</span> <span class="nx">my_app</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'MyApp'</span><span class="p">).</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-2"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-3"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<a name="rest_code_1d0fb964f40f45d08fa5e39cc6ff0f6a-4"></a><span class="p">});</span>
 </pre>
 <p>In fact, since I already had some code in my <em>app.js</em> I just added the
 extra config code, so my <em>app.js</em> now looks like this:</p>
-<pre class="code javascript"><a name="rest_code_7a79100e678c46daada58bb53132ca16-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-2"></a>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-8"></a>  <span class="s1">'myApp.version'</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-9"></a><span class="p">]).</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-12"></a><span class="p">}]).</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-13"></a>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
-<a name="rest_code_7a79100e678c46daada58bb53132ca16-17"></a><span class="p">});</span>
+<pre class="code javascript"><a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-1"></a><span class="s1">'use strict'</span><span class="p">;</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-2"></a>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-3"></a><span class="c1">// Declare app level module which depends on views, and components</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-4"></a><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-5"></a>  <span class="s1">'ngRoute'</span><span class="p">,</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-6"></a>  <span class="s1">'myApp.view1'</span><span class="p">,</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-7"></a>  <span class="s1">'myApp.view2'</span><span class="p">,</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-8"></a>  <span class="s1">'myApp.version'</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-9"></a><span class="p">]).</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-10"></a><span class="nx">config</span><span class="p">([</span><span class="s1">'$routeProvider'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$routeProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-11"></a>  <span class="nx">$routeProvider</span><span class="p">.</span><span class="nx">otherwise</span><span class="p">({</span><span class="nx">redirectTo</span><span class="o">:</span> <span class="s1">'/view1'</span><span class="p">});</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-12"></a><span class="p">}]).</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-13"></a>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-14"></a><span class="nx">config</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$interpolateProvider</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-15"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">startSymbol</span><span class="p">(</span><span class="s1">'{$'</span><span class="p">);</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-16"></a>    <span class="nx">$interpolateProvider</span><span class="p">.</span><span class="nx">endSymbol</span><span class="p">(</span><span class="s1">'$}'</span><span class="p">);</span>
+<a name="rest_code_88f4367b9fa5489cafa7a4729201cb45-17"></a><span class="p">});</span>
 </pre>
 <p>So, making some progress, but I still can't figure out this controller
 thing and how to tie it all together.  Time to go back to

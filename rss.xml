@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" rel="self" href="http://openbermuda.github.io/80days/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 04 Sep 2015 18:46:46 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Magic Roundabouts and Geese</title><link>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Growing up as children we would watch The Magic Roundabout on the BBC.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Around the world in 80 days</title><link>http://openbermuda.github.io/80days/</link><description>Blog for an 80 day coding and exercise experiment.</description><atom:link type="application/rss+xml" href="http://openbermuda.github.io/80days/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 07 Sep 2015 15:36:06 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Magic Roundabouts and Geese</title><link>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Growing up as children we would watch The Magic Roundabout on the BBC.&lt;/p&gt;
 &lt;p&gt;It was a five minute children's program with a carousel, Zebedee,
 Dougal the dog and Dylan the rabbit.&lt;/p&gt;
 &lt;p&gt;Each episode ended with Zebedee saying, "Time for bed", before
@@ -147,7 +147,216 @@ the world circling around her and find ways to change the paths of
 those that needed to be on a different path, or gently put together
 those that would benefit from each other.&lt;/p&gt;
 &lt;p&gt;I now have another Magic Roundabout in my life.  Mum's are magic.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>france</category><category>ottawa</category><category>roundabouts</category><category>sufc</category><category>swindon</category><guid>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</guid><pubDate>Fri, 04 Sep 2015 14:54:08 GMT</pubDate></item><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
+&lt;/div&gt;&lt;/div&gt;</description><category>bermuda</category><category>blades</category><category>france</category><category>ottawa</category><category>roundabouts</category><category>sufc</category><category>swindon</category><guid>http://openbermuda.github.io/80days/posts/magic-roundabouts-and-geese.html</guid><pubDate>Fri, 04 Sep 2015 14:54:08 GMT</pubDate></item><item><title>Census Survey</title><link>http://openbermuda.github.io/80days/posts/census-survey.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;div class="section" id="introduction"&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The Bermuda Government, Department of Statistics has put out a Request
+for Proposal (RFP) for a &lt;em&gt;web-based solution to support on-line
+census&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Below are some thoughts on how Free Software could form the solution.&lt;/p&gt;
+&lt;p&gt;The census raises many complex issues of privacy, accessibility and
+access to information.  In short, is has all the features of a
+typical software project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="free-software-solution"&gt;
+&lt;h2&gt;Free Software Solution&lt;/h2&gt;
+&lt;p&gt;Most, if not all, of the pieces required to build this system already
+exist as free software.&lt;/p&gt;
+&lt;p&gt;This software is free in the sense that it gives you freedom.  Freedom
+to examine the software, freedom to look how it works, freedom to
+change it as you wish.&lt;/p&gt;
+&lt;p&gt;Freedom to pass the software on to others should you wish, so long as
+you give them the same freedoms you received.&lt;/p&gt;
+&lt;p&gt;A prototype can be built from these pieces in around 20 hours of
+development.&lt;/p&gt;
+&lt;p&gt;There are Bermudians with the skills to do this and the time to devote
+to such a project.&lt;/p&gt;
+&lt;p&gt;In some cases they will be exploring new concepts, but that is the
+nature of IT.&lt;/p&gt;
+&lt;p&gt;There are many others they can call on to assist should they need
+guidance, including the millions of people around the globe who
+contribute to free software.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="accessibility"&gt;
+&lt;h2&gt;Accessibility&lt;/h2&gt;
+&lt;p&gt;Accessibility is often neglected in software.&lt;/p&gt;
+&lt;p&gt;Many free software tools have good support for accessibility.&lt;/p&gt;
+&lt;p&gt;Generally, a framework is provided to address a wide range of
+accessibility issues.&lt;/p&gt;
+&lt;p&gt;Everyone has different challenges working with computers.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;vision&lt;/li&gt;
+&lt;li&gt;hearing&lt;/li&gt;
+&lt;li&gt;motor movements&lt;/li&gt;
+&lt;li&gt;speech&lt;/li&gt;
+&lt;li&gt;language processing&lt;/li&gt;
+&lt;li&gt;reading&lt;/li&gt;
+&lt;li&gt;writing&lt;/li&gt;
+&lt;li&gt;fear&lt;/li&gt;
+&lt;li&gt;the software itself&lt;/li&gt;
+&lt;li&gt;citizens access to information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bermuda is an international island.  English is the dominant
+language.&lt;/p&gt;
+&lt;p&gt;Documents are generally produced in English.&lt;/p&gt;
+&lt;p&gt;However, the island has many nationalities living here and also has
+many Bermudians who have travelled and lived abroad.&lt;/p&gt;
+&lt;p&gt;There are also distinct communities within Bermuda with their own
+language, culture and history.&lt;/p&gt;
+&lt;p&gt;And, of course, Bermuda is a popular travel destination, with many
+nationalities paying visits.&lt;/p&gt;
+&lt;p&gt;Yet there is very poor support for languages other than English on
+most Bermuda related websites.&lt;/p&gt;
+&lt;p&gt;A free software solution would accommodate translations.  Further, it
+would allow anyone to contribute to those translations.&lt;/p&gt;
+&lt;p&gt;Free software: means you can adapt for differing needs, since you have
+the code.  Without the code you are tied to a third party.&lt;/p&gt;
+&lt;p&gt;Further others can help you.  A free software census solution for
+Bermuda may be usable in many other juristictions.  Bermudians who
+develop such software would be able to work with others wherever in
+the world they may be.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="public-access-to-information"&gt;
+&lt;h2&gt;Public Access To Information&lt;/h2&gt;
+&lt;p&gt;Census data is invaluable in many ways.  It provides data that can
+guide public policy.&lt;/p&gt;
+&lt;p&gt;TODO: Anology: vaccination: having your children vaccinated protects
+them against illness, but also reduces the chance of epidemics
+breaking out.  There are small risks to every vaccination, but the
+benefits to society can be significant.  For example, consider the
+elimination of polio, a disease that affect large numbers of people in
+the past.&lt;/p&gt;
+&lt;p&gt;In the UK there have been censuses since 1831 (may have been earlier).&lt;/p&gt;
+&lt;p&gt;Collecting the data back in that day was a huge task.  At the time it
+gave vast amounts of information about poplulation sizes, household
+sizes and the age profile of the population and their occupations.&lt;/p&gt;
+&lt;p&gt;All the data was hand written.  Pages of data might have totals and
+there were presumably clerks creating aggregate statistics.&lt;/p&gt;
+&lt;p&gt;Nowadays, genealogists find the census data both fascinating and
+invaluable as they trace family history.&lt;/p&gt;
+&lt;p&gt;The UK has been digitising this data over the last few years and
+making it available on line.&lt;/p&gt;
+&lt;p&gt;A free software solution to the census would anticipate PATI requests
+by building access to information into the system.&lt;/p&gt;
+&lt;p&gt;Rather than wait for PATI requests and have to then examine data to
+see what should be released, the decisions about what should be
+released, when and to who will be made up front and built into the
+solution.&lt;/p&gt;
+&lt;p&gt;A system can be built that will only release certain information after
+some specified period.&lt;/p&gt;
+&lt;p&gt;Some data may need reviewing after some number of years and released
+or re-sealed based on that review.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="transparency-and-privacy"&gt;
+&lt;h2&gt;Transparency and Privacy&lt;/h2&gt;
+&lt;p&gt;It is assumed that aggregate data from the census will be made freely
+available to citizens.  Our solution will include support for such
+access.&lt;/p&gt;
+&lt;p&gt;It is recommended that any data of a sensitive nature be treated
+appropriately, including the physical security of any computers
+storing the data.&lt;/p&gt;
+&lt;p&gt;One possibility is to try to build a system that only stores
+aggregrate information.&lt;/p&gt;
+&lt;p&gt;It should also be noted that in a small community like Bermuda
+aggregate data, especially when combined with other similar data can
+remove annonynimity.&lt;/p&gt;
+&lt;p&gt;One recommendation would be to encourage community discussion about
+the census questions and have the community guide the decisions
+regarding privacy and access to information.&lt;/p&gt;
+&lt;p&gt;Collecting more personal data that will be stored in some sort of time
+capsule for the benefit of future historians and genealogy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="computer-insecurity"&gt;
+&lt;h2&gt;Computer insecurity&lt;/h2&gt;
+&lt;p&gt;In view of all the high profile data breaches that the world has been
+experiencing over recent months it should be apparent that storing
+sensitive data on computers is not an easy task.&lt;/p&gt;
+&lt;p&gt;Our solution will recognise this fact and propose appropriate measures
+for storing more sensitive data.&lt;/p&gt;
+&lt;p&gt;However, it would be our recommendation to only collect data that the
+residents of Bermuda are comfortable in sharing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="maintenance-and-development"&gt;
+&lt;h2&gt;Maintenance and Development&lt;/h2&gt;
+&lt;p&gt;With a free software solution future maintenance and development of
+the software can be performed by anyone with the skills.  The local
+poplulation will have all the tools they need, they just need to learn
+the skills needed.&lt;/p&gt;
+&lt;p&gt;Further, a well designed free software census would be usable in other
+jurisdictions.&lt;/p&gt;
+&lt;p&gt;If developed here in Bermuda by Bermudians it would create
+opportunities for the team to work elsewhere in the world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="free-software-centre"&gt;
+&lt;h2&gt;Free Software Centre&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ownership-of-code"&gt;
+&lt;h2&gt;Ownership of code&lt;/h2&gt;
+&lt;p&gt;The government, not the developers would own and code developed for
+the site.&lt;/p&gt;
+&lt;p&gt;It should be noted most of the code already exists and is free
+software.&lt;/p&gt;
+&lt;p&gt;It is suggested that any code written for the project be itself
+released as a free software project using the GPL license.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="existing-free-software-solutions"&gt;
+&lt;h2&gt;Existing Free Software solutions&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.census.gov/data/software.html"&gt;http://www.census.gov/data/software.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="appendix-a-python-and-django"&gt;
+&lt;h2&gt;Appendix A: Python and Django&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django"&gt;
+&lt;h2&gt;Django&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django-quiz"&gt;
+&lt;h2&gt;Django Quiz&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="appendix-project-jupyter"&gt;
+&lt;h2&gt;Appendix:  Project Jupyter&lt;/h2&gt;
+&lt;p&gt;Humans in different parts of the world speak different languages.&lt;/p&gt;
+&lt;p&gt;Humans have also developed many different languages for communicating
+with computers.&lt;/p&gt;
+&lt;p&gt;Learning these languages can take considerable time and effort.&lt;/p&gt;
+&lt;p&gt;For most of the history of modern computing, communicating with other
+languages has been difficult.&lt;/p&gt;
+&lt;p&gt;In effect, the plethora of languages has worked to Balkanise the IT
+world.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://jupyter.org/"&gt;Project Jupyter&lt;/a&gt; is just one project that is helping languages work
+together.&lt;/p&gt;
+&lt;p&gt;Jupyter is a tool that supports virtually seamless interoperability
+between 50 different languages, from python, to perl, C++ to C#, Bash
+to Brainfuck, erlang to lua, matlab to php.&lt;/p&gt;
+&lt;div class="section" id="choosing-tools"&gt;
+&lt;h3&gt;Choosing tools&lt;/h3&gt;
+&lt;p&gt;Developers invariably like to use the tools they know best.  They
+understand them, know what they are capable of and know many of the
+risks they will encounter using those tools to solve a problem.&lt;/p&gt;
+&lt;p&gt;Starting a project with a new tool presents many additional risks:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;will it work as advertised?&lt;/li&gt;
+&lt;li&gt;How much time will it take to learn?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For an organisation starting out in the free software world the choice
+can be daunting.&lt;/p&gt;
+&lt;p&gt;Further, any large organisation will likely end up using many
+different languages.&lt;/p&gt;
+&lt;p&gt;Whilst there are inefficiencies in this approach, there are
+advantages, just as with growing crops: monoculture leaves an
+organisation vulnerable to anything which threatens that ecosystem.&lt;/p&gt;
+&lt;p&gt;Variety gives resilience, but at some cost.&lt;/p&gt;
+&lt;p&gt;Projects such as Jupyter help support that variety and reduce the
+costs.&lt;/p&gt;
+&lt;p&gt;If a particular technology choice is proving hard to support, porting
+to another Jupyter supported language is always an option.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2014-11-13 14:08:31 UTC --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://openbermuda.github.io/80days/posts/census-survey.html</guid><pubDate>Thu, 03 Sep 2015 15:07:57 GMT</pubDate></item><item><title>Fred Update</title><link>http://openbermuda.github.io/80days/posts/fred-update.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Fred formed way in the east of the Atlantic.  I believe it was already
 a hurricane going over the Cape Verde islands.  I was shown pictures
 today of seas damaging a pier.  I have not heard too much more about
 damage.&lt;/p&gt;
@@ -1277,32 +1486,4 @@ as &lt;a class="reference external" href="http://www.opengts.org/"&gt;OpenGTS&lt
 &lt;!-- tags: --&gt;
 &lt;!-- link: --&gt;
 &lt;!-- description: links to include in all posts --&gt;
-&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item><item><title>Sharon Wilson</title><link>http://openbermuda.github.io/80days/posts/sharon-wilson.html</link><dc:creator>Johnny Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;If you visit Bermuda you will likely end up at Horseshoe Bay at some
-point during your trip.&lt;/p&gt;
-&lt;p&gt;This is one of the biggest and busiest of the South Shore beaches.
-Whenever there is a long weekend things will be happening on Horseshoe
-Bay, such as the annual Good Friday flying of kites.&lt;/p&gt;
-&lt;p&gt;From Horseshoe Bay you can walk along the coast, past a number of
-smaller and quieter beaches and coves.  Often you will be able to find
-a beach to yourself, with pink sands, turquoise water and tropical
-fish swimming around the reefs.&lt;/p&gt;
-&lt;p&gt;At the top of the driveway that leads down to Horseshoe Bay you will
-find Southampton Rangers football and cricket club.  On the weekend
-you might be able to watch some cricket and get some refreshment.&lt;/p&gt;
-&lt;p&gt;There is also a restaurant, Gulf Stream where you can get a bite to
-eat.&lt;/p&gt;
-&lt;p&gt;Less than a couple of hundred yards to the west you will find a small
-side-road, Turtle Place.  This is where local artist Sharon Wilson
-lives.  Her home is also her studio and her gallery.&lt;/p&gt;
-&lt;p&gt;If she is open for visitors she usually puts out a &lt;em&gt;sandwich board&lt;/em&gt; at
-the end of the road, sometimes with a couple of balloons attached.  In
-that case, you are in luck.  She will welcome you to her home and let
-you discover her art.&lt;/p&gt;
-&lt;p&gt;I have a copy of a book she produced, here is the cover:&lt;/p&gt;
-&lt;img alt="../galleries/SharonWilson/book_cover.jpg" src="http://openbermuda.github.io/80days/galleries/SharonWilson/book_cover.jpg" style="width: 300px; height: 400px;"&gt;
-&lt;p&gt;My cat seems to like the book too:&lt;/p&gt;
-&lt;img alt="../galleries/Snowy/snowy_wilson.jpg" src="http://openbermuda.github.io/80days/galleries/Snowy/snowy_wilson.jpg" style="width: 300px; height: 400px;"&gt;
-&lt;p&gt;There is a story behind everything she paints.  She will tell you some
-of those stories, but also let you find your own story.&lt;/p&gt;
-&lt;p&gt;Here is another picture, it has a good story too:&lt;/p&gt;
-&lt;img alt="../galleries/SharonWilson/father_and_daughter.jpg" src="http://openbermuda.github.io/80days/galleries/SharonWilson/father_and_daughter.jpg" style="width: 300px; height: 400px;"&gt;&lt;/div&gt;</description><category>art</category><category>bermuda</category><guid>http://openbermuda.github.io/80days/posts/sharon-wilson.html</guid><pubDate>Sun, 24 May 2015 15:40:38 GMT</pubDate></item></channel></rss>
+&lt;!-- type: text --&gt;&lt;/div&gt;</description><category>bermuda</category><category>bus</category><category>ferry</category><category>open source</category><category>transit</category><guid>http://openbermuda.github.io/80days/posts/wheres-de-bus.html</guid><pubDate>Fri, 12 Jun 2015 14:14:04 GMT</pubDate></item></channel></rss>

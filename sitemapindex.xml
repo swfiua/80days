@@ -22,7 +22,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/angular.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-09-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/art.xml</loc>
@@ -62,7 +62,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/django.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-09-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/education.xml</loc>
@@ -110,7 +110,7 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/javascript.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-09-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/categories/kindling.xml</loc>
@@ -250,10 +250,10 @@
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/rss.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2015-09-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://openbermuda.github.io/80days/sitemap.xml</loc>
-  <lastmod>2015-09-04</lastmod>
+  <lastmod>2015-09-07</lastmod>
  </sitemap>
 </sitemapindex>
