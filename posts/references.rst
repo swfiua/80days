@@ -86,3 +86,5 @@
 .. _jupyter notebook: https://github.com/jupyter
 
 .. _Chewstick: http://www.chewstick.org/
+
+.. _project jupyter: http://jupyter.org/
